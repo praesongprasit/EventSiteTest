@@ -73,11 +73,12 @@
 
     <div class="wrap">
       <header class="header">
-        {% if title and contentType != 'episode' %}
+        {# {% if title %}
           <h1 class="heading1">{{ title }}</h1>
         {% else %}
           <p class="heading1"><a href="{{ '/' | url }}">NZ Tech Rally</a></p>
-        {% endif %}
+        {% endif %} #}
+        <h1 class="heading1">{{ site.title }}</h1>
         
         {% if subtitle %}
           <p class="header-subtitle">{{ subtitle }}</p>
