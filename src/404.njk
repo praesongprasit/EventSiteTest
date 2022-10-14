@@ -1,0 +1,30 @@
+---
+tags: page
+permalink: 404.html
+title: Error 404
+eleventyExcludeFromCollections: true
+---
+{% extends 'layouts/base.njk' %}
+
+{% block content %}
+  <main id="mainContent" class="content-wrapper" aria-labelledby="pageHeading">
+    <h2 id="pageHeading">
+      Sorry, I can't find the page that you're looking for
+    </h2>
+
+    <div class="content-block">
+      <p>
+        This site is under very active development until end of November 2022. So things may be a little messy and confusing right now.
+      </p>
+
+      <p>Perhaps try:</p>
+
+      <ul>
+        <li>going back to the previous page</li>
+        <li>starting again from the <a href="{{ '/' | url }}">homepage</a></li>
+        <li>
+          <a rel="author" href="mailto:{{ site.email }}">dropping me an email</a> if you want to reach out</li>
+      </ul>
+    </div>
+  </main>
+{% endblock %}

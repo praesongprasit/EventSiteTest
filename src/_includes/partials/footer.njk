@@ -1,0 +1,25 @@
+<footer>
+  <ul class="navigation-bar" aria-label="I can be found via">
+    <li class="navigation-bar__item">
+      <a rel="external" href="{{ site.twitter }}" class="navigation-bar__link">Twitter</a>
+    </li>
+
+    <li class="navigation-bar__item">
+      <a rel="external" href="{{ site.youtube }}" class="navigation-bar__link">Youtube</a>
+    </li>
+
+    <li class="navigation-bar__item">
+      <a rel="author" href="mailto:{{ site.email }}" class="navigation-bar__link">Email</a>
+    </li>
+  </ul>
+
+  <div class="content-block footnotes" aira-label="Site footnotes">
+    <p>We've built this site with <a rel="external" href="https://www.11ty.dev/">Eleventy</a> and host it on <a rel="external" href="https://www.netlify.com/">Netlify</a>.</p>
+    <p>It was last updated on <time datetime="{{ page.date }}">{{ page.date | readableDate }}</time>.</p>
+    <p>
+      <small>
+        Copyright &copy; {{ page.date | readableYear }} by NZ Tech Rally. All rights reserved.
+      </small>
+    </p>
+  </div>
+</footer>

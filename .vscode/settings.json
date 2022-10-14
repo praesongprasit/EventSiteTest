@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "emmet.includeLanguages": {
+    "njk": "html",
+    "nunjucks": "html"
+  },
+  "[markdown]": {
+    // Turned off to prevent Emmet when writing code fenced blocks
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+}

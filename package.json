@@ -1,0 +1,36 @@
+{
+  "name": "webaccessclub",
+  "version": "1.0.0",
+  "description": "Version control for webaccessclub.com.",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "debug": "DEBUG=* eleventy",
+    "lint": "prettier src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praesongprasit/webaccessclub.git"
+  },
+  "keywords": [],
+  "author": "Prae Songprasit <hi@praesongprasit.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praesongprasit/webaccessclub/issues"
+  },
+  "homepage": "https://github.com/praesongprasit/webaccessclub#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
+    "clean-css": "^5.3.1",
+    "luxon": "^2.4.0",
+    "terser": "^5.15.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
+    "eslint": "^8.23.0"
+  }
+}

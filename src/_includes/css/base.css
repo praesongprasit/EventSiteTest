@@ -1,0 +1,486 @@
+/* ===========================================
+
+  Colour tools: https://www.w3schools.com/colors/colors_converter.asp 
+
+  --colour-white: #FFFFFF;
+  --colour-blanched-almond: #FFEBCD;
+  --colour-aqua-spray: #A2DDD9;
+  --colour-coffee: #6F4E37;
+  --colour-stinkhorn: #29595B;
+  --colour-black-feather: #0D1D1D;
+
+  All converted to hsl, 
+  so that it's easy to use last number to lighten and dark colours
+
+============================================== */
+
+body {
+  --typeface-main: -apple-system, BlinkMacSystemFont, sans-serif;
+  --typeface-dispay: var(--typeface-main);
+  
+  --font-weight-normal: 400;
+  --font-weight-semibold: 600; /* Only available for Asap */
+  --font-weight-bod: 700;
+
+  --line-height-main: 1.6;
+  --line-height-display: 1.2;
+
+  /* --colour-white: hsl(0, 0%, 100%);
+  --colour-blanched-almond-lightened: hsl(36, 100%, 93%);
+  --colour-blanched-almond: hsl(36, 100%, 90%);
+  --colour-aqua-spray: hsl(176, 46%, 75%);
+  --colour-coffee: hsl(25, 34%, 33%);
+  --colour-stinkhorn: hsl(182, 38%, 26%);
+  --colour-stinkhorn-darked: hsl(182, 38%, 13%);
+  --colour-black-feather: hsl(180, 38%, 8%);
+
+  --colour-text: var(--colour-stinkhorn);
+  --colour-link: var(--colour-coffee);
+  --colour-link-hover: var(--colour-stinkhorn);
+  --colour-link-visited: var(--colour-black-feather); */
+
+  --colour-border: var(--colour-aqua-spray);
+
+  --colour-button: var(--colour-blanched-almond);
+  --colour-button-background: var(--colour-coffee);
+  --colour-button-hover: var(--colour-stinkhorn);
+  --colour-button-background-hover: var(--colour-aqua-spray);
+
+  font-family: var(--typeface-main);
+  font-weight: var(--font-weight-normal);
+
+  line-height: var(--line-height-main);
+
+  /* color: var(--colour-text); */
+  /* background-color: var(--colour-white); */
+
+  /* color-scheme: light dark; */
+}
+
+/* body:not(.light-theme) {
+  --colour-text: var(--colour-aqua-spray);
+  --colour-link: var(--colour-white);
+  --colour-link-hover: var(--colour-aqua-spray);
+  --colour-link-visited: var(--colour-blanched-almond);
+
+  --colour-border: var(--colour-blanched-almond-lightened);
+
+  background-color: var(--colour-stinkhorn-darked);
+} */
+/* 
+@media (prefers-color-scheme: dark) {
+  body {
+    --colour-text: var(--colour-aqua-spray);
+    --colour-link: var(--colour-white);
+    --colour-link-hover: var(--colour-aqua-spray);
+    --colour-link-visited: var(--colour-blanched-almond);
+
+    --colour-border: var(--colour-blanched-almond-lightened);
+
+    background-color: var(--colour-stinkhorn-darked);
+  }
+
+  .light-theme {
+    --colour-text: var(--colour-stinkhorn);
+    --colour-link: var(--colour-coffee);
+    --colour-link-hover: var(--colour-stinkhorn);
+    --colour-link-visited: var(--colour-black-feather);
+  
+    --colour-border: var(--colour-aqua-spray);
+  
+    background-color: var(--colour-white);
+  }
+} */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 107%;
+}
+
+/* ============== Typography ============== */
+
+/* ----------------- Headings ----------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.pageHeading,
+.heading1,
+.heading2 {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+.pageHeading,
+.heading1,
+.heading2 {
+  font-family: var(--typeface-dispay);
+  line-height: var(--line-height-display);
+  /* color: var(--colour-text); */
+  font-weight: var(--font-weight-bod);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  h1,
+  h2 {
+    color: #d49c63;
+  }
+} */
+
+h1,
+.heading1 {
+  font-size: 1.5rem; /* 24px */
+  margin: 0 1em 1.5em;
+}
+
+h1 a,
+h1 a:visited,
+.heading1 a,
+.heading1 a:visited {
+  /* color: inherit; */
+  text-decoration: none;
+}
+
+h2,
+.heading2 {
+  font-size: 1.125rem; /* 18px */
+  margin: 0 .5em 1.5em; /* 0 8px 24px */
+}
+
+h3 {
+  font-size: 1rem;
+  margin-top: 0;
+  font-weight: var(--font-weight-semibold);
+}
+
+@media (min-width: 520px) {
+  h1,
+  .heading1 {
+    font-size: 2rem; /* 32px */
+  }
+
+  h2,
+  .heading2 {
+    font-size: 1.5rem; /* 24px */
+  }
+
+  h3 {
+    font-size: 1.125rem; /* 18px */
+  }
+}
+
+/* ----------------- GENERAL p, blockquotes & a ----------------- */
+
+p {
+  margin: 0 0 1em;
+}
+
+b,
+strong {
+  font-weight: var(--font-weight-bod);
+}
+
+a {
+  /* color: var(--colour-link); */
+}
+
+a:hover,
+a:visited:hover {
+  /* color: var(--colour-link-hover); */
+  text-decoration: underline;
+}
+
+a:focus {
+  /* color: var(--colour-link-hover); */
+  text-decoration: underline;
+}
+
+a:visited {
+  /* color: var(--colour-link-visited); */
+  text-decoration: underline;
+}
+
+.button {
+  /* background: var(--colour-button-background); */
+  border-radius: 3px;
+  border: 1px solid transparent;
+  /* color: var(--colour-button); */
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* .button:hover {
+  background: var(--colour-button-background-hover);
+  color: var(--colour-button-hover);
+} */
+
+.button-skip-link {
+  left: 12px;
+  top: 12px;  
+  position: absolute;
+  transform: translateY(calc(-100% - 12px));
+  transition: transform 0.1s;
+}
+
+.button-skip-link:focus {
+  transform: translateY(0%);
+}
+
+.button-toggle-theme {
+  right: 12px;
+  top: 12px;  
+  position: absolute;
+  z-index: 1;
+}
+
+/* -------------- LISTS -------------- */
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+
+dl,
+menu,
+ol,
+ul {
+  margin: 0 0 1em;
+}
+
+/*
+ * Addresses paddings set differently in IE 6/7.
+ */
+
+menu,
+ol,
+ul {
+  padding-left: 2em;
+}
+
+li {
+  margin: 0 0 0.5em;
+}
+
+/*
+ * Corrects list images handled incorrectly in IE 7.
+ */
+
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* ============== LAYOUT ============== */
+
+.wrap {
+  margin: 3em auto 0;
+  max-width: 740px;
+  padding: 1em;
+}
+
+@media (min-width: 520px) {
+  .wrap {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
+
+.content-wrapper {
+  margin-bottom: 1em;
+  padding-bottom: 2em;
+  width: 100%;
+}
+
+.content-section {
+  margin-top: 2em;
+}
+
+.content-block {
+  margin: 0 1em 2em;
+}
+
+@media (min-width: 520px) {
+  .content-block {
+    margin: 0 2em;
+  }
+
+  .content-block:not(:last-child) {
+    margin-bottom: 2em;
+  }
+}
+
+/* -------------- HEADER -------------- */
+
+header {
+  display: block;
+}
+
+/* .header {
+  text-align: center;
+} */
+
+/* .header-image-wrapper {
+  display: block;
+  position: relative;
+  margin: 1em auto;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid var(--colour-border);
+  background-color: var(--colour-border);
+} */
+
+/* @media (min-width: 520px) {
+  .header-image-wrapper {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+.header-image-wrapper::before {
+  content: '';
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}  */
+
+/* -------------- Nav -------------- */
+
+.navigation-bar {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: .25em 0;
+  text-align: center;
+  border-bottom: 3px solid var(--colour-border);
+  border-top: 3px solid var(--colour-border);
+  margin: 0 -0.5em 3em;
+  flex-wrap: wrap;
+}
+
+.navigation-bar__item {
+  align-self: center;
+  list-style: none;
+  margin: 0;
+  flex-basis: calc((22rem - 100%) * 999);
+}
+
+.navigation-bar__link {
+  display: inline-block;
+  vertical-align: middle;
+  padding: .5em;
+}
+
+/* .navigation-bar__link--active {
+  color: var(--colour-link-hover);
+} */
+
+/* -------------- Content -------------- */
+
+.episode-list {
+  padding-left: 0;
+  margin: 2em 0;
+  list-style: none;
+}
+
+.episode-list-item:not(:last-child) {
+  margin: 0 0 4em;
+}
+
+/* .episode {
+  list-style: none;
+  background-color: var(--colour-aqua-spray);
+  border-left: 5px solid var(--colour-coffee);
+  border-radius: 3px;
+  padding: 1.5em;
+  margin-bottom: 2em;
+  color: var(--colour-stinkhorn);
+} */
+
+/* @media (min-width: 520px) {
+  .episode {
+    padding: 2em;
+  }
+}
+
+.episode a {
+  color: var(--colour-coffee);
+}
+
+.episode a:hover {
+  color: var(--color-stickhorn);
+}
+
+.episode a:visited:hover {
+  color: var(--colour-black-feather);
+}
+
+.episode-title,
+.episode-datetime {
+  display: block;
+}
+
+.episode p:last-child {
+  margin-bottom: 0;
+} */
+
+.episode-player {
+  margin-bottom: 1.5em;
+}
+
+.episode-player-iframe {
+  width: 100%;
+  min-height: 200px;
+}
+
+.episode-card-header {
+  margin-bottom: 1em;
+}
+
+.episode-card-title {
+  margin: 0 0 1em;
+}
+
+/* -------------- Footer -------------- */
+
+.navigation-footer {
+  margin: 2em 0;
+}
+
+@media (min-width: 520px) {
+  .footnotes {
+    text-align: center;
+  }
+}
+
+/* -------------- Utilities -------------- */
+
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

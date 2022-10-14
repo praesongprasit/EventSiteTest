@@ -1,0 +1,53 @@
+---
+tags: page
+eleventyNavigation:
+  key: Home
+  order: 1
+---
+{% extends 'layouts/base.njk' %}
+
+{% block content %}
+  <main id="mainContent" class="content-wrapper">
+    <div class="content-block">
+      <p>
+        NZ Tech Rally aims to become the ultimate community platform, where we discuss the hottest trends and biggest problems in NZ software engineering, and grow together.
+      </p>
+
+      <p>
+        We will provide opportunities to showcase NZ ingenuity in software engineering through conferences, smaller events, and online content. 
+      </p>
+
+      <p>
+        We want the NZ engineering community to be inspired by how other local companies and engineers are thriving. We're keen to hear kiwis share how they address different engineering concerns in the NZ context, and feel empowered to try those solutions out at their organisations.
+      </p>
+    </div>
+
+    <section class="content-section">
+      <h2>Conference theme 2023</h2>
+
+      <div class="content-block">
+        <p>
+          What does great engineering culture look like, and how have kiwis done it?
+        </p>
+
+        <p>
+          Follow <a rel="external" href="{{ site.twitter }}">@NZTechRally on Twitter</a> or visit this site every few weeks for more updates.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2>Warning!</h2>
+
+      <div class="content-block">
+        <p>
+          This whole site is under <em>very</em> active development!
+        </p>  
+
+        <p>
+          Styles may be out of place, and expect a few broken links along the way. We're aiming to have it all finish by the end of March 2023.
+        </p>
+      </div>
+    </section>
+  </main>
+{% endblock %}

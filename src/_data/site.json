@@ -1,0 +1,21 @@
+{
+  "title": "NZ Tech Rally",
+  "description": "The ultimate community platform, where we discuss the hottest trends and biggest problems in NZ software engineering, and grow together.",
+  "keywords": "nz tech, software engineering, tech conference, enginering conference, event",
+  "author": "Camy Bhandari and Prae Songprasit",
+  "url": "https://nztechrally.com",
+  "image": "https://nztechrally.com/images/icons/NZTechRally-logo-fb-share.png",
+  "imageAlt": "Logo of NZ Tech Rally",
+  "imageType": "image/png",
+  "imageWidth": "1200",
+  "imageHeight": "630",
+  "logo": "https://nztechrally.com/images/icons/NZTechRally-logo.png",
+  "logoAlt": "Logo of NZ Tech Rally",
+  "email": "nztechrally@gmail.com",
+  "linkedin": "https://www.linkedin.com/company/nztechrally/",
+  "twitter": "https://twitter.com/NZTechRally",
+  "twitterHandle": "@NZTechRally",
+  "facebook": "https://www.facebook.com/NZTechRally",
+  "instagram": "https://www.instagram.com/NZTechRally",
+  "youtube": "https://www.youtube.com/channel/UCkht3OD4_0WqWOTnbdvO4-A"
+}
