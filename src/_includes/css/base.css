@@ -1,64 +1,47 @@
-/* ===========================================
-
-  Colour tools: https://www.w3schools.com/colors/colors_converter.asp 
-
-  --colour-white: #FFFFFF;
-  --colour-blanched-almond: #FFEBCD;
-  --colour-aqua-spray: #A2DDD9;
-  --colour-coffee: #6F4E37;
-  --colour-stinkhorn: #29595B;
-  --colour-black-feather: #0D1D1D;
-
-  All converted to hsl, 
-  so that it's easy to use last number to lighten and dark colours
-
-============================================== */
-
 body {
-  --typeface-main: -apple-system, BlinkMacSystemFont, sans-serif;
-  --typeface-dispay: var(--typeface-main);
+  --typeface-main: 'Space Grotesk', sans-serif;
+  --typeface-dispay: 'JetBrains Mono', monospace;;
   
   --font-weight-normal: 400;
-  --font-weight-semibold: 600; /* Only available for Asap */
-  --font-weight-bod: 700;
+  --font-weight-bold: 700;
+  --font-weight-ExtraBold: 800; /* Only for display typeface */
 
   --line-height-main: 1.6;
   --line-height-display: 1.2;
 
-  /* --colour-white: hsl(0, 0%, 100%);
-  --colour-blanched-almond-lightened: hsl(36, 100%, 93%);
-  --colour-blanched-almond: hsl(36, 100%, 90%);
-  --colour-aqua-spray: hsl(176, 46%, 75%);
-  --colour-coffee: hsl(25, 34%, 33%);
-  --colour-stinkhorn: hsl(182, 38%, 26%);
-  --colour-stinkhorn-darked: hsl(182, 38%, 13%);
-  --colour-black-feather: hsl(180, 38%, 8%);
+  --colour-white: #FFFFFF;
+  --colour-blackish: #111111;
+  --colour-magenta: #FF2466;
+  --colour-neon-green: #00E18F;
 
-  --colour-text: var(--colour-stinkhorn);
-  --colour-link: var(--colour-coffee);
-  --colour-link-hover: var(--colour-stinkhorn);
-  --colour-link-visited: var(--colour-black-feather); */
+  --colour-body-text: var(--colour-blackish);
+  --colour-link: var(--colour-magenta);
+  --colour-link-hover: var(--colour-blackish);
+  --colour-link-visited: var(--colour-blackish);
 
   --colour-border: var(--colour-aqua-spray);
 
+  /* button colour set up
   --colour-button: var(--colour-blanched-almond);
   --colour-button-background: var(--colour-coffee);
   --colour-button-hover: var(--colour-stinkhorn);
   --colour-button-background-hover: var(--colour-aqua-spray);
+  */
 
   font-family: var(--typeface-main);
   font-weight: var(--font-weight-normal);
 
   line-height: var(--line-height-main);
 
-  /* color: var(--colour-text); */
+  color: var(--colour-body-text);
   /* background-color: var(--colour-white); */
 
   /* color-scheme: light dark; */
 }
 
-/* body:not(.light-theme) {
-  --colour-text: var(--colour-aqua-spray);
+/* Dark & lightmode options
+body:not(.light-theme) {
+  --colour-body-text: var(--colour-aqua-spray);
   --colour-link: var(--colour-white);
   --colour-link-hover: var(--colour-aqua-spray);
   --colour-link-visited: var(--colour-blanched-almond);
@@ -70,7 +53,7 @@ body {
 /* 
 @media (prefers-color-scheme: dark) {
   body {
-    --colour-text: var(--colour-aqua-spray);
+    --colour-body-text: var(--colour-aqua-spray);
     --colour-link: var(--colour-white);
     --colour-link-hover: var(--colour-aqua-spray);
     --colour-link-visited: var(--colour-blanched-almond);
@@ -81,7 +64,7 @@ body {
   }
 
   .light-theme {
-    --colour-text: var(--colour-stinkhorn);
+    --colour-body-text: var(--colour-stinkhorn);
     --colour-link: var(--colour-coffee);
     --colour-link-hover: var(--colour-stinkhorn);
     --colour-link-visited: var(--colour-black-feather);
@@ -122,8 +105,8 @@ h2,
 .heading2 {
   font-family: var(--typeface-dispay);
   line-height: var(--line-height-display);
-  /* color: var(--colour-text); */
-  font-weight: var(--font-weight-bod);
+  /* color: var(--colour-body-text); */
+  font-weight: var(--font-weight-bold);
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -154,7 +137,7 @@ h2,
 h3 {
   font-size: 1rem;
   margin-top: 0;
-  font-weight: var(--font-weight-semibold);
+  font-weight: var(--font-weight-bold);
 }
 
 @media (min-width: 520px) {
@@ -181,26 +164,26 @@ p {
 
 b,
 strong {
-  font-weight: var(--font-weight-bod);
+  font-weight: var(--font-weight-bold);
 }
 
 a {
-  /* color: var(--colour-link); */
+  color: var(--colour-link);
 }
 
 a:hover,
 a:visited:hover {
-  /* color: var(--colour-link-hover); */
+  color: var(--colour-link-hover);
   text-decoration: underline;
 }
 
 a:focus {
-  /* color: var(--colour-link-hover); */
+  color: var(--colour-link-hover);
   text-decoration: underline;
 }
 
 a:visited {
-  /* color: var(--colour-link-visited); */
+  color: var(--colour-link-visited);
   text-decoration: underline;
 }
 
