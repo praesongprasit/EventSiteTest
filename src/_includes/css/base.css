@@ -8,16 +8,17 @@ body {
 
   --line-height-main: 1.6;
   --line-height-display: 1.2;
+  
+  --colour-black: #111111;
+  --colour-blue: #101625;
+  --colour-pink: #FF2466;
+  --colour-green: #00E18F;
+  --colour-white: #F2F0E9;
 
-  --colour-white: #FFFFFF;
-  --colour-blackish: #111111;
-  --colour-magenta: #FF2466;
-  --colour-neon-green: #00E18F;
-
-  --colour-body-text: var(--colour-blackish);
-  --colour-link: var(--colour-magenta);
-  --colour-link-hover: var(--colour-blackish);
-  --colour-link-visited: var(--colour-blackish);
+  --colour-body-text: var(--colour-black);
+  --colour-link: var(--colour-pink);
+  --colour-link-hover: var(--colour-black);
+  --colour-link-visited: var(--colour-black);
 
   --colour-border: var(--colour-aqua-spray);
 
