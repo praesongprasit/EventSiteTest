@@ -306,19 +306,8 @@ nav ol {
 }
 
 .site-name {
-  position: relative;
   margin: 0;
   font-size: 1.5rem; /* 24px */
-}
-
-.site-name::before {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 100%;
-  background-color: var(--colour-border);
-  position: absolute;
-  left: -4px;
 }
 
 .site-name a {
@@ -375,7 +364,72 @@ nav ol {
   color: var(--colour-link-hover);
 } */
 
+/* -------------- Section -------------- */
+
+section {
+  margin-bottom: 3rem;
+}
+
+.section-header {
+  display: flex;
+}
+
+.section-title {
+  font-weight: var(--font-weight-bold);
+  font-size: 1rem;
+  color: var(--colour-green);
+  padding: .375rem 1.25rem;
+  margin: 0;
+  background-color: var(--colour-black);
+}
+
+/* -------------- Card -------------- */
+
+.cards {
+  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+ 
+.card {
+  background-color: var(--colour-white);
+  padding: 1.5rem 1.25rem; /* 24px 20px */
+}
+
+.card p::last-child {
+  margin-bottom: 0;
+}
+
+.profile-card p,
+.profile-card__name {
+  margin-bottom: 0;
+}
+
+.profile-card__name {
+  font-weight: var(--font-weight-bold);
+}
+
+.profiles {
+  display: grid;
+  row-gap: 1.25rem;
+  align-items: stretch;
+}
+
+@media (min-width: 520px) {
+  .profiles {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.25rem;
+  }
+}
+
 /* -------------- Footer -------------- */
+
+.page-footer {
+  background-color: var(--colour-black);
+  color: var(--colour-green);
+}
 
 .footer-navigation {
   display: flex;
@@ -401,6 +455,21 @@ nav ol {
 }
 
 /* -------------- Utilities -------------- */
+
+.accent-border {
+  position: relative;
+}
+
+.accent-border::before {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 100%;
+  background-color: var(--colour-border);
+  position: absolute;
+  left: -4px;
+  top: 0;
+}
 
 .visually-hidden:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
