@@ -1,12 +1,12 @@
 <nav aria-label="Main navigation">
-  <ul class="navigation-bar">
+  <ul class="global-navigation">
     {%- for entry in collections.all | eleventyNavigation %}
-      <li class="navigation-bar__item">
+      <li class="global-navigation__item">
         <a 
           {% if entry.url == page.url %}
             aria-current="page"
           {% endif %} 
-          class='navigation-bar__link {{ "navigation-bar__link--active" if entry.url == page.url }}'
+          class='global-navigation__link {{ "global-navigation__link--active" if entry.url == page.url }}'
           href="{{ entry.url | url }}"
         >
           {{ entry.title }}
