@@ -37,46 +37,16 @@ body {
   line-height: var(--line-height-main);
 
   color: var(--colour-body-text);
-  /* background-color: var(--colour-white); */
+  background-color: var(--colour-blue);
 
-  /* color-scheme: light dark; */
+  color-scheme: light dark;
 }
 
-/* Dark & lightmode options
-body:not(.light-theme) {
-  --colour-body-text: var(--colour-aqua-spray);
-  --colour-link: var(--colour-white);
-  --colour-link-hover: var(--colour-aqua-spray);
-  --colour-link-visited: var(--colour-blanched-almond);
-
-  --colour-border: var(--colour-blanched-almond-lightened);
-
-  background-color: var(--colour-stinkhorn-darked);
-} */
-/* 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   body {
-    --colour-body-text: var(--colour-aqua-spray);
-    --colour-link: var(--colour-white);
-    --colour-link-hover: var(--colour-aqua-spray);
-    --colour-link-visited: var(--colour-blanched-almond);
-
-    --colour-border: var(--colour-blanched-almond-lightened);
-
-    background-color: var(--colour-stinkhorn-darked);
+    background-color: #fff;
   }
-
-  .light-theme {
-    --colour-body-text: var(--colour-stinkhorn);
-    --colour-link: var(--colour-coffee);
-    --colour-link-hover: var(--colour-stinkhorn);
-    --colour-link-visited: var(--colour-black-feather);
-  
-    --colour-border: var(--colour-aqua-spray);
-  
-    background-color: var(--colour-white);
-  }
-} */
+}
 
 html,
 body {
@@ -396,6 +366,7 @@ section {
 .card {
   background-color: var(--colour-white);
   padding: 1.5rem 1.25rem; /* 24px 20px */
+  margin-bottom: 0;
 }
 
 .card p:last-child {
