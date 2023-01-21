@@ -6,7 +6,7 @@
   --font-weight-bold: 700;
   --font-weight-ExtraBold: 800; /* Only for display typeface */
 
-  --line-height-main: 1.5;
+  --line-height-main: 1.33;
   --line-height-display: 1.25;
   
   --colour-black: #111111;
@@ -398,7 +398,7 @@ section {
   padding: 1.5rem 1.25rem; /* 24px 20px */
 }
 
-.card p::last-child {
+.card p:last-child {
   margin-bottom: 0;
 }
 
