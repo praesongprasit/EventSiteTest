@@ -86,11 +86,17 @@
 
     <div class="page-wrapper">
       {% if title %}
-        <h1 class="heading1">{{ title }}</h1>
-      {% endif %}
-              
-      {% if subtitle %}
-        <p class="header-subtitle">{{ subtitle }}</p>
+        <section>
+          <div class="section-header accent-border">
+            <h1 class="section-title">{{ title }}</h1>
+          </div>
+
+          {% if description %}
+            <div class="card accent-border">
+              <p class="header-description">{{ description }}</p>
+            </div>
+          {% endif %}
+        </section>
       {% endif %}
 
       {% block content %}
