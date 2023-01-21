@@ -428,6 +428,12 @@ section {
 
 .page-footer {
   background-color: var(--colour-black);
+  color: var(--colour-white);
+  padding: .75rem;
+}
+
+.page-footer a,
+.page-footer a:visited {
   color: var(--colour-green);
 }
 
@@ -439,9 +445,9 @@ section {
   list-style: none;
 }
 
-/* .footer-navigation__item {
-  display: block;
-} */
+.footer-navigation__item {
+  color: inherit;
+}
 
 .footer-navigation__link {
   display: block;
