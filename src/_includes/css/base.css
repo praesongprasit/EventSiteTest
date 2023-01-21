@@ -173,10 +173,8 @@ a {
   color: var(--colour-link);
 }
 
-a:hover,
-a:visited:hover {
-  color: var(--colour-link-hover);
-  text-decoration: underline;
+a:visited {
+  color: var(--colour-link-visited);
 }
 
 a:focus {
@@ -184,8 +182,9 @@ a:focus {
   text-decoration: underline;
 }
 
-a:visited {
-  color: var(--colour-link-visited);
+a:hover,
+a:visited:hover {
+  color: var(--colour-link-hover);
   text-decoration: underline;
 }
 
@@ -287,6 +286,7 @@ nav ol {
 .page-header a,
 .page-header a:visited {
   color: var(--colour-green);
+  text-decoration: none;
 }
 
 .page-header a:hover {
