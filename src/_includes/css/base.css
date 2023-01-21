@@ -402,9 +402,14 @@ section {
   margin-bottom: 0;
 }
 
+.profile-card {
+  padding: .75rem .5rem;
+}
+
 .profile-card p,
 .profile-card__name {
   margin-bottom: 0;
+  font-size: 1rem;
 }
 
 .profile-card__name {
