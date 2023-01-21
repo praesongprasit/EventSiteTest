@@ -248,6 +248,7 @@ ul {
 }
 
 li {
+  font-size: 1.125rem; /* 18px */
   margin: 0 0 0.5rem;
 }
 
@@ -376,10 +377,22 @@ nav ol {
 
 /* -------------- Footer -------------- */
 
-/* .navigation-footer {
-  border-top: 3px solid;
-  border-bottom: 3px solid;
+.footer-navigation {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* .footer-navigation__item {
+  display: block;
 } */
+
+.footer-navigation__link {
+  display: block;
+  padding: 1rem;
+}
 
 @media (min-width: 520px) {
   .footnotes {
