@@ -2,29 +2,33 @@
 tags: page
 permalink: 404.html
 title: Error 404
+description: Sorry, we can't find the page that you're looking for
 eleventyExcludeFromCollections: true
 ---
 {% extends 'layouts/base.njk' %}
 
 {% block content %}
   <main id="mainContent" aria-labelledby="pageHeading">
-    <h2 id="pageHeading">
-      Sorry, we can't find the page that you're looking for
-    </h2>
+     <section>
+      <div class="section-header accent-border">
+        <h2 class="section-title">More info</h2>
+      </div>
 
-    <div class="content-block">
-      <p>
-        This site is under very active development until end of April 2023. So things may be a little messy and confusing right now.
-      </p>
+      <div class="card accent-border">
+        <p>
+          This site is under very active development until end of April 2023. So things may be a little messy and confusing right now.
+        </p>
 
-      <p>Perhaps try:</p>
+        <p>Perhaps try:</p>
 
-      <ul>
-        <li>going back to the previous page</li>
-        <li>starting again from the <a href="{{ '/' | url }}">homepage</a></li>
-        <li>
-          <a rel="author" href="mailto:{{ site.email }}">dropping us an email</a> if you want to reach out</li>
-      </ul>
-    </div>
+        <ul>
+          <li>going back to the previous page</li>
+          <li>starting again from the <a href="{{ '/' | url }}">homepage</a></li>
+          <li>
+            letting us know what went wrong by <a rel="author" href="mailto:{{ site.email }}">email</a>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
 {% endblock %}
