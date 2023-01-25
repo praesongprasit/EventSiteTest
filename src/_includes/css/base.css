@@ -4,7 +4,7 @@
   
   --font-weight-normal: 400;
   --font-weight-bold: 700;
-  --font-weight-ExtraBold: 800; /* Only for display typeface */
+  --font-weight-extra-bold: 800; /* Only for display typeface */
 
   --line-height-main: 1.33;
   --line-height-display: 1.25;
@@ -315,6 +315,8 @@ nav ol {
 .site-name {
   margin: 0;
   font-size: 1.5rem; /* 24px */
+  font-weight: var(--font-weight-extra-bold);
+  letter-spacing: -.04em; /* -4% */
 }
 
 .site-name a {
@@ -493,7 +495,7 @@ section {
   margin-bottom: 3rem;
 }
 
-.section-header {
+.section-label {
   display: flex;
 }
 
