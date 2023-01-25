@@ -75,9 +75,9 @@
     <header class="page-header">
       <div class="page-wrapper page-header__wrapper">
         {% if title %}
-          <p class="accent-border site-name"><a href="{{ '/' | url }}">NZ Tech Rally</a></p>
+          <p class="accent-border site-name logo"><a href="{{ '/' | url }}"><span class="logo__part-one">NZ</span> <span class="logo__part-two">Tech</span> <span class="logo__part-three">Rally</span></a></p>
         {% else %}
-          <h1 class="accent-border site-name"><a href="{{ '/' | url }}">NZ Tech Rally</a></h1>
+          <h1 class="accent-border site-name logo"><a href="{{ '/' | url }}"><span class="logo__part-one">NZ</span> <span class="logo__part-two">Tech</span> <span class="logo__part-three">Rally</span></a></h1>
         {% endif %}
 
         {%- include 'partials/navigation-main.njk' -%}
