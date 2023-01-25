@@ -43,9 +43,21 @@ body {
 
   color: var(--colour-body-text);
   background-color: var(--colour-blue);
-  background: var(--colour-blue) repeat url("/images/grid-bg.png");
 
   color-scheme: light dark;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: var(--colour-blue) repeat url("/images/grid-tile.jpg");
+  top: 0;
+  left: 0;
+  transform: rotate(-7deg);
 }
 
 @media (prefers-color-scheme: light) {
