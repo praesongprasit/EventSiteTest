@@ -42,7 +42,7 @@ body {
 
   color: var(--colour-body-text);
   background-color: var(--colour-blue);
-  background: var(--colour-blue) repeat url("images/grid-bg.png");
+  background: var(--colour-blue) repeat url("/images/grid-bg.png");
 
   color-scheme: light dark;
 }
@@ -50,13 +50,6 @@ body {
 @media (prefers-color-scheme: light) {
   body {
     background-color: #fff;
-  }
-}
-
-/* Work with fixed header */
-@media only screen and (min-width: 520px) {
-  main {
-    padding-top: calc(3.67rem + 3rem);
   }
 }
 
@@ -261,10 +254,18 @@ nav ol {
 
 /* ============== LAYOUT ============== */
 
+/* Work with fixed header */
+@media only screen and (min-width: 520px) {
+  .page-container {
+    padding-top: calc(3.67rem + 3rem);
+  }
+}
+
 .page-wrapper {
   margin: 0 auto;
   max-width: 940px;
-  padding: 0 .625rem; /* 0 10px */
+  padding-left: .625rem; /* 10px */
+  padding-right: .625rem; /* 10px */
 }
 
 /* -------------- HEADER -------------- */
