@@ -232,12 +232,39 @@ nav ol {
   list-style-image: none;
 }
 
+/* ============== Utilities ============== */
+
+.accent-border {
+  position: relative;
+}
+
+.accent-border::before {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 100%;
+  background-color: var(--colour-border);
+  position: absolute;
+  left: -4px;
+  top: 0;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 /* ============== LAYOUT ============== */
 
 .page-wrapper {
   margin: 0 auto;
   max-width: 940px;
-  padding: 0 .625rem; /* 16px 10px */
+  padding: 0 .625rem; /* 0 10px */
 }
 
 /* -------------- HEADER -------------- */
@@ -301,6 +328,7 @@ nav ol {
 @media (min-width: 520px) {
   .global-navigation {
     margin-left: -1.25rem;
+    display: block !important; /* Override mobile menu */
   }
 }
 
@@ -333,6 +361,120 @@ nav ol {
 /* .global-navigation__link--active {
   color: var(--colour-link-hover);
 } */
+
+/* -------------- Hamburger -------------- */
+
+/*!
+ * Sliders stype from Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+
+.hamburger {
+  padding: .625rem; /* 10px 10px */
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: var(--colour-green);
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible;
+
+  --hamburger-line-width: 1.5rem; /* 24px */
+  --hamburger-line-height: 1.25rem; /* 20px */
+  --hamburger-line-thickness: .25rem; /* 4px */
+
+  position: absolute;
+  top: .25rem; /* 4px */
+  right: .625rem; /* 10px */
+}
+
+@media (min-width: 520px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+.hamburger:hover, .hamburger.is-active:hover,
+.hamburger:focus, .hamburger.is-active:focus,
+  .hamburger.is-active:hover, .hamburger.is-active:focus {
+    color: var(--colour-pink)
+  }
+
+  .hamburger.is-active .hamburger-inner,
+  .hamburger.is-active .hamburger-inner::before,
+  .hamburger.is-active .hamburger-inner::after {
+    color: currentColor;
+  }
+
+.hamburger-box {
+  width: var(--hamburger-line-width);
+  height: var(--hamburger-line-height);
+  display: inline-block;
+  position: relative;
+}
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: 0;
+}
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    width: var(--hamburger-line-width);
+    height: var(--hamburger-line-thickness);
+    background-color: currentColor;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+  }
+  .hamburger-inner::before, .hamburger-inner::after {
+    content: "";
+    display: block;
+  }
+  .hamburger-inner::before {
+    top: -.5rem; /* -8px */
+    /* left: 0; */
+  }
+  .hamburger-inner::after {
+    bottom: -.5rem; /* -8px */
+    /* left: 0; */
+  }
+
+/*
+   * Slider
+   */
+.hamburger--slider .hamburger-inner {
+  top: .125rem; /* 1px */
+}
+  .hamburger--slider .hamburger-inner::before {
+    top: .5rem; /* 8px */
+    transition-property: transform, opacity;
+    transition-timing-function: ease;
+    transition-duration: 0.15s;
+  }
+  .hamburger--slider .hamburger-inner::after {
+    top: 1rem; /* 16px */
+  }
+
+.hamburger--slider.is-active .hamburger-inner {
+  transform: translate3d(0, .5rem, 0) rotate(45deg);
+}
+  .hamburger--slider.is-active .hamburger-inner::before {
+    /* transform: rotate(-45deg) translate3d(-.3570rem, -.375rem, 0); */
+    transform: rotate(-45deg) translate3d(-.175rem, -.375rem, 0);
+    opacity: 0;
+  }
+  .hamburger--slider.is-active .hamburger-inner::after {
+    transform: translate3d(0, -1rem, 0) rotate(-90deg);
+  }
 
 /* -------------- Section -------------- */
 
@@ -457,31 +599,4 @@ section {
   .footnotes {
     text-align: center;
   }
-}
-
-/* -------------- Utilities -------------- */
-
-.accent-border {
-  position: relative;
-}
-
-.accent-border::before {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 100%;
-  background-color: var(--colour-border);
-  position: absolute;
-  left: -4px;
-  top: 0;
-}
-
-.visually-hidden:not(:focus):not(:active) {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
 }
