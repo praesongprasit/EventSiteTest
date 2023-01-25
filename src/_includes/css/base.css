@@ -425,55 +425,57 @@ nav ol {
   top: 50%;
   margin-top: 0;
 }
-  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    width: var(--hamburger-line-width);
-    height: var(--hamburger-line-thickness);
-    background-color: currentColor;
-    position: absolute;
-    transition-property: transform;
-    transition-duration: 0.15s;
-    transition-timing-function: ease;
-  }
-  .hamburger-inner::before, .hamburger-inner::after {
-    content: "";
-    display: block;
-  }
-  .hamburger-inner::before {
-    top: -.5rem; /* -8px */
-    /* left: 0; */
-  }
-  .hamburger-inner::after {
-    bottom: -.5rem; /* -8px */
-    /* left: 0; */
-  }
 
-/*
-   * Slider
-   */
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  width: var(--hamburger-line-width);
+  height: var(--hamburger-line-thickness);
+  background-color: currentColor;
+  position: absolute;
+  transition-property: transform;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+}
+
+.hamburger-inner::before, .hamburger-inner::after {
+  content: "";
+  display: block;
+}
+
+.hamburger-inner::before {
+  top: -.5rem; /* -8px */
+}
+
+.hamburger-inner::after {
+  bottom: -.5rem; /* -8px */
+}
+
 .hamburger--slider .hamburger-inner {
   top: .125rem; /* 1px */
 }
-  .hamburger--slider .hamburger-inner::before {
-    top: .5rem; /* 8px */
-    transition-property: transform, opacity;
-    transition-timing-function: ease;
-    transition-duration: 0.15s;
-  }
-  .hamburger--slider .hamburger-inner::after {
-    top: 1rem; /* 16px */
-  }
+
+.hamburger--slider .hamburger-inner::before {
+  top: .5rem; /* 8px */
+  transition-property: transform, opacity;
+  transition-timing-function: ease;
+  transition-duration: 0.15s;
+}
+
+.hamburger--slider .hamburger-inner::after {
+  top: 1rem; /* 16px */
+}
 
 .hamburger--slider.is-active .hamburger-inner {
-  transform: translate3d(0, .5rem, 0) rotate(45deg);
+ transform: translate3d(0, .5rem, 0) rotate(45deg);
 }
-  .hamburger--slider.is-active .hamburger-inner::before {
-    /* transform: rotate(-45deg) translate3d(-.3570rem, -.375rem, 0); */
-    transform: rotate(-45deg) translate3d(-.175rem, -.375rem, 0);
-    opacity: 0;
-  }
-  .hamburger--slider.is-active .hamburger-inner::after {
-    transform: translate3d(0, -1rem, 0) rotate(-90deg);
-  }
+
+.hamburger--slider.is-active .hamburger-inner::before {
+  transform: rotate(-45deg) translate3d(-.175rem, -.375rem, 0);
+  opacity: 0;
+}
+
+.hamburger--slider.is-active .hamburger-inner::after {
+  transform: translate3d(0, -1rem, 0) rotate(-90deg);
+}
 
 /* -------------- Section -------------- */
 
