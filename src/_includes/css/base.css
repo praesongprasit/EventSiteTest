@@ -403,10 +403,9 @@ nav ol {
 }
 
 .hamburger:hover, .hamburger.is-active:hover,
-.hamburger:focus, .hamburger.is-active:focus,
-  .hamburger.is-active:hover, .hamburger.is-active:focus {
-    color: var(--colour-pink)
-  }
+.hamburger:focus, .hamburger.is-active:focus {
+  color: var(--colour-pink);
+}
 
   .hamburger.is-active .hamburger-inner,
   .hamburger.is-active .hamburger-inner::before,
