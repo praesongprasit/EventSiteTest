@@ -32,6 +32,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 body {
@@ -581,6 +582,11 @@ section {
   background-color: var(--colour-black);
   color: var(--colour-white);
   padding: .75rem;
+}
+
+body > .page-footer {
+  position: sticky;
+  top: 100vh;
 }
 
 .page-footer a,
