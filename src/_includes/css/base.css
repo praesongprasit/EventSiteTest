@@ -42,6 +42,7 @@ body {
 
   color: var(--colour-body-text);
   background-color: var(--colour-blue);
+  background: var(--colour-blue) repeat url("images/grid-bg.png");
 
   color-scheme: light dark;
 }
