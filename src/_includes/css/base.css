@@ -22,12 +22,16 @@
 
   --colour-border: var(--colour-pink);
 
-  /* button colour set up
-  --colour-button: var(--colour-blanched-almond);
-  --colour-button-background: var(--colour-coffee);
-  --colour-button-hover: var(--colour-stinkhorn);
-  --colour-button-background-hover: var(--colour-aqua-spray);
-  */
+  --colour-button-text: var(--colour-black);
+  --colour-button-background: var(--colour-green);
+  --colour-button-hover: var(--colour-button-text);
+  --colour-button-background-hover: var(--colour-pink);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -48,10 +52,11 @@ body {
   }
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
+/* Work with fixed header */
+@media only screen and (min-width: 520px) {
+  main {
+    padding-top: calc(3.67rem + 3rem);
+  }
 }
 
 /* ============== Typography ============== */
@@ -159,10 +164,10 @@ a:visited:hover {
 }
 
 .button {
-  /* background: var(--colour-button-background); */
-  border-radius: 3px;
+  font-family: var(--typeface-dispay);
+  background: var(--colour-button-background);
   border: 1px solid transparent;
-  /* color: var(--colour-button); */
+  color: var(--colour-button-text);
   display: inline-block;
   padding: 0.5em 1em;
   text-align: center;
@@ -170,10 +175,10 @@ a:visited:hover {
   cursor: pointer;
 }
 
-/* .button:hover {
+.button:hover {
   background: var(--colour-button-background-hover);
   color: var(--colour-button-hover);
-} */
+}
 
 .button-skip-link {
   left: 12px;
@@ -181,17 +186,11 @@ a:visited:hover {
   position: absolute;
   transform: translateY(calc(-100% - 12px));
   transition: transform 0.1s;
+  z-index: 2;
 }
 
 .button-skip-link:focus {
   transform: translateY(0%);
-}
-
-.button-toggle-theme {
-  right: 12px;
-  top: 12px;  
-  position: absolute;
-  z-index: 1;
 }
 
 /* -------------- LISTS -------------- */
@@ -279,6 +278,14 @@ nav ol {
   font-family: var(--typeface-dispay);
   line-height: var(--line-height-display);
   font-weight: var(--font-weight-bold);
+}
+
+@media only screen and (min-width: 520px) {
+  .page-header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
 }
 
 .page-header a,
