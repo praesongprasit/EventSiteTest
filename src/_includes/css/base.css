@@ -627,9 +627,15 @@ section {
 
 .page-footer {
   background-color: var(--colour-black);
-  padding: 3rem .75rem;
+  padding: 2rem .75rem;
   border-top: var(--subtle-shadow);
   box-shadow: var(--drop-shadow);
+}
+
+@media screen and (min-width: 520px) {
+  .page-footer {
+    padding: 3rem .75rem;
+  }
 }
 
 body > .page-footer {
@@ -649,7 +655,7 @@ body > .page-footer {
 .footer-social {
   font-family: var(--typeface-display);
   color: var(--colour-green);
-  margin: 0 0 3rem;
+  margin: 0 0 2rem;
   padding: 0;
   list-style: none;
 }
@@ -658,6 +664,7 @@ body > .page-footer {
   .footer-social {
     display: flex;
     justify-content: center;
+    margin-bottom: 3rem;
   }
 }
 
