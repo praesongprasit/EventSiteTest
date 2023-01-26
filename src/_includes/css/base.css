@@ -549,6 +549,7 @@ section {
   padding: .375rem 1.25rem;
   margin: 0;
   background-color: var(--colour-black);
+  box-shadow: var(--drop-shadow);
 }
 
 /* -------------- Card -------------- */
@@ -586,6 +587,7 @@ section {
   height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
+  mix-blend-mode: multiply;
 } 
 
 .profile-card__info {
