@@ -304,6 +304,7 @@ nav ol {
   font-family: var(--typeface-display);
   line-height: var(--line-height-display);
   font-weight: var(--font-weight-bold);
+  color: var(--colour-green);
 }
 
 @media only screen and (min-width: 520px) {
@@ -316,12 +317,13 @@ nav ol {
 
 .page-header a,
 .page-header a:visited {
-  color: var(--colour-green);
+  color: currentColor;
   text-decoration: none;
 }
 
 .page-header a:hover {
   text-decoration: underline;
+  color: var(--colour-pink);
 }
 
 .page-header__wrapper {
