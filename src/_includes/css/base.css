@@ -581,6 +581,58 @@ section {
   }
 }
 
+/* -------------- Columns -------------- */
+
+.columns {
+  display: grid;
+}
+
+.hero-home img {
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+@media screen and (max-width: 519px) {
+  .hero-home {
+    margin-bottom: -2rem;
+    max-height: 350px;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .columns {
+    column-gap: 1.25rem;
+  }
+
+  .columns-half {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "column-one column-two";
+  }
+
+  .column-one {
+    grid-area: column-one;
+  }
+
+  .column-two {
+    grid-area: column-two;
+  }
+
+  .hero-home {
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .hero-home::before {
+    display: none;
+  }
+
+  .hero-home img {
+    height: 100%;
+  }
+}
+
 /* -------------- Card -------------- */
 
 .cards {
