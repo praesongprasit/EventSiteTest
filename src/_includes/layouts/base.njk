@@ -93,11 +93,11 @@
     <div class="page-container page-wrapper">
       {% if title %}
         <section>
-          <div class="section-label accent-border">
+          <div class="section-label {% if largeTitle %}section-label--header {% endif %}accent-border">
             <h1 class="section-title">{{ title }}</h1>
           </div>
 
-          {% if description %}
+          {% if description and hideDescription != true %}
             <div class="card accent-border">
               <p class="header-description">{{ description }}</p>
             </div>
