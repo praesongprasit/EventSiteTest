@@ -148,7 +148,9 @@ h3 {
 
 /* ----------------- GENERAL p, blockquotes & a ----------------- */
 
-p {
+p,
+td,
+caption {
   margin: 0 0 1em;
   font-size: 1.125rem; /* 18px */
 }
@@ -243,6 +245,26 @@ nav ul,
 nav ol {
   list-style: none;
   list-style-image: none;
+}
+
+/* -------------- Tables -------------- */
+
+caption {
+ text-align: left;
+}
+
+td, th {
+  text-align: start;
+  vertical-align: top;
+  padding: .5rem 1rem;
+}
+
+.table-date-cell {
+  min-width: 90px;
+}
+
+tbody tr:nth-child(odd) {
+  background: #fff;
 }
 
 /* ============== Utilities ============== */
@@ -651,6 +673,10 @@ section {
 
 .card p:last-child {
   margin-bottom: 0;
+}
+
+.section-label + .card {
+  margin-bottom: 1.5rem;
 }
 
 .profile-card {

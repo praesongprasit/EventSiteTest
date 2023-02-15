@@ -1,0 +1,277 @@
+---
+tags: page
+title: Speaker's information
+description: Information for speakers invited to speak at NZ Tech Rally 2023
+eleventyExcludeFromCollections: true
+excludefromSearch: true
+---
+{% extends 'layouts/base.njk' %}
+
+{% block content %}
+  <main id="mainContent">
+    <section>
+      <div class="section-label accent-border">
+        <h2 class="section-title">Page contents</h2>
+      </div>
+
+      <div class="card accent-border">
+        <ul>
+          <li><a href="#whyYou">Why we’re reaching out to you</a></li>
+          <li><a href="#theme">Conference theme for 2023</a></li>
+          <li><a href="#timeline">Timeline</a></li>
+          <li><a href="#support">How we can support you</a></li>
+          <li><a href="#questionsAndAnswers">Questions & Answers</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-label accent-border">
+        <h2 class="section-title" id="whyYou">Why we’re reaching out to you</h2>
+      </div>
+
+      <div class="card accent-border">
+        <p>
+          We believe that you have a unique story and perspective on engineering culture in New Zealand.
+        </p>
+        <p>
+          You have a track record as an inspiring speaker who cares about the community, with the insights we crave to see on stage.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-label accent-border">
+        <h2 class="section-title" id="theme">Conference theme for 2023</h2>
+      </div>
+
+      <div class="card accent-border">
+        <p>
+          <strong>What does great software engineering culture look like, and how have kiwis done it?</strong>
+        </p>
+        <p>
+          Culture is difficult to define and nuanced. Yet it is what attracts and retains engineering talent, as well as fosters innovation.
+        </p>
+        <p>
+          We want to hear real life examples from NZ software engineers and engineering managers, about great engineering culture from different lenses.
+        </p>
+        <p>
+          We’re especially keen on talks around:
+        </p>
+        <ul>
+          <li>How different engineering practices influence culture (e.g. quality, data, front-end, open source, and etc.)</li>
+          <li>Creating, contributing, maintaining, and scaling engineering culture (e.g. standardisation, architecture impacts, talent management, tech governance, community contribution, and etc.)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-label accent-border">
+        <h3 class="section-title" id="timeline">Timeline</h3>
+      </div>  
+      <div class="card accent-border">
+        <table aria-labeledby="timeline">
+          <caption>
+            A timeline of when speaker releated activities are happening
+          </caption>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Activity</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td class="table-date-cell">15th April</td>
+              <td>
+                <p>Talk submission/confirmation due. <br>
+                  Speaker profile gets updated on the website as so as we receive it.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="table-date-cell">30th April</td>
+              <td>Finalised event schedule published on nztechrally.com</td>
+            </tr>
+
+            <tr>
+              <td class="table-date-cell">1st May</td>
+              <td>Talk promotion on social media starts</td>
+            </tr>
+            <tr>
+              <td class="table-date-cell">15th June</td>
+              <td>Talk and Slides check-in</td>
+            </tr>
+
+            <tr>
+              <td class="table-date-cell">3rd July</td>
+              <td>Slides submission due</td>
+            </tr>
+            <tr>
+              <td class="table-date-cell">5th July</td>
+              <td>Pre-rehearsal day organising crew  and speakers (upon request) - Focus on multimedia & slide checks</td>
+            </tr>
+            <tr>
+              <td class="table-date-cell">6th July</td>
+              <td>Rehearsal day for organising crew</td>
+            </tr>
+            <tr>
+              <td class="table-date-cell">7th July</td>
+              <td>Conference day</td>
+            </tr>
+            <tr>
+              <td class="table-date-cell">14th July</td>
+              <td>Travel expense receipts due</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    
+    <section>
+      <div class="section-label section-label--header accent-border">
+        <h2 class="section-title" id="support">
+          How we can support you
+        </h2>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 class="section-title">Promotion on our platform</h3>
+      </div>  
+      <div class="card accent-border">
+        <p>After we’ve received your talk submission (which doubles as confirmation to speak) we’ll start promoting you and your talk on this website, and social media such as <a href="{{ site.linkedin }}" rel="external">LinkedIn</a>, and <a href="{{ site.twitter }}" rel="external">Twitter</a>.</p>
+        <p>We will also continue to drip feed snippets from your talk after the event to continue promoting your content.</p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 class="section-title">Photographs</h3>
+      </div>
+      <div class="card accent-border">
+        <p>We understand that good photos of you speaking may be hard to come by.</p>
+        <p>We will give you professionally taken photographs of you speaking, for use at your leisure. They will be at full resolution, with no watermarks.</p>
+        <p>You should receive the download instructions by email, within one month after the event.</p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 class="section-title">Video recording on our Youtube channel</h3>
+      </div>  
+      <div class="card accent-border">
+        <p>Many events don’t record, or provide recording of talks. It’s a shame, since speakers put a lot of effort into the preparation. We also understand that watching the recording is the best way for speakers to review their performance for future improvements.</p>
+        <p>We’re professionally recording and uploading your talk on our <a href="{{ site.youtube }}" rel="external">Youtube channel</a> within one month after the event. (Same videographer used for <a href="https://www.youtube.com/@nztestingconf4541" rel="external">NZ Testing Conference 2022</a>)</p>
+        <p>If you’d like us to add anything to your video’s description, please let us know in the talk submission document.</p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 class="section-title">Travel expense compensation</h3>
+      </div>  
+      <div class="card accent-border">
+        <p>You may be travelling from another city, catching a local bus, or paying for parking to speak at our event.</p>
+        <p>We’ll cover up-to $200 of your travel expense.</p>
+        <p>All we ask is for standalone GST receipts (not combined with some other non-event expenses like a monthly/10-trip train/bus pass) within 1 week after the event.</p>
+        <p>We will try to transfer the refund as soon as we’re able.</p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 class="section-title">Talk preparation and practice</h3>
+      </div>  
+      <div class="card accent-border">
+        <p>Though most of you are experienced speakers, please feel free to reach out to Prae Songprasit (nztechrally@gmail.com) for any support you may need. </p>
+        <p>Preparation support we offer includes:</p>
+        <ul>  
+          <li>Up-to-date information about the event, tech setup, access, and etc.</li>
+          <li>Brainstorming and firming up ideas</li>
+          <li>Pitch, slides and script review</li>
+          <li>One-on-one practice sessions (or group if preferred)</li>
+          <li>Accessibility check</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-label section-label--header accent-border">
+        <h2 class="section-title" id="questionsAndAnswers">
+          Questions & Answers
+        </h2>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 class="section-title">Who’s the main contact person?</h3>
+      </div>  
+      <div class="card accent-border">
+        <p>Prae Songprasit (nztechrally@gmail.com) is the primary contact for speaker liaison, and Aaron Hodder is our secondary contact (same email). </p>
+        <p>One of them should be able to give any additional information, answer questions and provide support outlined in this document.</p>
+        <p>Our primary contact person will also be managing refunds for your travel expenses.</p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 class="section-title">Why in-person only?</h3>
+      </div>  
+      <div class="card accent-border">
+        <p>Due to our limited resources, we’re unable to facilitate live remote presentations (speaking or attending). We’re asking all speakers to speak in-person this year.</p>
+        <p>We do hope to be able to offer more flexibility in the future.</p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 class="section-title">What happens if I can no longer speak?</h3>
+      </div>  
+      <div class="card accent-border">
+        <p>Sickness and emergencies happen, but we don’t want your talk writing efforts to go to waste.</p>
+        <p>If you’ve submitted your talk but can no longer attend in person, we’d love to host your talk in smaller events we’re planning to host afterwards, and/or publish it on our Youtube channel.</p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 class="section-title">Why do I need to submit my slides bedfore the event?</h3>
+      </div>  
+      <div class="card accent-border">
+        <p>Who enjoys fidgeting with equipment between talks?!</p>
+        <p>We’re reducing friction between presentations by using one computer (Windows PC) to play all the slides.</p> 
+        <p>We ask for slide submissions a couple of days before the event, so that we can ensure that our systems can run them smoothly.</p>  
+        <p>At the pre-rehearsal, our dry run will focus on technical setup. We will run through all the slides to do final checks on lighting required to make the presentation as visible for the audience as possible. If we run into any issues, we will let you know asap.</p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 class="section-title">What’s the multimedia setup like?</h3>
+      </div>  
+      <div class="card accent-border">
+        <p><a href="https://photos.app.goo.gl/2JCj3qYCLyNKaCHg9" rel="external">Photos of the venue and tech setup</a></p>
+        <p>Microphones:</p>
+        <ul>
+          <li>2 fixed microphones on multimedia table</li>
+          <li>3 floating handheld microphones</li>
+          <li>1 clip on microphone</li>
+          <li>2 audience microphones (can be thrown to the audience)</li>
+        </ul>
+        <p>Displays:</p>
+        <ul>
+          <li>2 monitors on multiumedia table (allow both mirror and split presenter views)</li>
+          <li>2 large projector screens (can show the same content on both at once, or different content on each screen.)</li>
+        </ul>
+        <p>Other equipment:</p>
+        <ul>
+          <li>1 presentation remote control (clicker)</li>
+        </ul>
+        <p></p>
+        <p></p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 class="section-title">How do I make my talk more accessible?</h3>
+      </div>  
+      <div class="card accent-border">
+        <p>W3C wrote an excellent <a href="https://www.w3.org/WAI/teach-advocate/accessible-presentations/" rel="external">guide on creating accessible presentations</a>.</p>
+        <p>We’d also like to encourage describing your appearance during self-introduction, for the benefit of the audio focused audience listening at the event or to the recording.</p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 class="section-title">Why doesn’t NZ Tech Rally pay speakers to speak?</h3>
+      </div>  
+      <div class="card accent-border">
+        <p>For 2023, our first year, we will not be able to pay speakers.</p>
+        <p>We’re a new event, and are controlling the costs where we could; at least until we have enough capital to work with. Additionally, money from sponsorships and affordably priced ticket sales often won’t reach us until months after the event.</p>
+        <p>But we are committed to slowly improve the speaker and volunteer compensation scheme every year.</p>
+      </div>
+    </section>
+  </main>
+{% endblock %}
