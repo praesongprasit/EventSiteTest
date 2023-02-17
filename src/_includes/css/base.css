@@ -12,11 +12,12 @@
   --colour-black: #111111;
   --colour-blue: #101625;
   --colour-pink: #FF2466;
+  --colour-pink-darken: #D0245A; /* Accessible option */
   --colour-green: #00E18F;
   --colour-white: #F2F0E9;
 
   --colour-body-text: var(--colour-black);
-  --colour-link: var(--colour-pink);
+  --colour-link: var(--colour-pink-darken);
   --colour-link-hover: var(--colour-black);
   --colour-link-visited: var(--colour-black);
 
