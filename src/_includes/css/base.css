@@ -36,6 +36,9 @@ html,
 body {
   margin: 0;
   padding: 0;
+}
+
+html {
   height: 100%;
 }
 
@@ -49,28 +52,37 @@ body {
   background-color: var(--colour-blue);
 
   color-scheme: light dark;
-}
 
-.grid-bg {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -1;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
 }
 
 .grid-bg::after {
   content: '';
   display: block;
-  width: 110%;
+  width: 120%;
   height: 110%;
   position: absolute;
   background: repeat url("/images/grid-tile.jpg");
   transform: rotate(-7deg);
   top: -5%;
-  left: -5%;
+  left: -10%;
+  z-index: -1;
+}
+
+.page-content-clear-footer {
+  flex: 1 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
   z-index: -1;
 }
 
@@ -751,8 +763,8 @@ section {
 }
 
 body > .page-footer {
-  position: sticky;
-  top: 100vh;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .page-footer a,
