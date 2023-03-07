@@ -17,9 +17,9 @@
   --colour-white: #F2F0E9;
 
   --colour-body-text: var(--colour-black);
-  --colour-link: var(--colour-pink-darken);
+  --colour-link: var(--colour-pink);
   --colour-link-hover: var(--colour-black);
-  --colour-link-visited: var(--colour-black);
+  --colour-link-visited: var(--colour-pink-darken);
 
   --colour-border: var(--colour-pink);
 
