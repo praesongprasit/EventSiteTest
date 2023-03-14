@@ -72,6 +72,12 @@ module.exports = function (config) {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
 
+  config.addCollection("speakers", collection => {
+    const speakers = collection.getFilteredByTag("speaker");
+
+    return speakers;
+  });
+
   return {
     dir: {
       input: "src",
