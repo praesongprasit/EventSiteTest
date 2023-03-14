@@ -1,0 +1,22 @@
+{% macro card(speaker) %}
+  <li class="card profile-card accent-border">
+    <picture class="profile-card__picture">
+      <source srcset="{{ speaker.data.profilePhoto }}" media="(orientation: portrait)" />
+      <img src="{{ speaker.data.profilePhoto }}" alt="{{ speaker.data.profilePhotoAltText }}" />
+    </picture>
+
+    <div class="profile-card__info">
+      <h3 class="card-title profile-card__name">
+        <a href="{{ speaker.data.profileUrl }}">
+          {{ speaker.data.fullName }}
+        </a>
+      </h3>
+
+      <p>
+        {{ speaker.data.jobTitle }}
+      </p>
+
+      <p><strong>{{ speaker.data.talkTitle }}</strong></p>
+    </div>
+  </li>
+{% endmacro %}

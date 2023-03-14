@@ -5,6 +5,7 @@ eleventyNavigation:
   order: 1
 ---
 {% extends 'layouts/base.njk' %}
+{% from 'partials/card-speaker.njk' import card %}
 
 {% block content %}
   <main id="mainContent">
@@ -102,9 +103,11 @@ eleventyNavigation:
         </h2>
       </div>
 
-      <div class="card accent-border">
-        Coming soon
-      </div>
+      <ul class="cards profiles">
+        {% for speaker in collections.speakers %}
+          {{ card(speaker) }}
+        {% endfor %}
+      </ul>
     </section>
 
     <section>
