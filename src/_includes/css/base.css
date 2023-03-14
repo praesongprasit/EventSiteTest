@@ -684,8 +684,10 @@ section {
   margin-bottom: 0;
 }
 
-.card + .card {
-  margin-top: .5rem;
+@media screen and (max-width: 519px) {
+  .card + .card {
+    margin-top: .5rem;
+  }
 }
 
 .card p:last-child {
