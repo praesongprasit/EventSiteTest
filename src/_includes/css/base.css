@@ -684,10 +684,8 @@ section {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 519px) {
-  .card + .card {
-    margin-top: .5rem;
-  }
+.card:not(.profile-card) + .card:not(.profile-card) {
+  margin-top: .5rem;
 }
 
 .card p:last-child {
