@@ -4,7 +4,7 @@ jobTitle: Engineering Manager
 profileUrl: https://www.adammhoward.com/
 profilePhoto: /images/profiles-speakers/adam_howard.jpg
 profilePhotoAltText: Adam's portrait. He's a white man in his thirties with a shaved head and a close cropped dark beard. He presents with a slight, knowing smile and the glimmer of a good idea in his blue eyes.
-talkTitle: Quality pillar
+talkTitle: Fostering a quality quality culture
 ---
 
 Adam is a quality engineering specialist, and is passionate about continually improving how teams are able to rapidly deliver quality software products.
