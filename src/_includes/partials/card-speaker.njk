@@ -14,6 +14,9 @@
 
       <p>
         {{ speaker.data.jobTitle }}
+        {% if speaker.data.organisation %}
+          @ {{ speaker.data.organisation }}
+        {% endif %}
       </p>
 
       <p><strong>{{ speaker.data.talkTitle }}</strong></p>

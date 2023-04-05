@@ -1,6 +1,7 @@
 ---
 fullName: Adam Howard
 jobTitle: Engineering Manager
+organisation:
 profileUrl: https://www.adammhoward.com/
 profilePhoto: /images/profiles-speakers/adam_howard.jpg
 profilePhotoAltText: Adam's portrait. He's a white man in his thirties with a shaved head and a close cropped dark beard. He presents with a slight, knowing smile and the glimmer of a good idea in his blue eyes.

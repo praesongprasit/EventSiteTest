@@ -1,6 +1,7 @@
 ---
 fullName: Allen Geer
 jobTitle: Cloud Platforms and Engineering Practice Lead
+organisation:
 profileUrl: https://www.linkedin.com/in/allengeer/
 profilePhoto: /images/profiles-speakers/allen_geer.png
 profilePhotoAltText: Allen's portrait. A bearded man with a big smile, wearing a white shirt, in a headshot.
