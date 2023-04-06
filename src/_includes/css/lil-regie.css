@@ -87,6 +87,21 @@ a:visited:hover {
   text-decoration: underline;
 }
 
+a.booking-form-header__attendees,
+a.booking-form-header__attendees:visited {
+  color: var(--colour-link);
+  border-left: 0;
+  font-family: var(--typeface-display);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  line-height: var(--line-height-display) !important;
+}
+
+a.booking-form-header__attendees:hover {
+  opacity: 1;
+  color: var(--colour-white);
+}
+
 @media screen and (max-width: 740px) {
   #booking-container {
     padding: 0 1rem;
@@ -118,7 +133,10 @@ a:visited:hover {
 }
 
 .booking-header__body header,
-fieldset .field-group {
+fieldset .field-group,
+.controls--checkbox,
+.control-group:not(.unit),
+.payment-total__inner {
   background-color: var(--colour-white);
   padding: 1.5rem 1.25rem;
 }
@@ -169,7 +187,9 @@ fieldset {
 }
 
 .booking-header__extra-info,
-#booking fieldset {
+#booking fieldset,
+.attendee-added-notice,
+.attendee {
   position: relative;
   overflow: visible;
 }
@@ -183,7 +203,9 @@ fieldset {
 }
 
 .booking-header__extra-info::after,
-#booking fieldset:before {
+#booking fieldset:not(.attendees):before,
+.attendee-added-notice:before,
+.attendee:before {
   content: '';
   display: block;
   width: 4px;
@@ -207,8 +229,16 @@ fieldset h2 {
   -webkit-font-smoothing: antialiased;
 }
 
+#content .booking-pad-in.pbn {
+  padding: 0;
+}
+
 .booking-header__extra-info .booking-header__extra-info-inner,
-.extras .small.subdued {
+.attendee-added-notice,
+.extras .small.subdued,
+.attendee__header + div,
+.total-calculator.attendee-total,
+attendee__eventlet-subtotal {
   font-size: 1rem;
   background: var(--colour-white);
   padding: 1.5rem 1.25rem;
@@ -305,10 +335,12 @@ fieldset {
 input[type=text],
 input[type=email],
 input[type=checkbox],
+select,
 textarea {
   background-color: #fff;
   border-radius: 0;
   border: 1px solid var(--colour-blue);
+  font-size: 1rem;
 }
 
 label {
@@ -316,4 +348,64 @@ label {
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-main);
   margin-bottom: .5em;
+}
+
+.attendee:after {
+  display: none;
+}
+
+.attendee {
+  padding-top: 0;
+  margin-bottom: 0;
+  background-color: var(--colour-white);
+}
+
+.attendee__header {
+  margin-bottom: 0;
+  background-color: var(--colour-blue);
+}
+
+.attendee__name a:hover {
+  color: var(--colour-white);
+}
+
+.attendee__eventlet-subtotal {
+  padding: .5rem 1.25rem;
+}
+
+.control-group {
+  margin-bottom: 0;
+}
+
+.payment-options__text {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.controls--checkbox .payment-options__text  input[type=radio] {
+  top: calc(50% - 10px);
+}
+
+.control-group:not(:first-of-type) {
+  padding-top: .5rem;
+}
+
+.credit-card-test {
+  margin: 0;
+  padding-left: 94px;
+  background: var(--colour-pink) url(/assets/lilregie/regie-error-ddf6686b85a6600705026e62a3ce9f82c9f79c8a9b0ec2e4590f881f366a4136.png) no-repeat 14px 14px !important;
+}
+
+label[for=copy_booking_details] {
+  color: var(--colour-white);
+  font-weight: var(--font-weight-normal);
+}
+
+.credit-card-details .control-group.line {
+  padding: 0
+}
+
+.terms p,
+#content > .padded.txtC {
+  color: var(--colour-white);
 }
