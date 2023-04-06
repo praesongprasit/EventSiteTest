@@ -17,6 +17,7 @@ module.exports = function (config) {
   config.addPassthroughCopy("src/apple-touch-icon.png");
   config.addPassthroughCopy("src/manifest.json");
   config.addPassthroughCopy("src/fonts");
+  config.addPassthroughCopy("src/_includes/css/lil-regie.css");
 
   config.addPlugin(pluginSyntaxHighlight);;
   config.addPlugin(pluginNavigation);
