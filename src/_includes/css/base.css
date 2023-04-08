@@ -178,19 +178,14 @@ a {
   color: var(--colour-link);
 }
 
-a:visited {
+a:not(.button):visited,
+a:not(.button):focus-visible {
   color: var(--colour-link-visited);
-}
-
-a:focus {
-  color: var(--colour-link-hover);
-  text-decoration: underline;
 }
 
 a:hover,
 a:visited:hover {
   color: var(--colour-link-hover);
-  text-decoration: underline;
 }
 
 .button {
@@ -221,6 +216,12 @@ a:visited:hover {
 
 .button-skip-link:focus {
   transform: translateY(0%);
+}
+
+:focus-visible {
+  box-shadow: 0 0 0 0px transparent, 0 0 0 3px var(--colour-pink);
+  outline: 1px solid transparent;
+  transition: box-shadow .1s;
 }
 
 /* -------------- LISTS -------------- */
@@ -793,14 +794,9 @@ section {
   margin-bottom: .5rem;
 }
 
-:focus-visible {
-  box-shadow: 0 0 0 0px transparent, 0 0 0 3px var(--colour-pink);
-  outline: 1px solid transparent;
-  transition: box-shadow .1s;
-}
-
 input:focus-visible,
 button:focus-visible,
+.button:focus-visible,
 textarea:focus-visible,
 select:focus-visible {
   box-shadow: 0 0 0 2px var(--colour-blue), 0 0 0 5px var(--colour-pink);
