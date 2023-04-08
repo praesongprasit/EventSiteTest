@@ -406,6 +406,7 @@ input {
 
 .site-name a {
   padding-left: 1.25rem; /* 20px */
+  padding-right: 1.25rem; /* 20px */
 }
 
 /* -------------- Logo -------------- */
@@ -792,8 +793,19 @@ section {
   margin-bottom: .5rem;
 }
 
-.newsletter-signup__input {
+:focus-visible {
+  box-shadow: 0 0 0 0px transparent, 0 0 0 3px var(--colour-pink);
+  outline: 1px solid transparent;
+  transition: box-shadow .1s;
+}
 
+input:focus-visible,
+button:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  box-shadow: 0 0 0 2px var(--colour-blue), 0 0 0 5px var(--colour-pink);
+  outline: 1px solid transparent;
+  transition: box-shadow .1s;
 }
 
 .newsletter-signup__button {
@@ -911,7 +923,8 @@ body > .page-footer {
 }
 
 .footer-social__link,
-.footer-social__link:hover {
+.footer-social__link:hover,
+.footer-social__link:focus-visible {
   text-decoration: none;
 }
 
