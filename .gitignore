@@ -85,3 +85,5 @@ lib64
 .sass-cache
 Desktop.ini
 **/jsconfig.json
+# Local Netlify folder
+.netlify

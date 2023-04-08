@@ -280,7 +280,8 @@ fieldset {
   padding: 0;
 }
 
-.btn {
+.btn,
+.btn:visited {
   font-family: var(--typeface-display);
   background: var(--colour-button-background);
   border: 1px solid transparent;
@@ -405,7 +406,13 @@ label[for=copy_booking_details] {
   padding: 0
 }
 
-.terms p,
-#content > .padded.txtC {
+.terms p { 
   color: var(--colour-white);
+}
+
+#content > .padded.txtC {
+  background-color: var(--colour-white);
+  border: 0;
+  margin-top: -3rem;
+  text-align: left;
 }

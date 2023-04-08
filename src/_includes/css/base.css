@@ -16,7 +16,8 @@
   --colour-green: #00E18F;
   --colour-white: #F2F0E9;
 
-  --colour-body-text: var(--colour-black);
+  --colour-body-text-light: var(--colour-white);
+  --colour-body-text-dark: var(--colour-black);
   --colour-link: var(--colour-pink);
   --colour-link-hover: var(--colour-black);
   --colour-link-visited: var(--colour-pink-darken);
@@ -48,7 +49,7 @@ body {
 
   line-height: var(--line-height-main);
 
-  color: var(--colour-body-text);
+  color: var(--colour-body-text-light);
   background-color: var(--colour-blue);
 
   color-scheme: light dark;
@@ -280,6 +281,27 @@ tbody tr:nth-child(odd) {
   background: #fff;
 }
 
+
+/* ============== Forms ============== */
+
+label,
+input {
+  font-size: 1.125rem; /* 18px */
+  font-family: var(--typeface-display);
+}
+
+label {
+  margin: 0;
+  display: block;
+}
+
+input {
+  background-color: var(--colour-white);
+  border: 0;
+  padding: 1.25rem 1.5rem;
+  color: var(--colour-black);
+}
+
 /* ============== Utilities ============== */
 
 .accent-border {
@@ -309,6 +331,11 @@ tbody tr:nth-child(odd) {
 
 .icon {
   fill: currentColor;
+}
+
+.text-indent {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 /* ============== LAYOUT ============== */
@@ -597,6 +624,12 @@ section {
   margin-left: .5294em;
 }
 
+@media screen and (max-width: 519px) {
+  .section-label--header + .text-indent {
+    margin-top: 1rem;
+  }
+}
+
 @media screen and (min-width: 520px) {
   .section-label--header .section-title {
     padding-top: 1.5rem;
@@ -677,8 +710,9 @@ section {
   padding: 0;
   font-size: 1rem;
 }
- 
+
 .card {
+  color: var(--colour-body-text-dark);
   background-color: var(--colour-white);
   padding: 1.5rem 1.25rem; /* 24px 20px */
   margin-bottom: 0;
@@ -744,6 +778,59 @@ section {
 @media screen and (min-width: 780px) {
   .profiles {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* -------------- Newsletter signup -------------- */
+
+.newsletter-signup {
+  display: grid;
+  margin-top: 1.5rem;
+}
+
+.newsletter-signup__label {
+  margin-bottom: .5rem;
+}
+
+.newsletter-signup__input {
+
+}
+
+.newsletter-signup__button {
+  padding: 1.25rem 1.5rem;
+}
+
+@media screen and (max-width: 520px) {
+  .newsletter-signup__input {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .newsletter-signup__label {
+    grid-area: newsletter-label;
+  }
+  
+  .newsletter-signup__input {
+    grid-area: newsletter-input;
+  }
+  
+  .newsletter-signup__button {
+    grid-area: newsletter-button;
+  }
+
+  .newsletter-signup {
+    grid-template-columns: 4fr 2fr;
+    gap: 0 1.25rem;
+    grid-template-areas: 
+    "newsletter-label newsletter-label"
+    "newsletter-input newsletter-button";
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .newsletter-signup {
+    grid-template-columns: 3fr 1fr;
   }
 }
 

@@ -1,0 +1,36 @@
+<section>
+  <div class="section-label section-label--header accent-border">
+    <h2 class="section-title">
+      Stay tuned
+
+      <svg class="icon" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M24.6666 0.333252H3.33329C1.86663 0.333252 0.679959 1.53325 0.679959 2.99992L0.666626 18.9999C0.666626 20.4666 1.86663 21.6666 3.33329 21.6666H24.6666C26.1333 21.6666 27.3333 20.4666 27.3333 18.9999V2.99992C27.3333 1.53325 26.1333 0.333252 24.6666 0.333252ZM24.6666 5.66658L14 12.3333L3.33329 5.66658V2.99992L14 9.66658L24.6666 2.99992V5.66658Z"/>
+      </svg>
+    </h2>
+  </div>
+
+  <div class="text-indent">
+    <p>Receive email updates about the NZ Tech Rally related events, when tickets goes on sale, and more.</p>
+
+    <form
+      id="newsletterSignup"
+      class="newsletter-signup"
+      title="NZ Tech Rally news signup"
+      name="newsletter"
+      method="POST"
+      data-netlify="true"
+      action="/newsletter-confirmation/"
+    >
+      <label for="newsletterSignupEmailField" class="newsletter-signup__label">Email</label>
+
+      <input
+        id="newsletterSignupEmailField"
+        class="newsletter-signup__input"
+        type="email"
+        name="email"
+      />
+      
+      <button type="submit" class="button newsletter-signup__button">Get news</button>
+    </form>
+  </div>
+</section>
