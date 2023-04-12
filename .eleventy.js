@@ -6,7 +6,6 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const inclusiveLangPlugin = require("@11ty/eleventy-plugin-inclusive-language");
-const ConsoleLogger = require("@11ty/eleventy/src/Util/ConsoleLogger");
 
 module.exports = function (config) {
   config.addFilter("cssmin", function (code) {
