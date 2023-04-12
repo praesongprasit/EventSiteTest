@@ -13,6 +13,14 @@
 
   --line-height-main: 1.33;
   --line-height-display: 1.25;
+
+  --spacing-xsmall: .625rem; /* 10px */
+  --spacing-small: .75rem; /* 12px */
+  --spacing-main: 1rem; /* 16px */
+  --spacing-large: 1.125rem; /* 18px */
+  --spacing-xlarge: 1.5rem; /* 24px */
+  --spacing-2xlarge: 2rem; /* 32px */
+  --spacing-3xlarge: 3rem; /* 48px */
   
   --colour-black: #111111;
   --colour-blue: #101625;
@@ -152,7 +160,7 @@ h3 {
 @media screen and (min-width: 520px) {
   h1,
   .heading1 {
-    font-size: var(--font-size-xlarge); /* 32px */
+    font-size: var(--font-size-xlarge); 
   }
 
   h2,
@@ -239,7 +247,7 @@ dl,
 menu,
 ol,
 ul {
-  margin: 0 0 1rem;
+  margin: 0 0 var(--spacing-xlarge);
 }
 
 /*
@@ -249,7 +257,7 @@ ul {
 menu,
 ol,
 ul {
-  padding-left: 2rem;
+  padding-left: var(--spacing-2xlarge);
 }
 
 li {
@@ -276,7 +284,7 @@ caption {
 td, th {
   text-align: start;
   vertical-align: top;
-  padding: .5rem 1rem;
+  padding: .5rem var(--spacing-xlarge);
 }
 
 .table-date-cell {
@@ -304,7 +312,7 @@ label {
 input {
   background-color: var(--colour-white);
   border: 0;
-  padding: 1.25rem 1.5rem;
+  padding: 1.25rem var(--spacing-xlarge);
   color: var(--colour-black);
 }
 
@@ -349,15 +357,15 @@ input {
 /* Work with fixed header */
 @media only screen and (min-width: 520px) {
   .page-container {
-    padding-top: calc(3.67rem + 3rem);
+    padding-top: calc(3.67rem + var(--spacing-3xlarge));
   }
 }
 
 .page-wrapper {
   margin: 0 auto;
   max-width: 940px;
-  padding-left: .625rem; /* 10px */
-  padding-right: .625rem; /* 10px */
+  padding-left: var(--spacing-xsmall); 
+  padding-right: var(--spacing-xsmall); 
 }
 
 /* -------------- HEADER -------------- */
@@ -365,8 +373,8 @@ input {
 .page-header {
   display: block;
   background-color: var(--colour-black);
-  padding: .75rem 0;
-  margin-bottom: 3rem;
+  padding: var(--spacing-small) 0;
+  margin-bottom: var(--spacing-3xlarge);
   box-shadow: var(--drop-shadow);
   border-bottom: var(--subtle-shadow);
   font-family: var(--typeface-display);
@@ -407,7 +415,7 @@ input {
 
 .site-name {
   margin: 0;
-  font-size: var(--font-size-large); /* 24px */
+  font-size: var(--font-size-large); 
 }
 
 .site-name a {
@@ -471,7 +479,7 @@ input {
 
 .global-navigation__link {
   display: block;
-  padding: .625rem calc(1.125rem + 4px);
+  padding: var(--spacing-xsmall) calc(var(--spacing-large) + 4px);
   text-decoration: none;
   font-size: var(--font-size-small);
 }
@@ -518,7 +526,7 @@ input {
 
   position: absolute;
   top: .25rem; /* 4px */
-  right: .625rem; /* 10px */
+  right: .625rem; 
 }
 
 @media screen and (min-width: 520px) {
@@ -586,7 +594,7 @@ input {
 }
 
 .hamburger--slider .hamburger-inner::after {
-  top: 1rem; /* 16px */
+  top: var(--spacing-xlarge); 
 }
 
 .hamburger--slider.is-active .hamburger-inner {
@@ -599,13 +607,13 @@ input {
 }
 
 .hamburger--slider.is-active .hamburger-inner::after {
-  transform: translate3d(0, -1rem, 0) rotate(-90deg);
+  transform: translate3d(0, calc(var(--spacing-xlarge) * -1), 0) rotate(-90deg);
 }
 
 /* -------------- Section -------------- */
 
 section {
-  margin-bottom: 3rem;
+  margin-bottom: var(--spacing-3xlarge);
 }
 
 .section-label {
@@ -633,21 +641,21 @@ section {
 
 @media screen and (max-width: 519px) {
   .section-label--header + .text-indent {
-    margin-top: 1rem;
+    margin-top: var(--spacing-xlarge);
   }
 }
 
 @media screen and (min-width: 520px) {
   .section-label--header .section-title {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: var(--spacing-xlarge);
+    padding-bottom: var(--spacing-xlarge);
     border: var(--subtle-shadow);
     font-size: var(--font-size-large);
   }
 
   .section-label--header {
     display: block;
-    margin-bottom: 1.5rem;
+    margin-bottom: var(--spacing-xlarge);
   }
 
   .section-label--header .icon {
@@ -670,7 +678,7 @@ section {
 
 @media screen and (max-width: 519px) {
   .hero-home {
-    margin-bottom: -2rem;
+    margin-bottom: calc(var(--spacing-2xlarge) * -1);
     max-height: 350px;
   }
 }
@@ -695,8 +703,8 @@ section {
 
   .hero-home {
     display: block;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-top: var(--spacing-xlarge);
+    margin-bottom: var(--spacing-3xlarge);
   }
 
   .hero-home::before {
@@ -721,7 +729,7 @@ section {
 .card {
   color: var(--colour-body-text-dark);
   background-color: var(--colour-white);
-  padding: 1.5rem 1.25rem; /* 24px 20px */
+  padding: var(--spacing-xlarge) 1.25rem; /* 24px 20px */
   margin-bottom: 0;
 }
 
@@ -734,7 +742,7 @@ section {
 }
 
 .section-label + .card {
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--spacing-xlarge);
 }
 
 .profile-card {
@@ -756,7 +764,7 @@ section {
 } 
 
 .profile-card__info {
-  padding: .75rem .625rem;
+  padding: var(--spacing-small) var(--spacing-xsmall);
 }
 
 .profile-card p,
@@ -792,7 +800,7 @@ section {
 
 .newsletter-signup {
   display: grid;
-  margin-top: 1.5rem;
+  margin-top: var(--spacing-xlarge);
 }
 
 .newsletter-signup__label {
@@ -810,12 +818,12 @@ select:focus-visible {
 }
 
 .newsletter-signup__button {
-  padding: 1.25rem 1.5rem;
+  padding: 1.25rem var(--spacing-xlarge);
 }
 
 @media screen and (max-width: 520px) {
   .newsletter-signup__input {
-    margin-bottom: 1rem;
+    margin-bottom: var(--spacing-xlarge);
   }
 }
 
@@ -851,14 +859,14 @@ select:focus-visible {
 
 .page-footer {
   background-color: var(--colour-black);
-  padding: 2rem .75rem;
+  padding: var(--spacing-xlarge) var(--spacing-small);
   border-top: var(--subtle-shadow);
   box-shadow: var(--drop-shadow);
 }
 
 @media screen and (min-width: 520px) {
   .page-footer {
-    padding: 3rem .75rem;
+    padding: var(--spacing-3xlarge) var(--spacing-small);
   }
 }
 
@@ -879,7 +887,7 @@ body > .page-footer {
 .footer-social {
   font-family: var(--typeface-display);
   color: var(--colour-green);
-  margin: 0 0 2rem;
+  margin: 0 0 var(--spacing-xlarge);
   padding: 0;
   list-style: none;
 }
@@ -888,7 +896,7 @@ body > .page-footer {
   .footer-social {
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;
+    margin-bottom: var(--spacing-3xlarge);
   }
 }
 
@@ -906,20 +914,20 @@ body > .page-footer {
 }
 
 .footer-social__link {
-  padding: .75rem 0;
+  padding: var(--spacing-small) 0;
   display: flex;
   align-items: center;
 }
 
 @media screen and (min-width: 520px) {
   .footer-social__link {
-    padding: .75rem 1rem;
+    padding: var(--spacing-small) var(--spacing-main);
   }
 }
 
 @media screen and (min-width: 780px) {
   .footer-social__link {
-    padding: .75rem 2rem;
+    padding: var(--spacing-small) var(--spacing-xlarge);
   }
 }
 
