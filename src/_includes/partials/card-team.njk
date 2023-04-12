@@ -12,14 +12,14 @@
         </a>
       </h3>
 
-      <p><strong>{{ team.data.role }}</strong></p>
-
       <p>
         {{ team.data.jobTitle }}
         {% if team.data.organisation %}
           @ {{ team.data.organisation }}
         {% endif %}
       </p>
+
+      <p><strong>{{ team.data.role }}</strong></p>
     </div>
   </li>
 {% endmacro %}
