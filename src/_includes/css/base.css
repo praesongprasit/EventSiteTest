@@ -6,6 +6,11 @@
   --font-weight-bold: 700;
   --font-weight-extra-bold: 800; /* Only for display typeface */
 
+  --font-size-small: 1rem; /* 16px */
+  --font-size-main: 1.125rem; /* 18px */
+  --font-size-large: 1.5rem; /* 24px */
+  --font-size-xlarge: 2rem; /* 32px */
+
   --line-height-main: 1.33;
   --line-height-display: 1.25;
   
@@ -122,7 +127,7 @@ h2,
 
 h1,
 .heading1 {
-  font-size: 1.5rem; /* 24px */
+  font-size: var(--font-size-large);
 }
 
 h1 a,
@@ -135,11 +140,11 @@ h1 a:visited,
 
 h2,
 .heading2 {
-  font-size: 1.125rem; /* 18px */
+  font-size: var(--font-size-main); 
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: var(--font-size-small);
   margin-top: 0;
   font-weight: var(--font-weight-bold);
 }
@@ -147,16 +152,16 @@ h3 {
 @media screen and (min-width: 520px) {
   h1,
   .heading1 {
-    font-size: 2rem; /* 32px */
+    font-size: var(--font-size-xlarge); /* 32px */
   }
 
   h2,
   .heading2 {
-    font-size: 1.5rem; /* 24px */
+    font-size: var(--font-size-large);
   }
 
   h3 {
-    font-size: 1.125rem; /* 18px */
+    font-size: var(--font-size-main); 
   }
 }
 
@@ -166,7 +171,7 @@ p,
 td,
 caption {
   margin: 0 0 1em;
-  font-size: 1.125rem; /* 18px */
+  font-size: var(--font-size-main); 
 }
 
 b,
@@ -248,7 +253,7 @@ ul {
 }
 
 li {
-  font-size: 1.125rem; /* 18px */
+  font-size: var(--font-size-main); 
   margin: 0 0 0.5rem;
 }
 
@@ -287,7 +292,7 @@ tbody tr:nth-child(odd) {
 
 label,
 input {
-  font-size: 1.125rem; /* 18px */
+  font-size: var(--font-size-main); 
   font-family: var(--typeface-display);
 }
 
@@ -402,7 +407,7 @@ input {
 
 .site-name {
   margin: 0;
-  font-size: 1.5rem; /* 24px */
+  font-size: var(--font-size-large); /* 24px */
 }
 
 .site-name a {
@@ -468,7 +473,7 @@ input {
   display: block;
   padding: .625rem calc(1.125rem + 4px);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: var(--font-size-small);
 }
 
 @media screen and (min-width: 520px) {
@@ -609,7 +614,7 @@ section {
 
 .section-title {
   font-weight: var(--font-weight-bold);
-  font-size: 1rem;
+  font-size: var(--font-size-small);
   color: var(--colour-green);
   padding: .375rem 1.25rem;
   margin: 0;
@@ -637,7 +642,7 @@ section {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: var(--subtle-shadow);
-    font-size: 1.5rem;
+    font-size: var(--font-size-large);
   }
 
   .section-label--header {
@@ -710,7 +715,7 @@ section {
   margin-left: 0;
   margin-right: 0;
   padding: 0;
-  font-size: 1rem;
+  font-size: var(--font-size-small);
 }
 
 .card {
@@ -757,7 +762,7 @@ section {
 .profile-card p,
 .profile-card__name {
   margin-bottom: 0;
-  font-size: 1rem;
+  font-size: var(--font-size-small);
 }
 
 .profile-card__name {
@@ -889,7 +894,7 @@ body > .page-footer {
 
 .footer-social__item {
   color: var(--colour-green);
-  font-size: 1rem;
+  font-size: var(--font-size-small);
   margin-bottom: 0;
 } 
 
@@ -949,7 +954,7 @@ body > .page-footer {
 }
 
 .footnotes small {
-  font-size: 1.125rem;
+  font-size: var(--font-size-main);
 }
 
 @media screen and (min-width: 520px) {
