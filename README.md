@@ -10,7 +10,7 @@ Install dependencies
 yarn install
 ```
 
-Build and start browsersync server
+Build and start local server
 ```
 yarn start
 ```
