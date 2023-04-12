@@ -1,0 +1,25 @@
+{% macro card(team) %}
+  <li class="card profile-card accent-border">
+    <picture class="profile-card__picture">
+      <source srcset="{{ team.data.profilePhoto }}" media="(orientation: portrait)" />
+      <img src="{{ team.data.profilePhoto }}" alt="{{ team.data.profilePhotoAltText }}" />
+    </picture>
+
+    <div class="profile-card__info">
+      <h3 class="card-title profile-card__name">
+        <a href="{{ team.data.profileUrl }}" rel="external">
+          {{ team.data.fullName }}
+        </a>
+      </h3>
+
+      <p><strong>{{ team.data.role }}</strong></p>
+
+      <p>
+        {{ team.data.jobTitle }}
+        {% if team.data.organisation %}
+          @ {{ team.data.organisation }}
+        {% endif %}
+      </p>
+    </div>
+  </li>
+{% endmacro %}
