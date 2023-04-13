@@ -2,6 +2,7 @@
 fullName: Aleisha Amohia
 jobTitle: Koha Technical Lead
 organisation: Catalyst IT
+profileUrl: https://twitter.com/aleishaamohia
 profilePhoto: /images/profiles-speakers/aleisha_amohia.png
 profilePhotoAltText: Aleisha is pictured smiling at her university graduation parade, on the steps of Civic Square. She is wearing a korowai with blue, green, black and white detailing atop her graduation gown.
 talkTitle: Communities, code, and Creative Commons
