@@ -603,7 +603,7 @@ input {
 /* -------------- Section -------------- */
 
 section {
-  margin-bottom: var(--spacing-3xlarge);
+  margin-bottom: var(--spacing-xlarge);
 }
 
 .section-label {
@@ -642,12 +642,17 @@ section {
     border: var(--subtle-shadow);
     font-size: var(--font-size-large);
   }
-
+  
   .section-label--header {
     display: block;
+    margin-top: 80px;
     margin-bottom: var(--spacing-xlarge);
   }
 
+  section:first-child .section-label--header {
+    margin-top: 0;
+  }
+  
   .section-label--header .icon {
     max-width: 1.375rem;
     max-height: 1.375rem;
@@ -693,8 +698,7 @@ section {
 
   .hero-home {
     display: block;
-    margin-top: var(--spacing-xlarge);
-    margin-bottom: var(--spacing-3xlarge);
+    margin-bottom: var(--spacing-xlarge);
   }
 
   .hero-home::before {
