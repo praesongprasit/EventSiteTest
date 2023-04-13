@@ -23,3 +23,9 @@ ogImageAlt:
 ogImageWidth:
 ogImageHeight:
 ---
+
+<p>Quality is a slippery notion, and not something that can simply be manufactured and measured. In that sense, it’s a lot like culture.</p>
+
+<p>And just as culture is emergent from a peoples’ values and behaviours, quality emerges from teams’ principles and practices.</p>
+
+<p>In this talk, Adam describes a model for shaping those principles and practices in engineering teams that can nurture a culture of quality engineering</p>
