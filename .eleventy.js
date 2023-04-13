@@ -76,9 +76,10 @@ module.exports = function (config) {
   })
 
   // https://moment.github.io/luxon/#/formatting
+  https://github.com/moment/luxon/blob/master/docs/formatting.md#the-basics
   // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
   config.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd MMMM yyyy");
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLLL yyyy");
   });
 
   config.addFilter("readableYear", dateObj => {
