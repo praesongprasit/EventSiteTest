@@ -743,7 +743,6 @@ section {
   padding: 0;
   display: flex;
   position: relative;
-  z-index: 1;
 }
 
 .profile-card__picture {
