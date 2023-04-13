@@ -193,6 +193,7 @@ a:visited:hover {
 
 .button {
   font-family: var(--typeface-display);
+  font-weight: var(--font-weight-bold);
   background: var(--colour-button-background);
   border: 1px solid transparent;
   color: var(--colour-button-text);
@@ -291,6 +292,9 @@ tbody tr:nth-child(odd) {
 label,
 input {
   font-size: var(--font-size-main); 
+}
+
+label {
   font-family: var(--typeface-display);
 }
 
@@ -302,7 +306,7 @@ label {
 input {
   background-color: var(--colour-white);
   border: 0;
-  padding: 1.25rem var(--spacing-xlarge);
+  padding: 1.25rem;
   color: var(--colour-black);
 }
 
@@ -846,6 +850,7 @@ a.profile-card__link:visited .profile-card__name {
 .newsletter-signup {
   display: grid;
   margin-top: var(--spacing-xlarge);
+  margin-bottom: 80px;
 }
 
 .newsletter-signup__label {
@@ -860,6 +865,7 @@ select:focus-visible {
   box-shadow: 0 0 0 2px var(--colour-blue), 0 0 0 5px var(--colour-pink);
   outline: 1px solid transparent;
   transition: box-shadow .1s;
+  z-index: 1;
 }
 
 .newsletter-signup__button {
