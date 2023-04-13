@@ -5,6 +5,11 @@ Website for NZ Tech Rally
 
 Auto deploy on commit via Netlify.
 
+## Prerequisites
+
+- Node (installed globally)
+- Yarn (installed globally)
+
 ## Development
 
 Install dependencies
