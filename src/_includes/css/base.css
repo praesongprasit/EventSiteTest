@@ -70,6 +70,8 @@ body {
   min-height: 100%;
   display: grid;
   grid-template-rows: 1fr auto;
+
+  -webkit-font-smoothing: antialiased;
 }
 
 .grid-bg::after {
@@ -103,18 +105,6 @@ body {
 /* ============== Typography ============== */
 
 /* ----------------- Headings ----------------- */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.page-heading,
-.heading1,
-.heading2 {
-  -webkit-font-smoothing: antialiased;
-}
 
 h1,
 h2,
