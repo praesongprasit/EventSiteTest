@@ -588,7 +588,7 @@ input {
 }
 
 .hamburger--slider .hamburger-inner::after {
-  top: var(--spacing-xlarge); 
+  top: 1rem; 
 }
 
 .hamburger--slider.is-active .hamburger-inner {
@@ -601,7 +601,7 @@ input {
 }
 
 .hamburger--slider.is-active .hamburger-inner::after {
-  transform: translate3d(0, calc(var(--spacing-xlarge) * -1), 0) rotate(-90deg);
+  transform: translate3d(0, -1rem, 0) rotate(-90deg);
 }
 
 /* -------------- Section -------------- */
