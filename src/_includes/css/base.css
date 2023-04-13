@@ -371,9 +371,9 @@ input {
   margin-bottom: var(--spacing-3xlarge);
   box-shadow: var(--drop-shadow);
   border-bottom: var(--subtle-shadow);
+  font-weight: var(--font-weight-bold);
   font-family: var(--typeface-display);
   line-height: var(--line-height-display);
-  font-weight: var(--font-weight-bold);
   color: var(--colour-green);
 }
 
@@ -407,35 +407,26 @@ input {
   }
 }
 
-.site-name {
-  margin: 0;
-  font-size: var(--font-size-large); 
-}
-
-.site-name a {
-  padding-left: 1.25rem; /* 20px */
-  padding-right: 1.25rem; /* 20px */
-}
-
 /* -------------- Logo -------------- */
 
-.logo {
+.site-name {
+  margin: 0;
+  font-size: var(--font-size-large);
+  line-height: 1;
+}
+
+.site-logo-link {
+  padding-left: 1.25rem; /* 20px */
+  padding-right: 1.25rem; /* 20px */
+  width: 150px;
+  display: block;
+}
+
+.site-logo {
   font-weight: var(--font-weight-extra-bold);
   letter-spacing: -.04em;
+  max-width: 150px;
 }
-
-/* Kerning is still being designed
-.logo__part-one {
-  letter-spacing: -.04em;
-}
-
-.logo__part-two {
-  letter-spacing: -.11em;
-}
-
-.logo__part-three {
-  letter-spacing: -.14em;
-} */
 
 /* -------------- Nav -------------- */
 
