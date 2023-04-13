@@ -2,14 +2,24 @@
 fullName: Adam Howard
 jobTitle: Engineering Manager
 organisation:
-profileUrl: https://www.adammhoward.com/
+bio: "<p>Adam is a quality engineering specialist, and is passionate about continually improving how teams are able to rapidly deliver quality software products.</p>
+
+<p>His career has seen him help transform and evolve the way that some of New Zealand’s most successful technology companies think about and approach quality engineering; with a bias towards the collective, the context-driven, and the pragmatic. He’s also regularly shared his experiences through speaking at conferences and meet-ups, providing training and coaching, and contributing  to the quality community in New Zealand and around the world.</p>
+
+<p>Adam currently leads the quality engineering practice at Xero.</p>"
+profileUrl: [{
+  "name": "Website",
+  "url": "https://www.adammhoward.com/"
+}]
 profilePhoto: /images/profiles-speakers/adam_howard.jpg
 profilePhotoAltText: Adam's portrait. He's a white man in his thirties with a shaved head and a close cropped dark beard. He presents with a slight, knowing smile and the glimmer of a good idea in his blue eyes.
+event: NZTechRally2023
 talkTitle: Fostering a quality quality culture
+talkExcerpt: 
+talkStartTime: 2014-07-07T13:07:00.000
+talkEndTime: 2014-07-07T13:07:00.000
+ogImage:
+ogImageAlt:
+ogImageWidth:
+ogImageHeight:
 ---
-
-Adam is a quality engineering specialist, and is passionate about continually improving how teams are able to rapidly deliver quality software products.
-
-His career has seen him help transform and evolve the way that some of New Zealand’s most successful technology companies think about and approach quality engineering; with a bias towards the collective, the context-driven, and the pragmatic. He’s also regularly shared his experiences through speaking at conferences and meet-ups, providing training and coaching, and contributing  to the quality community in New Zealand and around the world.
-
-Adam currently leads the quality engineering practice at Xero.

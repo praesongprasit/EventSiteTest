@@ -1,5 +1,5 @@
 {% macro card(team) %}
-  <li class="card profile-card accent-border">
+  <li class="card accent-border profile-card profile-card--horizontal">
     <picture class="profile-card__picture">
       <source srcset="{{ team.data.profilePhoto }}" media="(orientation: portrait)" />
       <img src="{{ team.data.profilePhoto }}" alt="{{ team.data.profilePhotoAltText }}" />
