@@ -86,6 +86,10 @@ module.exports = function (config) {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("yyyy");
   });
 
+  config.addFilter("readableTime", dateObj => {
+    return DateTime.fromJSDate(dateObj).toFormat("t").toLocaleLowerCase();
+  });
+
   config.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
