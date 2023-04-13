@@ -741,6 +741,7 @@ section {
 }
 
 .profile-card__picture {
+  min-width: 45%;
   width: 100%;
   max-width: 140px;
 } 
