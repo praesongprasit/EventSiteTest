@@ -786,6 +786,17 @@ section {
   height: 100%;
 }
 
+.profile-card__link:focus-visible {
+  box-shadow: none;
+  outline: 0;
+}
+
+.profile-card__link:focus-visible::before {
+  box-shadow: 0 0 0 0 transparent,0 0 0 3px var(--colour-pink);
+  outline: 1px solid transparent;
+  transition: box-shadow .1s;
+}
+
 a.profile-card__link,
 .profile-card__link * {
   color: currentColor;
