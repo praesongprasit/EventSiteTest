@@ -727,7 +727,7 @@ section {
 .card {
   color: var(--colour-body-text-dark);
   background-color: var(--colour-white);
-  padding: var(--spacing-xlarge) 1.25rem; /* 24px 20px */
+  padding: 1.25rem; /* 20px */
   margin-bottom: 0;
 }
 
@@ -851,10 +851,6 @@ a.profile-card__link:visited .profile-card__name {
   display: grid;
   margin-top: var(--spacing-xlarge);
   margin-bottom: 80px;
-}
-
-.newsletter-signup__label {
-  margin-bottom: .5rem;
 }
 
 input:focus-visible,
