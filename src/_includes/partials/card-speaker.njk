@@ -5,21 +5,21 @@
       <img src="{{ speaker.data.profilePhoto }}" alt="{{ speaker.data.profilePhotoAltText }}" />
     </picture>
 
-    <div class="profile-card__info">
-      <h3 class="card-title profile-card__name">
-        <a href="{{ speaker.data.profileUrl }}" rel="external">
+    <p class="profile-card__info">
+      <a class="profile-card__link" href="{{ speaker.data.profileUrl }}" rel="external">
+        <span class="card-title profile-card__name">
           {{ speaker.data.fullName }}
-        </a>
-      </h3>
+        </span>
 
-      <p>
-        {{ speaker.data.jobTitle }}
-        {% if speaker.data.organisation %}
-          @ {{ speaker.data.organisation }}
-        {% endif %}
-      </p>
+        <span>
+          {{ speaker.data.jobTitle }}
+          {% if speaker.data.organisation %}
+            @ {{ speaker.data.organisation }}
+          {% endif %}
+        </span>
 
-      <p><strong>{{ speaker.data.talkTitle }}</strong></p>
-    </div>
+        <strong>{{ speaker.data.talkTitle }}</strong>
+      </a>
+    </p>
   </li>
 {% endmacro %}

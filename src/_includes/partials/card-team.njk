@@ -5,21 +5,21 @@
       <img src="{{ team.data.profilePhoto }}" alt="{{ team.data.profilePhotoAltText }}" />
     </picture>
 
-    <div class="profile-card__info">
-      <h3 class="card-title profile-card__name">
-        <a href="{{ team.data.profileUrl }}" rel="external">
+    <p class="profile-card__info">
+      <a class="profile-card__link" href="{{ team.data.profileUrl }}" rel="external">
+        <span class="card-title profile-card__name">
           {{ team.data.fullName }}
-        </a>
-      </h3>
+        </span>
 
-      <p>
-        {{ team.data.jobTitle }}
-        {% if team.data.organisation %}
-          @ {{ team.data.organisation }}
-        {% endif %}
-      </p>
+        <span>
+          {{ team.data.jobTitle }}
+          {% if team.data.organisation %}
+            @ {{ team.data.organisation }}
+          {% endif %}
+        </span>
 
-      <p><strong>{{ team.data.role }}</strong></p>
-    </div>
+        <strong>{{ team.data.role }}</strong>
+      </a>
+    </p>
   </li>
 {% endmacro %}

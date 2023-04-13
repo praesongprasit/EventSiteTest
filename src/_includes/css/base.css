@@ -738,6 +738,8 @@ section {
 .profile-card {
   padding: 0;
   display: flex;
+  position: relative;
+  z-index: 1;
 }
 
 .profile-card__picture {
@@ -758,10 +760,48 @@ section {
   padding: var(--spacing-small) var(--spacing-xsmall);
 }
 
-.profile-card p,
+.profile-card__info * {
+  display: block;
+}
+
+.profile-card__info,
+.profile-card__info p,
 .profile-card__name {
   margin-bottom: 0;
   font-size: var(--font-size-small);
+}
+
+.profile-card__link {
+  display: block;
+  position: static;
+}
+
+.profile-card__link::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a.profile-card__link,
+.profile-card__link * {
+  color: currentColor;
+  text-decoration: none;
+}
+
+a.profile-card__link:visited .profile-card__name {
+  color: var(--colour-link-visited);
+}
+
+.profile-card__link .profile-card__name {
+  color: var(--colour-link);
+}
+
+.profile-card__link:hover .profile-card__name {
+  text-decoration: underline;
 }
 
 .profile-card__name {
