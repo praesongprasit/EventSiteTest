@@ -626,7 +626,7 @@ section {
   width: 100%;
   max-width: 1.125rem;
   max-height: 1.125rem;
-  margin-left: .5294em;
+  margin-left: .625rem; /* 10px */
 }
 
 @media screen and (max-width: 519px) {
