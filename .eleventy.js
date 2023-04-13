@@ -1,5 +1,4 @@
 const CleanCSS = require("clean-css");
-const fs = require("fs");
 const { DateTime } = require("luxon");
 const { minify } = require("terser");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
