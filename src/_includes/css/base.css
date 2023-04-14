@@ -848,7 +848,12 @@ a.profile-card__link:visited .profile-card__name {
 .newsletter-signup {
   display: grid;
   margin-top: var(--spacing-xlarge);
-  margin-bottom: 80px;
+}
+
+@media screen and (min-width: 520px) {
+  .newsletter-signup {
+    margin-bottom: 80px;
+  }
 }
 
 input:focus-visible,
