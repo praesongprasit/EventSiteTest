@@ -10,12 +10,18 @@ bio: "<p>Adam is a quality engineering specialist, and is passionate about conti
 profileUrl: [{
   "name": "Website",
   "url": "https://www.adammhoward.com/"
+},{
+  "name": "LinkedIn",
+  "url": "https://www.linkedin.com/in/adammichaelhoward/"
+},{
+  "name": "Instagram",
+  "url": "https://www.instagram.com/adammichaelhoward/"
 }]
 profilePhoto: /images/profiles-speakers/adam_howard.jpg
 profilePhotoAltText: Adam's portrait. He's a white man in his thirties with a shaved head and a close cropped dark beard. He presents with a slight, knowing smile and the glimmer of a good idea in his blue eyes.
 event: NZTechRally2023
 talkTitle: Fostering a quality quality culture
-talkExcerpt: 
+talkExcerpt: A model for shaping those principles and practices in engineering teams that can nurture a culture of quality engineering
 talkStartTime: 2014-07-07T13:07:00.000
 talkEndTime: 2014-07-07T13:07:00.000
 ogImage:
