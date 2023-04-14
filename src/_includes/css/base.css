@@ -660,14 +660,14 @@ section {
   display: grid;
 }
 
-.hero-home img {
+.hero img {
   width: 100%;
   object-fit: cover;
   object-position: 50% 50%;
 }
 
 @media screen and (max-width: 519px) {
-  .hero-home {
+  .hero--home {
     margin-bottom: calc(var(--spacing-2xlarge) * -1);
     max-height: 350px;
   }
@@ -691,17 +691,20 @@ section {
     grid-area: column-two;
   }
 
-  .hero-home {
+  .hero {
     display: block;
-    margin-bottom: var(--spacing-xlarge);
   }
-
-  .hero-home::before {
+  
+  .hero::before {
     display: none;
   }
-
-  .hero-home img {
+  
+  .hero img {
     height: 100%;
+  }
+
+  .hero--home {
+    margin-bottom: var(--spacing-xlarge);
   }
 }
 
