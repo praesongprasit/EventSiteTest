@@ -19,8 +19,12 @@ profilePhotoAltText: Aleisha is pictured smiling at her university graduation pa
 event: NZTechRally2023
 talkTitle: Communities, code, and Creative Commons
 talkExcerpt: Aleisha will share her experiences working in open source projects and how open source values may influence culture.
-talkStartTime: 2014-07-07T13:07:00.000
-talkEndTime: 2014-07-07T13:07:00.000
+# talkStartTime: 2014-07-07T13:07:00.000
+# talkEndTime: 2014-07-07T13:07:00.000
+ogImage:
+ogImageAlt:
+ogImageWidth:
+ogImageHeight:
 ---
 
 <p>Open source software is a powerful sector of the technology industry - code that is free to use and share, community-driven projects, and global development.</p>

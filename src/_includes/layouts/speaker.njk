@@ -84,14 +84,16 @@
             </h3>
           </div>
 
-          {%if talkStartTime %}
-            <div class="card accent-border">
-              <p>
+          <div class="card accent-border">
+            <p>
+              {%if talkStartTime %}
                 <time datetime="{{ talkStartTime }}">{{ talkStartTime | readableDate }}</time><br>
                   <time datetime="{{ talkStartTime }}">{{ talkStartTime | readableTime }}</time> - <time datetime="{{ talkEndTime }}">{{ talkEndTime | readableTime }}</time>
-              </p>
-            </div>
-          {% endif %}
+              {% else %}
+                Coming soon
+              {% endif %}
+            </p>
+          </div>
 
           <section>
             <div class="section-label accent-border">
