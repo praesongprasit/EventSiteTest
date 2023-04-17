@@ -7,5 +7,4 @@ profileUrl: https://www.linkedin.com/in/timturnidge/
 profilePhoto: /images/profiles-team/tim_turnidge.jpg
 profilePhotoAltText: Tim's portrait. A smiling half Singaporean man with short dark and some facial hair. He's wearing a plaid shirt.
 order: 4
-eleventyExcludeFromCollections: false
 ---
