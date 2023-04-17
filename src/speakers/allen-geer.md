@@ -27,10 +27,6 @@ ogImageWidth:
 ogImageHeight:
 ---
 
-{% block bio %}
-
-{% endblock %}
-
 <p>New Zealand organisations use DevOps practices and culture in different ways.</p>
 
 <p>In this talk, we will investigate how different size and scale organisations are using DevOps technical and cultural practices to drive different outcomes.</p>
