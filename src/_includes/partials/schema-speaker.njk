@@ -27,7 +27,7 @@
     "image": [
       {
         "@type": "ImageObject",
-        "url": "{{ ogImage if ogImage else site.image }}"
+        "url": "{{ ogImage if ogImage else site.image }}",
         "description": "{{ ogImageAlt if ogImageAlt else site.imageAlt }}",
         "width": "{{ ogImageWidth if ogImageWidth else site.imageWidth }}",
         "height": "{{ ogImageHeight if ogImageHeight else site.imageHeight }}"
