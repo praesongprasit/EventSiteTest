@@ -56,14 +56,26 @@
       "name": "",
       "url": ""
     },
-    "offers": {
-      "@type": "Offer",
-      "url": "{{ nztr2023.ticketUrl }}",
-      "availability": "{{ nztr2023.ticketAvaiability }}",
-      "price": "{{ nztr2023.ticketPrice }}",
-      "priceCurrency": "NZD",
-      "validFrom": "{{ nztr2023.ticketSaleStarts }}"
-    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "url": "{{ nztr2023.ticketUrl }}",
+        "availability": "{{ nztr2023.ticketAvaiability }}",
+        "validFrom": "{{ nztr2023.ticketEarlyBirdStarts }}",
+        "validThrough": "{{ nztr2023.ticketEarlyBirdEnds }}",
+        "price": "{{ nztr2023.ticketEarlyBirdPrice }}",
+        "priceCurrency": "NZD"
+      },
+      {
+        "@type": "Offer",
+        "url": "{{ nztr2023.ticketUrl }}",
+        "availability": "{{ nztr2023.ticketAvaiability }}",
+        "validFrom": "{{ nztr2023.ticketSaleStarts }}",
+        "validThrough": "{{ nztr2023.ticketSaleEnds}}",
+        "price": "{{ nztr2023.ticketPrice }}",
+        "priceCurrency": "NZD"
+      }
+    ],
     "performer": [
       {
         "@type": "Person",
