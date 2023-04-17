@@ -14,7 +14,7 @@ profileUrl: [{
   "name": "Github",
   "url" : "https://github.com/allengeer"
 }]
-profilePhoto: /images/profiles-speakers/allen_geer.png
+profilePhoto: /images/profiles-speakers/allen_geer.jpg
 profilePhotoAltText: Allen's portrait. A bearded man with a big smile, wearing a white shirt, in a headshot.
 event: NZTechRally2023
 talkTitle: One DevOps does not git all

@@ -1,6 +1,5 @@
 {
   "tags": "team",
   "contentType": "team",
-  "eleventyExcludeFromCollections": true,
   "permalink": false
 }
