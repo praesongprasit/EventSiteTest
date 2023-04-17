@@ -1,0 +1,90 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "url": "{{ site.url }}",
+    "name": "{{ site.title }} 2023",
+    "description": "{{ site.description }}",
+    "startDate": "2023-07-07T08:00",
+    "endDate": "2023-07-07T17:00",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+      "@type": "Place",
+      "name": "Room RHLT1, Rutherford House",
+      "address": {
+        "@type": "PostalAddress",
+        "name": "Victoria University, Pipitea Campus",
+        "streetAddress": "33 Bunny Street",
+        "addressLocality": "Wellington",
+        "postalCode": "5022",
+        "addressRegion": "Wellington",
+        "addressCountry": "NZ"
+      }
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "url": "{{ site.logo }}",
+        "description": "{{ site.logoAlt }}"
+      },
+      {
+        "@type": "ImageObject",
+        "url": "{{ site.iamge }}",
+        "description": "{{ site.imageAlt }}",
+        "width": "{{ site.imageWidth }}",
+        "height": "{{ site.imageHeight }}"
+      }
+    ],
+    "organizer": [
+      {
+        "@type": "Organization",
+        "name": "NZ Tech Rally",
+        "url": "https://nztechrally.com/about"
+      }
+    ],
+    "countryOfOrigin": "New Zealand",
+    "maximumAttendeeCapacity": "300",
+    "remainingAttendeeCapacity": "250",
+    "inLanguage": [
+      {
+        "@type": "Language",
+        "name": "English"
+      }
+    ],
+    "translator": {
+      "@type": "Organization",
+      "name": "",
+      "url": ""
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://nztechrally2023.lilregie.com/booking/attendees/new"
+      "availability": "https://schema.org/InStock",
+      "price": "110",
+      "priceCurrency": "NZD",
+      "validFrom": "2024-04-21T08:30",
+    },
+    "performer": [
+      {
+        "@type": "Person",
+        "name": "Adam Howard"
+      },
+      {
+        "@type": "Person",
+        "name": "Aleisha Amohia"
+      },
+      {
+        "@type": "Person",
+        "name": "Allen Geer"
+      }
+    ],
+    "sponsor": [
+      {
+        "@type": "Organization",
+        "name": "",
+        "url": ""
+      }
+    ]
+  }
+</script>

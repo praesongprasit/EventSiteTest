@@ -59,6 +59,12 @@
   
     <meta property="fb:app_id" content="2285848558335929"/>
 
+    {%- if contentType === 'about' -%}
+      {% include 'partials/schema-about.njk' %}
+    {%- else -%}
+      {% include 'partials/schema-default.njk' %}
+    {%- endif -%}
+
     {%- set css -%}
       {% include 'css/normalize.css' %}
       {% include 'css/font-face.css' %}

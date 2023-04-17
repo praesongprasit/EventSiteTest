@@ -1,0 +1,38 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "url": "{{ site.url }}/about",
+    "logo": "{{ site.logo }}"
+    "name": "{{ site.title }}",
+    "description": "{{ site.description }}",
+    "email": "{{ site.email }}",
+    "logo": [
+      {
+        "@type": "ImageObject",
+        "url": "{{ site.logo }}",
+        "description": "{{ site.logoAlt }}"
+      }
+    "image": [
+      {
+        "@type": "ImageObject",
+        "url": "{{ site.iamge }}",
+        "description": "{{ site.imageAlt }}",
+        "width": "{{ site.imageWidth }}",
+        "height": "{{ site.imageHeight }}"
+      }
+    ],
+    "event": {
+      "@type": "Event",
+      "name": "{{ site.title }} 2023",
+      "url": "{{ site.url }}"
+    }
+    "countryOfOrigin": "New Zealand",
+    "inLanguage": [
+      {
+        "@type": "Language",
+        "name": "English"
+      }
+    ]
+  }
+</script>
