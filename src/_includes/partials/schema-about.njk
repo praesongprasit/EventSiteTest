@@ -9,22 +9,24 @@
     "logo": {
       "@type": "ImageObject",
       "url": "{{ site.logo }}",
-      "description": "{{ site.logoAlt }}"
+      "description": "{{ site.logoAlt }}",
+      "width": "{{ site.logoWidth }}",
+      "height": "{{ site.logoHeight }}"
     },
     "image": [
       {
         "@type": "ImageObject",
-        "url": "{{ site.iamge }}",
-        "description": "{{ site.imageAlt }}",
-        "width": "{{ site.imageWidth }}",
-        "height": "{{ site.imageHeight }}"
+        "url": "{{ ogImage if ogImage else site.image }}"
+        "description": "{{ ogImageAlt if ogImageAlt else site.imageAlt }}",
+        "width": "{{ ogImageWidth if ogImageWidth else site.imageWidth }}",
+        "height": "{{ ogImageHeight if ogImageHeight else site.imageHeight }}"
       }
     ],
     "event": {
       "@type": "Event",
       "name": "{{ site.title }} 2023",
       "url": "{{ site.url }}",
-      "startDate": "2023-07-07T08:00",
+      "startDate": "{{ nztr2023.startDate }}",
       "endDate": "2023-07-07T17:00"
     }
   }

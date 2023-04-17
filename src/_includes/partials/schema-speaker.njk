@@ -2,11 +2,11 @@
   {
     "@context": "https://schema.org",
     "@type": "Event",
-    "url": "{{ site.url }}",
-    "name": "{{ title if contentType === 'home' else site.title }} 2023",
-    "description": "{{ site.description }}",
-    "startDate": "2023-07-07T08:00",
-    "endDate": "2023-07-07T17:00",
+    "url": "{{ page.url | absoluteUrl(site.url) }}",
+    "name": "{{ talkTitle }} by {{ title }}",
+    "description": "{{ talkExcerpt }}",
+    "startDate": "{{ talkStartTime }}",
+    "endDate": "{{ talkEndTime }}",
     "eventAttendanceMode": "{{ nztr2023.eventAttendanceMode }}",
     "eventStatus": "{{ nztr2023.eventStatus }}",
     "maximumAttendeeCapacity": "{{ nztr2023.maximumAttendeeCapacity }}",
@@ -27,15 +27,10 @@
     "image": [
       {
         "@type": "ImageObject",
-        "url": "{{ site.logo }}",
-        "description": "{{ site.logoAlt }}"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "{{ site.image }}",
-        "description": "{{ site.imageAlt }}",
-        "width": "{{ site.imageWidth }}",
-        "height": "{{ site.imageHeight }}"
+        "url": "{{ ogImage if ogImage else site.image }}"
+        "description": "{{ ogImageAlt if ogImageAlt else site.imageAlt }}",
+        "width": "{{ ogImageWidth if ogImageWidth else site.imageWidth }}",
+        "height": "{{ ogImageHeight if ogImageHeight else site.imageHeight }}"
       }
     ],
     "organizer": [
@@ -70,20 +65,10 @@
       "priceCurrency": "NZD",
       "validFrom": "{{ nztr2023.ticketSaleStarts }}"
     },
-    "performer": [
-      {
-        "@type": "Person",
-        "name": "Adam Howard"
-      },
-      {
-        "@type": "Person",
-        "name": "Aleisha Amohia"
-      },
-      {
-        "@type": "Person",
-        "name": "Allen Geer"
-      }
-    ],
+    "performer": {
+      "@type": "Person",
+      "name": "{{ title }}"
+    },
     "sponsor": [
       {
         "@type": "Organization",

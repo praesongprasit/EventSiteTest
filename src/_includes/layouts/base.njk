@@ -61,6 +61,8 @@
 
     {%- if contentType === 'about' -%}
       {% include 'partials/schema-about.njk' %}
+    {%- elseif contentType === 'speaker' -%}
+      {% include 'partials/schema-speaker.njk' %}
     {%- else -%}
       {% include 'partials/schema-default.njk' %}
     {%- endif -%}
