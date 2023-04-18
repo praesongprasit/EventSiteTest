@@ -110,7 +110,9 @@
         {% if title %}
           <section>
             <div class="section-label {% if largeTitle %}section-label--header {% endif %}accent-border">
-              <h1 class="section-title">{{ title }}</h1>
+              <h1 class="section-title">
+                {{ title }}
+              </h1>
             </div>
 
             {% if description and hideDescription != true %}
