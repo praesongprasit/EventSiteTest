@@ -499,7 +499,7 @@ input {
   font: inherit;
   color: var(--colour-green);
   text-transform: none;
-  background-color: transparent;
+  background-color: var(--colour-black);
   border: 0;
   margin: 0;
   overflow: visible;
