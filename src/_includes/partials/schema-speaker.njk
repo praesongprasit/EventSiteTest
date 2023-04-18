@@ -37,7 +37,7 @@
       {
         "@type": "Organization",
         "name": "{{ site.title }}",
-        "url": "{{ site.url }}/about"
+        "url": "{{ '/about' | absoluteUrl(site.url) }}"
       }
     ],
     "inLanguage": [

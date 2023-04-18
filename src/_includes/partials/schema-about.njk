@@ -2,7 +2,7 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "url": "{{ site.url }}/about",
+    "url": "{{ '/about' | absoluteUrl(site.url) }}",
     "name": "{{ site.title }}",
     "description": "{{ site.description }}",
     "email": "{{ site.email }}",
