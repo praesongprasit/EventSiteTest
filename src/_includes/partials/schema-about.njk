@@ -3,8 +3,8 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "url": "{{ '/about' | absoluteUrl(site.url) }}",
-    "name": "{{ site.title }}",
-    "description": "{{ site.description }}",
+    "name": "{{ title + " – " + site.title if title else site.title }}",
+    "description": "{{ description if description else site.description }}",
     "email": "{{ site.email }}",
     "logo": {
       "@type": "ImageObject",
@@ -27,7 +27,7 @@
       "name": "{{ site.title }} 2023",
       "url": "{{ site.url }}",
       "startDate": "{{ nztr2023.startDate }}",
-      "endDate": "2023-07-07T17:00"
+      "endDate": "{{ nztr2023.endDate }}"
     }
   }
 </script>
