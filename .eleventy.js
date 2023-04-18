@@ -1,6 +1,7 @@
 const CleanCSS = require("clean-css");
 const { DateTime } = require("luxon");
 const { minify } = require("terser");
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const inclusiveLangPlugin = require("@11ty/eleventy-plugin-inclusive-language");
@@ -19,6 +20,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginSyntaxHighlight);;
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(inclusiveLangPlugin);
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
 
   eleventyConfig.setServerOptions({
     // Whether the live reload snippet is used
@@ -98,6 +100,15 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("team", collection => {
     return collection.getFilteredByTag("team").sort((a, b) => a.data.order - b.data.order);
+  });
+
+  // https://chriskirknielsen.com/blog/manage-your-svg-files-with-eleventys-render-plugin/#updated-method
+  eleventyConfig.addAsyncShortcode("svg", async function (filename, svgOptions = {}) {
+    const isNjk = svgOptions.hasOwnProperty('isNjk') ? svgOptions.isNjk : true;
+    const filePath = `./src/_includes/svg/${filename}.svg${isNjk ? '.njk' : ''}`;
+    const engine = svgOptions.hasOwnProperty('engine') ? svgOptions.engine : (isNjk ? 'njk' : 'html'); // HTML engine for vanilla SVG if none is provided
+    const content = eleventyConfig.nunjucksAsyncShortcodes.renderFile(filePath, svgOptions, engine);
+    return await content; // The await required since this is an async function!
   });
 
   return {
