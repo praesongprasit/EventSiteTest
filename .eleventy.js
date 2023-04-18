@@ -1,28 +1,26 @@
 const CleanCSS = require("clean-css");
 const { DateTime } = require("luxon");
 const { minify } = require("terser");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const inclusiveLangPlugin = require("@11ty/eleventy-plugin-inclusive-language");
 
-module.exports = function (config) {
-  config.addFilter("cssmin", function (code) {
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
   });
 
-  config.addPassthroughCopy("src/images");
-  config.addPassthroughCopy("src/favicon.ico");
-  config.addPassthroughCopy("src/apple-touch-icon.png");
-  config.addPassthroughCopy("src/manifest.json");
-  config.addPassthroughCopy("src/fonts");
+  eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy("src/favicon.ico");
+  eleventyConfig.addPassthroughCopy("src/apple-touch-icon.png");
+  eleventyConfig.addPassthroughCopy("src/manifest.json");
+  eleventyConfig.addPassthroughCopy("src/fonts");
 
-  config.addPlugin(pluginSyntaxHighlight);;
-  config.addPlugin(pluginNavigation);
-  config.addPlugin(inclusiveLangPlugin);
-  config.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(pluginSyntaxHighlight);;
+  eleventyConfig.addPlugin(pluginNavigation);
+  eleventyConfig.addPlugin(inclusiveLangPlugin);
 
-  config.setServerOptions({
+  eleventyConfig.setServerOptions({
     // Whether the live reload snippet is used
     liveReload: true,
 
@@ -55,7 +53,7 @@ module.exports = function (config) {
     showVersion: false,
   });
 
-  config.addNunjucksAsyncFilter("jsmin", async function (
+  eleventyConfig.addNunjucksAsyncFilter("jsmin", async function (
     code,
     callback
   ) {
@@ -70,7 +68,7 @@ module.exports = function (config) {
   });
 
   //  https://github.com/11ty/eleventy/issues/580
-  config.addNunjucksFilter("absoluteUrl", (href, base) => {
+  eleventyConfig.addNunjucksFilter("absoluteUrl", (href, base) => {
     let { URL } = require("url");
     return (new URL(href, base)).toString()
   })
@@ -78,27 +76,27 @@ module.exports = function (config) {
   // https://moment.github.io/luxon/#/formatting
   https://github.com/moment/luxon/blob/master/docs/formatting.md#the-basics
   // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
-  config.addFilter("readableDate", dateObj => {
+  eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLLL yyyy");
   });
 
-  config.addFilter("readableYear", dateObj => {
+  eleventyConfig.addFilter("readableYear", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("yyyy");
   });
 
-  config.addFilter("readableTime", dateObj => {
+  eleventyConfig.addFilter("readableTime", dateObj => {
     return DateTime.fromJSDate(dateObj).toFormat("t").toLocaleLowerCase();
   });
 
-  config.addFilter('htmlDateString', (dateObj) => {
+  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
 
-  config.addCollection("speakers", collection => {
+  eleventyConfig.addCollection("speakers", collection => {
     return collection.getFilteredByTag("speaker");
   });
 
-  config.addCollection("team", collection => {
+  eleventyConfig.addCollection("team", collection => {
     return collection.getFilteredByTag("team").sort((a, b) => a.data.order - b.data.order);
   });
 
