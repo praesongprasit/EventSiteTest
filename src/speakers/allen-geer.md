@@ -21,10 +21,11 @@ talkTitle: One DevOps does not git all
 talkExcerpt: How DevOps Seeds different cultural practices in small and large Kiwi Organisations
 # talkStartTime: 2014-07-07T13:07:00.000
 # talkEndTime: 2014-07-07T13:07:00.000
-ogImage:
-ogImageAlt:
-ogImageWidth:
-ogImageHeight:
+featuredImage:
+featuredImageAlt:
+featureImageType:
+featureImageWidth:
+featureImageHeight:
 ---
 
 <p>New Zealand organisations use DevOps practices and culture in different ways.</p>

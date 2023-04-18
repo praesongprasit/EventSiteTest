@@ -27,10 +27,10 @@
     "image": [
       {
         "@type": "ImageObject",
-        "url": "{{ ogImage if ogImage else site.image }}",
-        "description": "{{ ogImageAlt if ogImageAlt else site.imageAlt }}",
-        "width": "{{ ogImageWidth if ogImageWidth else site.imageWidth }}",
-        "height": "{{ ogImageHeight if ogImageHeight else site.imageHeight }}"
+        "url": "{{ featuredImage if featuredImage else site.image }}",
+        "description": "{{ featuredImageAlt if featuredImageAlt else site.imageAlt }}",
+        "width": "{{ featureImageWidth if featureImageWidth else site.imageWidth }}",
+        "height": "{{ featureImageHeight if featureImageHeight else site.imageHeight }}"
       }
     ],
     "organizer": [

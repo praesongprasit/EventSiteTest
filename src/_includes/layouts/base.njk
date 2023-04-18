@@ -17,13 +17,13 @@
     <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | absoluteUrl(site.url) }}" sizes="180x180"/>
 
     <link rel="manifest" href="{{ '/manifest.json' | absoluteUrl(site.url) }}"/>
-    <link rel="mask-icon" href="{{ '/images/icons/safari-pinned-tab.svg' | absoluteUrl(site.url) }}" color="#A2DDD9"/>
+    <link rel="mask-icon" href="{{ '/images/icons/safari-pinned-tab.svg' | absoluteUrl(site.url) }}" color="#FF2466"/>
 
-    <link rel="application/rss+xml" rel="alternate" title="{{ site.title }}" href="{{ site.podcastRSS }}"/>
+    {# <link rel="application/rss+xml" rel="alternate" title="{{ site.title }}" href="{{ site.rss }}"/> #}
     
-    <meta name="msapplication-TileColor" content="#A2DDD9">
-    <meta name="theme-color" content="#A2DDD9"/>
-    <meta name="background-color" content="#fff"/>
+    <meta name="msapplication-TileColor" content="#101625">
+    <meta name="theme-color" content="#111111"/>
+    <meta name="background-color" content="#101625"/>
     
     <meta name="keywords" content="{{ keywords if keywords else site.keywords }}"/>
 
@@ -40,7 +40,7 @@
 
     <meta property="og:site_name" content="{{ site.title }}"/>
     <meta property="og:title" content="{{ title + ' – ' + site.title if title else site.title }}"/>
-    <meta property="og:type" content="{{ 'music.song' if contentType === 'episode' else 'music.radio_station' }}"/>
+    <meta property="og:type" content="website"/>
     <meta property="og:description" content="{{ description if description else site.description }}"/>
     <meta property="og:url" content="{{ page.url | absoluteUrl(site.url) }}"/>
 
@@ -51,7 +51,6 @@
     <meta property="og:image:height" content="{{ featureImageHeight if featuredImageHeight else site.imageHeight }}" />
 
     <meta property="og:locale" content="en_NZ" />
-    <meta property="og:locale:alternate" content="th_TH" />
     
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:dnt" content="on"/>
