@@ -1,6 +1,8 @@
 {
   "title": "NZ Tech Rally 2023",
   "description": "The flagship conference where the community discuss the hottest trends and biggest problems in NZ software engineering, and grow together.",
+  "startDate": "2023-07-07T08:00",
+  "endDate": "2023-07-07T17:00",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "eventStatus": "https://schema.org/EventScheduled",
   "maximumAttendeeCapacity": "300",
