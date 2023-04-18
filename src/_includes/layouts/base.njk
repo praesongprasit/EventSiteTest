@@ -121,12 +121,9 @@
           </section>
         {% endif %}
 
-        {% block content %}
-        {% endblock content %}
+        {% block content %}{% endblock content %}
         
-        {% if addEmailSignup != false %}
-          {%- include 'partials/newsletter-signup.njk' -%}
-        {% endif %}
+        {%- include 'partials/newsletter-signup.njk' -%}
       </div>
     </div>
 

@@ -1,11 +1,7 @@
 <section>
   <div class="section-label section-label--header accent-border">
     <h2 class="section-title">
-      Stay tuned
-
-      <svg class="icon" aria-hidden="true" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M29.3334 11.9734V24.0001C29.3334 25.4667 28.1334 26.6667 26.6667 26.6667H5.33341C3.86675 26.6667 2.66675 25.4667 2.66675 24.0001L2.68008 8.00008C2.68008 6.53341 3.86675 5.33341 5.33341 5.33341H18.8001C18.7201 5.76008 18.6667 6.21341 18.6667 6.66675C18.6667 7.12008 18.7201 7.57341 18.8001 8.00008H5.33341L16.0001 14.6667L20.8934 11.6134C21.5201 12.1867 22.2534 12.6267 23.0667 12.9201L16.0001 17.3334L5.33341 10.6667V24.0001H26.6667V13.2001C27.6534 13.0001 28.5601 12.5601 29.3334 11.9734ZM21.3334 6.66675C21.3334 8.88008 23.1201 10.6667 25.3334 10.6667C27.5467 10.6667 29.3334 8.88008 29.3334 6.66675C29.3334 4.45341 27.5467 2.66675 25.3334 2.66675C23.1201 2.66675 21.3334 4.45341 21.3334 6.66675Z" fill="currentColor"/>
-      </svg>
+      Stay tuned {% svg "email_notification" %}
     </h2>
   </div>
 
@@ -14,39 +10,28 @@
     <p>Oh, and no, we do not share your email to our sponsors and vendors. You can also unsubscribe any time.</p>
   </div>
 
-    <form
-      id="newsletterSignup"
-      class="newsletter-signup accent-border"
-      title="NZ Tech Rally news signup"
-      name="newsletter"
-      method="POST"
-      data-netlify="true"
-      action="/newsletter-confirmation/"
-    >
-      <div class="section-label accent-border">
-        <label for="newsletterSignupEmailField" class="section-title newsletter-signup__label">
-          Your email
-        
-          <svg class="icon" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_676_687)">
-            <path d="M18.3334 5.49992C18.3334 4.58325 17.5834 3.83325 16.6667 3.83325H3.33341C2.41675 3.83325 1.66675 4.58325 1.66675 5.49992V15.4999C1.66675 16.4166 2.41675 17.1666 3.33341 17.1666H16.6667C17.5834 17.1666 18.3334 16.4166 18.3334 15.4999V5.49992ZM16.6667 5.49992L10.0001 9.66658L3.33341 5.49992H16.6667ZM16.6667 15.4999H3.33341V7.16659L10.0001 11.3333L16.6667 7.16659V15.4999Z" fill="currentColor"/>
-            </g>
-            <defs>
-              <clipPath id="clip0_676_687">
-                <rect width="20" height="20" fill="transparent" transform="translate(0 0.5)"/>
-              </clipPath>
-            </defs>
-          </svg>
-        </label>
-      </div>
-      
-      <input
-        id="newsletterSignupEmailField"
-        class="newsletter-signup__input"
-        type="email"
-        name="email"
-      />
-      
-      <button type="submit" class="button newsletter-signup__button">Subscribe</button>
-    </form>
+  <form
+    id="newsletterSignup"
+    class="newsletter-signup accent-border"
+    title="NZ Tech Rally news signup"
+    name="newsletter"
+    method="POST"
+    data-netlify="true"
+    action="/newsletter-confirmation/"
+  >
+    <div class="section-label accent-border">
+      <label for="newsletterSignupEmailField" class="section-title newsletter-signup__label">
+        Your email {% svg "email" %}
+      </label>
+    </div>
+    
+    <input
+      id="newsletterSignupEmailField"
+      class="newsletter-signup__input"
+      type="email"
+      name="email"
+    />
+    
+    <button type="submit" class="button newsletter-signup__button">Subscribe</button>
+  </form>
 </section>
