@@ -180,8 +180,7 @@ a {
   color: var(--colour-link);
 }
 
-a:not(.button):visited,
-a:not(.button):focus-visible {
+a:visited {
   color: var(--colour-link-visited);
 }
 
@@ -190,6 +189,7 @@ a:visited:hover {
   color: var(--colour-link-hover);
 }
 
+.button,
 .button {
   font-family: var(--typeface-display);
   font-weight: var(--font-weight-bold);
@@ -968,8 +968,7 @@ select:focus-visible {
 }
 
 /* Referenced from .section-title */
-a.speaker-link,
-a.speaker-link:visited {
+a.speaker-link {
   color: var(--colour-green);
   text-decoration: none;
 }
@@ -982,6 +981,7 @@ a.speaker-link:hover {
 .speaker-link {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   font-family: var(--typeface-display);
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-main);
