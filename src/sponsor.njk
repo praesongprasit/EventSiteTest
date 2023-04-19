@@ -1,11 +1,11 @@
 ---
 tags: page
-title: Newsletter subscription confirmed
-pageIcon: email
-description: Thank you for subscribing. See you at one of our events!
-eleventyExcludeFromCollections: true
-excludefromSearch: true
-excludeNewsletterSignup: true
+title: Sponsor
+pageIcon: thumb_up
+description: Coming soon
+eleventyNavigation:
+  key: Sponsor
+  order: 4
 ---
 {% extends 'layouts/base.njk' %}
 
@@ -13,12 +13,16 @@ excludeNewsletterSignup: true
   <section>
     <div class="section-label section-label--header accent-border">
       <h1 class="section-title">
-        {{ title }} {% if pageIcon %}{% svg pageIcon %}{% endif %}
+        {{ title }} {% svg pageIcon %}
       </h1>
     </div>
+  </section>
+{% endblock %}
 
+{% block content %}
+  <main id="mainContent">
     <div class="card accent-border">
       <p class="header-description">{{ description }}</p>
     </div>
-  </section>
+  </main>
 {% endblock %}

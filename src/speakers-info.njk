@@ -1,11 +1,26 @@
 ---
 tags: page
 title: Speaker's information
+pageIcon: info
 description: Information for speakers invited to speak at NZ Tech Rally 2023
 eleventyExcludeFromCollections: true
 excludefromSearch: true
 ---
 {% extends 'layouts/base.njk' %}
+
+{% block pageHeader %}
+  <section>
+    <div class="section-label section-label--header accent-border">
+      <h1 class="section-title">
+        {{ title }} {% svg pageIcon %}
+      </h1>
+    </div>
+
+    <div class="card accent-border">
+      <p class="header-description">{{ description }}</p>
+    </div>
+  </section>
+{% endblock %}
 
 {% block content %}
   <main id="mainContent">
@@ -192,7 +207,7 @@ excludefromSearch: true
     <section>
       <div class="section-label section-label--header accent-border">
         <h2 class="section-title" id="questionsAndAnswers">
-          Questions & Answers
+          Questions & Answers {% svg "chat" %}
         </h2>
       </div>
 

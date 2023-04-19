@@ -60,7 +60,7 @@
 
     {%- if contentType === 'about' -%}
       {% include 'partials/schema-about.njk' %}
-    {%- elseif contentType === 'speaker' -%}
+    {%- elif contentType === 'speaker' -%}
       {% include 'partials/schema-speaker.njk' %}
     {%- else -%}
       {% include 'partials/schema-default.njk' %}
@@ -107,25 +107,10 @@
       </header>
 
       <div class="page-container page-wrapper">
-        {% if title %}
-          <section>
-            <div class="section-label {% if largeTitle %}section-label--header {% endif %}accent-border">
-              <h1 class="section-title">
-                {{ title }}
-              </h1>
-            </div>
-
-            {% if description and hideDescription != true %}
-              <div class="card accent-border">
-                <p class="header-description">{{ description }}</p>
-              </div>
-            {% endif %}
-          </section>
-        {% endif %}
-
-        {% block content %}{% endblock content %}
+        {% block pageHeader %}{% endblock %}
+        {% block content %}{% endblock %}
         
-        {%- include 'partials/newsletter-signup.njk' -%}
+        {% include 'partials/newsletter-signup.njk' %}
       </div>
     </div>
 

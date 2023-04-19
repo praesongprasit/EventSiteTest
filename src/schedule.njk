@@ -2,13 +2,23 @@
 tags: page
 title: Schedule
 largeTitle: true
+pageIcon: clock
 description: Schedule for NZ Tech Rally Conference on 7th July 2023
-hideDescription: true
 eleventyNavigation:
   key: Schedule
   order: 2
 ---
 {% extends 'layouts/base.njk' %}
+
+{% block pageHeader %}
+  <section>
+    <div class="section-label section-label--header accent-border">
+      <h1 class="section-title">
+        {{ title }} {% svg pageIcon %}
+      </h1>
+    </div>
+  </section>
+{% endblock %}
 
 {% block content %}
   <main id="mainContent">
