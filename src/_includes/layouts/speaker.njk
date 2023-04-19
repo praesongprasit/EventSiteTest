@@ -7,6 +7,14 @@
 {% set largeTitle = true %}
 {% set pageIcon = 'person' %}
 
+{% block pageHeader %}
+  <div class="section-label section-label--header accent-border">
+    <h1 class="section-title">
+      {{ title }} {% svg "person_outline" %}
+    </h1>
+  </div>
+{% endblock %}
+
 {% block content %}
   <main id="mainContent">
     <article class="columns columns-thirds">

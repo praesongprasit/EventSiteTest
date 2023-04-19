@@ -9,17 +9,15 @@ eleventyExcludeFromCollections: true
 {% extends 'layouts/base.njk' %}
 
 {% block pageHeader %}
-  <section>
-    <div class="section-label section-label--header accent-border">
-      <h1 class="section-title">
-        {{ title }} {% if pageIcon %}{% svg pageIcon %}{% endif %}
-      </h1>
-    </div>
+  <div class="section-label section-label--header accent-border">
+    <h1 class="section-title">
+      {{ title }} {% if pageIcon %}{% svg pageIcon %}{% endif %}
+    </h1>
+  </div>
 
-    <div class="card accent-border">
-      <p class="header-description">{{ description }}</p>
-    </div>
-  </section>
+  <div class="card accent-border">
+    <p class="header-description">{{ description }}</p>
+  </div>
 {% endblock %}
 
 {% block content %}

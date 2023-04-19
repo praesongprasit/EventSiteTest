@@ -354,6 +354,10 @@ input {
   }
 }
 
+.page-container > .section-label:first-child {
+  margin-top: 0;
+}
+
 .page-wrapper {
   margin: 0 auto;
   max-width: 940px;

@@ -19,13 +19,11 @@ featureImageHeight:
 {% from 'partials/card-team.njk' import card %}
 
 {% block pageHeader %}
-  <section>
-    <div class="section-label section-label--header accent-border">
-      <h1 class="section-title">
-        {{ title }} {% svg pageIcon %}
-      </h1>
-    </div>
-  </section>
+  <div class="section-label section-label--header accent-border">
+    <h1 class="section-title">
+      {{ title }} {% svg pageIcon %}
+    </h1>
+  </div>
 {% endblock %}
 
 {% block content %}
