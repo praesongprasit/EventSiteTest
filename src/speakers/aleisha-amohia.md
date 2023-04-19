@@ -9,10 +9,12 @@ bio: "<p>Aleisha Amohia is a passionate young advocate for diversity and equity,
 <p>Aleisha is also actively involved in community organisations, with past links to the National Council of Women New Zealand, Wellington Alliance Against Sexual Violence, InternetNZ, Victoria University of Wellington Women in Tech, and more.</p>"
 profileUrl: [{
   "name": "LinkedIn",
-  "url" : "https://www.linkedin.com/in/aleishaamohia/"
+  "url" : "https://www.linkedin.com/in/aleishaamohia/",
+  "icon": "linkedin"
 },{
   "name": "Twitter",
-  "url" : "https://twitter.com/aleishaamohia"
+  "url" : "https://twitter.com/aleishaamohia",
+  "icon": "twitter"
 }]
 profilePhoto: /images/profiles-speakers/aleisha_amohia.jpg
 profilePhotoAltText: Aleisha is pictured smiling at her university graduation parade, on the steps of Civic Square. She is wearing a korowai with blue, green, black and white detailing atop her graduation gown.

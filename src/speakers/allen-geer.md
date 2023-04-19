@@ -9,10 +9,12 @@ bio: "<p>For the last 6 years he has been helping New Zealand organisations mode
 <p>Allen has been involved with startups, multinational banks, and governments and seen DevOps and software development practices implemented to varying degrees at many different scales.</p>"
 profileUrl: [{
   "name": "LinkedIn",
-  "url" : "https://www.linkedin.com/in/allengeer/"
+  "url" : "https://www.linkedin.com/in/allengeer/",
+  "icon": "linkedin"
 },{
   "name": "Github",
-  "url" : "https://github.com/allengeer"
+  "url" : "https://github.com/allengeer",
+  "icon": "github"
 }]
 profilePhoto: /images/profiles-speakers/allen_geer.jpg
 profilePhotoAltText: Allen's portrait. A bearded man with a big smile, wearing a white shirt, in a headshot.

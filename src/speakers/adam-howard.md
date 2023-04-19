@@ -9,13 +9,16 @@ bio: "<p>Adam is a quality engineering specialist, and is passionate about conti
 <p>Adam currently leads the quality engineering practice at Xero.</p>"
 profileUrl: [{
   "name": "Website",
-  "url": "https://www.adammhoward.com/"
+  "url": "https://www.adammhoward.com/",
+  "icon": "code"
 },{
   "name": "LinkedIn",
-  "url": "https://www.linkedin.com/in/adammichaelhoward/"
+  "url": "https://www.linkedin.com/in/adammichaelhoward/",
+  "icon": "linkedin"
 },{
   "name": "Instagram",
-  "url": "https://www.instagram.com/adammichaelhoward/"
+  "url": "https://www.instagram.com/adammichaelhoward/",
+  "icon": "instagram"
 }]
 profilePhoto: /images/profiles-speakers/adam_howard.jpg
 profilePhotoAltText: Adam's portrait. He's a white man in his thirties with a shaved head and a close cropped dark beard. He presents with a slight, knowing smile and the glimmer of a good idea in his blue eyes.

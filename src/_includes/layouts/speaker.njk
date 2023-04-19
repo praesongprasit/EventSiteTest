@@ -48,6 +48,7 @@
             <li class="accent-border speaker-link__item">
               <a class="speaker-link" href="{{ profile.url }}" rel="external">
                 {{ profile.name }}
+                {% svg profile.icon %}
               </a>
             </li>
           {% endfor %}
