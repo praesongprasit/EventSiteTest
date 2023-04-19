@@ -1054,6 +1054,7 @@ body > .page-footer {
   padding: var(--spacing-small) 0;
   display: flex;
   align-items: center;
+  font-weight: var(--font-weight-bold);
 }
 
 @media screen and (min-width: 520px) {
