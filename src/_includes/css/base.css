@@ -754,6 +754,10 @@ section {
   margin-bottom: 0;
 }
 
+.card ul:last-child {
+  margin-bottom: 0;
+}
+
 .card:not(.profile-card) + .card:not(.profile-card) {
   margin-top: .5rem;
 }
