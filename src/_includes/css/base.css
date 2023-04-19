@@ -448,8 +448,10 @@ input {
 
 @media screen and (min-width: 520px) {
   .global-navigation {
-    margin-left: -1.25rem;
-    display: block !important; /* Override mobile menu */
+    display: grid;
+    gap: 1rem;
+    justify-items: stretch;
+    grid-template-columns: 2fr 2fr 2fr;
   }
 }
 
@@ -477,6 +479,7 @@ input {
   .global-navigation__link {
     padding: 0 1.25rem;
     line-height: 1.875;
+    text-align: center;
   }
 }
 
