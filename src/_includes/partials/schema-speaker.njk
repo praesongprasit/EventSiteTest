@@ -7,80 +7,19 @@
     "description": "{{ talkExcerpt }}",
     "startDate": "{{ talkStartTime }}",
     "endDate": "{{ talkEndTime }}",
-    "eventAttendanceMode": "{{ nztr2023.eventAttendanceMode }}",
-    "eventStatus": "{{ nztr2023.eventStatus }}",
-    "maximumAttendeeCapacity": "{{ nztr2023.maximumAttendeeCapacity }}",
-    "remainingAttendeeCapacity": "{{ nztr2023.remainingAttendeeCapacity }}",
-    "location": {
-      "@type": "Place",
-      "name": "{{ nztr2023.location.name }}",
-      "address": {
-        "@type": "PostalAddress",
-        "name": "{{ nztr2023.location.address.name }}",
-        "streetAddress": "{{ nztr2023.location.address.streetAddress }}",
-        "addressLocality": "{{ nztr2023.location.address.addressLocality }}",
-        "postalCode": "{{ nztr2023.location.address.postalCode }}",
-        "addressRegion": "{{ nztr2023.location.address.addressRegion }}",
-        "addressCountry": "NZ"
-      }
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ featuredImage if featuredImage else site.image }}",
+      "description": "{{ featuredImageAlt if featuredImageAlt else site.imageAlt }}",
+      "width": "{{ featureImageWidth if featureImageWidth else site.imageWidth }}",
+      "height": "{{ featureImageHeight if featureImageHeight else site.imageHeight }}"
     },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "url": "{{ featuredImage if featuredImage else site.image }}",
-        "description": "{{ featuredImageAlt if featuredImageAlt else site.imageAlt }}",
-        "width": "{{ featureImageWidth if featureImageWidth else site.imageWidth }}",
-        "height": "{{ featureImageHeight if featureImageHeight else site.imageHeight }}"
-      }
-    ],
-    "organizer": [
-      {
-        "@type": "Organization",
-        "name": "{{ site.title }}",
-        "url": "{{ '/about' | absoluteUrl(site.url) }}"
-      }
-    ],
-    "inLanguage": [
-      {
-        "@type": "Language",
-        "name": "en-NZ"
-      }
-    ],
-    "translator": {
-      "@type": "Organization",
-      "name": "",
-      "url": ""
-    },
-    "offers": [
-      {
-        "@type": "Offer",
-        "url": "{{ nztr2023.ticketUrl }}",
-        "availability": "{{ nztr2023.ticketAvaiability }}",
-        "validFrom": "{{ nztr2023.ticketEarlyBirdStarts }}",
-        "validThrough": "{{ nztr2023.ticketEarlyBirdEnds }}",
-        "price": "{{ nztr2023.ticketEarlyBirdPrice }}",
-        "priceCurrency": "NZD"
-      },
-      {
-        "@type": "Offer",
-        "url": "{{ nztr2023.ticketUrl }}",
-        "availability": "{{ nztr2023.ticketAvaiability }}",
-        "validFrom": "{{ nztr2023.ticketSaleStarts }}",
-        "validThrough": "{{ nztr2023.ticketSaleEnds}}",
-        "price": "{{ nztr2023.ticketPrice }}",
-        "priceCurrency": "NZD"
-      }
-    ],
     "performer": {
       "@type": "Person",
       "name": "{{ title }}"
     },
-    "sponsor": [
-      {
-        "@type": "Organization",
-        "name": "",
-        "url": ""
-      }
-    ]
+    "superEvent": {
+      {%- include 'partials/schema-nztr2023.njk' -%}
+    }
   }
 </script>

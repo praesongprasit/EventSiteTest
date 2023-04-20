@@ -23,23 +23,7 @@
       }
     ],
     "event": {
-      "@type": "Event",
-      "name": "{{ site.title }} 2023",
-      "url": "{{ site.url }}",
-      "startDate": "{{ nztr2023.startDate }}",
-      "endDate": "{{ nztr2023.endDate }}",
-      "location": {
-        "@type": "Place",
-        "name": "{{ nztr2023.location.name }}",
-        "address": {
-          "@type": "PostalAddress",
-          "name": "{{ nztr2023.location.address.name }}",
-          "streetAddress": "{{ nztr2023.location.address.streetAddress }}",
-          "addressLocality": "{{ nztr2023.location.address.addressLocality }}",
-          "postalCode": "{{ nztr2023.location.address.postalCode }}",
-          "addressRegion": "{{ nztr2023.location.address.addressRegion }}",
-          "addressCountry": "NZ"
-        }
+        {%- include 'partials/schema-nztr2023.njk' -%}
       }
     }
   }
