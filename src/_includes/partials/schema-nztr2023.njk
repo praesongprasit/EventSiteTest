@@ -1,9 +1,9 @@
 "@type": "Event",
 "url": "{{ site.url }}",
-"name": "{{ title + " – " + site.title if title else site.title }}",
-"description": "{{ description if description else site.description }}",
-"startDate": "{{ startDate }}",
-"endDate": "{{ startDate }}",
+"name": "{{ nztr2023.title }}",
+"description": "{{ nztr2023.description }}",
+"startDate": "{{ nztr2023.startDate }}",
+"endDate": "{{ nztr2023.endDate }}",
 "eventAttendanceMode": "{{ nztr2023.eventAttendanceMode }}",
 "eventStatus": "{{ nztr2023.eventStatus }}",
 "maximumAttendeeCapacity": "{{ nztr2023.maximumAttendeeCapacity }}",
@@ -26,20 +26,13 @@
     "longitude": "{{ nztr2023.location.geo.longitude }}"
   }
 },
-"image": [
-  {
-    "@type": "ImageObject",
-    "url": "{{ site.logo }}",
-    "description": "{{ site.logoAlt }}"
-  },
-  {
-    "@type": "ImageObject",
-    "url": "{{ site.image }}",
-    "description": "{{ site.imageAlt }}",
-    "width": "{{ site.imageWidth }}",
-    "height": "{{ site.imageHeight }}"
-  }
-],
+"image":{
+  "@type": "ImageObject",
+  "url": "{{ site.image }}",
+  "description": "{{ site.imageAlt }}",
+  "width": "{{ site.imageWidth }}",
+  "height": "{{ site.imageHeight }}"
+},
 "organizer": [
   {
     "@type": "Organization",
