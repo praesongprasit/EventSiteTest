@@ -13,15 +13,13 @@
       "width": "{{ site.logoWidth }}",
       "height": "{{ site.logoHeight }}"
     },
-    "image": [
-      {
-        "@type": "ImageObject",
-        "url": "{{ featuredImage if featuredImage else site.image }}",
-        "description": "{{ featuredImageAlt if featuredImageAlt else site.imageAlt }}",
-        "width": "{{ featureImageWidth if featureImageWidth else site.imageWidth }}",
-        "height": "{{ featureImageHeight if featureImageHeight else site.imageHeight }}"
-      }
-    ],
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ featuredImage if featuredImage else site.image }}",
+      "description": "{{ featuredImageAlt if featuredImageAlt else site.imageAlt }}",
+      "width": "{{ featureImageWidth if featureImageWidth else site.imageWidth }}",
+      "height": "{{ featureImageHeight if featureImageHeight else site.imageHeight }}"
+    },
     "event": {
         {%- include 'partials/schema-nztr2023.njk' -%}
       }
