@@ -28,5 +28,10 @@
       "latitude": "-41.279058250989856",
       "longitude": "174.779103511636"
     }
-  }
+  },
+  "image": "https://nztechrally.com/images/og-ticketSale.png",
+  "imageAlt": "NZ Tech Rally logo on top of darken image of a seated crowd.",
+  "imageType": "image/png",
+  "imageWidth": "2400",
+  "imageHeight": "1260"
 }

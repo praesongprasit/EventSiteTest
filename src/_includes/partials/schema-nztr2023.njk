@@ -26,13 +26,22 @@
     "longitude": "{{ nztr2023.location.geo.longitude }}"
   }
 },
-"image":{
-  "@type": "ImageObject",
-  "url": "{{ site.image }}",
-  "description": "{{ site.imageAlt }}",
-  "width": "{{ site.imageWidth }}",
-  "height": "{{ site.imageHeight }}"
-},
+"image": [
+  {
+    "@type": "ImageObject",
+    "url": "{{ site.image }}",
+    "description": "{{ site.imageAlt }}",
+    "width": "{{ site.imageWidth }}",
+    "height": "{{ site.imageHeight }}"
+  },
+  {
+    "@type": "ImageObject",
+    "url": "{{ nztr2023.image }}",
+    "description": "{{ nztr2023.imageAlt }}",
+    "width": "{{ nztr2023.imageWidth }}",
+    "height": "{{ nztr2023.imageHeight }}"
+  }
+],
 "organizer": [
   {
     "@type": "Organization",
