@@ -406,7 +406,8 @@ label[for=copy_booking_details] {
   padding: 0
 }
 
-.terms p { 
+.terms p,
+.terms a:hover { 
   color: var(--colour-white);
 }
 
