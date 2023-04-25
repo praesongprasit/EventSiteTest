@@ -1090,10 +1090,6 @@ body > .page-footer {
   color: var(--colour-white);
 }
 
-.footnotes p:first-child {
-  margin-bottom: 0;
-}
-
 .footnotes small {
   font-size: var(--font-size-main);
 }
