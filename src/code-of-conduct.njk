@@ -1,0 +1,25 @@
+---
+tags: page
+title: Code of conduct
+pageIcon: info
+description: Coming soon
+eleventyExcludeFromCollections: true
+excludefromSearch: true
+---
+{% extends 'layouts/base.njk' %}
+
+{% block pageHeader %}
+  <div class="section-label section-label--header accent-border">
+    <h1 class="section-title">
+      {{ title }} {% svg pageIcon %}
+    </h1>
+  </div>
+{% endblock %}
+
+{% block content %}
+  <main id="mainContent">
+    <div class="card accent-border">
+      <p class="header-description">{{ description }}</p>
+    </div>
+  </main>
+{% endblock %}

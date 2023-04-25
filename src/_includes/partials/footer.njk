@@ -39,7 +39,8 @@
   </ul>
 
   <div class="content-block footnotes" aira-label="Site footnotes">
-    <p>We've built this site with <a rel="external" href="https://www.11ty.dev/">Eleventy</a> and host it on <a rel="external" href="https://www.netlify.com/">Netlify</a>.</p>
+    <p><a href="{{ '/about' | absoluteUrl(site.url) }}">Conference code of conduct</a>.</p>
+    <p>This site was built with <a rel="external" href="https://www.11ty.dev/">Eleventy</a> and hosted on <a rel="external" href="https://www.netlify.com/">Netlify</a>.</p>
     <p>Last updated on <time datetime="{{ page.date }}">{{ page.date | readableDate }}</time>.</p>
     <p>
       <small>
