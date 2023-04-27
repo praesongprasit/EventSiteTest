@@ -15,8 +15,8 @@ profilePhotoAltText: Katrina is pictured delivering a talk. She is wearing a lap
 event: NZTechRally2023
 talkTitle: Coming soon
 talkExcerpt: Coming soon
-# talkStartTime: 2023-07-07T08:00:00.000+12
-# talkEndTime: 2023-07-07T08:00:00.000+12
+talkStartTime: 2023-07-07T09:10:00.000+12:00
+talkEndTime: 2023-07-07T10:00:00.000+12:00
 featuredImage:
 featuredImageAlt:
 featureImageType:
