@@ -1,8 +1,8 @@
 {
   "title": "NZ Tech Rally 2023",
   "description": "The flagship conference where the community discuss the hottest trends and biggest problems in NZ software engineering, and grow together.",
-  "startDate": "2023-07-07T08:00",
-  "endDate": "2023-07-07T17:00",
+  "startDate": "2023-07-07T08:00:00.000+12:00",
+  "endDate": "2023-07-07T17:00:00.000+12:00",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "eventStatus": "https://schema.org/EventScheduled",
   "maximumAttendeeCapacity": "300",
@@ -11,10 +11,10 @@
   "ticketAvaiability": "https://schema.org/InStock",
   "ticketEarlyBirdPrice": "110",
   "ticketPrice": "150",
-  "ticketEarlyBirdStarts": "2024-04-24T00:00",
-  "ticketEarlyBirdEnds": "2024-05-31T23:59",
-  "ticketSaleStarts": "2024-06-01T00:00",
-  "ticketSaleEnds": "2024-06-30T23:59",
+  "ticketEarlyBirdStarts": "2024-04-24T00:00.000+12:00",
+  "ticketEarlyBirdEnds": "2024-05-31T23:59.000+12:00",
+  "ticketSaleStarts": "2024-06-01T00:00.000+12:00",
+  "ticketSaleEnds": "2024-06-30T23:59.000+12:00",
   "location": {
     "name": "Room RHLT1, Rutherford House",
     "address": {
