@@ -21,8 +21,8 @@ profilePhotoAltText: Allen's portrait. A bearded man with a big smile, wearing a
 event: NZTechRally2023
 talkTitle: One DevOps does not git all
 talkExcerpt: How DevOps Seeds different cultural practices in small and large Kiwi Organisations
-# talkStartTime: 2014-07-07T13:07:00.000
-# talkEndTime: 2014-07-07T13:07:00.000
+talkStartTime: 2023-07-07T11:30:00.000+12:00
+talkEndTime: 2023-07-07T12:00:00.000+12:00
 featuredImage:
 featuredImageAlt:
 featureImageType:
