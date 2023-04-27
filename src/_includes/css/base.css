@@ -31,7 +31,7 @@
   --colour-body-text-light: var(--colour-white);
   --colour-body-text-dark: var(--colour-black);
   --colour-link: var(--colour-pink);
-  --colour-link-hover: var(--colour-black);
+  --colour-link-hover: var(--colour-pink);
   --colour-link-visited: var(--colour-pink-darken);
 
   --colour-border: var(--colour-pink);
@@ -120,13 +120,6 @@ h1,
   font-size: var(--font-size-large);
 }
 
-h1 a,
-h1 a:visited,
-.heading1 a,
-.heading1 a:visited {
-  text-decoration: none;
-}
-
 h2,
 .heading2 {
   font-size: var(--font-size-main); 
@@ -170,6 +163,7 @@ strong {
 
 a {
   color: var(--colour-link);
+  text-decoration: none; /* This is not an accessible practice. Doing this under protest */
 }
 
 a:visited {
@@ -178,6 +172,7 @@ a:visited {
 
 a:hover,
 a:visited:hover {
+  text-decoration: underline;
   color: var(--colour-link-hover);
 }
 
