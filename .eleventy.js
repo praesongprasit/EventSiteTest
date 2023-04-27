@@ -76,7 +76,7 @@ module.exports = function (eleventyConfig) {
   })
 
   // https://moment.github.io/luxon/#/formatting
-  https://github.com/moment/luxon/blob/master/docs/formatting.md#the-basics
+  // https://github.com/moment/luxon/blob/master/docs/formatting.md#the-basics
   // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj).toFormat("dd LLLL yyyy");
