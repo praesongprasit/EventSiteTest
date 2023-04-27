@@ -673,6 +673,11 @@ section {
   row-gap: 1.25rem;
 }
 
+ul.column-one {
+  padding-left: 0;
+  list-style: none;
+}
+
 @media screen and (min-width: 520px) {
   .columns {
     column-gap: 1.25rem;
