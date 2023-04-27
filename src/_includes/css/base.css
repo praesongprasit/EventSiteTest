@@ -1003,10 +1003,13 @@ body > .page-footer {
   grid-row-end: 3;
 }
 
+.page-footer a:not(.footer-social__link) {
+  text-decoration: underline;
+}
+
 .page-footer a,
 .page-footer a:visited {
   color: currentColor;
-  text-decoration: underline;
 }
 
 .page-footer a:hover {
