@@ -15,8 +15,8 @@ profilePhotoAltText: A portrait photo of Jenny smiling at the camera. She is wea
 event: NZTechRally2023
 talkTitle: Engineering metrics, minus the creepiness
 talkExcerpt: How might we use metrics to help us improve what matters, in a way that supports, not damages, an empowering and sustainable engineering team culture?
-# talkStartTime: 2014-07-07T13:07:00.000
-# talkEndTime: 2014-07-07T13:07:00.000
+talkStartTime: 2023-07-07T11:00:00.000+12:00
+talkEndTime: 2023-07-07T11:30:00.000+12:00
 featuredImage:
 featuredImageAlt:
 featureImageType:
