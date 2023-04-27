@@ -25,8 +25,8 @@ profilePhotoAltText: Adam's portrait. He's a white man in his thirties with a sh
 event: NZTechRally2023
 talkTitle: Fostering a quality quality culture
 talkExcerpt: A model for shaping those principles and practices in engineering teams that can nurture a culture of quality engineering
-# talkStartTime: 2023-07-07T08:00:00.000+12
-# talkEndTime: 2023-07-07T08:00:00.000+12
+talkStartTime: 2023-07-07T14:00:00.000+12
+talkEndTime: 2023-07-07T14:30:00.000+12
 featuredImage:
 featuredImageAlt:
 featureImageType:
