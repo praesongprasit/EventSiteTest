@@ -1006,6 +1006,7 @@ body > .page-footer {
 .page-footer a,
 .page-footer a:visited {
   color: currentColor;
+  text-decoration: underline;
 }
 
 .page-footer a:hover {
