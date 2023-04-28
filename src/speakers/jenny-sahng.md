@@ -10,7 +10,7 @@ profileUrl: [{
   "url" : "https://www.linkedin.com/in/jennysahng/",
   "icon": "linkedin"
 }]
-profilePhoto: /images/profiles-speakers/jenny_sahng.jpg
+profilePhoto: /assets/images/profiles-speakers/jenny_sahng.jpg
 profilePhotoAltText: A portrait photo of Jenny smiling at the camera. She is wearing sunnies on her head, silver dangly earrings, a collared shirt, and is standing in front of some jungly bush.
 event: NZTechRally2023
 talkTitle: Engineering metrics, minus the creepiness

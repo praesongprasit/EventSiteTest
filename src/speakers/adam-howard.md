@@ -20,7 +20,7 @@ profileUrl: [{
   "url": "https://www.instagram.com/adammichaelhoward/",
   "icon": "instagram"
 }]
-profilePhoto: /images/profiles-speakers/adam_howard.jpg
+profilePhoto: /assets/images/profiles-speakers/adam_howard.jpg
 profilePhotoAltText: Adam's portrait. He's a white man in his thirties with a shaved head and a close cropped dark beard. He presents with a slight, knowing smile and the glimmer of a good idea in his blue eyes.
 event: NZTechRally2023
 talkTitle: Fostering a quality quality culture

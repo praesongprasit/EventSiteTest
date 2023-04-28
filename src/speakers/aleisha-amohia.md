@@ -16,7 +16,7 @@ profileUrl: [{
   "url" : "https://twitter.com/aleishaamohia",
   "icon": "twitter"
 }]
-profilePhoto: /images/profiles-speakers/aleisha_amohia.jpg
+profilePhoto: /assets/images/profiles-speakers/aleisha_amohia.jpg
 profilePhotoAltText: Aleisha is pictured smiling at her university graduation parade, on the steps of Civic Square. She is wearing a korowai with blue, green, black and white detailing atop her graduation gown.
 event: NZTechRally2023
 talkTitle: Communities, code, and Creative Commons

@@ -11,11 +11,10 @@ module.exports = function (eleventyConfig) {
     return new CleanCSS({}).minify(code).styles;
   });
 
-  eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
   eleventyConfig.addPassthroughCopy("src/apple-touch-icon.png");
   eleventyConfig.addPassthroughCopy("src/manifest.json");
-  eleventyConfig.addPassthroughCopy("src/fonts");
 
   eleventyConfig.addPlugin(pluginSyntaxHighlight);;
   eleventyConfig.addPlugin(pluginNavigation);

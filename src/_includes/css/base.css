@@ -81,7 +81,7 @@ body {
   width: 120%;
   height: 110%;
   position: absolute;
-  background: repeat url("/images/grid-tile.jpg");
+  background: repeat url("/assets/images/grid-tile.jpg");
   transform: rotate(-7deg);
   top: -5%;
   left: -10%;
@@ -670,7 +670,7 @@ section {
 }
 
 @media screen and (max-width: 519px) {
-  .hero-home {
+  .hero--home {
     margin-bottom: -3.25rem;
     max-height: 350px;
   }
@@ -678,6 +678,10 @@ section {
   .hero--schedule {
     display: none;
   }
+}
+
+.hero--schedule {
+  margin-bottom: var(--spacing-xlarge);
 }
 
 .columns {
