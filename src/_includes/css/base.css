@@ -6,6 +6,8 @@
   --font-weight-bold: 700;
   --font-weight-extra-bold: 800; /* Only for display typeface */
 
+  --font-size-xsmall: .75rem; /* 12px */
+  --font-size-small: .875rem; /* 14px */
   --font-size-main: 1rem; /* 16px */
   --font-size-large: 1.5rem; /* 24px */
   --font-size-xlarge: 2rem; /* 32px */
@@ -272,6 +274,16 @@ tbody tr:nth-child(odd) {
   background: #fff;
 }
 
+.table-notes {
+  font-size: var(--font-size-small);
+  margin-top: var(--spacing-xsmall);
+}
+
+.table--sponsorship th + th,
+.table--sponsorship td + td {
+  min-width: 90px;
+  text-align: center;
+}
 
 /* ============== Forms ============== */
 
@@ -331,6 +343,10 @@ input {
 .text-indent {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.small-text {
+  font-size: var(--font-size-xsmall);
 }
 
 /* ============== LAYOUT ============== */
