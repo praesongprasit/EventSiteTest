@@ -1,0 +1,33 @@
+---
+tags: page
+title: Privacy policy
+pageIcon: shield_person
+description: What information we collect, why, how, and our attitude towards it.
+eleventyExcludeFromCollections: true
+excludefromSearch: true
+---
+{% extends 'layouts/base.njk' %}
+
+{% block pageHeader %}
+  <div class="section-label section-label--header accent-border">
+    <h1 class="section-title">
+      {{ title }} {% svg pageIcon %}
+    </h1>
+  </div>
+{% endblock %}
+
+{% block content %}
+  <main id="mainContent">
+    <section>
+      <div class="section-label accent-border">
+        <h2 class="section-title">Coming soon</h2>
+      </div>
+
+      <div class="card accent-border">
+        <p>
+          We are working to get this up as soon as we can.
+        </p>
+      </div>
+    </section>
+  </main>
+{% endblock %}
