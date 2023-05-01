@@ -431,57 +431,6 @@ input {
   height: 100%;
 }
 
-/* -------------- Nav -------------- */
-
-.global-navigation {
-  padding: 0.25rem 0;
-  margin-bottom: 0;
-  padding: 0;
-}
-
-@media screen and (max-width: 719px) {
-  .global-navigation {
-    margin-top: 0.5rem;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .global-navigation {
-    display: grid;
-    gap: 1rem;
-    justify-items: stretch;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-
-.global-navigation__item {
-  display: block;
-  list-style: none;
-  margin: 0;
-}
-
-@media screen and (min-width: 720px) {
-  .global-navigation__item {
-    display: inline-block;
-    vertical-align: middle;
-  }
-}
-
-.global-navigation__link {
-  display: block;
-  padding: var(--spacing-xsmall) calc(var(--spacing-large) + 4px);
-  text-decoration: none;
-  font-size: var(--font-size-main);
-}
-
-@media screen and (min-width: 720px) {
-  .global-navigation__link {
-    padding: 0 1.25rem;
-    line-height: 1.875;
-    text-align: center;
-  }
-}
-
 /* -------------- Hamburger -------------- */
 
 /*!
