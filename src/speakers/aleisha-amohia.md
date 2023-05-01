@@ -6,7 +6,7 @@ bio: "<p>Aleisha Amohia is a passionate young advocate for diversity and equity,
 
 <p>Aleisha is the Koha Technical Lead at Catalyst IT, an open source software company, where she started out as an intern in 2014. She is also a Victoria University of Wellington graduate with a Bachelor of Science (Computer Science and Artificial Intelligence) and a Bachelor of Commerce (Management and Information Systems).</p>
 
-<p>Aleisha is also actively involved in community organisations, with past links to the National Council of Women New Zealand, Wellington Alliance Against Sexual Violence, InternetNZ, Victoria University of Wellington Women in Tech, and more.</p>"
+<p>Aleisha is also actively involved in community organisations, with links to the National Council of Women New Zealand, Wellington Alliance Against Sexual Violence, InternetNZ, Victoria University of Wellington Women in Tech, and more.</p>"
 profileUrl: [{
   "name": "LinkedIn",
   "url" : "https://www.linkedin.com/in/aleishaamohia/",

@@ -6,7 +6,7 @@ bio: "<p>For the last 6 years he has been helping New Zealand organisations mode
 
 <p>Prior to moving to New Zealand, Allen worked as a consultant and software engineer at several Fortune 500 enterprises across the United States.</p>
 
-<p>Allen has been involved with startups, multinational banks, and governments and seen DevOps and software development practices implemented to varying degrees at many different scales.</p>"
+<p>Allen has been involved with startups, multinational banks, and governments and has seen DevOps and software development practices implemented to varying degrees at many different scales.</p>"
 profileUrl: [{
   "name": "LinkedIn",
   "url" : "https://www.linkedin.com/in/allengeer/",
@@ -32,6 +32,6 @@ featureImageHeight:
 
 <p>New Zealand organisations use DevOps practices and culture in different ways.</p>
 
-<p>In this talk, we will investigate how different size and scale organisations are using DevOps technical and cultural practices to drive different outcomes.</p>
+<p>In this talk, we will investigate how different sizes and scale organisations are using DevOps technical and cultural practices to drive different outcomes.</p>
 
-<p>We will investigate how in large enterprises DevOps is more about assurance and safety, where in resource constrained startups DevOps is about speed and learning.</p>
+<p>We will investigate how in large enterprises, DevOps is more about assurance and safety, whereas, in resource-constrained startups, DevOps is about speed and learning.</p>

@@ -38,4 +38,4 @@ featureImageHeight:
 
 <p>And just as culture is emergent from a peoples’ values and behaviours, quality emerges from teams’ principles and practices.</p>
 
-<p>In this talk, Adam describes a model for shaping those principles and practices in engineering teams that can nurture a culture of quality engineering</p>
+<p>In this talk, Adam describes a model for shaping those principles and practices in engineering teams that can nurture a culture of quality engineering.</p>
