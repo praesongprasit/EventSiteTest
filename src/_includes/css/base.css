@@ -849,7 +849,7 @@ ul.column-one {
   opacity: 60%;
   stroke: #E5D8CD;
   stroke-width: 1px;
-  color: var(--colour-pink);
+  color: var(--colour-pink-darken);
 }
 
 .profile-card__picture-text {
