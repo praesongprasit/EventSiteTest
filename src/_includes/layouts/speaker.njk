@@ -1,6 +1,10 @@
 {% extends 'layouts/base.njk' %}
 {% from 'partials/card-speaker.njk' import card %}
 
+{%- css %}
+  {% include "css/page-speaker.css" %}
+{% endcss %}
+
 {% set contentType = contentType %}
 {% set title = fullName %}
 {% set descriprion = talkExcerpt %}

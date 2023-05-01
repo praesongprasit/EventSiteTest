@@ -931,47 +931,6 @@ select:focus-visible {
   }
 }
 
-/* -------------- Speaker -------------- */
-
-.speaker-links {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.speaker-link__item {
-  display: block;
-  background-color: var(--colour-black);
-  box-shadow: var(--drop-shadow);
-  margin-bottom: var(--spacing-xsmall);
-}
-
-/* Referenced from .section-title */
-a.speaker-link {
-  color: var(--colour-green);
-  text-decoration: none;
-}
-
-a.speaker-link:hover {
-  color: var(--colour-pink);
-  text-decoration: underline;
-}
-
-.speaker-link {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-family: var(--typeface-display);
-  font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-main);
-  padding: 0.375rem 1.25rem;
-}
-
-.speaker-link .icon {
-  width: 20px;
-  margin-left: 0.625rem; /* 10px */
-}
-
 /* -------------- Footer -------------- */
 
 .page-footer {
