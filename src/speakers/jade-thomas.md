@@ -4,7 +4,7 @@ jobTitle: Engineering Manager Online Channels
 organisation: BNZ
 bio: "<p>After a couple decades of software development Jade accidentally found himself in an engineering leadership role. Initially not keen on the engineering manager title, as he never saw himself as manager, but enticed by the hope of having some influence in building a better environment for engineers to flourish in. Jade fights to keep the management part of the role to a minimum, while trying to stay relevant and useful to engineers.</p>
 
-<p>Over the last 4 years as manager. Jade has been involved in reshaping bnz’s online banking ways of working, standardising and  industrialising their software patterns, increasing their scalability and reliability all while the organisation reshape their technology business unit. </p>"
+<p>Over the last 4 years as manager, Jade has been involved in reshaping bnz’s online banking ways of working — standardising and  industrialising their software patterns, increasing their scalability and reliability — all while the organisation reshape their technology business unit. </p>"
 profileUrl: [{
   "name": "LinkedIn",
   "url" : "https://www.linkedin.com/in/jadethomaswellington/",
@@ -29,7 +29,7 @@ featureImageHeight:
 </p>
 
 <p>
-  The consequences of any mishap can be enormous. not just financial and reputational but also remediation imposed by regulators can be crippling.
+  The consequences of any mishap can be enormous, not just financial and reputational but also remediation imposed by regulators can be crippling.
 </p>
 
 <p>
