@@ -281,54 +281,6 @@ tbody tr:nth-child(odd) {
   font-weight: normal;
 }
 
-.table--sponsorship th {
-  background-color: var(--colour-black);
-  color: var(--colour-white);
-}
-
-.sponsorship-level {
-  display: inline-block;
-  width: 90px;
-  vertical-align: top;
-}
-
-@media screen and (max-width: 719px) {
-  .table--sponsorship tr {
-    display: grid;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-  }
-
-  .table--sponsorship td {
-    margin-bottom: 0;
-  }
-
-  .table--sponsorship td:first-child {
-    font-weight: var(--font-weight-bold);
-    margin-bottom: 0.5rem;
-  }
-
-  .table--sponsorship thead {
-    display: none;
-  }
-
-  /* .sponsor-package--excluded {
-    display: none;
-  } */
-}
-
-@media screen and (min-width: 720px) {
-  .sponsorship-level {
-    display: none;
-  }
-
-  .table--sponsorship th + th,
-  .table--sponsorship td + td {
-    min-width: 90px;
-    text-align: center;
-  }
-}
-
 /* ============== Forms ============== */
 
 label,
