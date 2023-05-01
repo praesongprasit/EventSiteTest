@@ -304,6 +304,17 @@ input {
   color: var(--colour-black);
 }
 
+input:focus-visible,
+button:focus-visible,
+.button:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  box-shadow: 0 0 0 2px var(--colour-blue), 0 0 0 5px var(--colour-pink);
+  outline: 1px solid transparent;
+  transition: box-shadow 0.1s;
+  z-index: 1;
+}
+
 /* ============== Utilities ============== */
 
 .accent-border {
@@ -747,17 +758,4 @@ a.profile-card__link:visited .profile-card__name {
   .profiles {
     grid-template-columns: repeat(3, 1fr);
   }
-}
-
-/* -------------- Inputs -------------- */
-
-input:focus-visible,
-button:focus-visible,
-.button:focus-visible,
-textarea:focus-visible,
-select:focus-visible {
-  box-shadow: 0 0 0 2px var(--colour-blue), 0 0 0 5px var(--colour-pink);
-  outline: 1px solid transparent;
-  transition: box-shadow 0.1s;
-  z-index: 1;
 }
