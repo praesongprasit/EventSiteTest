@@ -16,7 +16,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/apple-touch-icon.png");
   eleventyConfig.addPassthroughCopy("src/manifest.json");
 
-  eleventyConfig.addPlugin(pluginSyntaxHighlight);;
+  eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(inclusiveLangPlugin);
   eleventyConfig.addPlugin(EleventyRenderPlugin);
@@ -54,61 +54,82 @@ module.exports = function (eleventyConfig) {
     showVersion: false,
   });
 
-  eleventyConfig.addNunjucksAsyncFilter("jsmin", async function (
-    code,
-    callback
-  ) {
-    try {
-      const minified = await minify(code);
-      callback(null, minified.code);
-    } catch (err) {
-      console.error("Terser error: ", err);
-      // Fail gracefully.
-      callback(null, code);
+  eleventyConfig.addNunjucksAsyncFilter(
+    "jsmin",
+    async function (code, callback) {
+      try {
+        const minified = await minify(code);
+        callback(null, minified.code);
+      } catch (err) {
+        console.error("Terser error: ", err);
+        // Fail gracefully.
+        callback(null, code);
+      }
     }
-  });
+  );
 
   //  https://github.com/11ty/eleventy/issues/580
   eleventyConfig.addNunjucksFilter("absoluteUrl", (href, base) => {
     let { URL } = require("url");
-    return (new URL(href, base)).toString()
-  })
+    return new URL(href, base).toString();
+  });
 
   // https://moment.github.io/luxon/#/formatting
   // https://github.com/moment/luxon/blob/master/docs/formatting.md#the-basics
   // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
-  eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLLL yyyy");
+  eleventyConfig.addFilter("readableDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+      "dd LLLL yyyy"
+    );
   });
 
-  eleventyConfig.addFilter("readableYear", dateObj => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("yyyy");
+  eleventyConfig.addFilter("readableYear", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy");
   });
 
-  eleventyConfig.addFilter("readableTime", dateObj => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("t").toLocaleLowerCase();
+  eleventyConfig.addFilter("readableTime", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" })
+      .toFormat("t")
+      .toLocaleLowerCase();
   });
 
-  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
+  eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
 
-  eleventyConfig.addCollection("speakers", collection => {
+  eleventyConfig.addCollection("speakers", (collection) => {
     return collection.getFilteredByTag("speaker");
   });
 
-  eleventyConfig.addCollection("team", collection => {
-    return collection.getFilteredByTag("team").sort((a, b) => a.data.order - b.data.order);
+  eleventyConfig.addCollection("team", (collection) => {
+    return collection
+      .getFilteredByTag("team")
+      .sort((a, b) => a.data.order - b.data.order);
   });
 
   // https://chriskirknielsen.com/blog/manage-your-svg-files-with-eleventys-render-plugin/#updated-method
-  eleventyConfig.addAsyncShortcode("svg", async function (filename, svgOptions = {}) {
-    const isNjk = svgOptions.hasOwnProperty('isNjk') ? svgOptions.isNjk : true;
-    const filePath = `./src/_includes/svg/${filename}.svg${isNjk ? '.njk' : ''}`;
-    const engine = svgOptions.hasOwnProperty('engine') ? svgOptions.engine : (isNjk ? 'njk' : 'html'); // HTML engine for vanilla SVG if none is provided
-    const content = eleventyConfig.nunjucksAsyncShortcodes.renderFile(filePath, svgOptions, engine);
-    return await content; // The await required since this is an async function!
-  });
+  eleventyConfig.addAsyncShortcode(
+    "svg",
+    async function (filename, svgOptions = {}) {
+      const isNjk = svgOptions.hasOwnProperty("isNjk")
+        ? svgOptions.isNjk
+        : true;
+      const filePath = `./src/_includes/svg/${filename}.svg${
+        isNjk ? ".njk" : ""
+      }`;
+      const engine = svgOptions.hasOwnProperty("engine")
+        ? svgOptions.engine
+        : isNjk
+        ? "njk"
+        : "html"; // HTML engine for vanilla SVG if none is provided
+      const content = eleventyConfig.nunjucksAsyncShortcodes.renderFile(
+        filePath,
+        svgOptions,
+        engine
+      );
+      return await content; // The await required since this is an async function!
+    }
+  );
 
   return {
     dir: {

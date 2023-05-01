@@ -2,25 +2,25 @@
   Styles to be copy pasted into Lil Regie, our online ticketing system
 */
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Space+Grotesk:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Space+Grotesk:wght@400;700&display=swap");
 
 :root {
-  --typeface-main: 'Space Grotesk', sans-serif;
-  --typeface-display: 'JetBrains Mono', monospace;;
-  
+  --typeface-main: "Space Grotesk", sans-serif;
+  --typeface-display: "JetBrains Mono", monospace;
+
   --font-weight-normal: 400;
   --font-weight-bold: 700;
   --font-weight-extra-bold: 800; /* Only for display typeface */
 
   --line-height-main: 1.33;
   --line-height-display: 1.25;
-  
+
   --colour-black: #111111;
   --colour-blue: #101625;
-  --colour-pink: #FF2466;
-  --colour-pink-darken: #D0245A; /* Accessible option */
-  --colour-green: #00E18F;
-  --colour-white: #F2F0E9;
+  --colour-pink: #ff2466;
+  --colour-pink-darken: #d0245a; /* Accessible option */
+  --colour-green: #00e18f;
+  --colour-white: #f2f0e9;
 
   --colour-body-text: var(--colour-black);
   --colour-link: var(--colour-pink);
@@ -34,7 +34,7 @@
   --colour-button-hover: var(--colour-button-text);
   --colour-button-background-hover: var(--colour-pink);
 
-  --subtle-shadow: 1px solid #1C2230;
+  --subtle-shadow: 1px solid #1c2230;
   --drop-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
 }
 
@@ -163,7 +163,7 @@ fieldset {
 }
 
 .booking-form-header::before {
-  content: '';
+  content: "";
   display: block;
   width: 4px;
   height: 100%;
@@ -178,7 +178,7 @@ fieldset {
   font-weight: var(--font-weight-bold);
   font-size: 1rem;
   color: var(--colour-green);
-  padding: .375rem 1.25rem;
+  padding: 0.375rem 1.25rem;
   margin: 0;
   background-color: var(--colour-black);
   box-shadow: var(--drop-shadow);
@@ -199,14 +199,14 @@ fieldset {
 }
 
 .booking-header__extra-info::before {
-  content: 'About';
+  content: "About";
 }
 
 .booking-header__extra-info::after,
 #booking fieldset:not(.attendees):before,
 .attendee-added-notice:before,
 .attendee:before {
-  content: '';
+  content: "";
   display: block;
   width: 4px;
   height: 100%;
@@ -221,7 +221,7 @@ fieldset h2 {
   font-weight: var(--font-weight-bold);
   font-size: 1rem;
   color: var(--colour-green);
-  padding: .375rem 1.25rem;
+  padding: 0.375rem 1.25rem;
   margin: 0;
   background-color: var(--colour-black);
   box-shadow: var(--drop-shadow);
@@ -307,8 +307,8 @@ fieldset {
   background-color: transparent;
   border: 2px solid currentColor;
   background-image: none;
-  color: var(--colour-green)
-} 
+  color: var(--colour-green);
+}
 
 .btn.btn-secondary:hover {
   color: var(--colour-button-background-hover);
@@ -333,9 +333,9 @@ fieldset {
   }
 }
 
-input[type=text],
-input[type=email],
-input[type=checkbox],
+input[type="text"],
+input[type="email"],
+input[type="checkbox"],
 select,
 textarea {
   background-color: #fff;
@@ -348,7 +348,7 @@ label {
   display: block;
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-main);
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 .attendee:after {
@@ -371,7 +371,7 @@ label {
 }
 
 .attendee__eventlet-subtotal {
-  padding: .5rem 1.25rem;
+  padding: 0.5rem 1.25rem;
 }
 
 .control-group {
@@ -383,31 +383,33 @@ label {
   padding-left: 2rem;
 }
 
-.controls--checkbox .payment-options__text  input[type=radio] {
+.controls--checkbox .payment-options__text input[type="radio"] {
   top: calc(50% - 10px);
 }
 
 .control-group:not(:first-of-type) {
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 
 .credit-card-test {
   margin: 0;
   padding-left: 94px;
-  background: var(--colour-pink) url(/assets/lilregie/regie-error-ddf6686b85a6600705026e62a3ce9f82c9f79c8a9b0ec2e4590f881f366a4136.png) no-repeat 14px 14px !important;
+  background: var(--colour-pink)
+    url(/assets/lilregie/regie-error-ddf6686b85a6600705026e62a3ce9f82c9f79c8a9b0ec2e4590f881f366a4136.png)
+    no-repeat 14px 14px !important;
 }
 
-label[for=copy_booking_details] {
+label[for="copy_booking_details"] {
   color: var(--colour-white);
   font-weight: var(--font-weight-normal);
 }
 
 .credit-card-details .control-group.line {
-  padding: 0
+  padding: 0;
 }
 
 .terms p,
-.terms a:hover { 
+.terms a:hover {
   color: var(--colour-white);
 }
 
