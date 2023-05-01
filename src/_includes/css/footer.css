@@ -1,0 +1,121 @@
+/* -------------- Page footer -------------- */
+
+.page-footer {
+  background-color: var(--colour-black);
+  padding: var(--spacing-xlarge) var(--spacing-small);
+  border-top: var(--subtle-shadow);
+  box-shadow: var(--drop-shadow);
+}
+
+@media screen and (min-width: 520px) {
+  .page-footer {
+    padding: var(--spacing-3xlarge) var(--spacing-small);
+  }
+}
+
+body > .page-footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.page-footer a:not(.footer-social__link) {
+  text-decoration: underline;
+}
+
+.page-footer a,
+.page-footer a:visited {
+  color: currentColor;
+}
+
+.page-footer a:hover {
+  color: var(--colour-pink);
+}
+
+/* -------------- Footer socials -------------- */
+
+.footer-social {
+  font-family: var(--typeface-display);
+  color: var(--colour-green);
+  margin: 0 0 var(--spacing-xlarge);
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (min-width: 520px) {
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--spacing-3xlarge);
+  }
+}
+
+.footer-social__item {
+  color: var(--colour-green);
+  font-size: var(--font-size-main);
+  margin-bottom: 0;
+}
+
+.footer-social__item .icon {
+  padding-right: 0.875em;
+}
+
+.footer-social__link {
+  padding: var(--spacing-small) 0;
+  display: flex;
+  align-items: center;
+  font-weight: var(--font-weight-bold);
+}
+
+@media screen and (min-width: 520px) {
+  .footer-social__link {
+    padding: var(--spacing-small) var(--spacing-main);
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .footer-social__link {
+    padding: var(--spacing-small) var(--spacing-xlarge);
+  }
+}
+
+.footer-social__link,
+.footer-social__link:hover,
+.footer-social__link:focus-visible {
+  text-decoration: none;
+}
+
+.footer-social__link .icon {
+  width: 24px;
+}
+
+.footer-social__text {
+  position: relative;
+  display: inline-block;
+}
+
+.footer-social__text:after {
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  display: block;
+  background-color: currentColor;
+  height: 1px;
+  width: 100%;
+}
+
+/* -------------- Foot notes -------------- */
+
+.footnotes {
+  color: var(--colour-white);
+}
+
+.footnotes small {
+  font-size: var(--font-size-main);
+}
+
+@media screen and (min-width: 520px) {
+  .footnotes {
+    text-align: center;
+  }
+}
