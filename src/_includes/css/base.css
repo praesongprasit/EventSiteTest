@@ -172,6 +172,61 @@ a:visited:hover {
   color: var(--colour-link-hover);
 }
 
+/* -------------- Lists -------------- */
+
+dl,
+menu,
+ol,
+ul {
+  margin: 0 0 var(--spacing-xlarge);
+}
+
+menu,
+ol,
+ul {
+  padding-left: var(--spacing-2xlarge);
+}
+
+li {
+  font-size: var(--font-size-main);
+  margin: 0 0 0.5rem;
+}
+
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* -------------- Tables -------------- */
+
+caption {
+  text-align: left;
+}
+
+td,
+th {
+  text-align: start;
+  vertical-align: top;
+  padding: 0.5rem var(--spacing-xlarge);
+}
+
+.table-date-cell {
+  min-width: 90px;
+}
+
+tbody tr:nth-child(odd) {
+  background: #fff;
+}
+
+.table-notes {
+  font-size: var(--font-size-small);
+  margin-top: var(--spacing-xsmall);
+  font-weight: normal;
+}
+
+/* ============== Forms ============== */
+
 .button,
 .button {
   font-family: var(--typeface-display);
@@ -209,73 +264,6 @@ a:visited:hover {
   outline: 1px solid transparent;
   transition: box-shadow 0.1s;
 }
-
-/* -------------- LISTS -------------- */
-
-/*
- * Addresses margins set differently in IE 6/7.
- */
-
-dl,
-menu,
-ol,
-ul {
-  margin: 0 0 var(--spacing-xlarge);
-}
-
-/*
- * Addresses paddings set differently in IE 6/7.
- */
-
-menu,
-ol,
-ul {
-  padding-left: var(--spacing-2xlarge);
-}
-
-li {
-  font-size: var(--font-size-main);
-  margin: 0 0 0.5rem;
-}
-
-/*
- * Corrects list images handled incorrectly in IE 7.
- */
-
-nav ul,
-nav ol {
-  list-style: none;
-  list-style-image: none;
-}
-
-/* -------------- Tables -------------- */
-
-caption {
-  text-align: left;
-}
-
-td,
-th {
-  text-align: start;
-  vertical-align: top;
-  padding: 0.5rem var(--spacing-xlarge);
-}
-
-.table-date-cell {
-  min-width: 90px;
-}
-
-tbody tr:nth-child(odd) {
-  background: #fff;
-}
-
-.table-notes {
-  font-size: var(--font-size-small);
-  margin-top: var(--spacing-xsmall);
-  font-weight: normal;
-}
-
-/* ============== Forms ============== */
 
 label,
 input {
