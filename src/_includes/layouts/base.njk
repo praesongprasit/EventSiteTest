@@ -66,15 +66,21 @@
       {% include 'partials/schema-default.njk' %}
     {%- endif -%}
 
-    {%- set css -%}
+    {#- Add to the CSS bundle #}
+		{%- css %}
       {% include 'css/normalize.css' %}
       {% include 'css/font-face.css' %}
       {% include 'css/base.css' %}
-    {%- endset -%}
+    {% endcss %}
 
-    <style>
-      {{ css | cssmin | safe }}
-    </style>
+		{#- Render the CSS bundle #}
+		{%- if eleventy.env.runMode === "serve" %}
+      {# External files (local dev live reload will refresh without page reload) #}
+      <link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
+    {%- else  %}
+      {# Inlined CSS (fastest site performance in production) #}
+      <style>{% getBundle "css" %}</style>
+		{%- endif %}
     
     {# Fathom website analytics #}
     <script src="https://costly-unwavering.nztechrally.com/script.js" data-site="ODKOJCFB" defer></script>

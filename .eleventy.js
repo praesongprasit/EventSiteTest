@@ -1,8 +1,9 @@
 const CleanCSS = require("clean-css");
 const { DateTime } = require("luxon");
 const { minify } = require("terser");
-const { EleventyRenderPlugin } = require("@11ty/eleventy");
+const pluginBundle = require("@11ty/eleventy-plugin-bundle");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const inclusiveLangPlugin = require("@11ty/eleventy-plugin-inclusive-language");
 
@@ -16,10 +17,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/apple-touch-icon.png");
   eleventyConfig.addPassthroughCopy("src/manifest.json");
 
+  eleventyConfig.addPlugin(pluginBundle);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(inclusiveLangPlugin);
-  eleventyConfig.addPlugin(EleventyRenderPlugin);
 
   eleventyConfig.setServerOptions({
     // Whether the live reload snippet is used
