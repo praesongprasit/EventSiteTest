@@ -1,3 +1,9 @@
 {
-  "recommendations": ["editorconfig.editorconfig", "eseom.nunjucks-template"]
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "eseom.nunjucks-template",
+    "esbenp.prettier-vscode",
+    "okitavera.vscode-nunjucks-formatter",
+    "ronnidc.nunjucks"
+  ]
 }
