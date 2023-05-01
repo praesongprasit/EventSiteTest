@@ -18,6 +18,10 @@ featureImageHeight:
 {% extends 'layouts/base.njk' %}
 {% from 'partials/card-team.njk' import card %}
 
+{%- css %}
+  {% include "css/profile-card.css" %}
+{% endcss %}
+
 {% block pageHeader %}
   <div class="section-label section-label--header accent-border">
     <h1 class="section-title">
