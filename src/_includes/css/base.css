@@ -869,18 +869,7 @@ a.profile-card__link:visited .profile-card__name {
   }
 }
 
-/* -------------- Newsletter signup -------------- */
-
-.newsletter-signup {
-  display: grid;
-  margin-top: var(--spacing-xlarge);
-}
-
-@media screen and (min-width: 520px) {
-  .newsletter-signup {
-    margin-bottom: 80px;
-  }
-}
+/* -------------- Inputs -------------- */
 
 input:focus-visible,
 button:focus-visible,
@@ -891,44 +880,6 @@ select:focus-visible {
   outline: 1px solid transparent;
   transition: box-shadow 0.1s;
   z-index: 1;
-}
-
-.newsletter-signup__button {
-  padding: 1.25rem var(--spacing-xlarge);
-}
-
-@media screen and (max-width: 520px) {
-  .newsletter-signup__input {
-    margin-bottom: var(--spacing-xlarge);
-  }
-}
-
-@media screen and (min-width: 520px) {
-  .newsletter-signup__label {
-    grid-area: newsletter-label;
-  }
-
-  .newsletter-signup__input {
-    grid-area: newsletter-input;
-  }
-
-  .newsletter-signup__button {
-    grid-area: newsletter-button;
-  }
-
-  .newsletter-signup {
-    grid-template-columns: 4fr 2fr;
-    gap: 0 1.25rem;
-    grid-template-areas:
-      "newsletter-label newsletter-label"
-      "newsletter-input newsletter-button";
-  }
-}
-
-@media screen and (min-width: 780px) {
-  .newsletter-signup {
-    grid-template-columns: 3fr 1fr;
-  }
 }
 
 /* -------------- Footer -------------- */
