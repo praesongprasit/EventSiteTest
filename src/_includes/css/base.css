@@ -832,6 +832,7 @@ ul.column-one {
 .profile-card__picture {
   display: block;
   width: 100%;
+  background-color: #E5D8CD;
 }
 
 .profile-card__picture img {
@@ -839,6 +840,24 @@ ul.column-one {
   width: 100%;
   mix-blend-mode: multiply;
 } 
+
+.profile-card__picture .icon {
+  display: block;
+  width: 78%;
+  margin: 0 auto;
+  padding: 0 var(--spacing-xsmall);
+  opacity: 60%;
+  stroke: #E5D8CD;
+  stroke-width: 1px;
+  color: var(--colour-pink);
+}
+
+.profile-card__picture-text {
+  display: block;
+  font-size: .825em;
+  text-align: center;
+  padding: 0 var(--spacing-xsmall) var(--spacing-main) var(--spacing-xsmall);
+}
 
 .profile-card__info {
   padding: 1.25rem; /* 20px */
