@@ -80,23 +80,19 @@ module.exports = function (eleventyConfig) {
   // https://github.com/moment/luxon/blob/master/docs/formatting.md#the-basics
   // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
   eleventyConfig.addFilter("readableDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "dd LLLL yyyy"
-    );
+    return DateTime.fromJSDate(dateObj).toFormat("dd LLLL yyyy");
   });
 
   eleventyConfig.addFilter("readableYear", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy");
+    return DateTime.fromJSDate(dateObj).toFormat("yyyy");
   });
 
   eleventyConfig.addFilter("readableTime", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" })
-      .toFormat("t")
-      .toLocaleLowerCase();
+    return DateTime.fromJSDate(dateObj).toFormat("t").toLocaleLowerCase();
   });
 
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
+    return DateTime.fromJSDate(dateObj).toFormat("yyyy-LL-dd");
   });
 
   eleventyConfig.addCollection("speakers", (collection) => {
