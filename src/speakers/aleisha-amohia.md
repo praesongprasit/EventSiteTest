@@ -23,11 +23,11 @@ talkTitle: Communities, code, and Creative Commons
 talkExcerpt: Aleisha will share her experiences working in open source projects and how open source values may influence culture.
 talkStartTime: 2023-07-07T15:00:00.000+12
 talkEndTime: 2023-07-07T15:30:00.000+12
-featuredImage:
-featuredImageAlt:
-featureImageType:
-featureImageWidth:
-featureImageHeight:
+featuredImage: /assets/images/profiles-speakers/aleisha_amohia_og.png
+featuredImageAlt: "Communities, code, and Creative Commons by Aleisha Amohia, Koha Technical Lead at Catalyst IT. Join us to hear Aleisha and other speakers at NZ Tech Rally, 7th July, Wellington"
+featureImageType: png
+featureImageWidth: 1200
+featureImageHeight: 630
 ---
 
 <p>Open source software is a powerful sector of the technology industry - code that is free to use and share, community-driven projects, and global development.</p>

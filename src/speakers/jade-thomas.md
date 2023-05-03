@@ -17,11 +17,11 @@ talkTitle: The fine line between chaos and order
 talkExcerpt: "How do you balance speed to market, compliance and certainty in a financial institution?"
 talkStartTime: 2023-07-07T10:00:00.000+12:00
 talkEndTime: 2023-07-07T10:30:00.000+12:00
-featuredImage:
-featuredImageAlt:
-featureImageType:
-featureImageWidth:
-featureImageHeight:
+featuredImage: /assets/images/profiles-speakers/jade_thomas_og.png
+featuredImageAlt: "The fine line between chaos and order by Jade Thomas, Engineering Manager Online Channels at BNZ. Join us to hear Jade and other speakers at NZ Tech Rally, 7th July, Wellington"
+featureImageType: png
+featureImageWidth: 1200
+featureImageHeight: 630
 ---
 
 <p>
