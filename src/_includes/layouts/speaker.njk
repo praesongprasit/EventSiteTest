@@ -1,16 +1,15 @@
 {% extends 'layouts/base.njk' %}
 {% from 'partials/card-speaker.njk' import card %}
 
+{% set contentType = contentType %}
+{% set title = fullName %}
+{% set description = talkExcerpt %}
+{% set pageIcon = 'person' %}
+
 {%- css %}
   {% include "css/components/speaker-links.css" %}
   {% include "css/components/profile-card.css" %}
 {% endcss %}
-
-{% set contentType = contentType %}
-{% set title = fullName %}
-{% set descriprion = talkExcerpt %}
-{% set largeTitle = true %}
-{% set pageIcon = 'person' %}
 
 {% block pageHeader %}
   <div class="section-label section-label--header accent-border">
