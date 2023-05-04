@@ -250,7 +250,7 @@ attendee__eventlet-subtotal {
   padding-bottom: 0;
 }
 
-.extras .small.subdued p {
+.extras .small.subdued p:not:last-child {
   padding-bottom: 1em;
 }
 
@@ -413,9 +413,35 @@ label[for="copy_booking_details"] {
   color: var(--colour-white);
 }
 
+/* When viewing Terms and Conditions at last stage of checkout */
+#content > .padded {
+  background-color: var(--colour-white);
+  position: relative;
+  padding: 1.5rem 1.25rem;
+}
+
+#content > .padded::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 100%;
+  background-color: var(--colour-border);
+  position: absolute;
+  left: -4px;
+  top: 0;
+}
+
 #content > .padded.txtC {
   background-color: var(--colour-white);
   border: 0;
   margin-top: -3rem;
   text-align: left;
+}
+
+/* Lil Regie footer logo */
+#footer .no-border {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  background-color: var(--colour-white);
+  border-radius: 3px;
 }
