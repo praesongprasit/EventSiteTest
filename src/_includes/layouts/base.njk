@@ -44,7 +44,7 @@
     <meta property="og:description" content="{{ description if description else site.description }}"/>
     <meta property="og:url" content="{{ page.url | absoluteUrl(site.url) }}"/>
 
-    <meta property="og:image" content="{{ ( featuredImage  | absoluteUrl(site.url) ) if featuredImage else site.image }}"/>
+    <meta property="og:image" content="{{ ( featuredImage | absoluteUrl(site.url) ) if featuredImage else site.image }}"/>
     <meta property="og:image:alt" content="{{ featuredImageAlt if featuredImageAlt else site.imageAlt }}"/>
     <meta property="og:image:type" content="{{ featureImageType if featuredImageType else site.imageType }}" />
     <meta property="og:image:width" content="{{ featureImageWidth if featuredImageWidth else site.imageWidth }}" />
