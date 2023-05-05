@@ -10,7 +10,7 @@ profileUrl: [{
   "url": "https://www.linkedin.com/in/katrina-clokie/",
   "icon": "linkedin"
 }]
-profilePhoto: /assets/images/profiles-speakers/katrina_clokie.jpg
+profilePhoto: /assets/images/speakers/katrina_clokie.jpg
 profilePhotoAltText: Katrina is pictured delivering a talk. She is wearing a lapel microphone and gesturing at the audience. She has a flushed complexion, her face is pink and there are dimples on her cheeks. She has brown hair tied in a ponytail with a side part. She is wearing a grey cardigan and a blue top that has cranes and flowers on it.
 event: NZTechRally2023
 talkTitle: Coming soon

@@ -20,14 +20,14 @@ profileUrl: [{
   "url": "https://www.instagram.com/adammichaelhoward/",
   "icon": "instagram"
 }]
-profilePhoto: /assets/images/profiles-speakers/adam_howard.jpg
+profilePhoto: /assets/images/speakers/adam_howard.jpg
 profilePhotoAltText: Adam's portrait. He's a white man in his thirties with a shaved head and a close cropped dark beard. He presents with a slight, knowing smile and the glimmer of a good idea in his blue eyes.
 event: NZTechRally2023
 talkTitle: Fostering a quality quality culture
 talkExcerpt: A model for shaping those principles and practices in engineering teams that can nurture a culture of quality engineering
 talkStartTime: 2023-07-07T14:00:00.000+12
 talkEndTime: 2023-07-07T14:30:00.000+12
-featuredImage: /assets/images/profiles-speakers/adam_howard_og.png
+featuredImage: /assets/images/speakers/adam_howard_og.png
 featuredImageAlt: "Fostering a quality quality culture by Adam Howard, an engineering manager. Join us to hear Adam and other speakers at NZ Tech Rally, 7th July, Wellington"
 featuredImageType: png
 featuredImageWidth: 1200
