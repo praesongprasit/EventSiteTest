@@ -2,7 +2,7 @@
 {% from 'partials/card-speaker.njk' import card %}
 
 {% set contentType = contentType %}
-{% set title = fullName %}
+{% set title = talkTitle + ' by ' + fullName %}
 {% set description = talkExcerpt %}
 {% set pageIcon = 'person' %}
 
@@ -14,7 +14,7 @@
 {% block pageHeader %}
   <div class="section-label section-label--header accent-border">
     <h1 class="section-title">
-      {{ title }} {% svg "person_outline" %}
+      {{ talkTitle }} {% svg "person_outline" %}
     </h1>
   </div>
 {% endblock %}
