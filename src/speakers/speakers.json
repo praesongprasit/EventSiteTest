@@ -1,5 +1,6 @@
 {
   "tags": "speaker",
   "contentType": "speaker",
-  "layout": "layouts/speaker.njk"
+  "layout": "layouts/speaker.njk",
+  "ogType": "article"
 }
