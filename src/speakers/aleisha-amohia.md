@@ -25,7 +25,7 @@ talkStartTime: 2023-07-07T15:00:00.000+12
 talkEndTime: 2023-07-07T15:30:00.000+12
 featuredImage: /assets/images/speakers/aleisha_amohia_og.png
 featuredImageAlt: "Communities, code, and Creative Commons by Aleisha Amohia, Koha Technical Lead at Catalyst IT. Join us to hear Aleisha and other speakers at NZ Tech Rally, 7th July, Wellington"
-featuredImageType: png
+featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
 ---

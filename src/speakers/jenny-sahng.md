@@ -19,7 +19,7 @@ talkStartTime: 2023-07-07T11:00:00.000+12:00
 talkEndTime: 2023-07-07T11:30:00.000+12:00
 featuredImage: /assets/images/speakers/jenny_sahng_og.png
 featuredImageAlt: "Engineering metrics, minus the creepiness by Jenny Sahng, Data & Founding team at Multitudes. Join us to hear Jenny and other speakers at NZ Tech Rally, 7th July, Wellington"
-featuredImageType: png
+featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
 ---

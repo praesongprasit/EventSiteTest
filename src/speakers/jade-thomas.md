@@ -19,7 +19,7 @@ talkStartTime: 2023-07-07T10:00:00.000+12:00
 talkEndTime: 2023-07-07T10:30:00.000+12:00
 featuredImage: /assets/images/speakers/jade_thomas_og.png
 featuredImageAlt: "The fine line between chaos and order by Jade Thomas, Engineering Manager Online Channels at BNZ. Join us to hear Jade and other speakers at NZ Tech Rally, 7th July, Wellington"
-featuredImageType: png
+featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
 ---
