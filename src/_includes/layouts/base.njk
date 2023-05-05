@@ -15,17 +15,14 @@
     </title>
     
     <meta itemprop="name" content="{{ title + ' – ' + site.title if title else site.title }}"/>
-    <meta name="title" content="{{ title + ' – ' + site.title if title else site.title }}"/>
-    <meta name="description" content="{{ description if description else site.description }}"/>
+    <meta name="title" property="og:title" content="{{ title + ' – ' + site.title if title else site.title }}"/>
+    <meta name="description" property="og:description" content="{{ description if description else site.description }}"/>
     <meta name="keywords" content="{{ keywords if keywords else site.keywords }}"/>
     <meta itemprop="image" content="{{ featuredImage | absoluteUrl(site.url) if featuredImage else site.logo }}"/>
-    <meta itemprop="url" content="{{ page.url | absoluteUrl(site.url) }}"/>
-    <meta itemprop="author" content="{{ site.author }}"/>
+    <meta itemprop="url" property="og:url" content="{{ page.url | absoluteUrl(site.url) }}"/>
+    <meta itemprop="author" property="og:author" content="{{ fullName if contentType === 'speaker' else site.title }}"/>
 
     <meta property="og:site_name" content="{{ site.title }}"/>
-    <meta property="og:url" content="{{ page.url | absoluteUrl(site.url) }}"/>
-    <meta property="og:title" content="{{ title + ' – ' + site.title if title else site.title }}"/>
-    <meta property="og:description" content="{{ description if description else site.description }}"/>
     <meta property="og:type" content="{{ ogType if ogType else 'website' }}"/>
 
     <meta property="og:image" content="{{ featuredImage | absoluteUrl(site.url) if featuredImage else site.image }}"/>
