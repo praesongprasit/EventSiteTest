@@ -25,9 +25,9 @@ talkStartTime: 2023-07-07T11:30:00.000+12:00
 talkEndTime: 2023-07-07T12:00:00.000+12:00
 featuredImage: /assets/images/profiles-speakers/allen_geer_og.png
 featuredImageAlt: "One DevOps does not git all by Allen Geer, Cloud Platforms and Engineering Practice Lead at Provoke. Join us to hear Allen and other speakers at NZ Tech Rally, 7th July, Wellington"
-featureImageType: png
-featureImageWidth: 1200
-featureImageHeight: 630
+featuredImageType: png
+featuredImageWidth: 1200
+featuredImageHeight: 630
 ---
 
 <p>New Zealand organisations use DevOps practices and culture in different ways.</p>

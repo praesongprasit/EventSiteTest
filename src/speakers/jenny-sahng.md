@@ -19,9 +19,9 @@ talkStartTime: 2023-07-07T11:00:00.000+12:00
 talkEndTime: 2023-07-07T11:30:00.000+12:00
 featuredImage: /assets/images/profiles-speakers/jenny_sahng_og.png
 featuredImageAlt: "Engineering metrics, minus the creepiness by Jenny Sahng, Data & Founding team at Multitudes. Join us to hear Jenny and other speakers at NZ Tech Rally, 7th July, Wellington"
-featureImageType: png
-featureImageWidth: 1200
-featureImageHeight: 630
+featuredImageType: png
+featuredImageWidth: 1200
+featuredImageHeight: 630
 ---
 
 <p>Engineering metrics that give teams and managers better visibility over productivity and team health have been gaining popularity. But we’ve also heard the horror stories: layoffs based on lines of code, Big Brother-esque monitoring of behaviour.</p>

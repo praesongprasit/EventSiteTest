@@ -46,9 +46,9 @@
 
     <meta property="og:image" content="{{ featuredImage | absoluteUrl(site.url) if featuredImage else site.image }}"/>
     <meta property="og:image:alt" content="{{ featuredImageAlt if featuredImageAlt else site.imageAlt }}"/>
-    <meta property="og:image:type" content="{{ featureImageType if featuredImageType else site.imageType }}" />
-    <meta property="og:image:width" content="{{ featureImageWidth if featuredImageWidth else site.imageWidth }}" />
-    <meta property="og:image:height" content="{{ featureImageHeight if featuredImageHeight else site.imageHeight }}" />
+    <meta property="og:image:type" content="{{ featuredImageType if featuredImageType else site.imageType }}" />
+    <meta property="og:image:width" content="{{ featuredImageWidth if featuredImageWidth else site.imageWidth }}" />
+    <meta property="og:image:height" content="{{ featuredImageHeight if featuredImageHeight else site.imageHeight }}" />
 
     <meta property="og:locale" content="en_NZ" />
     

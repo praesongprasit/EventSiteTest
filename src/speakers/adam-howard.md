@@ -29,9 +29,9 @@ talkStartTime: 2023-07-07T14:00:00.000+12
 talkEndTime: 2023-07-07T14:30:00.000+12
 featuredImage: /assets/images/profiles-speakers/adam_howard_og.png
 featuredImageAlt: "Fostering a quality quality culture by Adam Howard, an engineering manager. Join us to hear Adam and other speakers at NZ Tech Rally, 7th July, Wellington"
-featureImageType: png
-featureImageWidth: 1200
-featureImageHeight: 630
+featuredImageType: png
+featuredImageWidth: 1200
+featuredImageHeight: 630
 ---
 
 <p>Quality is a slippery notion, and not something that can simply be manufactured and measured. In that sense, it’s a lot like culture.</p>

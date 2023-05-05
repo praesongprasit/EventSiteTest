@@ -19,9 +19,9 @@ talkStartTime: 2023-07-07T09:10:00.000+12:00
 talkEndTime: 2023-07-07T10:00:00.000+12:00
 featuredImage:
 featuredImageAlt:
-featureImageType:
-featureImageWidth:
-featureImageHeight:
+featuredImageType:
+featuredImageWidth:
+featuredImageHeight:
 ---
 
 Coming soon.
