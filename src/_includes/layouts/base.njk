@@ -34,7 +34,7 @@
     <meta itemprop="name" content="{{ title + ' – ' + site.title if title else site.title }}"/>
     <meta name="title" content="{{ title + ' – ' + site.title if title else site.title }}"/>
     <meta name="description" content="{{ description if description else site.description }}"/>
-    <meta itemprop="image" content="{{ featureImage if featureImage else site.logo }}"/>
+    <meta itemprop="image" content="{{ featuredImage | absoluteUrl(site.url) if featuredImage else site.logo }}"/>
     <meta itemprop="url" content="{{ page.url | absoluteUrl(site.url) }}"/>
     <meta itemprop="author" content="{{ site.author }}"/>
 
@@ -44,7 +44,7 @@
     <meta property="og:description" content="{{ description if description else site.description }}"/>
     <meta property="og:url" content="{{ page.url | absoluteUrl(site.url) }}"/>
 
-    <meta property="og:image" content="{{ ( featuredImage | absoluteUrl(site.url) ) if featuredImage else site.image }}"/>
+    <meta property="og:image" content="{{ featuredImage | absoluteUrl(site.url) if featuredImage else site.image }}"/>
     <meta property="og:image:alt" content="{{ featuredImageAlt if featuredImageAlt else site.imageAlt }}"/>
     <meta property="og:image:type" content="{{ featureImageType if featuredImageType else site.imageType }}" />
     <meta property="og:image:width" content="{{ featureImageWidth if featuredImageWidth else site.imageWidth }}" />
