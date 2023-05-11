@@ -1,6 +1,7 @@
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
+    "dateModified": "{{ page.date.toISOString() }}",
     "@type": "Organization",
     "url": "{{ '/about' | absoluteUrl(site.url) }}",
     "name": "{{ title + " – " + site.title if title else site.title }}",
