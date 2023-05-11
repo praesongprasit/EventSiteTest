@@ -250,9 +250,16 @@ tbody tr:nth-child(odd) {
   color: var(--colour-button-hover);
 }
 
+.button-skip-link,
+.button-skip-link:visited,
+.button-skip-link:visited:hover {
+  color: var(--colour-black);
+}
+
 .button-skip-link {
   left: 12px;
   top: 12px;
+  opacity: 0;
   position: absolute;
   transform: translateY(calc(-100% - 12px));
   transition: transform 0.1s;
@@ -260,6 +267,7 @@ tbody tr:nth-child(odd) {
 }
 
 .button-skip-link:focus {
+  opacity: 100%;
   transform: translateY(0%);
 }
 
