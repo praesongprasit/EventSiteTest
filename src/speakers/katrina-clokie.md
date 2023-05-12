@@ -13,8 +13,8 @@ profileUrl: [{
 profilePhoto: /assets/images/speakers/katrina_clokie.jpg
 profilePhotoAltText: Katrina is pictured delivering a talk. She is wearing a lapel microphone and gesturing at the audience. She has a flushed complexion, her face is pink and there are dimples on her cheeks. She has brown hair tied in a ponytail with a side part. She is wearing a grey cardigan and a blue top that has cranes and flowers on it.
 event: NZTechRally2023
-talkTitle: Coming soon
-talkExcerpt: Coming soon
+talkTitle: "Kiwiana & Code: What is unique about engineering culture in Aotearoa New Zealand?"
+talkExcerpt: "A reflection on the universal foundations of good engineering culture: people, leadership, organisational design, problem scope, technology constraints, and measurement."
 talkStartTime: 2023-07-07T09:10:00.000+12:00
 talkEndTime: 2023-07-07T10:00:00.000+12:00
 featuredImage:
@@ -24,4 +24,6 @@ featuredImageWidth: 1200
 featuredImageHeight: 630
 ---
 
-Coming soon.
+<p>Many New Zealand organisations base their software engineering aspirations on materials shared by international thought leaders. The practices and advice that come from overseas do not always translate successfully in our teams.</p>
+
+<p>This keynote is a reflection on the universal foundations of good engineering culture: people, leadership, organisational design, problem scope, technology constraints, and measurement. In each pillar we will explore what is unique to New Zealand and what differentiates good engineering culture for Kiwis.</p>
