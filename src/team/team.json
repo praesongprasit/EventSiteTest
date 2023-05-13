@@ -1,5 +1,7 @@
 {
   "tags": "team",
   "contentType": "team",
+  "ogType": "person",
+  "worksFor": "NZ Tech Rally",
   "permalink": false
 }
