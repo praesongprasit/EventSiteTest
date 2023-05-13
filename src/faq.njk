@@ -1,0 +1,282 @@
+---
+tags: page
+title: Frequently asked questions
+pageIcon: info
+description: Up-to-date list of things people of asked us about NZ Tech Rally 2023.
+eleventyExcludeFromCollections: true
+excludefromSearch: true
+---
+{% extends 'layouts/base.njk' %}
+
+{% block pageHeader %}
+  <div class="section-label section-label--header accent-border">
+    <h1 class="section-title">
+      {{ title }} {% svg pageIcon %}
+    </h1>
+  </div>
+
+  <div class="card accent-border">
+    {{ description }}
+  </div>
+{% endblock %}
+
+{% block content %}
+  <main id="mainContent">
+    <section>
+      <div class="section-label accent-border">
+        <h2 class="section-title">Page contents</h2>
+      </div>
+
+      <div class="card accent-border">
+        <ul>
+          <li>
+            <a href="#planning">Planning to attend</a>
+            <ul>
+              <li><a href="#WhereIsConference">Where is the conference?</a></li>
+              <li><a href="#HowMany">How many people will be there?</a></li>
+              <li><a href="#HowMuch">How much does a ticket cost, and when do you stop selling?</a></li>
+              <li><a href="#HowToBuy">How do I buy a ticket?</a></li>
+              <li><a href="#PaymentType">What type of payment do you accept?</a></li>
+              <li><a href="#NoRefund">I can’t attend anymore. Do I get a refund?</a></li>
+              <li><a href="#food">Is food included?</a></li>
+              <li><a href="#dietaryReq">What dietary needs do you cater for?</a></li>
+              <li><a href="#accessNeeds">What access needs do you accommodate?</a></li>
+              <li><a href="#NoOnline">Can I attend the conference online?</a></li>
+              <li><a href="#recordings">Do you publish talk recordings afterwards?</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#conferenceDay">Conference day</a>
+            <ul>
+              <li><a href="#NoPhotos">I don’t want my photos taken by the official photographer. How do I let them know?</a></li>
+              <li><a href="#FeelUnsafe">I feel unsafe or have witnessed someone being harassed. What do I do?</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-label section-label--header accent-border">
+        <h2 id="planning" class="section-title">
+          Planning to attend
+        </h2>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 id="WhereIsConference" class="section-title">
+          Where is the conference?
+        </h3>
+      </div>
+
+      <div class="card accent-border">
+        <p>
+          Room RHLT1<br>
+          <a href="https://goo.gl/maps/SVmz9Mq6xLK5DMrXA" rel="external">Rutherford House</a><br>
+          <a href="https://www.wgtn.ac.nz/about/campuses-facilities/campuses/pipitea/pipitea-map.pdf" rel="external">Pipitea Campus</a><br>
+          Victoria University of Wellington<br>
+          New Zealand
+        </p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 id="HowMany" class="section-title">How many people will be there?</h3>
+      </div>
+
+      <div class="card accent-border">
+        <p>
+          Our venue caters for up to 300 people, so we hope our final number will be close to that.
+        </p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 id="HowMuch" class="section-title">How much does a ticket cost, and when do you stop selling?</h3>
+      </div>
+
+      <div class="card accent-border">
+        <p>
+          $110 early bird ticket closes 31st May 2023<br>
+          $150 standard ticket closes 30th June 2023
+        </p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 id="HowToBuy" class="section-title">How do I buy a ticket?</h3>
+      </div>
+
+      <div class="card accent-border">
+        <p>
+          We’re selling tickets on good old Lil Regie (built in NZ since forever). You can purchase multiple tickets for different people at once!
+        </p>
+        <p>
+          Please head over to our <a rel="external" href="{{ ticketUrl }}">ticket sale page</a> to make your purchase. If you get a 404, try opening the link in incognito mode.
+        </p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 id="PaymentType" class="section-title">What type of payment do you accept?</h3>
+      </div>
+
+      <div class="card accent-border">
+        <p>
+          We only accept debit or credit card payments on Stripe. We do not have the capacity to manage manual bank transfers right now.
+        </p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 id="NoRefund" class="section-title">I can’t attend anymore. Do I get a refund?</h3>
+      </div>
+
+      <div class="card accent-border">
+        <p>
+          No, our tickets are not refundable, but you can transfer them to someone else. More information on our <a href="{{ '/sales-policy' | url }}">ticket sales policy</a>.
+        </p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 id="food" class="section-title">Is food included?</h3>
+      </div>
+
+      <div class="card accent-border">
+        <p>
+          Yes it is! We will provide morning tea, lunch, and afternoon tea.
+        </p>
+        <p>Our co-founders are serious foodies. Please rest assured that the food will be tasty.</p>
+        <p>
+          If we have sponsors, we’ll seriously look at hiring a coffee cart too.
+        </p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 id="dietaryReq" class="section-title">What dietary needs do you cater for?</h3>
+      </div>
+
+      <div class="card accent-border">
+        <p>
+          Our vendor is a seasoned events caterer and can cater for various dietary requirements.
+        </p>
+
+        <p>
+          Please specify your preferences during registration, and we will try our best to meet your needs.
+        </p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 id="accessNeeds" class="section-title">What access needs do you accommodate?</h3>
+      </div>
+
+      <div class="card accent-border">
+        <p>
+          Glad you asked; this has been a large part of our focus.
+        </p>
+        <p>
+          If you’d like to help us make the event more inclusive and welcoming, please send prospective sponsors to our <a href="https://nztechrally.com/sponsor/">Sponsor’s information page</a>!
+        </p>
+        <p>
+          By default, we’re providing these accommodations:
+        </p>
+
+        <h4>Physical access</h4>
+        <p>
+          First, we picked this venue due to its unparalleled access to public transport and reasonable wheelchair access.
+        </p>
+        <p>
+          The main entrance is on the ground floor of Rutherford House, with no stairs. The catering is done on the mezzanine on the level above, which is accessible by a nearby elevator.
+        </p>
+        
+        <h4>NZ Sign Language</h4>
+        <p>
+          We’re also excited to work with iDeaf to hire NZSL interpreters for the whole event!
+        </p>
+        <p>
+          They will be positioned on stage with the speakers and filmed in our video recordings.
+        </p>
+
+        <h4>Live caption</h4>
+        <p>
+          As for live captioning, we’re dedicating a screen to it. 
+        </p>
+        <p>
+          Right now, we’re planning to use an automated live captioning tool called <a rel="external" href="https://app.tactiq.io/">Tactiq</a>.
+        </p>
+        <p>
+          We know it’s not very accurate. Once we get more funding from sponsors, we are keen to hire a professional live captioning service instead.
+        </p>
+
+        <h4>Other</h4>
+        <p>
+          If you require other accommodations, please let us know when you’re purchasing a ticket or email <a href="mailto:registration@nztechrally.com">registration@nztechrally.com</a> if you have any questions.
+        </p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 id="NoOnline" class="section-title">Can I attend the conference online?</h3>
+      </div>
+
+      <div class="card accent-border">
+        <p>
+          No, we do not have the capacity to manage a hybrid experience this year. But we are seriously researching it for our following events.
+        </p>
+        <p>
+          We understand not everyone is comfortable with large crowds or can attend in person. We will work hard to slowly make our events more inclusive as we gain more capacity and experience.
+        </p>
+        <p>
+          Actually, if you have experienced hosting a virtual or hybrid event, we’d love to hear from you. Please get in touch by emailing <a href="mailto:volunteer@nztechrally.com">volunteer@nztechrally.com</a>.
+        </p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 id="recordings" class="section-title">Do you publish talk recordings afterwards?</h3>
+      </div>
+
+      <div class="card accent-border">
+        <p>
+          Yes, we do!
+        </p>
+        <p>
+          One of our primary purposes is to grow our community. It’s vital that our content is made available to as many people as we can. 
+        </p>
+        <p>
+          We will endeavour to post all of the recordings on our <a rel="external" href="{{ site.youtube }}">Youtube channel</a> for free within a month after the event.
+        </p>
+        <p>
+          And yes, there will be video captions.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-label section-label--header accent-border">
+        <h2 id="conferenceDay" class="section-title">
+          Conference day
+        </h2>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 id="NoPhotos" class="section-title">I don’t want my photos taken by the official photographer. How do I let them know?</h3>
+      </div>
+
+      <div class="card accent-border">
+        <p>
+          We will provide you with a sticker during registration to put on your t-shirt/top. This sticker will help our photographer identify that you do not wish to be photographed.
+        </p>
+        <p>
+          If you do find yourself in a photograph on our website, then don't hesitate to get in touch with us at <a href="mailto:info@nztechrally.com">info@nztechrally.com</a>. We will take the photograph down and delete it from our collection.
+        </p>
+      </div>
+
+      <div class="section-label accent-border">
+        <h3 id="FeelUnsafe" class="section-title">I feel unsafe or have witnessed someone being harassed. What do I do?</h3>
+      </div>
+
+      <div class="card accent-border">
+        <p>
+          We take our <a href="{{ '/code-of-conduct' | url }}">code of conduct</a> seriously and do not tolerate any harassment. 
+        </p>
+        <p>
+          Please inform one of our staff immediately.
+        </p>
+      </div>
+    </section>
+  </main>
+{% endblock %}

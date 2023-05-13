@@ -3,7 +3,7 @@
 {% endcss %}
 
 <footer class="page-footer">
-  <ul class="footer-social" aria-label="Social links">
+  <ul class="footer-link-list" aria-label="Social links">
     <li class="footer-social__item">
       <a rel="external" href="{{ site.linkedin }}" class="footer-social__link">
         {% svg "linkedin" %}
@@ -42,13 +42,26 @@
     </li>
   </ul>
 
-  <div class="content-block footnotes" aira-label="Site footnotes">
-    <p>
-      <a href="{{ '/volunteer' | url }}">Volunteer with us</a>, 
-      <a href="{{ '/code-of-conduct' | url }}">Code of conduct</a>, 
-      <a href="{{ '/sales-policy' | url }}">ticket sales policy</a>, and
-      <a href="{{ '/privacy-policy' | url }}">privacy policy</a>
-    </p>
+  <div class="footer-link-list">
+    <nav aria-labelledby="FooterOtherpagesLabel">
+      <p id="FooterOtherpagesLabel">Other useful pages:</p>
+      <ul>
+        <li><a href="{{ '/volunteer' | url }}">Volunteer with us</a></li> 
+        <li><a href="{{ '/faq' | url }}">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <nav aria-labelledby="FooterPoliciesLabel">
+      <p id="FooterPoliciesLabel">Our policies:</p>
+      <ul>
+        <li><a href="{{ '/sales-policy' | url }}">Ticket sales policy</a></li>
+        <li><a href="{{ '/code-of-conduct' | url }}">Code of conduct</a></li>
+        <li><a href="{{ '/privacy-policy' | url }}">Privacy policy</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="footnotes" aira-label="Site footnotes">
     <p>
       Last updated on <time datetime="{{ page.date }}">{{ page.date | readableDate }}</time>.
     </p>

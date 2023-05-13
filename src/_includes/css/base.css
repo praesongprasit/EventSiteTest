@@ -496,6 +496,7 @@ section {
 
 .columns {
   display: grid;
+  row-gap: 1.25rem;
 }
 
 .hero img {
@@ -517,10 +518,6 @@ section {
 
 .hero--schedule {
   margin-bottom: var(--spacing-xlarge);
-}
-
-.columns {
-  row-gap: 1.25rem;
 }
 
 ul.column-one {
@@ -599,16 +596,20 @@ ul.column-one {
   margin-bottom: 0;
 }
 
-.card ul:last-child {
-  margin-bottom: 0;
-}
-
 .card:not(.profile-card) + .card:not(.profile-card) {
   margin-top: 0.5rem;
 }
 
 .card p:last-child {
   margin-bottom: 0;
+}
+
+.card ul:last-child {
+  margin-bottom: 0;
+}
+
+.card ul ul {
+  margin-top: 0.5rem;
 }
 
 .section-label + .card {
