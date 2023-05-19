@@ -1,7 +1,6 @@
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "dateModified": "{{ page.date.toISOString() }}",
     "@type": "Organization",
     "url": "{{ '/about' | absoluteUrl(site.url) }}",
     "name": "{{ title + " – " + site.title if title else site.title }}",
@@ -22,8 +21,8 @@
       "height": "{{ featuredImageHeight if featuredImageHeight else site.imageHeight }}"
     },
     "event": {
-        {%- include 'partials/schema-nztr2023.njk' -%}
-      }
+      {%- include 'partials/schema-nztr2023.njk' -%}
     }
   }
+}
 </script>
