@@ -34,12 +34,9 @@ npm start
 
 3. Open the new svg file and make these edits:
 
-   - Set any colour to `currentColor`, and uncoloured background to
-     `transparent`
-   - Ensure `<svg>` tag has these attribute settingd
-     `class="icon {{ class }}" aria-hidden="{{ false if title else true }}"`
-   - Add `{% if title %}<title>{{ title }}</title>{% endif %}` as first child of
-     `<svg>`
+   - Set any colour to `currentColor`, and uncoloured background to `transparent`
+   - Ensure `<svg>` tag has these attribute settingd `class="icon {{ class }}" aria-hidden="{{ false if title else true }}"`
+   - Add `{% if title %}<title>{{ title }}</title>{% endif %}` as first child of `<svg>`
 
 4. To use in template files, include icons you've just added like this:
 
