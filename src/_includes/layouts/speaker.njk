@@ -7,14 +7,15 @@
 {% set pageIcon = 'person' %}
 
 {%- css %}
-  {% include "css/components/speaker-links.css" %}
-  {% include "css/components/profile-card.css" %}
+{% include "css/components/speaker-links.css" %}
+{% include "css/components/profile-card.css" %}
 {% endcss %}
 
 {% block pageHeader %}
   <div class="section-label section-label--header accent-border">
     <h1 class="section-title">
-      {{ fullName }} {% svg "person_outline" %}
+      {{ fullName }}
+      {% svg "person_outline" %}
     </h1>
   </div>
 {% endblock %}
@@ -24,14 +25,14 @@
     <article class="columns columns-thirds">
       <header class="column-one card profile-card accent-border">
         <picture class="profile-card__picture">
-          <source srcset="{{ profilePhoto }}" media="(orientation: portrait)" />
-          <img src="{{ profilePhoto }}" alt="{{ profilePhotoAltText }}" />
+          <source srcset="{{ profilePhoto }}" media="(orientation: portrait)"/>
+          <img src="{{ profilePhoto }}" alt="{{ profilePhotoAltText }}"/>
         </picture>
 
         <div class="profile-card__info">
-          <p class="card-title profile-card__name">
+          <h2 class="card-title profile-card__name">
             {{ fullName }}
-          </p>
+          </h2>
 
           <p>
             {{ jobTitle }}
@@ -62,9 +63,10 @@
 
     <article>
       <div class="section-label section-label--header accent-border">
-        <h1 class="section-title">
-          {{ talkTitle }} {% svg "chat" %}
-        </h1>
+        <h2 class="section-title">
+          {{ talkTitle }}
+          {% svg "chat" %}
+        </h2>
       </div>
 
       <div class="columns columns-half">
@@ -91,7 +93,7 @@
             <p>
               {%if talkStartTime %}
                 <time datetime="{{ talkStartTime }}">{{ talkStartTime | readableDate }}</time><br>
-                  <time datetime="{{ talkStartTime }}">{{ talkStartTime | readableTime }}</time> - <time datetime="{{ talkEndTime }}">{{ talkEndTime | readableTime }}</time>
+                <time datetime="{{ talkStartTime }}">{{ talkStartTime | readableTime }}</time> - <time datetime="{{ talkEndTime }}">{{ talkEndTime | readableTime }}</time>
               {% else %}
                 Coming soon
               {% endif %}
