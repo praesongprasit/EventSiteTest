@@ -12,113 +12,111 @@
 {% endcss %}
 
 {% block pageHeader %}
-  <div class="section-label section-label--header accent-border">
-    <h1 class="section-title">
-      {{ fullName }}
-      {% svg "person_outline" %}
-    </h1>
-  </div>
+  <h1 class="section-title">
+    {{ fullName }}
+    {% svg "person_outline" %}
+  </h1>
 {% endblock %}
 
 {% block content %}
-  <main id="mainContent">
-    <article class="columns columns-thirds">
-      <header class="column-one card profile-card accent-border">
-        <picture class="profile-card__picture">
-          <source srcset="{{ profilePhoto }}" media="(orientation: portrait)"/>
-          <img src="{{ profilePhoto }}" alt="{{ profilePhotoAltText }}"/>
-        </picture>
+  <article class="columns columns-thirds">
+    <header class="column-one card profile-card accent-border">
+      <picture class="profile-card__picture">
+        <source srcset="{{ profilePhoto }}" media="(orientation: portrait)">
+        <img src="{{ profilePhoto }}" alt="{{ profilePhotoAltText }}">
+      </picture>
 
-        <div class="profile-card__info">
-          <h2 class="card-title profile-card__name">
-            {{ fullName }}
-          </h2>
+      <div class="profile-card__info">
+        <h2 class="card-title profile-card__name">
+          {{ fullName }}
+        </h2>
 
+        <p>
+          {{ jobTitle }}
+          {% if organisation %}
+            @ {{ organisation }}
+          {% endif %}
+        </p>
+      </div>
+    </header>
+
+    <div class="column-two card">
+      {{ bio | safe }}
+    </div>
+
+    <aside class="column-three">
+      <ul class="speaker-links">
+        {% for profile in profileUrl %}
+          <li class="accent-border speaker-link__item">
+            <a class="speaker-link" href="{{ profile.url }}" rel="external">
+              {{ profile.name }}
+              {% svg profile.icon %}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </aside>
+  </article>
+
+  <article>
+    <div class="section-label section-label--header accent-border">
+      <h2 class="section-title">
+        {{ talkTitle }}
+        {% svg "chat" %}
+      </h2>
+    </div>
+
+    <div class="columns columns-half">
+      <div class="column-one">
+        <div class="section-label accent-border">
+          <h3 class="section-title">
+            About {% svg "info" %}
+          </h3>
+        </div>
+
+        <div class="card accent-border">
+          {{ content | safe }}
+        </div>
+      </div>
+
+      <div class="column-two">
+        <div class="section-label accent-border">
+          <h3 class="section-title">
+            When {% svg "calendar" %}
+          </h3>
+        </div>
+
+        <div class="card accent-border">
           <p>
-            {{ jobTitle }}
-            {% if organisation %}
-              @ {{ organisation }}
+            {%if talkStartTime %}
+              <time datetime="{{ talkStartTime | iso8601Date }}">
+                {{ talkStartTime | readableDate }}<br>
+                {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }}
+              </time>
+            {% else %}
+              Coming soon
             {% endif %}
           </p>
         </div>
-      </header>
 
-      <div class="column-two card">
-        {{ bio | safe }}
-      </div>
-
-      <aside class="column-three">
-        <ul class="speaker-links">
-          {% for profile in profileUrl %}
-            <li class="accent-border speaker-link__item">
-              <a class="speaker-link" href="{{ profile.url }}" rel="external">
-                {{ profile.name }}
-                {% svg profile.icon %}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </aside>
-    </article>
-
-    <article>
-      <div class="section-label section-label--header accent-border">
-        <h2 class="section-title">
-          {{ talkTitle }}
-          {% svg "chat" %}
-        </h2>
-      </div>
-
-      <div class="columns columns-half">
-        <div class="column-one">
+        <section>
           <div class="section-label accent-border">
             <h3 class="section-title">
-              About {% svg "info" %}
-            </h3>
-          </div>
-
-          <div class="card accent-border">
-            {{ content | safe }}
-          </div>
-        </div>
-
-        <div class="column-two">
-          <div class="section-label accent-border">
-            <h3 class="section-title">
-              When {% svg "calendar" %}
+              Where {% svg "location" %}
             </h3>
           </div>
 
           <div class="card accent-border">
             <p>
-              {%if talkStartTime %}
-                <time datetime="{{ talkStartTime }}">{{ talkStartTime | readableDate }}</time><br>
-                <time datetime="{{ talkStartTime }}">{{ talkStartTime | readableTime }}</time> - <time datetime="{{ talkEndTime }}">{{ talkEndTime | readableTime }}</time>
-              {% else %}
-                Coming soon
-              {% endif %}
+              Room RHLT1<br>
+              <a href="https://goo.gl/maps/SVmz9Mq6xLK5DMrXA" rel="external">Rutherford House</a><br>
+              <a href="https://www.wgtn.ac.nz/about/campuses-facilities/campuses/pipitea/pipitea-map.pdf" rel="external">Pipitea Campus</a><br>
+              Victoria University of Wellington<br>
+              New Zealand
             </p>
           </div>
-
-          <section>
-            <div class="section-label accent-border">
-              <h3 class="section-title">
-                Where {% svg "location" %}
-              </h3>
-            </div>
-
-            <div class="card accent-border">
-              <p>
-                Room RHLT1<br>
-                <a href="https://goo.gl/maps/SVmz9Mq6xLK5DMrXA" rel="external">Rutherford House</a><br>
-                <a href="https://www.wgtn.ac.nz/about/campuses-facilities/campuses/pipitea/pipitea-map.pdf" rel="external">Pipitea Campus</a><br>
-                Victoria University of Wellington<br>
-                New Zealand
-              </p>
-            </div>
-          </section>
-        </div>
+        </section>
       </div>
-    </article>
-  </main>
+    </div>
+  </article>
 {% endblock %}

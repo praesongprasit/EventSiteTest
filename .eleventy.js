@@ -108,6 +108,10 @@ module.exports = function (eleventyConfig) {
       .toFormat("yyyy-LL-dd");
   });
 
+  eleventyConfig.addFilter("iso8601Date", (dateObj) => {
+    return dateObj.toISOString();
+  });
+
   eleventyConfig.addCollection("speakers", (collection) => {
     return collection.getFilteredByTag("speaker");
   });

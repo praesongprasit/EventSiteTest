@@ -10,11 +10,11 @@ excludeNewsletterSignup: true
 {% extends 'layouts/base.njk' %}
 
 {% block pageHeader %}
-  <div class="section-label section-label--header accent-border">
-    <h1 class="section-title">
-      {{ title }} {% if pageIcon %}{% svg pageIcon %}{% endif %}
-    </h1>
-  </div>
+  <h1 class="section-title">
+    {{ title }}
+    {% if pageIcon %}{% svg pageIcon %}
+    {% endif %}
+  </h1>
 
   <div class="card accent-border">
     <p class="header-description">{{ description }}</p>

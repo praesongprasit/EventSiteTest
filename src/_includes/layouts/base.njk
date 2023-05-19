@@ -79,12 +79,15 @@
       </div>
     </header>
 
-    <div class="page-container page-wrapper">
-      {% block pageHeader %}{% endblock %}
+    <main id="mainContent" class="page-container page-wrapper">
+      <header class="section-label section-label--header accent-border">
+        {% block pageHeader %}{% endblock %}
+      </header>
+
       {% block content %}{% endblock %}
 
       {% include 'partials/newsletter-signup.njk' %}
-    </div>
+    </main>
   </div>
 
   {%- include 'partials/footer.njk' -%}

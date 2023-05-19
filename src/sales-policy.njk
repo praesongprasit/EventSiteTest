@@ -9,35 +9,34 @@ excludefromSearch: true
 {% extends 'layouts/base.njk' %}
 
 {% block pageHeader %}
-  <div class="section-label section-label--header accent-border">
-    <h1 class="section-title">
-      {{ title }} {% svg pageIcon %}
-    </h1>
-  </div>
+  <h1 class="section-title">
+    {{ title }}
+    {% svg pageIcon %}
+  </h1>
 {% endblock %}
 
 {% block content %}
-  <main id="mainContent">
-    <section>
-      <div class="section-label accent-border">
-        <h2 class="section-title">No ticket refund</h2>
-      </div>
+  <section>
+    <div class="section-label accent-border">
+      <h2 class="section-title">No ticket refund</h2>
+    </div>
 
-      <div class="card accent-border">
-        <p>
-          We are sorry, but we cannot offer refunds on tickets sold.
-        </p>
-        <p>
-          However, you can transfer your ticket to someone else up to 48 hours before the event.
-        </p>
-        <p>
-          If you wish to do this, please email us at <a href="mailto:registration@nztechrally.com">registration@nztechrally.com</a> with:
-        </p>
-        <ol>
-          <li><strong>Name</strong> and <strong>email</strong> you used to purchase the ticket</li>
-          <li><strong>Name</strong> and <strong>email</strong> of the person you wish to transfer your ticket to</li>
-        </ol>
-      </div>
-    </section>
-  </main>
+    <div class="card accent-border">
+      <p>
+        We are sorry, but we cannot offer refunds on tickets sold.
+      </p>
+      <p>
+        However, you can transfer your ticket to someone else up to 48 hours before the event.
+      </p>
+      <p>
+        If you wish to do this, please email us at <a href="mailto:registration@nztechrally.com">registration@nztechrally.com</a> with:
+      </p>
+      <ol>
+        <li>
+          <strong>Name</strong> and <strong>email</strong> you used to purchase the ticket</li>
+        <li>
+          <strong>Name</strong> and <strong>email</strong> of the person you wish to transfer your ticket to</li>
+      </ol>
+    </div>
+  </section>
 {% endblock %}

@@ -1,44 +1,39 @@
 {% if excludeNewsletterSignup != true %}
 
-{%- css %}
+  {%- css %}
   {% include "css/components/newsletter-signup.css" %}
-{% endcss %}
+  {% endcss %}
 
-<section>
-  <div class="section-label section-label--header accent-border">
-    <h2 class="section-title">
-      Stay tuned {% svg "email_notification" %}
-    </h2>
-  </div>
-
-  <div class="text-indent">
-    <p>Receive email updates about the NZ Tech Rally related events, when tickets goes on sale, and more.</p>
-    <p>Oh, and no, we do not share your email with our sponsors and vendors. You can also unsubscribe any time.</p>
-  </div>
-
-  <form
-    id="newsletterSignup"
-    class="newsletter-signup accent-border"
-    title="NZ Tech Rally news signup"
-    name="newsletter"
-    method="POST"
-    data-netlify="true"
-    action="/newsletter-confirmation/"
-  >
-    <div class="section-label accent-border">
-      <label for="newsletterSignupEmailField" class="section-title newsletter-signup__label">
-        Your email {% svg "email" %}
-      </label>
+  <aside>
+    <div class="section-label section-label--header accent-border">
+      <h2 class="section-title">
+        Stay tuned {% svg "email_notification" %}
+      </h2>
     </div>
-    
-    <input
-      id="newsletterSignupEmailField"
-      class="newsletter-signup__input"
-      type="email"
-      name="email"
-    />
-    
-    <button type="submit" class="button newsletter-signup__button">Subscribe</button>
-  </form>
-</section>
+
+    <div class="text-indent">
+      <p>Receive email updates about the NZ Tech Rally related events, when tickets goes on sale, and more.</p>
+      <p>Oh, and no, we do not share your email with our sponsors and vendors. You can also unsubscribe any time.</p>
+    </div>
+
+    <form
+      id="newsletterSignup"
+      class="newsletter-signup accent-border"
+      title="NZ Tech Rally news signup"
+      name="newsletter"
+      method="POST"
+      data-netlify="true"
+      action="/newsletter-confirmation/"
+    >
+      <div class="section-label accent-border">
+        <label for="newsletterSignupEmailField" class="section-title newsletter-signup__label">
+        Your email {% svg "email" %}
+        </label>
+      </div>
+
+      <input type="email" name="email" id="newsletterSignupEmailField" class="newsletter-signup__input">
+
+      <button type="submit" class="button newsletter-signup__button">Subscribe</button>
+    </form>
+  </aside>
 {% endif %}
