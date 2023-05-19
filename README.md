@@ -2,19 +2,19 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cb3dfa2a-b76b-4944-b73b-845697e7d3cc/deploy-status)](https://app.netlify.com/sites/nztechrally/deploys)
 
-Website for NZ Tech Rally, built with [Eleventy](www.11ty.dev/), and auto deploy on commit via Netlify.
+Website for NZ Tech Rally, built with [Eleventy](www.11ty.dev/), and auto deploy
+on commit via Netlify.
 
 ## Project setup
 
 ### Prerequisites
 
-- Node (installed globally)
-- Yarn (installed globally)
+- Node v20+ (installed globally)
 
 ### Install dependencies
 
 ```shell
-yarn install
+npm i
 ```
 
 ## Development
@@ -22,7 +22,7 @@ yarn install
 Build and start local server. Keep this running while working onthe project.
 
 ```shell
-yarn start
+npm start
 ```
 
 ### Adding and using an icon
@@ -35,9 +35,12 @@ yarn start
 
 3. Open the new svg file and make these edits:
 
-   - Set any colour to `currentColor`, and uncoloured background to `transparent`
-   - Ensure `<svg>` tag has these attribute settingd `class="icon {{ class }}" aria-hidden="{{ false if title else true }}"`
-   - Add `{% if title %}<title>{{ title }}</title>{% endif %}` as first child of `<svg>`
+   - Set any colour to `currentColor`, and uncoloured background to
+     `transparent`
+   - Ensure `<svg>` tag has these attribute settingd
+     `class="icon {{ class }}" aria-hidden="{{ false if title else true }}"`
+   - Add `{% if title %}<title>{{ title }}</title>{% endif %}` as first child of
+     `<svg>`
 
 4. To use in template files, include icons you've just added like this:
 
