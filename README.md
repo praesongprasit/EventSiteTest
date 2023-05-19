@@ -8,13 +8,12 @@ Website for NZ Tech Rally, built with [Eleventy](www.11ty.dev/), and auto deploy
 
 ### Prerequisites
 
-- Node (installed globally)
-- Yarn (installed globally)
+- Node v20+ (installed globally)
 
 ### Install dependencies
 
 ```shell
-yarn install
+npm i
 ```
 
 ## Development
@@ -22,7 +21,7 @@ yarn install
 Build and start local server. Keep this running while working onthe project.
 
 ```shell
-yarn start
+npm start
 ```
 
 ### Adding and using an icon
