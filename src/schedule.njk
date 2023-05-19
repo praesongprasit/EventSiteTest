@@ -12,7 +12,8 @@ eleventyNavigation:
 {% block pageHeader %}
   <div class="section-label section-label--header accent-border">
     <h1 class="section-title">
-      {{ title }} {% svg pageIcon %}
+      {{ title }}
+      {% svg pageIcon %}
     </h1>
   </div>
 {% endblock %}
@@ -23,8 +24,7 @@ eleventyNavigation:
       <picture class="column-two section-label hero hero--schedule">
         <img 
           src="{{ '/assets/images/hero-extra_2.jpg' | url }}"
-          alt=""
-        />
+          alt="" />
       </picture>
 
       <ul class="column-one">

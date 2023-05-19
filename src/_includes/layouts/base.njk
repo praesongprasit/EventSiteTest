@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-NZ">
   <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     {% if excludefromSearch %}
       <meta name="robots" content="noindex">
@@ -13,44 +13,44 @@
     <title>
       {{ title + " – " + site.title if title else site.title }}
     </title>
-    
-    <meta itemprop="name" content="{{ title + ' – ' + site.title if title else site.title }}"/>
-    <meta name="title" property="og:title" content="{{ title + ' – ' + site.title if title else site.title }}"/>
-    <meta name="description" property="og:description" content="{{ description if description else site.description }}"/>
-    <meta itemprop="image" content="{{ featuredImage | absoluteUrl(site.url) if featuredImage else site.logo }}"/>
-    <meta itemprop="url" property="og:url" content="{{ page.url | absoluteUrl(site.url) }}"/>
-    <meta itemprop="author" property="og:author" content="{{ fullName if contentType === 'speaker' else site.title }}"/>
 
-    <meta property="og:site_name" content="{{ site.title }}"/>
-    <meta property="og:type" content="{{ ogType if ogType else 'website' }}"/>
+    <meta itemprop="name" content="{{ title + ' – ' + site.title if title else site.title }}" />
+    <meta name="title" property="og:title" content="{{ title + ' – ' + site.title if title else site.title }}" />
+    <meta name="description" property="og:description" content="{{ description if description else site.description }}" />
+    <meta itemprop="image" content="{{ featuredImage | absoluteUrl(site.url) if featuredImage else site.logo }}" />
+    <meta itemprop="url" property="og:url" content="{{ page.url | absoluteUrl(site.url) }}" />
+    <meta itemprop="author" property="og:author" content="{{ fullName if contentType === 'speaker' else site.title }}" />
 
-    <meta property="og:image" content="{{ featuredImage | absoluteUrl(site.url) if featuredImage else site.image }}"/>
-    <meta property="og:image:alt" content="{{ featuredImageAlt if featuredImageAlt else site.imageAlt }}"/>
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:type" content="{{ ogType if ogType else 'website' }}" />
+
+    <meta property="og:image" content="{{ featuredImage | absoluteUrl(site.url) if featuredImage else site.image }}" />
+    <meta property="og:image:alt" content="{{ featuredImageAlt if featuredImageAlt else site.imageAlt }}" />
     <meta property="og:image:type" content="{{ featuredImageType if featuredImageType else site.imageType }}" />
     <meta property="og:image:width" content="{{ featuredImageWidth if featuredImageWidth else site.imageWidth }}" />
     <meta property="og:image:height" content="{{ featuredImageHeight if featuredImageHeight else site.imageHeight }}" />
 
     <meta property="og:locale" content="en_NZ" />
-    
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:dnt" content="on"/>
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
     <meta name="twitter:creator" content="{{ site.twitterHandle }}" />
-  
-    <meta property="fb:app_id" content="{{ site.facebookAppID }}"/>
-    
-    <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | absoluteUrl(site.url) }}"/>
-    <link rel="icon" type="image/png" href="{{ '/assets/images/favicons/favicon-96x96.png' | absoluteUrl(site.url) }}" sizes="96x96"/>
-    <link rel="icon" type="image/png" href="{{ '/assets/images/favicons/favicon-32x32.png' | absoluteUrl(site.url) }}" sizes="32x32"/>
-    <link rel="icon" type="image/png" href="{{ '/assets/images/favicons/favicon-16x16.png' | absoluteUrl(site.url) }}" sizes="16x16"/>
 
-    <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | absoluteUrl(site.url) }}" sizes="180x180"/>
+    <meta property="fb:app_id" content="{{ site.facebookAppID }}" />
 
-    <link rel="manifest" href="{{ '/manifest.json' | absoluteUrl(site.url) }}"/>
-    <link rel="mask-icon" href="{{ '/assets/images/favicons/safari-pinned-tab.svg' | absoluteUrl(site.url) }}" color="#FF2466"/>
-    
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | absoluteUrl(site.url) }}" />
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicons/favicon-96x96.png' | absoluteUrl(site.url) }}" sizes="96x96" />
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicons/favicon-32x32.png' | absoluteUrl(site.url) }}" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicons/favicon-16x16.png' | absoluteUrl(site.url) }}" sizes="16x16" />
+
+    <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | absoluteUrl(site.url) }}" sizes="180x180" />
+
+    <link rel="manifest" href="{{ '/manifest.json' | absoluteUrl(site.url) }}" />
+    <link rel="mask-icon" href="{{ '/assets/images/favicons/safari-pinned-tab.svg' | absoluteUrl(site.url) }}" color="#FF2466" />
+
     <meta name="msapplication-TileColor" content="#101625">
-    <meta name="theme-color" content="#111111"/>
-    <meta name="background-color" content="#101625"/>
+    <meta name="theme-color" content="#111111" />
+    <meta name="background-color" content="#101625" />
 
     {%- if contentType === 'about' -%}
       {% include 'partials/schema-about.njk' %}
@@ -61,21 +61,23 @@
     {%- endif -%}
 
     {#- Add to the CSS bundle #}
-		{%- css %}
-      {% include 'css/normalize.css' %}
-      {% include 'css/font-face.css' %}
-      {% include 'css/base.css' %}
+    {%- css %}
+    {% include 'css/normalize.css' %}
+    {% include 'css/font-face.css' %}
+    {% include 'css/base.css' %}
     {% endcss %}
 
-		{#- Render the CSS bundle #}
-		{%- if eleventy.env.runMode === "serve" %}
+    {#- Render the CSS bundle #}
+    {%- if eleventy.env.runMode === "serve" %}
       {# External files (local dev live reload will refresh without page reload) #}
       <link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
     {%- else  %}
       {# Inlined CSS (fastest site performance in production) #}
-      <style>{% getBundle "css" %}</style>
-		{%- endif %}
-    
+      <style>
+        {% getBundle "css" %}
+      </style>
+    {%- endif %}
+
     {# Fathom website analytics #}
     <script src="https://cdn.usefathom.com/script.js" data-site="ODKOJCFB" defer></script>
   </head>
@@ -85,7 +87,7 @@
 
     <div class="page-content-clear-footer">
       <div class="grid-bg"></div>
-      
+
       <header class="page-header">
         <div class="page-wrapper page-header__wrapper">
           {% if title %}
@@ -109,7 +111,7 @@
       <div class="page-container page-wrapper">
         {% block pageHeader %}{% endblock %}
         {% block content %}{% endblock %}
-        
+
         {% include 'partials/newsletter-signup.njk' %}
       </div>
     </div>
@@ -118,7 +120,7 @@
   </body>
 
   {%- set js -%}
-    {% include 'js/hamburgers.js' %}
+  {% include 'js/hamburgers.js' %}
   {%- endset -%}
 
   <script>

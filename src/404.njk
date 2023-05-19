@@ -11,7 +11,9 @@ eleventyExcludeFromCollections: true
 {% block pageHeader %}
   <div class="section-label section-label--header accent-border">
     <h1 class="section-title">
-      {{ title }} {% if pageIcon %}{% svg pageIcon %}{% endif %}
+      {{ title }}
+      {% if pageIcon %}{% svg pageIcon %}
+      {% endif %}
     </h1>
   </div>
 
@@ -36,7 +38,9 @@ eleventyExcludeFromCollections: true
 
         <ul>
           <li>going back to the previous page</li>
-          <li>starting again from the <a href="{{ '/' | url }}">homepage</a></li>
+          <li>
+            starting again from the <a href="{{ '/' | url }}">homepage</a>
+          </li>
           <li>
             letting us know what went wrong by <a rel="author" href="mailto:{{ site.email }}">email</a>
           </li>

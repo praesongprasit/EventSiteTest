@@ -7,7 +7,7 @@ tags: page
 {% set contentType = 'home' %}
 
 {%- css %}
-  {% include "css/components/profile-card.css" %}
+{% include "css/components/profile-card.css" %}
 {% endcss %}
 
 {% block content %}
@@ -17,7 +17,6 @@ tags: page
         <img 
           src="{{ '/assets/images/hero-home.jpg' | url }}"
           alt=""
-        />
       </picture>
 
       <div class="column-one">
@@ -69,7 +68,7 @@ tags: page
           </div>
         </section>
 
-         <section>
+        <section>
           <div class="section-label accent-border">
             <h2 class="section-title">
               Price {% svg "calendar" %}

@@ -7,14 +7,15 @@
 {% set pageIcon = 'person' %}
 
 {%- css %}
-  {% include "css/components/speaker-links.css" %}
-  {% include "css/components/profile-card.css" %}
+{% include "css/components/speaker-links.css" %}
+{% include "css/components/profile-card.css" %}
 {% endcss %}
 
 {% block pageHeader %}
   <div class="section-label section-label--header accent-border">
     <h1 class="section-title">
-      {{ fullName }} {% svg "person_outline" %}
+      {{ fullName }}
+      {% svg "person_outline" %}
     </h1>
   </div>
 {% endblock %}
@@ -63,7 +64,8 @@
     <article>
       <div class="section-label section-label--header accent-border">
         <h1 class="section-title">
-          {{ talkTitle }} {% svg "chat" %}
+          {{ talkTitle }}
+          {% svg "chat" %}
         </h1>
       </div>
 
@@ -91,7 +93,7 @@
             <p>
               {%if talkStartTime %}
                 <time datetime="{{ talkStartTime }}">{{ talkStartTime | readableDate }}</time><br>
-                  <time datetime="{{ talkStartTime }}">{{ talkStartTime | readableTime }}</time> - <time datetime="{{ talkEndTime }}">{{ talkEndTime | readableTime }}</time>
+                <time datetime="{{ talkStartTime }}">{{ talkStartTime | readableTime }}</time> - <time datetime="{{ talkEndTime }}">{{ talkEndTime | readableTime }}</time>
               {% else %}
                 Coming soon
               {% endif %}

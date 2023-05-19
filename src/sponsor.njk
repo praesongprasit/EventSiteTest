@@ -15,13 +15,14 @@ featuredImageHeight: 630
 {% extends 'layouts/base.njk' %}
 
 {%- css %}
-  {% include "css/components/sponsor-table.css" %}
+{% include "css/components/sponsor-table.css" %}
 {% endcss %}
 
 {% block pageHeader %}
   <div class="section-label section-label--header accent-border">
     <h1 class="section-title">
-      {{ title }} {% svg pageIcon %}
+      {{ title }}
+      {% svg pageIcon %}
     </h1>
   </div>
 
@@ -40,17 +41,29 @@ featuredImageHeight: 630
 
       <div class="card accent-border">
         <ul>
-          <li><a href="#info">Quick intro to NZ Tech Rally 2023</a></li>
-          <li><a href="#ourWhy">Why NZ Tech Rally exists</a></li>
-          <li><a href="#opportunities">Sponsorship opportunities</a></li>
-          <li><a href="#packages">Sponsorship packages</a></li>
-          <li><a href="#tandc">Terms and conditions</a></li>
-          <li><a href="#nextSteps">Next steps</a></li>
+          <li>
+            <a href="#info">Quick intro to NZ Tech Rally 2023</a>
+          </li>
+          <li>
+            <a href="#ourWhy">Why NZ Tech Rally exists</a>
+          </li>
+          <li>
+            <a href="#opportunities">Sponsorship opportunities</a>
+          </li>
+          <li>
+            <a href="#packages">Sponsorship packages</a>
+          </li>
+          <li>
+            <a href="#tandc">Terms and conditions</a>
+          </li>
+          <li>
+            <a href="#nextSteps">Next steps</a>
+          </li>
         </ul>
       </div>
     </section>
 
-     <section>
+    <section>
       <div class="section-label accent-border">
         <h2 class="section-title" id="info">Quick intro to NZ Tech Rally 2023</h2>
       </div>
@@ -70,7 +83,7 @@ featuredImageHeight: 630
       </div>
     </section>
 
-     <section>
+    <section>
       <div class="section-label accent-border">
         <h2 class="section-title" id="ourWhy">Why NZ Tech Rally exists</h2>
       </div>
@@ -203,15 +216,15 @@ featuredImageHeight: 630
               <td>Booth provided</td>
               <td>
                 <span class="sponsorship-level">Platinum</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td>
                 <span class="sponsorship-level">Gold</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td class="sponsor-package--excluded">
                 <span class="sponsorship-level">Silver</span>
-                {% svg 'cross', { title: 'No' } %}
+                {% svg 'cross', {title: 'No'} %}
               </td>
             </tr>
 
@@ -224,15 +237,15 @@ featuredImageHeight: 630
               </td>
               <td>
                 <span class="sponsorship-level">Platinum</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td>
                 <span class="sponsorship-level">Gold</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td class="sponsor-package--excluded">
                 <span class="sponsorship-level">Silver</span>
-                {% svg 'cross', { title: 'No' } %}
+                {% svg 'cross', {title: 'No'} %}
               </td>
             </tr>
 
@@ -242,15 +255,15 @@ featuredImageHeight: 630
               </td>
               <td>
                 <span class="sponsorship-level">Platinum</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td class="sponsor-package--excluded">
                 <span class="sponsorship-level">Gold</span>
-                {% svg 'cross', { title: 'No' } %}
+                {% svg 'cross', {title: 'No'} %}
               </td>
               <td class="sponsor-package--excluded">
                 <span class="sponsorship-level">Silver</span>
-                {% svg 'cross', { title: 'No' } %}
+                {% svg 'cross', {title: 'No'} %}
               </td>
             </tr>
 
@@ -258,15 +271,15 @@ featuredImageHeight: 630
               <td>Sponsor’s banner on the stage</td>
               <td>
                 <span class="sponsorship-level">Platinum</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td>
                 <span class="sponsorship-level">Gold</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td class="sponsor-package--excluded">
                 <span class="sponsorship-level">Silver</span>
-                {% svg 'cross', { title: 'No' } %}
+                {% svg 'cross', {title: 'No'} %}
               </td>
             </tr>
 
@@ -274,15 +287,15 @@ featuredImageHeight: 630
               <td>Brand logo on physical NZ Tech Rally’s banners</td>
               <td>
                 <span class="sponsorship-level">Platinum</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td>
                 <span class="sponsorship-level">Gold</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td>
                 <span class="sponsorship-level">Silver</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
             </tr>
 
@@ -295,15 +308,15 @@ featuredImageHeight: 630
               </td>
               <td>
                 <span class="sponsorship-level">Platinum</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td>
                 <span class="sponsorship-level">Gold</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td>
                 <span class="sponsorship-level">Silver</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
             </tr>
 
@@ -316,15 +329,15 @@ featuredImageHeight: 630
               </td>
               <td>
                 <span class="sponsorship-level">Platinum</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td>
                 <span class="sponsorship-level">Gold</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td>
                 <span class="sponsorship-level">Silver</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
             </tr>
 
@@ -332,15 +345,15 @@ featuredImageHeight: 630
               <td>Visual and verbal recognition by MC at opening &amp; closing</td>
               <td>
                 <span class="sponsorship-level">Platinum</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td>
                 <span class="sponsorship-level">Gold</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td>
                 <span class="sponsorship-level">Silver</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
             </tr>
 
@@ -348,15 +361,15 @@ featuredImageHeight: 630
               <td>Mention on NZ Tech Rally’s social platforms such as <a rel="external" href="{{ site.linkedin }}">LinkedIn</a>, <a rel="external" href="{{ site.twitter }}">Twitter</a>, and newsletter</td>
               <td>
                 <span class="sponsorship-level">Platinum</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td>
                 <span class="sponsorship-level">Gold</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
               <td>
                 <span class="sponsorship-level">Silver</span>
-                 {% svg 'check', { title: 'Yes' } %}
+                {% svg 'check', {title: 'Yes'} %}
               </td>
             </tr>
           </tbody>

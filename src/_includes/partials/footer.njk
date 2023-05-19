@@ -1,5 +1,5 @@
 {%- css %}
-  {% include "css/components/footer.css" %}
+{% include "css/components/footer.css" %}
 {% endcss %}
 
 <footer class="page-footer">
@@ -46,18 +46,30 @@
     <nav aria-labelledby="FooterOtherpagesLabel">
       <p id="FooterOtherpagesLabel">Other useful pages:</p>
       <ul>
-        <li><a href="{{ '/volunteer' | url }}">Volunteer with us</a></li> 
-        <li><a href="{{ '/faq' | url }}">FAQ</a></li>
-        <li><a href="https://github.com/NZTechRally/nztechrally.com/issues" rel="external"> Report bugs or submit PR</a></li>
+        <li>
+          <a href="{{ '/volunteer' | url }}">Volunteer with us</a>
+        </li>
+        <li>
+          <a href="{{ '/faq' | url }}">FAQ</a>
+        </li>
+        <li>
+          <a href="https://github.com/NZTechRally/nztechrally.com/issues" rel="external"> Report bugs or submit PR</a>
+        </li>
       </ul>
     </nav>
 
     <nav aria-labelledby="FooterPoliciesLabel">
       <p id="FooterPoliciesLabel">Our policies:</p>
       <ul>
-        <li><a href="{{ '/sales-policy' | url }}">Ticket sales policy</a></li>
-        <li><a href="{{ '/code-of-conduct' | url }}">Code of conduct</a></li>
-        <li><a href="{{ '/privacy-policy' | url }}">Privacy policy</a></li>
+        <li>
+          <a href="{{ '/sales-policy' | url }}">Ticket sales policy</a>
+        </li>
+        <li>
+          <a href="{{ '/code-of-conduct' | url }}">Code of conduct</a>
+        </li>
+        <li>
+          <a href="{{ '/privacy-policy' | url }}">Privacy policy</a>
+        </li>
       </ul>
     </nav>
   </div>
