@@ -22,8 +22,8 @@ talkTitle: Including security in your engineering culture
 talkExcerpt: Coming soon
 talkStartTime: 2023-07-07T09:10:00.000+12:00
 talkEndTime: 2023-07-07T10:00:00.000+12:00
-featuredImage:
-featuredImageAlt:
+featuredImage: /assets/images/speakers/erica_anderson_og.png
+featuredImageAlt: "Including security in your engineering culture by Erica Anderson, COO and Co-Founder of SafeStack. Join us to hear Erica and other speakers at NZ Tech Rally, 7th July, Wellington"
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
