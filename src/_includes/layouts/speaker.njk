@@ -27,9 +27,9 @@
       </picture>
 
       <div class="profile-card__info">
-        <h2 class="card-title profile-card__name">
+        <p class="card-title profile-card__name">
           {{ fullName }}
-        </h2>
+        </p>
 
         <p>
           {{ jobTitle }}
@@ -44,41 +44,77 @@
       {{ bio | safe }}
     </div>
 
-    <<<<<<< HEAD <aside class="column-three"> <ul class="speaker-links"> {% for profile in profileUrl %} <li class="accent-border speaker-link__item"> <a class="speaker-link" href="{{ profile.url }}" rel="external"> {{ profile.name }} {% svg profile.icon %} </a> </li> {% endfor %} </ul> </aside> </article> <article> <div class="section-label section-label--header accent-border"> <h2 class="section-title"> {{ talkTitle }} {% svg "chat" %} </h2> </div> <div class="columns columns-half"> <div class="column-one"> <div class="section-label accent-border"> <h3 class="section-title"> About {% svg "info" %} </h3> </div> <div class="card accent-border"> {{ content | safe }} </div> ======= <article> <div class="section-label section-label--header accent-border"> <h1 class="section-title"> {{ talkTitle }} {% svg "chat" %} </h1> >>>>>>> main
-      </div>
+    <aside class="column-three">
+      <ul class="speaker-links">
+        {% for profile in profileUrl %}
+          <li class="accent-border speaker-link__item">
+            <a class="speaker-link" href="{{ profile.url }}" rel="external">
+              {{ profile.name }}
+              {% svg profile.icon %}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </aside>
+  </article>
 
-  <div class="column-two">
-    <div class="section-label accent-border">
-      <h3 class="section-title">
-            When {% svg "calendar" %}
-      </h3>
+  <article>
+    <div class="section-label section-label--header accent-border">
+      <h1 class="section-title">
+        {{ talkTitle }}
+        {% svg "chat" %}
+      </h1>
     </div>
 
-    <div class="card accent-border">
-      <p>
-        {%if talkStartTime %}
-          <time datetime="{{ talkStartTime | iso8601Date }}">
-            {{ talkStartTime | readableDate }}<br>
-            {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }}
-          </time>
-        {% else %}
+    <div class="columns columns-half">
+      <div class="column-one">
+        <div class="section-label accent-border">
+          <h3 class="section-title">
+            About {% svg "info" %}
+          </h3>
+        </div>
+
+        <div class="card accent-border">
+          {{ content | safe }}
+        </div>
+      </div>
+
+      <div class="column-two">
+        <div class="section-label accent-border">
+          <h3 class="section-title">
+            When {% svg "calendar" %}
+          </h3>
+        </div>
+
+        <div class="card accent-border">
+          <p>
+            {%if talkStartTime %}
+              <time datetime="{{ talkStartTime | iso8601Date }}">{{ talkStartTime | readableDate }}</time><br>
+              {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }}
+            {% else %}
               Coming soon
             {% endif %}
-      </p>
-    </div>
+          </p>
+        </div>
 
-    <section>
-      <div class="section-label accent-border">
-        <h3 class="section-title">
+        <section>
+          <div class="section-label accent-border">
+            <h3 class="section-title">
               Where {% svg "location" %}
-        </h3>
-      </div>
+            </h3>
+          </div>
 
-      <div class="card accent-border">
-        <p>
-        <<<<<<< HEAD Room RHLT1<br> <a href="https://goo.gl/maps/SVmz9Mq6xLK5DMrXA" rel="external">Rutherford House</a><br> <a href="https://www.wgtn.ac.nz/about/campuses-facilities/campuses/pipitea/pipitea-map.pdf" rel="external">Pipitea Campus</a><br> Victoria University of Wellington<br> New Zealand ======= {%if talkStartTime %} <time datetime="{{ talkStartTime }}">{{ talkStartTime | readableDate }}</time><br> <time datetime="{{ talkStartTime }}">{{ talkStartTime | readableTime }}</time> - <time datetime="{{ talkEndTime }}">{{ talkEndTime | readableTime }}</time> {% else %} Coming soon {% endif %} >>>>>>> main
+          <div class="card accent-border">
+            <p>
+              Room RHLT1<br>
+              <a href="https://goo.gl/maps/SVmz9Mq6xLK5DMrXA" rel="external">Rutherford House</a><br>
+              <a href="https://www.wgtn.ac.nz/about/campuses-facilities/campuses/pipitea/pipitea-map.pdf" rel="external">Pipitea Campus</a><br>
+              Victoria University of Wellington<br>
+              New Zealand
             </p>
+          </div>
+        </section>
       </div>
-    </section>
-  </div>
-  <<<<<<< HEAD </div> </article> {% endblock %} ======= </article> </main> {% endblock %} >>>>>>> main
+    </div>
+  </article>
+{% endblock %}
