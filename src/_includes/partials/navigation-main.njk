@@ -1,11 +1,9 @@
 {%- css %}
-  {% include "css/components/global-nav.css" %}
-  {% include "css/components/hamburger.css" %}
+{% include "css/components/global-nav.css" %}
+{% include "css/components/hamburger.css" %}
 {% endcss %}
 
-<nav
-  id="globalNavigation"
->
+<nav id="globalNavigation">
   <button 
     class="hamburger hamburger--slider"
     aria-controls="globalNavigation"
@@ -37,14 +35,14 @@
       </li>
     {%- endfor %}
 
-     <li class="global-navigation__item">
-        <a 
-          class="global-navigation__link"
-          href="{{ nztr2023.ticketUrl }}"
-          rel="external"
-        >
-          Tickets
-        </a>
-      </li>
+    <li class="global-navigation__item">
+      <a 
+        class="global-navigation__link"
+        href="{{ nztr2023.ticketUrl }}"
+        rel="external"
+      >
+        Tickets
+      </a>
+    </li>
   </ul>
 </nav>

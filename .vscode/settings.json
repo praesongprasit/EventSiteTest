@@ -1,8 +1,9 @@
 {
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[nunjucks]": {
+    "editor.defaultFormatter": "okitavera.vscode-nunjucks-formatter"
   },
   "emmet.includeLanguages": {
     "njk": "html",
@@ -15,5 +16,7 @@
       "strings": "off",
       "other": "off"
     }
-  }
+  },
+  "nunjucksFormat.spaceclose": true,
+  "nunjucksFormat.commline": true,
 }

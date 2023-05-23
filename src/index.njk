@@ -11,24 +11,42 @@ tags: page
 {% endcss %}
 
 {% block content %}
+
   <div class="columns columns-half">
     <picture class="column-two section-label accent-border hero hero--home">
-      <img src="{{ '/assets/images/hero-home.jpg' | url }}" alt>
+      <img src="{{ '/assets/images/hero-home.jpg' | url }}" alt="alt">
     </picture>
-
     <div class="column-one">
+
       <section>
         <div class="section-label accent-border">
           <h2 class="section-title">
-            About {% svg "info" %}
+            Conference theme {% svg "sparkles" %}
           </h2>
         </div>
-
         <div class="card accent-border">
           <p>
-            NZ Tech Rally aims to become the ultimate community platform, where we discuss the hottest trends and biggest problems in NZ software engineering, and grow together.
+            What does great software engineering culture look like, and how have Kiwis done it?
           </p>
-          <p>For now... we're starting with a conference!</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-label accent-border">
+          <h2 class="section-title">
+            Who this is for {% svg "person_outline" %}
+          </h2>
+        </div>
+        <div class="card accent-border">
+          <p>
+            Anyone who is curious about making tech industry a more welcoming and meaningful place.
+          </p>
+          <p>
+            Perhaps you lead a team. Perhaps you are wondering what kind of influence you can have as an individual contributor.
+          </p>
+          <p>
+            It doesn’t matter what your job title is &mdash; come along and learn from our amazing speakers and from other attendees!
+          </p>
         </div>
       </section>
 
@@ -38,7 +56,6 @@ tags: page
             When {% svg "calendar" %}
           </h2>
         </div>
-
         <div class="card accent-border">
           <p>
             <time datetime="2023-07-07T09:00:00+12:00">
@@ -55,7 +72,6 @@ tags: page
             Where {% svg "location" %}
           </h2>
         </div>
-
         <div class="card accent-border">
           <p>
             Room RHLT1<br>
@@ -73,7 +89,6 @@ tags: page
             Price {% svg "calendar" %}
           </h2>
         </div>
-
         <div class="card accent-border">
           <p>
             $110 early bird ticket closes 31st May 2023<br>
@@ -84,20 +99,21 @@ tags: page
           </p>
         </div>
       </section>
+
     </div>
   </div>
 
   <section>
     <div class="section-label accent-border">
       <h2 class="section-title">
-        Conference theme {% svg "sparkles" %}
+        About {% svg "info" %}
       </h2>
     </div>
-
     <div class="card accent-border">
       <p>
-        What does great software engineering culture look like, and how have Kiwis done it?
+        NZ Tech Rally aims to become the ultimate community platform, where we discuss the hottest trends and biggest problems in NZ software engineering, and grow together.
       </p>
+      <p>For now... we're starting with a conference!</p>
     </div>
   </section>
 
@@ -107,7 +123,6 @@ tags: page
         Speakers {% svg "person_outline" %}
       </h2>
     </div>
-
     <ul class="cards profiles">
       {% for speaker in collections.speakers %}
         {{ card(speaker) }}
@@ -121,7 +136,6 @@ tags: page
         Panelists {% svg "people_outline" %}
       </h2>
     </div>
-
     <div class="card accent-border">
       Coming soon
     </div>
@@ -132,7 +146,6 @@ tags: page
       Sponsors {% svg "sparkles" %}
     </h2>
   </div>
-
   <div class="card accent-border">
     <p>We're looking! If you're interested in helping our cause, please head over to the <a href="{{ '/sponsor' | url }}">sponsor information page</a>, or send it to someone who would be able to help!</p>
   </div>
