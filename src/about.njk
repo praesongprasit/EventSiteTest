@@ -22,94 +22,90 @@ featuredImageHeight:
 {% endcss %}
 
 {% block pageHeader %}
-  <div class="section-label section-label--header accent-border">
-    <h1 class="section-title">
-      {{ title }} {% svg pageIcon %}
-    </h1>
-  </div>
+  <h1 class="section-title">
+    {{ title }} {% svg pageIcon %}
+  </h1>
 {% endblock %}
 
 {% block content %}
-  <main id="mainContent">
-    <section>
-      <div class="section-label accent-border">
-        <h2 class="section-title">Vision</h2>
-      </div>
-      <div class="card accent-border">
-        <p>Create a culture where NZ software engineers share their expertise and experience to grow the community together.</p>
-      </div>
-    </section>
-    
-    <section>
-      <div class="section-label accent-border">
-        <h2 class="section-title">Mission</h2>
-      </div>
+  <section>
+    <div class="section-label accent-border">
+      <h2 class="section-title">Vision</h2>
+    </div>
+    <div class="card accent-border">
+      <p>Create a culture where NZ software engineers share their expertise and experience to grow the community together.</p>
+    </div>
+  </section>
+  
+  <section>
+    <div class="section-label accent-border">
+      <h2 class="section-title">Mission</h2>
+    </div>
 
-      <div class="card accent-border">
-        <p>We want to become the ultimate community platform, where we discuss the hottest trends and biggest problems in NZ software engineering, and grow together.</p>
-        <p>We want to see NZ software engineering community be inspired by how other local companies and engineers are thriving. We're keen to hear Kiwis share how they address different engineering concerns in the NZ context, and feel empowered to try those solutions out at their organisations.</p>
-        <p>NZ Tech Rally will do this, by providing opportunities to showcase NZ ingenuity in software engineering through conferences, smaller events, and online content.</p>
-      </div>
-    </section>
-    
-    <section>
-      <div class="section-label accent-border">
-        <h2 class="section-title">Values</h2>
-      </div>
+    <div class="card accent-border">
+      <p>We want to become the ultimate community platform, where we discuss the hottest trends and biggest problems in NZ software engineering, and grow together.</p>
+      <p>We want to see NZ software engineering community be inspired by how other local companies and engineers are thriving. We're keen to hear Kiwis share how they address different engineering concerns in the NZ context, and feel empowered to try those solutions out at their organisations.</p>
+      <p>NZ Tech Rally will do this, by providing opportunities to showcase NZ ingenuity in software engineering through conferences, smaller events, and online content.</p>
+    </div>
+  </section>
+  
+  <section>
+    <div class="section-label accent-border">
+      <h2 class="section-title">Values</h2>
+    </div>
 
-      <ul class="cards">
-        <li class="card accent-border">
-          <h3>Community focused</h3>
-          <p>We focus on empowering NZ tech community to build, share, uplift, and showcase Kiwi software engineering culture.</p>
-        </li>
-        <li class="card accent-border">
-          <h3>Accessible and affordable</h3>
-          <p>
-            We want anyone to be able to access our content and event. Therefore, our platform should be as easy to use and reasonably priced whenever possible.
-          </p>
-        </li>
-        <li class="card accent-border">
-          <h3>Inclusive</h3>
-          <p>
-            We want to see more diverse representation of software engineers in New Zealand. We do this through curation of voices from different abilities, career progression, life stages, and ethnic groups.
-          </p>
-        </li>
-        <li class="card accent-border">
-          <h3>People over product</h3>
-          <p>
-            We focus on empowering people and the community. We do not endorse groups who take advantage of, or try to push their products onto the community.
-          </p>
-        </li>
-      </ul>
-    </section>
+    <ul class="cards">
+      <li class="card accent-border">
+        <h3>Community focused</h3>
+        <p>We focus on empowering NZ tech community to build, share, uplift, and showcase Kiwi software engineering culture.</p>
+      </li>
+      <li class="card accent-border">
+        <h3>Accessible and affordable</h3>
+        <p>
+          We want anyone to be able to access our content and event. Therefore, our platform should be as easy to use and reasonably priced whenever possible.
+        </p>
+      </li>
+      <li class="card accent-border">
+        <h3>Inclusive</h3>
+        <p>
+          We want to see more diverse representation of software engineers in New Zealand. We do this through curation of voices from different abilities, career progression, life stages, and ethnic groups.
+        </p>
+      </li>
+      <li class="card accent-border">
+        <h3>People over product</h3>
+        <p>
+          We focus on empowering people and the community. We do not endorse groups who take advantage of, or try to push their products onto the community.
+        </p>
+      </li>
+    </ul>
+  </section>
 
-    <section>
-      <div class="section-label accent-border">
-        <h2 class="section-title">Meet our team</h2>
-      </div>
+  <section>
+    <div class="section-label accent-border">
+      <h2 class="section-title">Meet our team</h2>
+    </div>
 
-      <ul class="cards profiles">
-        {% for team in collections.team %}
-          {{ card(team) }}
-        {% endfor %}
+    <ul class="cards profiles">
+      {% for team in collections.team %}
+        {{ card(team) }}
+      {% endfor %}
 
-        <li class="card accent-border profile-card profile-card--horizontal">
-          <span class="profile-card__picture">
-            {% svg 'person_outline' %}
-            <span class="profile-card__picture-text">This could be you!</span>
-          </span>
+      <li class="card accent-border profile-card profile-card--horizontal">
+        <span class="profile-card__picture">
+          {% svg 'person_outline' %}
+          <span class="profile-card__picture-text">This could be you!</span>
+        </span>
 
-          <p class="profile-card__info">
-            <a class="profile-card__link" href="{{ '/volunteer' | url }}" rel="external">
-              <span class="card-title profile-card__name">
-                Become a volunteer
-              </span>
+        <p class="profile-card__info">
+          <a class="profile-card__link" href="{{ '/volunteer' | url }}" rel="external">
+            <span class="card-title profile-card__name">
+              Become a volunteer
+            </span>
 
-              <span>Help us grow NZ software engineer community</span>
-            </a>
-          </p>
-        </li>
-      </ul>
-    </section>
-  </main>
+            <span>Help us grow the NZ software engineer community</span>
+          </a>
+        </p>
+      </li>
+    </ul>
+  </section>
 {% endblock %}

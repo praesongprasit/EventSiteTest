@@ -1,7 +1,6 @@
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "dateModified": "{{ page.date.toISOString() }}",
     "@type": "Event",
     "url": "{{ page.url | absoluteUrl(site.url) }}",
     "name": "{{ talkTitle }} by {{ title }}",
@@ -17,7 +16,7 @@
     },
     "performer": {
       "@type": "Person",
-      "name": "{{ title }}"
+      "name": "{{ fullName }}"
     },
     "location": {
       "@type": "Place",
