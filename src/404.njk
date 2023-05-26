@@ -14,7 +14,9 @@ eleventyExcludeFromCollections: true
     {% if pageIcon %}{% svg pageIcon %}
     {% endif %}
   </h1>
+{% endblock %}
 
+{% block pageIntro %}
   <div class="card accent-border">
     <p class="header-description">{{ description }}</p>
   </div>

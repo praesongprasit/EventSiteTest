@@ -15,20 +15,17 @@ eleventyNavigation:
 {% include "css/components/profile-card.css" %}
 {% endcss %}
 
+{% block pageHeader %}
+  <h1 class="section-title">
+    {{ title }}
+    {% svg pageIcon %}
+  </h1>
+{% endblock %}
+
 {% block content %}
-
-  <section>
-    <div class="section-label section-label--header accent-border">
-      <h2 class="section-title">
-          Speakers {% svg "person_outline" %}
-      </h2>
-    </div>
-
-    <ul class="cards profiles">
-      {% for speaker in collections.speakers %}
-        {{ card(speaker) }}
-      {% endfor %}
-    </ul>
-  </section>
-
+  <ul class="cards profiles">
+    {% for speaker in collections.speakers %}
+      {{ card(speaker) }}
+    {% endfor %}
+  </ul>
 {% endblock %}

@@ -10,9 +10,12 @@ excludefromSearch: true
 
 {% block pageHeader %}
   <h1 class="section-title">
-    {{ title }} {% svg pageIcon %}
+    {{ title }}
+    {% svg pageIcon %}
   </h1>
+{% endblock %}
 
+{% block pageIntro %}
   <div class="card accent-border">
     <p class="header-description">{{ description }}</p>
   </div>
