@@ -12,7 +12,8 @@
 }
 
 /* Referenced from .section-title */
-a.speaker-link {
+a.speaker-link,
+a.speaker-link:visited {
   color: var(--colour-green);
   text-decoration: none;
 }
