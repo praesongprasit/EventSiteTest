@@ -1,7 +1,7 @@
 {
   "tags": "team",
   "contentType": "team",
+  "layout": "layouts/team-member.njk",
   "ogType": "person",
-  "worksFor": "NZ Tech Rally",
-  "permalink": false
+  "worksFor": "NZ Tech Rally"
 }

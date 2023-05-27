@@ -6,7 +6,7 @@
     </picture>
 
     <p class="profile-card__info">
-      <a class="profile-card__link" href="{{ team.data.profileUrl }}" rel="external">
+      <a class="profile-card__link" href="{{ team.url | url }}">
         <span class="card-title profile-card__name">
           {{ team.data.fullName }}
         </span>
