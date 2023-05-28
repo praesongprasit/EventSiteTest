@@ -2,8 +2,7 @@
 {% from 'partials/card-speaker.njk' import card %}
 
 {% set contentType = contentType %}
-{% set title = talkTitle + ' by ' + fullName %}
-{% set description = talkExcerpt %}
+{% set title = fullName + ' - ' + role + ' for NZ Tech Rally' %}
 {% set pageIcon = 'person' %}
 
 {%- css %}
@@ -51,7 +50,7 @@
     <aside class="column-three">
       <ul class="profile-links">
         {% for profile in profileUrl %}
-          <li class="accent-border profile-link__item">
+          <li class="accent-border speaker-link__item">
             <a class="profile-link" href="{{ profile.url }}" rel="external">
               {{ profile.name }}
               {% svg profile.icon %}
