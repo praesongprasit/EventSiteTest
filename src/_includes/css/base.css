@@ -161,6 +161,25 @@ strong {
   font-weight: var(--font-weight-bold);
 }
 
+q {
+  display: block;
+  padding: var(--spacing-2xlarge);
+  font-family: var(--typeface-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-large);
+}
+
+q::before,
+q::after {
+  display: none;
+}
+
+code {
+  background-color: #fff;
+  color: var(--colour-blue);
+  padding: 4px;
+}
+
 a {
   color: var(--colour-link);
   text-decoration: none; /* This is not an accessible practice. Doing this under protest */

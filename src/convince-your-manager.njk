@@ -1,0 +1,89 @@
+---
+tags: page
+title: Convince your manager template
+pageIcon: email
+description: Highlight how attending NZ Tech Rally can benefit your career to your manager
+---
+{% extends 'layouts/base.njk' %}
+
+{% block pageHeader %}
+  <h1 class="section-title">
+    {{ title }}
+    {% svg pageIcon %}
+  </h1>
+{% endblock %}
+
+{% block pageIntro %}
+  <div class="card accent-border">
+    <p>
+      We tried to keep the ticket price as low as possible. But we understand that this is a new conference. Managers who are not familiar with our cause may need a little persuading to finance your attendance.
+    </p>
+    <p>
+      We hope that this letter template will help convince your manager to let you join us on 7th July!
+    </p>
+  </div>
+{% endblock %}
+
+{% block content %}
+  <section>
+    <h2 class="section-title accent-border">
+      Why I want to attend NZ Tech Rally
+    </h2>
+
+    <div class="card accent-border">
+      <p>
+        Dear <code>[Manager]</code>,
+      </p>
+      <p>
+        I am writing to request for approval and financial assistance to attend the upcoming NZ Tech Rally 2023. It’s a software engineering conference which is taking place on 7th July at Victoria University, Wellington. 
+      </p>
+      <p>
+        <a href="{{ site.url }}">NZ Tech Rally</a> is a community-driven platform which focuses on empowering the local community to build, share, uplift, and showcase Kiwi software engineering culture.
+      </p>
+      <p>
+        Their flagship conference will be a great opportunity to hear how other inspiring local talents address different engineering concerns in the NZ context. Some of those ideas might be applicable to our organisation.
+      </p>
+      <p>
+        This year’s lineup of <a href="{{ 'speakers' | absoluteUrl(site.url) }}">speakers</a> features some of the most impressive and celebrated individuals and contributors within NZ tech community. I am really excited to hear their takes and insights on how to create a more inclusive and thriving engineering culture. I am also looking forward to the hour-long panel discussion on the <strong>conference theme</strong>:
+      </p>
+      <p>
+        <q>
+          What does great software engineering culture look like, and how have Kiwis done it?
+        </q>
+      </p>
+      <p>
+        <strong>Topics being covered are:</strong>
+      </p>
+      <ul>
+        <li>Engineering metrics</li>
+        <li>DevOps practices </li>
+        <li>Security culture</li>
+        <li>Quality engineering </li>
+        <li>Open-source culture</li>
+        <li>Growing into engineering leadership</li>
+        <li>Large-scale digital transformation</li>
+      </ul>
+      <p>
+        While attending NZ Tech Rally, I'll also have the opportunity to network with hundreds of peers from all over NZ and learn more about how they are solving similar challenges to ours.
+      </p>
+      <p>
+        <strong>Costs</strong>
+      </p>
+      <p>Fees include food. Sale closes 30th June 2023.</p>
+      <ul>
+        <li>Standard tickets - $150</li>
+        <li>Group discount - Buy 3 standard tickets, get extra tickets for $110 each</li>
+      </ul>
+      <p>
+        If you feel that other colleagues would also benefit from attending this conference, then we can save more on the ticket price by buying tickets together as a group.
+      </p>
+      <p>
+        I really appreciate your time considering my request. I see this conference as an investment in my professional development and couldn't be more excited to attend. I’d be happy to share my learnings, business advantages, costs, and logistics with you and the wider group in more detail if needed.
+      </p>
+      <p>Regards,</p>
+      <p>
+        Yours truly <code>[Your_Name]</code>
+      </p>
+    </div>
+  </section>
+{% endblock %}
