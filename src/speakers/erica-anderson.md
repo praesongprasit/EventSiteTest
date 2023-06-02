@@ -20,8 +20,8 @@ profilePhotoAltText: A portrait of Erica; a smiling woman in her thirties with b
 event: NZTechRally2023
 talkTitle: Including security in your engineering culture
 talkExcerpt: Coming soon
-talkStartTime: 2023-07-07T15:30:00.000+12:00
-talkEndTime: 2023-07-07T16:00:00.000+12:00
+talkStartTime: 2023-07-07T14:30:00.000+12:00
+talkEndTime: 2023-07-07T15:00:00.000+12:00
 featuredImage: /assets/images/speakers/erica_anderson_og.png
 featuredImageAlt: "Light high contrast text on top of a darkened image of a crowd reads “Including security in your engineering culture by Erica Anderson, COO and Co-Founder of SafeStack. Join us to hear Erica and other speakers at NZ Tech Rally, 7th July, Wellington”
 
