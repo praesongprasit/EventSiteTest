@@ -15,7 +15,7 @@ profilePhoto: /assets/images/team/aaron_hodder.jpg
 profilePhotoAltText: Aaron's portrait. A smiling Caucasian man with neat short hair. He's wearing a dark coloured top.
 bio: "<p>Aaron leads the Wellington Testing Services practice at Datacom, providing professional testing services across Wellington and New Zealand.</p>
 
-<p>Aaron cares about great people building great software, responsibly, therefore, he focuses on the human aspects of software development, both in terms of the humans who use and are affected by our products, and the humans who create them.</p>
+<p>Aaron cares about great people building great software responsibly. Therefore, he focuses on the human aspects of software development; both in terms of the humans who use and are affected by our products, and the humans who create them.</p>
 
 <p>Community is very important to Aaron. He co-founded WeTest work shops in Wellington, founded the Human Impact in Tech unconference, and is now a director of NZTechRally.</p>
 
