@@ -126,9 +126,10 @@ tags: page
         Speakers {% svg "person_outline" %}
       </h2>
     </div>
+
     <ul class="cards profiles">
       {% for speaker in collections.speakers %}
-        {{ card(speaker) }}
+        {{ card(speaker, horizontal='true') }}
       {% endfor %}
     </ul>
   </section>
@@ -139,9 +140,11 @@ tags: page
         Panelists {% svg "people_outline" %}
       </h2>
     </div>
-    <div class="card accent-border">
-      Coming soon
-    </div>
+    <ul class="cards profiles profiles--four-columns">
+      {% for panellist in collections.panellists %}
+        {{ card(panellist) }}
+      {% endfor %}
+    </ul>
   </section>
 
   <div class="section-label section-label--header accent-border">

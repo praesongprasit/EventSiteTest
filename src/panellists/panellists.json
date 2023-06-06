@@ -1,0 +1,6 @@
+{
+  "tags": "panellists",
+  "contentType": "panellists",
+  "layout": "layouts/team-member.njk",
+  "ogType": "person"
+}

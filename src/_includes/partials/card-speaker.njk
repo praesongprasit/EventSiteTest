@@ -1,5 +1,5 @@
-{% macro card(speaker) %}
-  <li class="card accent-border profile-card profile-card--horizontal">
+{% macro card(speaker, horizontal) %}
+  <li class="card accent-border profile-card {{ 'profile-card--horizontal' if horizontal }}">
     <picture class="profile-card__picture">
       <source srcset="{{ speaker.data.profilePhoto }}" media="(orientation: portrait)">
       <img src="{{ speaker.data.profilePhoto }}" alt="{{ speaker.data.profilePhotoAltText }}">

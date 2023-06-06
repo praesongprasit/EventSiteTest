@@ -37,9 +37,11 @@
           {% endif %}
         </p>
 
-        <p>
-          <strong>NZ Tech Rally's {{ role }}</strong>
-        </p>
+        {% if role %}
+          <p>
+            <strong>NZ Tech Rally's {{ role }}</strong>
+          </p>
+        {% endif %}
       </div>
     </header>
 
