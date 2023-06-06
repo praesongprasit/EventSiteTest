@@ -15,7 +15,7 @@ featuredImageHeight:
 {% set contentType = 'about' %}
 
 {% extends 'layouts/base.njk' %}
-{% from 'partials/card-team.njk' import card %}
+{% from 'partials/card.njk' import card %}
 
 {%- css %}
   {% include "css/components/profile-card.css" %}
@@ -89,7 +89,7 @@ featuredImageHeight:
 
       <ul class="cards profiles">
         {% for team in collections.team %}
-          {{ card(team) }}
+          {{ card(team, horizontal='true') }}
         {% endfor %}
 
         <li class="card accent-border profile-card profile-card--horizontal">

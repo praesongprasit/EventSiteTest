@@ -9,7 +9,7 @@ eleventyNavigation:
 ---
 
 {% extends 'layouts/base.njk' %}
-{% from 'partials/card-speaker.njk' import card %}
+{% from 'partials/card.njk' import card %}
 
 {%- css %}
 {% include "css/components/profile-card.css" %}
@@ -23,7 +23,7 @@ eleventyNavigation:
 {% endblock %}
 
 {% block content %}
-  <ul class="cards profiles">
+  <ul class="cards profiles profiles--four-columns">
     {% for speaker in collections.speakers %}
       {{ card(speaker) }}
     {% endfor %}

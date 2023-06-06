@@ -1,0 +1,31 @@
+{% macro card(content, horizontal) %}
+  <li class="card accent-border profile-card {{ 'profile-card--horizontal' if horizontal }}">
+    <picture class="profile-card__picture">
+      <source srcset="{{ content.data.profilePhoto }}" media="(orientation: portrait)">
+      <img src="{{ content.data.profilePhoto }}" alt="{{ content.data.profilePhotoAltText }}">
+    </picture>
+
+    <p class="profile-card__info">
+      <a class="profile-card__link" href="{{ content.url | url }}">
+        <span class="card-title profile-card__name">
+          {{ content.data.fullName }}
+        </span>
+
+        <span>
+          {{ content.data.jobTitle }}
+          {% if content.data.organisation %}
+            @ {{ content.data.organisation }}
+          {% endif %}
+        </span>
+
+        {% if content.data.talkTitle %}
+          <strong>{{ content.data.talkTitle }}</strong>
+        {% endif %}
+
+        {% if content.data.role %}
+          <strong>{{ content.data.role }}</strong>
+        {% endif %}
+      </a>
+    </p>
+  </li>
+{% endmacro %}
