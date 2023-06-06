@@ -19,7 +19,7 @@ profilePhoto: /assets/images/speakers/erica_anderson.jpg
 profilePhotoAltText: A portrait of Erica; a smiling woman in her thirties with brown hair and a pale skin tone.
 event: NZTechRally2023
 talkTitle: Including security in your engineering culture
-talkExcerpt: Coming soon
+talkExcerpt: How security is actually something all of us can do as part of the discipline we bring to our teams.
 talkStartTime: 2023-07-07T14:30:00.000+12:00
 talkEndTime: 2023-07-07T15:00:00.000+12:00
 featuredImage: /assets/images/speakers/erica_anderson_og.png
