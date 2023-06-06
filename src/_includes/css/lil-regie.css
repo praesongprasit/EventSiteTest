@@ -244,14 +244,19 @@ attendee__eventlet-subtotal {
   padding: 1.5rem 1.25rem;
 }
 
-.extras .small.subdued {
+.extras .small.subdued[style] {
   margin-bottom: 0 !important;
   color: var(--colour-body-text);
-  padding-bottom: 0;
 }
 
-.extras .small.subdued p:not:last-child {
-  padding-bottom: 1em;
+.small.subdued + .field-group,
+.small.subdued + .field-group .control-group:first-child {
+  padding-top: 0;
+}
+
+.js-showmore-content p,
+.extras .small.subdued p {
+  margin-bottom: 1em;
 }
 
 .booking-header__extra-info-inner .icon-envelope {
@@ -444,4 +449,12 @@ label[for="copy_booking_details"] {
   padding: 1rem 1.5rem;
   background-color: var(--colour-white);
   border-radius: 3px;
+}
+
+.js-showmore-content[style] {
+  height: auto !important;
+}
+
+.js-showmore-trigger {
+  display: none !important;
 }
