@@ -1,6 +1,5 @@
 ---
 fullName: Rachel Collingridge
-role: 
 jobTitle: VP of Engineering
 organisation: Cogo
 profileUrl:
