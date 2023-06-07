@@ -1,6 +1,6 @@
 {
   "title": "NZ Tech Rally 2023",
-  "description": "The flagship conference where the community discuss the hottest trends and biggest problems in NZ software engineering, and grow together.",
+  "description": "Flagship conference for the NZ software community to connect and grow together.",
   "startDate": "2023-07-07T08:00:00.000+12:00",
   "endDate": "2023-07-07T17:00:00.000+12:00",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
@@ -28,10 +28,5 @@
       "latitude": "-41.279058250989856",
       "longitude": "174.779103511636"
     }
-  },
-  "image": "https://nztechrally.com/assets/images/nztr2023-ticketSale.png",
-  "imageAlt": "NZ Tech Rally, Friday 7th July, Wellington, where we discuss the hottest trends and biggest problems in NZ software engineering. Text sits on top of darken image of a seated crowd. The bright pink button said save your spot.",
-  "imageType": "image/png",
-  "imageWidth": "2400",
-  "imageHeight": "1260"
+  }
 }
