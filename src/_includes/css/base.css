@@ -251,7 +251,7 @@ tbody tr:nth-child(odd) {
 /* ============== Forms ============== */
 
 .button,
-.button {
+a.button {
   font-family: var(--typeface-display);
   font-weight: var(--font-weight-bold);
   background: var(--colour-button-background);
@@ -264,7 +264,8 @@ tbody tr:nth-child(odd) {
   cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+a.button:hover {
   background: var(--colour-button-background-hover);
   color: var(--colour-button-hover);
 }
