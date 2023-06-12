@@ -129,6 +129,7 @@
 
 .profiles--four-columns {
   grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.25rem;
 }
 
 @media screen and (min-width: 520px) {
