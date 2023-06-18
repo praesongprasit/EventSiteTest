@@ -1,0 +1,24 @@
+.cards--sponsors {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-main);
+  align-items: stretch;
+}
+
+.card--sponsor {
+  display: block;
+  max-width: 220px;
+  margin: 0;
+}
+
+.card--sponsor-link {
+  display: flex;
+  height: calc(100% - 2.5rem);
+  align-items: center;
+}
+
+.card--sponsor-link img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

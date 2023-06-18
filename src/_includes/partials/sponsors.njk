@@ -1,0 +1,33 @@
+{% if excludeSponsors != true %}
+  {%- css %}
+  {% include "css/components/sponsors.css" %}
+  {% endcss %}
+
+  <section>
+    <div class="section-label section-label--header accent-border">
+      <h2 class="section-title">
+        Sponsors {% svg "sparkles" %}
+      </h2>
+    </div>
+    <div class="text-indent">
+      <p>Thank you to our sponsor. We wouldn’t be able to do it without you!</p>
+    </div>
+
+    <ul class="cards cards--sponsors">
+      <li class="card--sponsor">
+        <a class="card card--sponsor-link" rel="external" href="https://assurity.nz">
+          <img src="{{ '/assets/images/sponsors/assurity-logo.png' | url }}" alt="Assurity" />
+        </a>
+      </li>
+
+      <li class="card--sponsor">
+        <div class="card">
+          <p>This could be you!</p>
+          <p>
+            <a href="{{ '/sponsor' | url }}">Sponsorship application</a> close on 26th June 2023.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </section>
+{% endif %}
