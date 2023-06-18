@@ -614,6 +614,7 @@ ul.column-one {
   background-color: var(--colour-white);
   padding: 1.25rem; /* 20px */
   margin-bottom: 0;
+  position: relative;
 }
 
 .card:not(.profile-card) + .card:not(.profile-card) {
