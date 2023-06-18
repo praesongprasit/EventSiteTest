@@ -1,14 +1,24 @@
 .cards--sponsors {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   gap: var(--spacing-main);
   align-items: stretch;
 }
 
 .card--sponsor {
   display: block;
-  max-width: 220px;
+  width: 100%;
   margin: 0;
+}
+
+@media screen and (min-width: 520px) {
+  .cards--sponsors {
+    flex-direction: row;
+  }
+
+  .card--sponsor {
+    max-width: 220px;
+  }
 }
 
 .card--sponsor-link {
