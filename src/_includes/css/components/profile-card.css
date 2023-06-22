@@ -16,7 +16,6 @@
 .profile-card__picture img {
   display: block;
   width: 100%;
-  mix-blend-mode: multiply;
 }
 
 .profile-card__picture .icon {
