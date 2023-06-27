@@ -1,4 +1,5 @@
 ---
+tags: [ "panellists" ]
 fullName: Aaron Hodder
 role: Co-founder, panel liaison & facilitator
 jobTitle: QA Practice Manager

@@ -137,10 +137,11 @@ tags: page
   <section>
     <div class="section-label section-label--header accent-border">
       <h2 class="section-title">
-        Panellists {% svg "people_outline" %}
+        Panel {% svg "people_outline" %}
       </h2>
     </div>
     <ul class="cards profiles profiles--four-columns">
+
       {% for panellist in collections.panellists %}
         {{ card(panellist) }}
       {% endfor %}
