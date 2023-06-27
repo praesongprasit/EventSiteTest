@@ -19,6 +19,10 @@
   .card--sponsor {
     max-width: 220px;
   }
+
+  .card--sponsor-large {
+    max-width: 400px;
+  }
 }
 
 .card--sponsor-link {
