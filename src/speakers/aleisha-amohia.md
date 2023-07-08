@@ -19,12 +19,12 @@ profileUrl: [{
 profilePhoto: /assets/images/speakers/aleisha_amohia.jpg
 profilePhotoAltText: Aleisha is pictured smiling at her university graduation parade, on the steps of Civic Square. She is wearing a korowai with blue, green, black and white detailing atop her graduation gown.
 event: NZTechRally2023
-talkTitle: Communities, code, and Creative Commons
+talkTitle: Communities in code
 talkExcerpt: Aleisha will share her experiences working in open source projects and how open source values may influence culture.
 talkStartTime: 2023-07-07T11:00:00.000+12
 talkEndTime: 2023-07-07T11:30:00.000+12
-featuredImage: /assets/images/speakers/aleisha_amohia_og.png
-featuredImageAlt: "Communities, code, and Creative Commons by Aleisha Amohia, Koha Technical Lead at Catalyst IT. Join us to hear Aleisha and other speakers at NZ Tech Rally, 7th July, Wellington"
+featuredImage: /assets/images/speakers/aleisha_amohia_og_updated.png
+featuredImageAlt: "Communities in code by Aleisha Amohia, Koha Technical Lead at Catalyst IT. Join us to hear Aleisha and other speakers at NZ Tech Rally, 7th July, Wellington"
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
