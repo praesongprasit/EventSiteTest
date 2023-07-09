@@ -21,4 +21,6 @@ bio: "<p>Rachel is a senior engineering leader who believes teams with great del
 # featuredImageType: image/png
 # featuredImageWidth: 1200
 # featuredImageHeight: 630
+talkTitle: Panel discussion
+talkRecordingID: svioDmUJO3k
 ---

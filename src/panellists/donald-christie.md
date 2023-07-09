@@ -20,4 +20,6 @@ bio: "<p>Don is one of the founders and Managing Director of Catalyst IT, an New
 # featuredImageType: image/png
 # featuredImageWidth: 1200
 # featuredImageHeight: 630
+talkTitle: Panel discussion
+talkRecordingID: svioDmUJO3k
 ---

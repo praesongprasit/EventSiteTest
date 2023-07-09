@@ -19,4 +19,6 @@ bio: "<p>Rahul has over two decades of experience working with Fortune 500 compa
 # featuredImageType: image/png
 # featuredImageWidth: 1200
 # featuredImageHeight: 630
+talkTitle: Panel discussion
+talkRecordingID: svioDmUJO3k
 ---
