@@ -38,4 +38,6 @@ order: 1
 # featuredImageType: image/png
 # featuredImageWidth: 1200
 # featuredImageHeight: 630
+talkTitle: Closing notes
+talkRecordingID: sZFBBy-XQUE
 ---

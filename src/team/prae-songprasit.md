@@ -40,4 +40,6 @@ order: 2
 # featuredImageType: image/png
 # featuredImageWidth: 1200
 # featuredImageHeight: 630
+talkTitle: Opening remarks
+talkRecordingID: 3lV238sdKW4
 ---
