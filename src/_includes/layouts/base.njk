@@ -99,4 +99,11 @@
 
   <script>
     {{ js | jsmin | safe }}
+    window.addEventListener('load', (event) => {
+      document
+        .getElementByClass('track_NZTR2023Photos')
+        .addEventListener('click', () => {
+          fathom.trackGoal('RW7JQATD', 0);
+        });
+    });
   </script>
