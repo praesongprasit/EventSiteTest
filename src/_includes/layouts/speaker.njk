@@ -9,6 +9,7 @@
 {%- css %}
 {% include "css/components/profile-links.css" %}
 {% include "css/components/profile-card.css" %}
+{% include "css/components/video.css" %}
 {% endcss %}
 
 {% block pageHeader %}
@@ -64,6 +65,10 @@
         {{ talkTitle }}
         {% svg "chat" %}
       </h1>
+    </div>
+
+    <div class="video-wrapper">
+      <iframe width="560" height="315" src="{{ 'https://www.youtube-nocookie.com/embed/' + talkRecordingID }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
     <div class="columns columns-half">

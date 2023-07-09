@@ -24,6 +24,7 @@ Katrina is pictured delivering a talk. She is wearing a lapel microphone and ges
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
+talkRecordingID: _7FvUEvLYoM
 ---
 
 <p>Many New Zealand organisations base their software engineering aspirations on materials shared by international thought leaders. The practices and advice that come from overseas do not always translate successfully in our teams.</p>

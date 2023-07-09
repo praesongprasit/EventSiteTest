@@ -28,6 +28,7 @@ featuredImageAlt: "Communities in code by Aleisha Amohia, Koha Technical Lead at
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
+talkRecordingID: wSa_nABUypw
 ---
 
 <p>Open source software is a powerful sector of the technology industry - code that is free to use and share, community-driven projects, and global development.</p>

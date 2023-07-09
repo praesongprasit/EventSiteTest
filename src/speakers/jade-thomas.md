@@ -22,6 +22,7 @@ featuredImageAlt: "The fine line between chaos and order by Jade Thomas, Enginee
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
+talkRecordingID: RBpjp0GqDII
 ---
 
 <p>

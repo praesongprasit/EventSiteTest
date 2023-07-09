@@ -28,6 +28,7 @@ featuredImageAlt: "One DevOps does not git all by Allen Geer, Cloud Platforms an
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
+talkRecordingID: hdG9T60tbLI
 ---
 
 <p>New Zealand organisations use DevOps practices and culture in different ways.</p>

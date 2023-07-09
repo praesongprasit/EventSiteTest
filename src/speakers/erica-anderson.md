@@ -29,6 +29,7 @@ Erica's portrait shows a smiling woman in her thirties with brown hair and a pal
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
+talkRecordingID: wKP5LIVzZks
 ---
 
 <p>Cybersecurity has a rough reputation. It is often portrayed as an unattainable, sci-fi type skill, reserved only for hackers or people in The Matrix. Or worse, something only large organisations with big budgets and dedicated security teams can handle.</p>

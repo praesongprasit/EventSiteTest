@@ -28,6 +28,7 @@ Mrinal's portrait portrait reveals a smiling man with a beard'."
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
+talkRecordingID: 6v26UbKogNg
 ---
 
 <p>Are you a software engineer looking to give engineering leadership a go?</p>

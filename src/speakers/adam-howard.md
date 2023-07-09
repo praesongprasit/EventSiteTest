@@ -32,6 +32,7 @@ featuredImageAlt: "Fostering a quality quality culture by Adam Howard, an engine
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
+talkRecordingID: Wx6Mf4acEMM
 ---
 
 <p>Quality is a slippery notion, and not something that can simply be manufactured and measured. In that sense, it’s a lot like culture.</p>

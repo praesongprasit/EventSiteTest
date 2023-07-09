@@ -22,6 +22,7 @@ featuredImageAlt: "Engineering metrics, minus the creepiness by Jenny Sahng, Dat
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
+talkRecordingID: Lo2s480oI3U
 ---
 
 <p>Engineering metrics that give teams and managers better visibility over productivity and team health have been gaining popularity. But we’ve also heard the horror stories: layoffs based on lines of code, Big Brother-esque monitoring of behaviour.</p>
