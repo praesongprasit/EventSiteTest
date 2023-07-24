@@ -21,4 +21,20 @@ bio: "<p>Rahul has over two decades of experience working with Fortune 500 compa
 # featuredImageHeight: 630
 talkTitle: Panel discussion
 talkRecordingID: svioDmUJO3k
+talkStartTime: 2023-07-07T13:00:00.000+12
+talkEndTime: 2023-07-07T14:00:00.000+12
 ---
+
+{% layoutblock 'talkAbout' %}
+
+<p>Panel discussion on "What great software engineering culture looks like, and how Kiwis have done it."</p>
+{% endlayoutblock %}
+
+{% layoutblock 'bio' %}
+{{ bio | safe }}
+{% endlayoutblock %}
+
+{% layoutblock 'talkTranscript' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}

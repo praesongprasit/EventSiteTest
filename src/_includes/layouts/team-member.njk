@@ -48,7 +48,7 @@
     </header>
 
     <div class="column-two card">
-      {{ bio | safe }}
+      {% renderlayoutblock 'bio' %}
     </div>
 
     <aside class="column-three">
@@ -76,6 +76,43 @@
 
       <div class="video-wrapper">
         <iframe width="560" height="315" src="{{ 'https://www.youtube-nocookie.com/embed/' + talkRecordingID }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <div class="columns columns-half">
+        <div class="column-one">
+          <div class="section-label accent-border">
+            <h3 class="section-title">
+                Transcript
+            </h3>
+          </div>
+
+          <div class="card accent-border">
+            {% renderlayoutblock 'talkTranscript' %}
+          </div>
+        </div>
+
+        <div class="column-two">
+          <div class="section-label accent-border">
+            <h3 class="section-title">
+                About {% svg "info" %}
+            </h3>
+          </div>
+
+          <div class="card accent-border">
+            {% renderlayoutblock 'talkAbout' %}
+          </div>
+
+          <div class="section-label accent-border">
+            <h3 class="section-title">
+                When {% svg "calendar" %}
+            </h3>
+          </div>
+
+          <div class="card accent-border">
+            <time datetime="{{ talkStartTime | iso8601Date }}">{{ talkStartTime | readableDate }}</time><br>
+            {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }}
+          </div>
+        </div>
       </div>
     </article>
   {% endif %}

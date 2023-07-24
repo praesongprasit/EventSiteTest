@@ -40,4 +40,20 @@ order: 1
 # featuredImageHeight: 630
 talkTitle: Closing notes
 talkRecordingID: sZFBBy-XQUE
+talkStartTime: 2023-07-07T16:50:00.000+12
+talkEndTime: 2023-07-07T17:00:00.000+12
 ---
+
+{% layoutblock 'talkAbout' %}
+
+<p>Closing remarks for NZ Tech Rally 2023</p>
+{% endlayoutblock %}
+
+{% layoutblock 'bio' %}
+{{ bio | safe }}
+{% endlayoutblock %}
+
+{% layoutblock 'talkTranscript' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}

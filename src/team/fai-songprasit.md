@@ -22,3 +22,7 @@ order: 5
 # featuredImageWidth: 1200
 # featuredImageHeight: 630
 ---
+
+{% layoutblock 'bio' %}
+{{ bio | safe }}
+{% endlayoutblock %}

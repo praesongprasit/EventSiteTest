@@ -122,6 +122,16 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => a.data.order - b.data.order);
   });
 
+  eleventyConfig.addShortcode("renderlayoutblock", function (name) {
+    return (this.page.layoutblock || {})[name] || "";
+  });
+
+  eleventyConfig.addPairedShortcode("layoutblock", function (content, name) {
+    if (!this.page.layoutblock) this.page.layoutblock = {};
+    this.page.layoutblock[name] = content;
+    return "";
+  });
+
   // https://chriskirknielsen.com/blog/manage-your-svg-files-with-eleventys-render-plugin/#updated-method
   eleventyConfig.addAsyncShortcode(
     "svg",
