@@ -1615,7 +1615,7 @@ talkRecordingID: _7FvUEvLYoM
 </p>
 
 <p>
-  We want some interesting problems _or_ interesting technologies, because we're prepared to accept that we might not get both.
+  We want some interesting problems <em>or</em> interesting technologies, because we're prepared to accept that we might not get both.
 </p>
 
 <p>
