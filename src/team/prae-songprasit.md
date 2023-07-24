@@ -48,7 +48,7 @@ talkEndTime: 2023-07-07T09:15:00.000+12
 
 {% layoutblock 'talkAbout' %}
 
-<p>Closing remarks for NZ Tech Rally 2023.</p>
+<p>Opening remarks for NZ Tech Rally 2023.</p>
 <p>It included the why behind NZ Tech Rally organisation, housekeeping information for in-person audience, and introduction to the conference theme.</p>
 {% endlayoutblock %}
 
