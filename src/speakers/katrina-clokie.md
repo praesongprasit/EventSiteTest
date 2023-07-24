@@ -29,9 +29,13 @@ talkRecordingID: _7FvUEvLYoM
 
 {% layoutblock 'talkAbout' %}
 
-<p>Many New Zealand organisations base their software engineering aspirations on materials shared by international thought leaders. The practices and advice that come from overseas do not always translate successfully in our teams.</p>
+<p>
+  Many New Zealand organisations base their software engineering aspirations on materials shared by international thought leaders. The practices and advice that come from overseas do not always translate successfully in our teams. 
+</p>
 
-<p>This keynote is a reflection on the universal foundations of good engineering culture: people, leadership, organisational design, problem scope, technology constraints, and measurement. In each pillar we will explore what is unique to New Zealand and what differentiates good engineering culture for Kiwis.</p>
+<p>
+  This keynote is a reflection on the universal foundations of good engineering culture: people, leadership, organisational design, problem scope, technology constraints, and measurement. In each pillar we will explore what is unique to New Zealand and what differentiates good engineering culture for Kiwis.
+</p>
 {% endlayoutblock %}
 
 {% layoutblock 'bio' %}
@@ -40,7 +44,41 @@ talkRecordingID: _7FvUEvLYoM
 
 {% layoutblock 'talkReferences' %}
 
-<p>Coming soon</p>
+<h4>Talks:</h4>
+
+<ul>
+  <li><a rel="external" href=" https://www.youtube.com/watch?v=F-djSsljvjc">Sensible Defaults for Tech Management</a> by Michelle Gleeson</li>
+  <li><a rel="external" href=" https://youtu.be/C48-Zsen1WI">How I CTO</a> by Gil Tene</li>
+</ul>
+
+<h4>Books:</h4>
+
+<ul>
+  <li><a rel="external" href=" https://abookapart.com/products/resilient-management">Resilient Management</a> by Lara Hogan</li>
+  <li><a rel="external" href=" https://www.amazon.com/Engineering-Management-Rest-Sarah-Drasner-ebook/dp/B0BGYVDX35/">Engineering Management for the Rest of Us</a> by Sarah Drasner</li>
+  <li><a rel="external" href=" https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth-ebook/dp/B06XP3GJ7F/">The Manager's Path</a> by Camille Fournier</li>
+  <li><a rel="external" href=" https://www.amazon.com/Making-Manager-What-Everyone-Looks-ebook/dp/B079WNPRL2/">The Making of a Manager</a> by  Julie Zhuo</li>
+  <li><a rel="external" href=" https://www.amazon.com/Dynamic-Reteaming-Wisdom-Changing-Teams-ebook/dp/B08B48ZTJ5">Dynamic Reteaming</a> by Heidi Helfand</li>
+  <li><a rel="external" href=" https://www.amazon.com/Team-Topologies-Organizing-Business-Technology-ebook/dp/B09JWT9S4D">Team Topologies</a> by Manuel Pais and Matthew Skelton</li>
+  <li><a rel="external" href=" https://www.amazon.com.au/Accelerate-Software-Performing-Technology-Organizations-ebook/dp/B07B9F83WM/">Accelerate</a> by Gene Kim, Jez Humble, and Nicole Forsgren</li>
+</ul>
+
+<h4>Other references:</h4>
+
+<ul>
+  <li><a rel="external" href=" https://www.summeroftech.co.nz/blog/student-stories/wetest-meetup">WeTest New Zealand</a></li>
+  <li><a rel="external" href=" https://en.wikipedia.org/wiki/Kiwiana">Kiwiana</a></li>
+  <li><a rel="external" href=" https://digitalnz.org/records/37808403/chesdale-cheese?from-story=5847210c8d2a4e615d000b2d">Ches ’n’ Dale by Chesdale cheese</a></li>
+  <li><a rel="external" href=" https://techcrunch.com/2023/07/20/tech-industry-layoffs-2023/ ">2023 Tech Layoffs by TechCrunch</a></li>
+  <li><a rel="external" href=" https://www.footrotflats.com/">Footrot Flats</a></li>
+  <li><a rel="external" href=" https://en.wikipedia.org/wiki/Tall_poppy_syndrome">Tall poppy syndrome</a></li>
+  <li><a rel="external" href=" https://en.wikipedia.org/wiki/Pavlova_(dessert)">Pavlova</a></li>
+  <li><a rel="external" href=" https://en.wikipedia.org/wiki/Inspector_Gadget_(1983_TV_series)">Inspector Gadget</a></li>
+  <li><a rel="external" href=" https://www.swanndri.co.nz/">Swanndri</a></li>
+  <li><a rel="external" href=" https://kaimanawaheritagehorses.org/">Kaimanawa horses</a></li>
+  <li><a rel="external" href=" https://micheleacourt.com/">Michele A'Court</a></li>
+  <li><a rel="external" href=" https://en.wikipedia.org/wiki/Goodhart's_law">Goodhart’s law</a></li>
+</ul>
 {% endlayoutblock %}
 
 {% layoutblock 'talkTranscript' %}
