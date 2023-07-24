@@ -31,6 +31,23 @@ featuredImageHeight: 630
 talkRecordingID: wSa_nABUypw
 ---
 
+{% layoutblock 'talkAbout' %}
+
 <p>Open source software is a powerful sector of the technology industry - code that is free to use and share, community-driven projects, and global development.</p>
 
 <p>Aleisha Amohia is a Technical Lead at Catalyst IT, a software company based in Wellington which specialises in open source software. She will share her experiences working in open source projects and how open source values may influence culture.</p>
+{% endlayoutblock %}
+
+{% layoutblock 'bio' %}
+{{ bio | safe }}
+{% endlayoutblock %}
+
+{% layoutblock 'talkReferences' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}
+
+{% layoutblock 'talkTranscript' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}

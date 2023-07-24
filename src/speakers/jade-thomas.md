@@ -25,6 +25,8 @@ featuredImageHeight: 630
 talkRecordingID: RBpjp0GqDII
 ---
 
+{% layoutblock 'talkAbout' %}
+
 <p>
   Financial institutions have a reputation for being slow and cumbersome with software delivery, and there is often a good reason for that: we deal with your money.
 </p>
@@ -36,3 +38,18 @@ talkRecordingID: RBpjp0GqDII
 <p>
   However, at what point does this lack of agility become a risk, and how do you balance speed to market, compliance and certainty?
 </p>
+{% endlayoutblock %}
+
+{% layoutblock 'bio' %}
+{{ bio | safe }}
+{% endlayoutblock %}
+
+{% layoutblock 'talkReferences' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}
+
+{% layoutblock 'talkTranscript' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}

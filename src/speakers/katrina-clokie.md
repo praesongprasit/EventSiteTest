@@ -27,6 +27,23 @@ featuredImageHeight: 630
 talkRecordingID: _7FvUEvLYoM
 ---
 
+{% layoutblock 'talkAbout' %}
+
 <p>Many New Zealand organisations base their software engineering aspirations on materials shared by international thought leaders. The practices and advice that come from overseas do not always translate successfully in our teams.</p>
 
 <p>This keynote is a reflection on the universal foundations of good engineering culture: people, leadership, organisational design, problem scope, technology constraints, and measurement. In each pillar we will explore what is unique to New Zealand and what differentiates good engineering culture for Kiwis.</p>
+{% endlayoutblock %}
+
+{% layoutblock 'bio' %}
+{{ bio | safe }}
+{% endlayoutblock %}
+
+{% layoutblock 'talkReferences' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}
+
+{% layoutblock 'talkTranscript' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}

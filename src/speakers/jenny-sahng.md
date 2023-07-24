@@ -25,6 +25,23 @@ featuredImageHeight: 630
 talkRecordingID: Lo2s480oI3U
 ---
 
+{% layoutblock 'talkAbout' %}
+
 <p>Engineering metrics that give teams and managers better visibility over productivity and team health have been gaining popularity. But we’ve also heard the horror stories: layoffs based on lines of code, Big Brother-esque monitoring of behaviour.</p>
 
 <p>How might we use metrics to help us improve what matters in a way that supports, not damages, an empowering and sustainable engineering team culture?</p>
+{% endlayoutblock %}
+
+{% layoutblock 'bio' %}
+{{ bio | safe }}
+{% endlayoutblock %}
+
+{% layoutblock 'talkReferences' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}
+
+{% layoutblock 'talkTranscript' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}

@@ -42,7 +42,7 @@
     </header>
 
     <div class="column-two card">
-      {{ bio | safe }}
+      {% renderlayoutblock 'bio' %}
     </div>
 
     <aside class="column-three">
@@ -75,34 +75,44 @@
       <div class="column-one">
         <div class="section-label accent-border">
           <h3 class="section-title">
-            About {% svg "info" %}
+            Transcript
           </h3>
         </div>
 
         <div class="card accent-border">
-          {{ content | safe }}
+          {% renderlayoutblock 'talkTranscript' %}
         </div>
       </div>
 
       <div class="column-two">
-        <div class="section-label accent-border">
-          <h3 class="section-title">
-            When {% svg "calendar" %}
-          </h3>
-        </div>
+        <aside>
+          <div class="section-label accent-border">
+            <h3 class="section-title">
+            About {% svg "info" %}
+            </h3>
+          </div>
 
-        <div class="card accent-border">
-          <p>
-            {%if talkStartTime %}
-              <time datetime="{{ talkStartTime | iso8601Date }}">{{ talkStartTime | readableDate }}</time><br>
-              {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }}
-            {% else %}
+          <div class="card accent-border">
+            {% renderlayoutblock 'talkAbout' %}
+          </div>
+
+          <div class="section-label accent-border">
+            <h3 class="section-title">
+            When {% svg "calendar" %}
+            </h3>
+          </div>
+
+          <div class="card accent-border">
+            <p>
+              {%if talkStartTime %}
+                <time datetime="{{ talkStartTime | iso8601Date }}">{{ talkStartTime | readableDate }}</time><br>
+                {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }}
+              {% else %}
               Coming soon
             {% endif %}
-          </p>
-        </div>
+            </p>
+          </div>
 
-        <section>
           <div class="section-label accent-border">
             <h3 class="section-title">
               Where {% svg "location" %}
@@ -118,7 +128,17 @@
               New Zealand
             </p>
           </div>
-        </section>
+
+          <div class="section-label accent-border">
+            <h3 class="section-title">
+              Resources
+            </h3>
+          </div>
+
+          <div class="card accent-border">
+            {% renderlayoutblock 'talkReferences' %}
+          </div>
+        </aside>
       </div>
     </div>
   </article>

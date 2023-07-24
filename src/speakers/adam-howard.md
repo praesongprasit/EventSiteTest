@@ -35,8 +35,25 @@ featuredImageHeight: 630
 talkRecordingID: Wx6Mf4acEMM
 ---
 
+{% layoutblock 'talkAbout' %}
+
 <p>Quality is a slippery notion, and not something that can simply be manufactured and measured. In that sense, it’s a lot like culture.</p>
 
 <p>And just as culture is emergent from a peoples’ values and behaviours, quality emerges from teams’ principles and practices.</p>
 
 <p>In this talk, Adam describes a model for shaping those principles and practices in engineering teams that can nurture a culture of quality engineering.</p>
+{% endlayoutblock %}
+
+{% layoutblock 'bio' %}
+{{ bio | safe }}
+{% endlayoutblock %}
+
+{% layoutblock 'talkReferences' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}
+
+{% layoutblock 'talkTranscript' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}

@@ -32,6 +32,23 @@ featuredImageHeight: 630
 talkRecordingID: wKP5LIVzZks
 ---
 
+{% layoutblock 'talkAbout' %}
+
 <p>Cybersecurity has a rough reputation. It is often portrayed as an unattainable, sci-fi type skill, reserved only for hackers or people in The Matrix. Or worse, something only large organisations with big budgets and dedicated security teams can handle.</p>
 
 <p>In this talk, we will talk about how security is actually something all of us can do as part of the discipline we bring to our teams - no Keanu Reeves required.</p>
+{% endlayoutblock %}
+
+{% layoutblock 'bio' %}
+{{ bio | safe }}
+{% endlayoutblock %}
+
+{% layoutblock 'talkReferences' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}
+
+{% layoutblock 'talkTranscript' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}

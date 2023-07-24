@@ -31,8 +31,25 @@ featuredImageHeight: 630
 talkRecordingID: hdG9T60tbLI
 ---
 
+{% layoutblock 'talkAbout' %}
+
 <p>New Zealand organisations use DevOps practices and culture in different ways.</p>
 
 <p>In this talk, we will investigate how different sizes and scale organisations are using DevOps technical and cultural practices to drive different outcomes.</p>
 
 <p>We will investigate how in large enterprises, DevOps is more about assurance and safety, whereas, in resource-constrained startups, DevOps is about speed and learning.</p>
+{% endlayoutblock %}
+
+{% layoutblock 'bio' %}
+{{ bio | safe }}
+{% endlayoutblock %}
+
+{% layoutblock 'talkReferences' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}
+
+{% layoutblock 'talkTranscript' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}

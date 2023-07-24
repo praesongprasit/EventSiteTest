@@ -31,8 +31,25 @@ featuredImageHeight: 630
 talkRecordingID: 6v26UbKogNg
 ---
 
+{% layoutblock 'talkAbout' %}
+
 <p>Are you a software engineer looking to give engineering leadership a go?</p>
 
 <p>Are you wondering how and where to start the journey or prepare for it without losing your technical roots?</p>
 
 <p>This talk will provide you with some pointers, experiences, and learnings on how to cultivate a strong engineering culture within teams and organisations, while also preparing for a role in engineering leadership.</p>
+{% endlayoutblock %}
+
+{% layoutblock 'bio' %}
+{{ bio | safe }}
+{% endlayoutblock %}
+
+{% layoutblock 'talkReferences' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}
+
+{% layoutblock 'talkTranscript' %}
+
+<p>Coming soon</p>
+{% endlayoutblock %}
