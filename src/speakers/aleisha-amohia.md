@@ -8,6 +8,10 @@ bio: "<p>Aleisha Amohia is a passionate young advocate for diversity and equity,
 
 <p>Aleisha is also actively involved in community organisations, with links to the National Council of Women New Zealand, Wellington Alliance Against Sexual Violence, InternetNZ, Victoria University of Wellington Women in Tech, and more.</p>"
 profileUrl: [{
+  "name": "Website",
+  "url" : "https://aleisha.nz",
+  "icon": "code"
+},{
   "name": "LinkedIn",
   "url" : "https://www.linkedin.com/in/aleishaamohia/",
   "icon": "linkedin"
@@ -44,7 +48,14 @@ talkRecordingID: wSa_nABUypw
 
 {% layoutblock 'talkReferences' %}
 
-<p>Coming soon</p>
+<ul>
+  <li><a rel="external" href="https://www.rnz.co.nz/programmes/the-detail/story/2018858864/the-anatomy-of-a-pepeha">Pepeha (Māori introduction)</a></li>
+  <li><a rel="external" href="https://koha-community.org/">Koha open source library system</a></li>
+  <li><a rel="external" href="https://www.imsb.maori.nz/maori-wellbeing-in-tamaki-makaurau/manaakitanga/">Manaakitanga</a></li>
+  <li><a rel="external" href="https://www.imsb.maori.nz/maori-wellbeing-in-tamaki-makaurau/whanaungatanga/">Whanaungatanga</a></li>
+  <li><a rel="external" href="https://tereomaori.tki.org.nz/Curriculum-guidelines/Teaching-and-learning-te-reo-Maori/Aspects-of-planning/The-concept-of-a-tuakana-teina-relationship">Tuakana / Teina</a></li>
+  <li><a rel="external" href="https://teara.govt.nz/en/kotahitanga-unity-movements">Kotahitanga</a></li>
+</ul>
 {% endlayoutblock %}
 
 {% layoutblock 'talkTranscript' %}
