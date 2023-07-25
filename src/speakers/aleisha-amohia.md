@@ -98,11 +98,10 @@ talkRecordingID: wSa_nABUypw
 </p>
 <p>
   Ah... I te tuatahi ngā mihi ki ngā tāngata whenua o te rohe nei.<br>
-  Na ratau te mana, na ratau te whenua,<br>
-  na ratau te tino rangatiratanga mo ake tonu.<br>
+  Na ratau te mana, na ratau te whenua, na ratau te tino rangatiratanga mo ake tonu.<br>
   I te tuarua,<br>
-  Ko Ruapehu te maungal<br>
-  Ko Whanganui te awal<br>
+  Ko Ruapehu te maungal.<br>
+  Ko Whanganui te awal.<br>
   Ko Aotea te waka.<br>
   Ko Te Āti Haunui-a-Pāpārangi te iwi.<br>
   Nō Taumarunui me Cambodia me India au.<br>
