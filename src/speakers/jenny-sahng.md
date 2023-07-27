@@ -83,16 +83,10 @@ Sorry, when we're working on the software that they'll be running the team with
 	In some articles at work, behind a commit, in some other places, or on LinkedIn! All over the place.
 </p>
 <p>
-	And so of course, when we were thinking about data lens in culture.
+	And so of course, when we were thinking about data lens in culture. We were like, right we knew who to go to. It's Jenny.
 </p>
 <p>
-	We were like, right we knew who to go to. It's Jenny.
-</p>
-<p>
-	Her work in the last few years has been very focused on just that.
-</p>
-<p>
-	Making sure that metrics, data, and culture intertwine in the best possible way.
+	Her work in the last few years has been very focused on just that. Making sure that metrics, data, and culture intertwine in the best possible way.
 </p>
 <p>
 	And so please welcome Jenny Sahng.
