@@ -38,7 +38,18 @@ talkRecordingID: Lo2s480oI3U
 
 {% layoutblock 'talkReferences' %}
 
-<p>Coming soon</p>
+<ul>
+  <li><a rel="external" href="https://dora.dev/">DORA (DevOps Research & Assessment) metrics</a></li>
+  <li><a rel="external" href="https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html">What Google Learned From Its Quest to Build the Perfect Team</a> by New Work Times</li>
+  <li><a rel="external" href="https://en.wikipedia.org/wiki/Industrial_and_organizational_psychology">Org psych (Organisational Psychology)</a></li>
+  <li><a rel="external" href="https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/">Guide: Understand team effectiveness</a> by re:Work with Google</a></li>
+  <li><a rel="external" href="https://www.hbs.edu/faculty/Pages/item.aspx?num=19992">The Firm Specificity of Individual Performance: Evidence from Cardiac Surgery</a></li>
+  <li><a rel="external" href="https://www.deloitte.com/au/en/services/consulting/perspectives/inclusive-leadership.html">Waiter, is that inclusion in my soup? A new recipe to improve organisational performance</a> by Deloitte</li>
+  <li><a rel="external" href="https://www.amazon.com.au/Accelerate-Software-Performing-Technology-Organizations-ebook/dp/B07B9F83WM/">Accelerate</a></li>
+  <li><a rel="external" href="https://cloud.google.com/blog/products/devops-sre/dora-2022-accelerate-state-of-devops-report-now-out">Announcing the 2022 Accelerate State of DevOps Report: A deep dive into security</a> by Google Cloud</li>
+  <li><a rel="external" href="https://queue.acm.org/detail.cfm?id=3454124">The SPACE of Developer Productivity; there's more to it than you think</a></li>
+  <li><a rel="external" href="https://www.atlassian.com/team-playbook/health-monitor">Team Health Check (red-yellow-green)</a></li>
+</ul>
 {% endlayoutblock %}
 
 {% layoutblock 'talkTranscript' %}
