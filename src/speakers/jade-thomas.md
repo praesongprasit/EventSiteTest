@@ -50,7 +50,7 @@ talkRecordingID: RBpjp0GqDII
   <li><a rel="exnternal" href="https://thecynefin.co/about-us/about-cynefin-framework/">Cynefin framework</a></li>
   <li><a rel="exnternal" href="https://en.wikipedia.org/wiki/Yin_and_yang">Yin and Yang in Taosim</a></li>
   <li><a rel="exnternal" href="https://en.wikipedia.org/wiki/">COTS (Commercial off-the-shelf)Commercial_off-the-shelf</a></li>
-  <li><a rel="exnternal" href="https://en.wikipedia.org/wiki/Software_as_a_service">SaaS</a></li>
+  <li><a rel="exnternal" href="https://en.wikipedia.org/wiki/Software_as_a_service">SaaS (software-as-a-service)</a></li>
   <li><a rel="exnternal" href="https://learnwardleymapping.com/">Wardley Mapping by Simon Wardley</a></li>
   <li><a rel="exnternal" href="https://learn.launchdarkly.com/ ">LaunchDarkly</a></li>
   <li><a rel="exnternal" href="https://en.wikipedia.org/wiki/Threat_model">Threat modelling</a></li>
