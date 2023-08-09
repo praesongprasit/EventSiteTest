@@ -110,7 +110,7 @@ talkRecordingID: RBpjp0GqDII
 <p>
   I remember looking back at the first month we had 91% availability. I was kind of embarrassed being an engineering manager of online channels with nine one and like a low nine one.
 </p>
-<h4>How did his large bank get into this state of chaos?</h4>
+<h4>How did this large bank get into this state of chaos?</h4>
 <p>
   So, I was kind of reflecting on that. How did we get ourselves into this scenario?
 </p>
