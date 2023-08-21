@@ -356,4 +356,517 @@ And what's more, 
 they typically knew that they needed a bit of help. 
 </p>
 
+<p>
+They wanted it in a lot of cases, so they were 
+actually kind of stoked when I went sticking my nose in and that started to allay some of my fears, 
+about you know pulling off that reverse Pandora's Box maneuver.
+</p>
+
+<p>
+They were eager to learn not just 
+from me but from others, about how they could solve some of their challenges.
+</p>
+
+<p>
+They were stuck in silos, 
+but it wasn't through choice - there just hadn't been any visible champions of quality making any 
+noise for a while, so I established a Community Practice and raised a metaphorical flag. 
+</p>
+
+<p>
+This meant 
+we suddenly made quality engineering visible in the organization again.
+</p>
+
+<p>
+We brought people together 
+to talk about quality and we created a space where it was worthwhile you know, talking about testing 
+and testability, where you could ask questions about your automation challenges, where you could 
+see if anyone had any experience with accessible design or non-functional requirements.
+</p>
+
+<p>
+And of 
+course, this all doesn't just happen. I made it part of my job to nurture this community. I relentlessly 
+annoyed people to talk at our fortnightly sessions.
+</p>
+
+<p>
+And this was easy enough for a while because I'd 
+made it my job to also find out all of the cool things that were happening, happening in the 
+quality space around Xero, so I could queue them up.
+</p>
+
+<p>
+But over time it gets harder, you run through 
+all of the easy obvious topics you have, to dig deeper, persuade more subtly. 
+</p>
+
+<p>
+And crucially 
+you need to make the forum accessible to all the different people - regardless of their level 
+of expertise, of their confidence, of what their 
+first language might be, of what time zone they 
+exist in. So we ran different types of sessions: 
+Lean Coffees, talks, screenings of conference 
+talks and other videos; and we recorded them all 
+and we re-ran them for a northern hemisphere 
+time zone and constantly learned and refined.
+</p>
+
+<p>
+So it took a lot of time and a lot of energy, 
+but I knew how important it was and so you 
+know, kept this running, this community as 
+part of my day job, it still is to this day.
+</p>
+
+<p>Because I knew that what we needed to start 
+to build capability in quality engineering was a space in which people could interact 
+meaningfully, they needed to learn from their 
+peers, they also needed to realize that they 
+could teach their peers a thing or two as well.
+</p>
+
+<p>
+So talking about it made it real, made it valuable 
+and made it important and that was a good start.
+</p>
+
+<p>
+The Second Step, needed to build on the momentum 
+of that first one. So Xero remained kind of a hopelessly large place and I was still just one 
+person trying to enable a company with you know 
+probably close to a thousand engineers, across a 
+literally unknowable number of teams. I still can't tell you how many are scattered around the globe 
+on at least four continents and five major time 
+zones.
+</p>
+
+<p>
+So I knew I needed to try and provide a way 
+for all of those people to feel confident in their 
+quality engineering choices without all of them 
+having to queue up to talk to me. 
+</p>
+
+<p>
+Frankly - I don't enjoy talking that much, which probably sounds 
+ironic standing in front of a room full of people.
+</p>
+
+<p>
+So I realized that my second major challenge 
+would be to establish a set of principles for 
+Quality engineering at Xero. 
+</p>
+
+<p>
+So a principle is a 
+fundamental proposition that is the foundation 
+for a system of belief, or behaviour, or chain 
+of reasoning.
+</p>
+
+In other words, it's a key idea 
+or tenet that underpins and influences the way 
+that we think act and decide.
+</p>
+
+<p>
+We all have personal 
+principles - knowingly or unknowingly - that sort of 
+help us navigate the world on a daily basis. 
+</p>
+
+<p>
+Now I 
+wanted to craft a set of principles that would 
+help engineers and teams navigate the
+Quality Engineering World confidently and 
+that could guide their decisions and their actions 
+in a way that would be consistent with our overall 
+journey. 
+</p>
+
+<p>
+Of course, at this point I still felt like 
+a relative interloper into this community, so 
+I really really didn't want to simply inscribe 
+some principles on some stone tablets and sort of 
+proclaim them to be the word of the quality gods.
+</p>
+
+<p>
+Instead, I wanted to tap into my burgeoning 
+community and truly extract the values that were 
+already in place at Xero. 
+</p>
+
+<p>
+So I ran a whole host of 
+workshops, with all different people, at different time zones. 
+</p>
+
+<p>
+We worked through several exercises in 
+each - framing prompts like positively: what's 
+good about quality, what do we love, negatively: what 
+are our challenges, what are we struggling with, 
+and aspirationally: what do you wish your world 
+looked like. 
+</p>
+
+<p>
+And it was super fascinating I got 
+to meet loads of new people, which was useful 
+and I learned heaps about the organization 
+and made lots of connections and you know sowed 
+the seeds of future collaboration along the way.
+</p>
+
+<p>
+And when I was done, I collated all the data that 
+we'd collected and then hacked and shaped it down 
+into groups and then into themes and then 
+wordsmith it into five proposed principles.
+</p>
+
+<p>
+I took those principles played them back to the 
+community and with a few minor tweaks, through 
+that feedback, we had them - our fundamental 
+propositions for Quality engineering at Xero 
+ought to be.
+</p>
+
+<p>
+And honestly it doesn't even really 
+matter what they actually are.
+</p> 
+
+<p>
+What's important is that they exist and they were drawn from 
+the community. We effectively came together and decided the things that are most valued at 
+Xero, in the practice of quality engineering.
+</p>
+
+<p>
+With that we gave ourselves some really clear 
+decision-making principles that meant, that any 
+team could ask themselves - "this thing that 
+we're doing, does it align to our principles?".
+</p>
+
+<p>
+And so that meant that not only did many 
+engineers and teams feel a legit legitimate
+sense of ownership over those principles, because 
+they'd literally helped to shape them -but it gave 
+us a device through which we started to sort 
+of slowly and steadily, converge towards a more 
+consistent practice, where we would all be aligned.
+</p>
+
+<p>
+In certain ways and it mainly also sort of 
+managed to maintain a sense of autonomy for teams 
+as well, since they were still empowered to design 
+the specifics of their approach, as long as they 
+were aligned fundamentally to those principles.
+</p>
+
+<p>
+Now I've since used these principles countless 
+times and in countless ways, to sort of help shape 
+and evolve the development of quality engineering 
+at Xero and I've seen others do the same as well.
+</p>
+
+<p>
+But what I'm most proud of is that each time I 
+look back over them, they feel more and more like 
+they reflect what I'm actually seeing happening 
+around me. So things have started to shift.
+</p>
+
+<p>
+And that brings us to the third example 
+of the things I've been doing to kind of enable 
+capability growth at Xero. 
+</p>
+
+<p>
+Because once we had 
+the great foundation of a community, and some shared principles, we could get stuck into the more 
+practical elements - helping to directly shape what teams were doing in their day-to-day. 
+</p>
+
+<p>
+Now this has 
+been the main bulk of the work that I've done at Xero.
+</p>
+
+<p>
+I now have three lead engineers as part of my 
+team, each of them specialists in various areas of 
+quality engineering, and the four of us continue to 
+support that globally scaled organization. 
+</p>
+
+<p>
+I could talk for days about this and you know, hit me up 
+later, if that's your jam, but for now I'll focus 
+on one example.
+</p>
+
+<p>
+So, we recognize really quickly that 
+the bulk of automated testing that was happening 
+at Xero was of the end-to-end persuasion. 
+</p>
+
+<p>It was made up of selenium tests that were in the way of 
+selenium tests, you know a bit flaky, a bit slow, a 
+bit blunt. 
+</p>
+
+<p>
+We also knew that we were increasingly moving towards a distributed architecture, 
+modernizing services away from sort of big 
+old monoliths and building more granular, dedicated 
+services and microservices. 
+</p>
+
+<p>
+And it was clear that the existing practices and tools that teams had at 
+their disposal weren't going to you know help them 
+to automate the right tests in the right way for these new systems that they were building.
+</p>
+
+<p>
+So crucially, we knew that we needed to enable our 
+teams in this rapidly distributing world to be self-reliant, that they couldn't be hamstrung by 
+having to deploy and test against the myriad of 
+distributed services that they had dependencies 
+on, all in one integrated space with long 
+kind of laborious and complicated end-to-end 
+tests. 
+</p>
+
+<p>
+So in short, we recognized that the 
+practice of contract testing was going to 
+unlock a lot of value for a lot of teams 
+but crucially, almost nobody was doing it and we 
+wanted to change that. 
+</p>
+
+<p>
+So step one was to find 
+the team that were interested in the practice. 
+</p>
+
+<p>
+We helped them understand the approach we built out, 
+a proof of concept, that meant getting to grips 
+with Pact, our tool of choice, with standing up an internally hosted pact broker, that would manage 
+the contracts. 
+</p>
+
+<p>
+And so we did all that, we tried it 
+all out, and we saw the value and the gains start 
+to happen pretty quickly. 
+</p>
+
+<p>
+So then we shouted about it a bit - we went back to the Community of Practice. We 
+showed it off, we sort of gauge the interest from 
+more people, more teams, kind of validating our 
+bet, that this was a practice that teams wouldb
+find compelling, that they would see the value in 
+it and they would jump out at them, as solving a 
+problem that maybe, they hadn't even entirely 
+realized that they had or would have. 
+</p>
+
+<p>
+So the next step was to streamline it or scale it for 
+more teams. So we didn't want each and every team 
+in the organization to need to stand up and host 
+their own pact broker, so we license the Pactflow, 
+as software-as-a-service offering that took the 
+cognitive load of doing that off of their plates, of
+each individual team. 
+<p>
+
+<p>    
+It also added a good deal 
+of safety and security by minimizing the amount of 
+infrastructure that we would need to configure 
+internally.
+</p>
+
+<p>
+So we set that up, we put licensing 
+process in place and we sorted out user management 
+for teams as well. We also knew we'd need to ensure 
+that teams could easily run these newfangled sort 
+of contract tests, wherever they needed to, and so 
+we developed and published helpers and webhooks 
+for our CI/CD pipelines, so that teams could easily 
+trigger builds from software as a service (SaaS) broker, 
+that lived on the public internet without any 
+security issues, and without them having to figure 
+it all out for themselves.
+</p>
+
+<p>
+And of course, along the way we wrote guides about the practice of contract 
+testing and how it varies from regular integration 
+testing, the different value that it provides.
+</p>
+
+<p>
+We wrote about the tools themselves, how to get 
+started, how to configure it for their team, how to 
+get licenses and then how to start building tests.
+</p>
+
+<p>
+And of course we regularly demoed all of this 
+back to the community and sought input and 
+indeed, had help from the early adopters in 
+proving the tooling that we were providing.
+</p>
+
+<p>
+This means that it's really easy now 
+for a team at Xero to understand whether 
+contract testing is a practice that they 
+ought to be partaking of, depending on 
+the component that they're building and 
+what type of dependencies that they have.
+</p>
+
+<p>
+And if they ought to be, it's super easy 
+for them to get started. There's a supported 
+tooling platform, there's guiding material and 
+there's also you know us as an enablement team, 
+and a whole Community around them for help, 
+to get them going. So it was in this way - by 
+investing in building knowledge, by providing 
+hands-on coaching alongside teams, and 
+by developing specific tools and templates - we've 
+reduced the barrier to entry for the practices 
+that will add value for our teams. 
+</p>
+
+<p>
+Not just contracts, contract testing, but a whole host of 
+others as well. And as such we're seeing more and 
+more of those behaviours start to happen out there
+in the wild, all without ever sort of having 
+to tell anyone that they had to do something.
+</p>
+
+<p>
+So we started with culture and then we talked 
+about quality engineering, and it's time to 
+cross those streams, because well I thought, 
+that I was building capability, I realized 
+at some point along the way, that what was 
+more important was actually that I was also 
+influencing the culture of quality engineering 
+at Xero.
+</p>
+
+<p>
+There's a pretty clear moment where 
+I remember this happening actually. So I'd been 
+rocking along sort of doing stuff, a lot of  
+stuff that I've talked about already and it was 
+going pretty well. 
+People were excited, we started 
+to see some shifts. 
+</p>
+
+<p>
+There was kind of you know, 
+the sound of quality engineering was in the air 
+and then I got one of those really annoying 
+requests from my boss's boss. 
+</p>
+
+<p>
+We were sat 
+down talking about it and he was like "Adam, 
+this is great, you're really making a difference. 
+I want to see if we can do the same 
+thing in other domains - so can you share 
+your model with me, so that we can show it 
+to other teams?". 
+</p>
+
+<p>
+And what I said was "Yes Paul, 
+I can definitely share with you 
+the model that I definitely have".
+</p>
+
+<p>
+But what I thought was "Ah, 
+now I've got to invent a model."
+So of course, I did have a model in the same way 
+that you know, an exploratory tester always has a 
+model, and that they're testing against but might 
+not be super cognizant of it.
+</p>
+
+<p>
+Ironically, I'd spent years coaching testers to make their models 
+explicit and visible, and here I was caught in my 
+own trap! An internalized model full of tacit and 
+almost unconscious knowledge. 
+</p>
+
+<p>
+So this request 
+turned out to be a great thing, because in sitting 
+down and extracting the model from my brain, and 
+interrogating it a bit, I discovered that at some 
+point I had unknowingly realized that I needed to 
+create a cultural shift in the quality engineering 
+landscape and was taking steps to sort of achieve 
+that, because that was the only way that the work 
+that we were doing was really going to scale.
+</p>
+
+<p>
+So in previous jobs, I'd been a direct influencer, 
+I knew all the engineers and testers, I could run  
+workshops for them, have regular conversations, 
+jump in when they had incidents and participate 
+in the learning from those challenges.
+</p>
+
+<p>
+At Xero, that wasn't going to fly, and I'd recognize that, 
+even unconsciously and started to build out an 
+enablement model that could scale, and without even 
+you know knowing, it was set up to influence 
+the culture of quality engineering as well.
+</p>
+
+<p>
+So, here's the model - or at least, a simplified 
+representation of it. It's based on sort of 
+three core pillars - but everything is really in 
+service of my team's mission statement, which 
+is that we want to enable the rapid delivery 
+of quality products. 
+</p>
+
 {% endlayoutblock %}
