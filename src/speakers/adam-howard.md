@@ -869,4 +869,218 @@ is that we want to enable the rapid delivery 
 of quality products. 
 </p>
 
+<p>
+That's what we exist for, and while we obviously highlight that quality is self-evidently crucial, so is speed. 
+</p>
+
+<p>
+We want to ensure we're supporting teams to work at the sort of cadence that Xero and any modern agile software 
+delivery company demands. 
+</p>
+
+<p>
+The pillars though,
+the first one is that we need to really clearly ensure that teams understand what success looks 
+like, for them in quality engineering. We have to 
+define great quality engineering, so they can work 
+towards it and we do this in a number of ways. 
+</p>
+
+<p>
+So we've covered the principles. They give teams a 
+high level aligned set of sort of fundamental 
+propositions that can guide their choices and 
+their actions. 
+</p>
+
+<p>
+The vision is the next really 
+important part. So that sets out an aspirational 
+view of what quality engineering at Xero can be 
+and I really like this way of framing it. When 
+we're working with teams and asking them to change 
+and asking them to do the work, 'Why' often comes up. 
+It's like why are we investing this effort in it 
+and I find that like this aspirational view of a 
+description of what the experience of quality can 
+be like in the future is a really nice way of sort 
+of framing that and helping them to connect to it.
+</p>
+
+<p>
+We also have a standard for Quality engineering. 
+It's part of a wider set of engineering standards 
+and that sets the baseline expectations for what 
+teams need to be doing. Now I see the standard as 
+the start of our journey, so the present and I 
+see the vision as the future that we're working 
+towards and then we also help teams to measure 
+their quality engineering both their level of 
+capability, but also the resultant quality 
+of their products. For the former we use a 
+scorecard where teams are empowered to identify 
+how confident they are in quality throughout the 
+life cycle and then for the latter they're all 
+proxies that we use because we can't objectively 
+measure quality. So things like test automation 
+coverage and SLOs are our main tools here.
+</p>
+
+<p>
+Of course, just knowing what great quality 
+engineering looks like isn't enough. Teams 
+also need to have the knowledge the skills 
+and the tools to actually go and enact that 
+definition and to bring it into reality. So that's 
+the second pillar, this pure enablement piece.
+</p>  
+
+<p>
+A big part of that is knowledge, capability and growth and so we do that through you know providing clear guidance, written stuff that can be consumed asynchronously but also more targeted education efforts, workshops that we develop internal stuff that we find externally 
+to actually grow skills and knowledge and 
+concepts in our, in our people and teams.
+</p>
+
+<p>
+Of course, a lot of software engineering is 
+inherently practical and learning by doing 
+is often the most effective. So we also try and 
+spend as much time as we can working with teams 
+in practice in their day-to-day coaching them and 
+helping them to implement stuff, learning alongside 
+us and sort of creating lasting capability through 
+that genuine practice.
+</p>
+
+<p>
+And just as importantly we 
+also invest really heavily in providing the tools 
+that will allow people to perform that great 
+quality engineering. Each team shouldn't have to 
+assess the landscape for every tool and every need 
+that they have. We can do that for them. We know the 
+technologies that we largely work with, we know the 
+context that we largely operate in, and so we can 
+choose the best solution for most teams. And we can 
+integrate that into accelerators and our templates 
+for different component types and stuff like that.
+Even with all of that giving people that 
+definition and giving people that capability,
+isn't necessarily going to be enough for genuine 
+capability growth to occur. You also need to create 
+the space and the culture for them to succeed in 
+achieving it. That means ensuring that everyone 
+understands the value of getting better at 
+quality engineering, so what's in it for them.
+</p>
+
+<p>
+Wow, I'm running out of time, so let's speed up  
+this last column. So yeah lots of engaging with 
+people who are in programs of work, making sure we 
+build quality outcomes into the program outcomes.
+And yeah day-to-day propaganda of writing blog 
+posts and just sticking my nose in places where 
+it needs to and the community that exists,
+starts to do peer-to-peer work um across the place.
+</p>
+
+<p>
+So this is kind of the basic model for how we're enabling quality engineering at Xero. It's not 
+finished, it's not done but it seems to be working so far and there's some correlations to some 
+things that we heard about earlier. So it's pretty easy to draw a line from those three pillars to 
+the values, behaviors and interactions. That are those things that shape culture, that we talked 
+about at the start. 
+</p>
+
+<p>
+When we're defining what great quality engineering looks like, we're really saying 
+here are the things that we value, the things that 
+we think are important, the things that we believe in. When we're enabling quality engineering for 
+building knowledge skills and tools, we're directly
+influencing the ability of our engineers and teams 
+to perform certain practices. We're helping them to 
+do those specific things. And when we're advocating 
+for Quality engineering capability growth is 
+something that's important. We bring together 
+people to talk about quality engineering and 
+to create intersection between people who might 
+not otherwise have both recognized that they have 
+you know, a shared goal or a common interest in 
+quality engineering.
+</p>
+
+<p>
+So ultimately my enablement model for Quality engineering at xero is a model 
+that provides direct ways to influence the factors 
+that contribute to Culture by defining principles, 
+enabling practices and advocating for communities. 
+We start to affect the values and behaviors 
+and interactions of the community at Xero, in 
+a way that ought to cause a more quality 
+engineering optimized culture to emerge.
+</p>
+
+<p>
+So importantly, I want to highlight this lesson just about quality engineering. Aside from the mission statement, nothing on that model was specific to Quality engineering and I want to share this model, because I think it's something 
+that you can take back and apply in your context 
+as well. All you really need to do is to find 
+your own levers for those values behaviors and 
+interactions. For me, this translated first into 
+"principles", "practice" and "community" and it evolved 
+when I thought more consciously about it into the 
+"define", "enable" and "advocate", that the model is now 
+built around. But you can find your own levers, and 
+add your own labels and work in your context to make that appropriate. 
+</p>
+
+<p>
+Remember that your culture will have its own way of changing just as ours did.
+</p>
+
+<p>
+We should also revisit that lesson from the start of the talk that culture is an emergent property. So you can't change it directly and even trying to trigger changes on a smaller scale is really difficult. 
+</p>
+
+<p>
+So this is where something called the "law of diffusion of innovation" comes in and is really your friend.
+</p>
+
+<p>
+This is the idea that you shouldn't even try and influence all of a community at once.
+</p> 
+
+<p>
+Instead, focus on identifying those early adopters and willing participants who will self-select into a good idea, and be valuable contributors to your change. 
+</p>
+
+<p>
+Once you start changing them, their values, their behaviors and their interactions will start to show in the community and that will start to shape the culture and bring more people on board.
+</p>
+
+<p>
+Then slowly but surely you see others come along and say well, "that looks cool. Can we get involved?"
+</p>
+
+<p>
+And if that isn't fostering a Quality quality culture then I don't know what it is.
+</p>
+
+<p>
+I didn't make my slides look this pretty, look them up, it's really cool.
+</p>
+
+<p>
+And that's a wrap for me. I really hope you took something from this talk.
+</p>
+
+<p>
+I love enablement and I Love Culture they are great topics, so thank you to the NZ Tech rally crew for inviting me along.
+</p>
+
+<p>
+Thanks to you all for listening and I'll take questions later or online. Thank you!
+</p>
+
+
 {% endlayoutblock %}
