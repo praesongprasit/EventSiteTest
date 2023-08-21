@@ -55,5 +55,84 @@ talkRecordingID: Wx6Mf4acEMM
 
 {% layoutblock 'talkTranscript' %}
 
-<p>Coming soon</p>
+<p>
+Prae: So now that the stage have been 
+magically or not magically reset,
+let's dive into another aspect of the engineering
+practice that is again very core to culture. </p>
+
+<p>
+That is quality. 
+</p> 
+
+<p>
+I've personally felt the impact 
+of our next speaker's approach to Quality practice,  
+even though, we have never worked in the same 
+team in the five years that I've been in the  
+same company with him. 
+</p> 
+
+<p>
+His style of communication 
+insights and the pragmatic approach to influence  
+is something to be admired. Something that you 
+can just feel and see from far, from the way he  
+talks and things.
+</p>
+
+<p> 
+So I'm delighted to welcome 
+Adam Howard, an engineering manager. [Applause]
+</p>  
+
+<p>
+Adam: All right, Hello everyone. I was worried we might 
+be in the post-lunch lull but you're all rowdy  
+enough to require free claps from Prae there. So 
+that's good news.
+</p>
+
+<p> 
+So yeah my name is Adam and  
+I've been in the quality space for like 12 years 
+and I still apparently can't resist using quality  
+as an adjective and a noun successively. It's 
+a joke I never get tired of, but here we are.  
+</p>
+
+<p>
+I'm here today to talk about the core 
+engineering domain within engineering, and  
+more specifically, how I've attempted to foster 
+a culture of quality Engineering in my work.  
+</p>
+
+<p>
+So my employer is a bit shy about people 
+representing them sometimes. 
+</p>
+
+<p>
+So I want to  
+assure you this is all very much based in my 
+experience at work and I'll doubtless mention them  
+a few times along the way. But please do me the 
+kindness of remembering this is purely my views as  
+an individual and if I happen to say the word "Zero" 
+at any point, it definitely starts with a Z, okay.
+</p>
+
+<p>
+Before we get into the meat of 
+it, I want to ensure that we all know what we're  
+talking about when we say culture.
+</p>
+
+<p>
+It's kind 
+of a slippery notion. We've heard lots about  
+it today already. But you know lunch and panels 
+and excitement, we might have blank minds by now.  
+</p>
 {% endlayoutblock %}
