@@ -50,7 +50,20 @@ talkRecordingID: Wx6Mf4acEMM
 
 {% layoutblock 'talkReferences' %}
 
-<p>Coming soon</p>
+<ul>
+    <li><a rel="external" href="https://docs.pact.io/">Pact</a></li>
+    <li><a rel="external" href="https://pactflow.io/blog/what-is-contract-testing/">Contract Testing</a></li>
+    <li><a rel="external" href="https://docs.pact.io/getting_started/sharing_pacts">PactBroker</a></li>
+    <li><a rel="external" href="https://www.selenium.dev/">Selenium</a></li>
+    <li><a rel="external" href="https://en.wikipedia.org/wiki/Software_as_a_service">SaaS</a></li>
+    <li><a rel="external" href="https://www.atlassian.com/microservices/microservices-architecture/distributed-architecture">Distributed Architecture:</a></li>
+    <li><a rel="external" href="https://en.wikipedia.org/wiki/Diffusion_of_innovations">Diffusion of innovations</a></li>
+    <li><a rel="external" href="https://slidesgo.com/">Slidesgo</a></li>
+    <li><a rel="external" href="https://www.flaticon.com/">Flaticon</a></li>
+    <li><a rel="external" href="https://www.freepik.com/">Freepik</a></li>
+    <li><a rel="external" href="https://storyset.com/">Storyset</a></li>
+  </ul>
+  
 {% endlayoutblock %}
 
 {% layoutblock 'talkTranscript' %}
