@@ -1110,7 +1110,7 @@ And that's a wrap for me. I really hope you took something from this talk.
 </p>
 
 <p>
-I love enablement and I Love Culture they are great topics, so thank you to the NZ Tech rally crew for inviting me along.
+I love enablement and I love culture. They are great topics. So thank you to the NZ Tech rally crew for inviting me along.
 </p>
 
 <p>
