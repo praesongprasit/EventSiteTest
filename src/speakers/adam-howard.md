@@ -56,7 +56,7 @@ talkRecordingID: Wx6Mf4acEMM
     <li><a rel="external" href="https://docs.pact.io/getting_started/sharing_pacts">PactBroker</a></li>
     <li><a rel="external" href="https://www.selenium.dev/">Selenium</a></li>
     <li><a rel="external" href="https://en.wikipedia.org/wiki/Software_as_a_service">SaaS</a></li>
-    <li><a rel="external" href="https://www.atlassian.com/microservices/microservices-architecture/distributed-architecture">Distributed Architecture:</a></li>
+    <li><a rel="external" href="https://www.atlassian.com/microservices/microservices-architecture/distributed-architecture">Distributed Architecture</a></li>
     <li><a rel="external" href="https://en.wikipedia.org/wiki/Diffusion_of_innovations">Diffusion of innovations</a></li>
     <li><a rel="external" href="https://slidesgo.com/">Slidesgo</a></li>
     <li><a rel="external" href="https://www.flaticon.com/">Flaticon</a></li>
@@ -693,7 +693,7 @@ the team that were interested in the practice.
 <p>
 We helped them understand the approach we built out, 
 a proof of concept, that meant getting to grips 
-with Pact, our tool of choice, with standing up an internally hosted pact broker, that would manage 
+with <a rel="external" href="https://docs.pact.io/">Pact</a>, our tool of choice, with standing up an internally hosted pact broker, that would manage 
 the contracts. 
 </p>
 
@@ -718,7 +718,7 @@ realized that they had or would have.
 So the next step was to streamline it or scale it for 
 more teams. So we didn't want each and every team 
 in the organization to need to stand up and host 
-their own pact broker, so we license the Pactflow, 
+their own pact broker, so we license the <a rel="external" href="https://pactflow.io/">Pactflow</a>, 
 as software-as-a-service offering that took the 
 cognitive load of doing that off of their plates, of
 each individual team. 
@@ -739,7 +739,7 @@ that teams could easily run these newfangled sort 
 of contract tests, wherever they needed to, and so 
 we developed and published helpers and webhooks 
 for our CI/CD pipelines, so that teams could easily 
-trigger builds from software as a service (SaaS) broker, 
+trigger builds from software as a service (<a rel="external" href="https://en.wikipedia.org/wiki/Software_as_a_service">SaaS</a>) broker, 
 that lived on the public internet without any 
 security issues, and without them having to figure 
 it all out for themselves.
