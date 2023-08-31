@@ -69,14 +69,18 @@ talkRecordingID: Wx6Mf4acEMM
 {% layoutblock 'talkTranscript' %}
 
 <p>
-Prae: So now that the stage have been
+  <strong>Prae:</strong>
+</p>
+
+<p>
+So now that the stage have been
 magically or not magically reset,
 let's dive into another aspect of the engineering
 practice that is again very core to culture.</p>
 
 <p>
 That is quality. 
-</p> 
+</p>
 
 <p>
 I've personally felt the impact
@@ -84,7 +88,7 @@ of our next speaker's approach to Quality practice,
 even though, we have never worked in the same
 team in the five years that I've been in the 
 same company with him. 
-</p> 
+</p>
 
 <p>
 His style of communication insights and the pragmatic approach to influence is something to be admired. </p>
@@ -98,7 +102,11 @@ So I'm delighted to welcome Adam Howard, an engineering manager. [Applause]
 </p>
 
 <p>
-Adam: All right, Hello everyone. I was worried we might be in the post-lunch lull but you're all rowdy enough to require free claps from Prae there. So that's good news.
+  <strong>Adam:</strong>
+</p>
+
+<p>
+All right, Hello everyone. I was worried we might be in the post-lunch lull but you're all rowdy enough to require free claps from Prae there. So that's good news.
 </p>
 
 <p> 
@@ -129,9 +137,7 @@ Before we get into the meat of it, I want to ensure that we all know what we're
 </p>
 
 <p>
-It's kind 
-of a slippery notion. We've heard lots about 
-it today already.
+It's kind of a slippery notion. We've heard lots about it today already.
 </p>
 
 <p>
@@ -231,7 +237,7 @@ It's an abstract, emergent, intangible thing and so you cannot simply mould it i
 So no matter how much your CEO or your senior leaders want to 
 instil a "great culture" in your organization, they can't just tell you and make it happen,
 which doesn't stop people trying. 
-</p> 
+</p>
 
 <p>
 Surprisingly common to see people have a crack at that, but it won't work just to say this is our culture now, because it emerges from people, and 
@@ -420,7 +426,11 @@ And crucially 
 you need to make the forum accessible to all the different people - regardless of their level 
 of expertise, of their confidence, of what their 
 first language might be, of what time zone they 
-exist in. So we ran different types of sessions: 
+exist in.
+</p>
+
+<p>
+So we ran different types of sessions: 
 Lean Coffees, talks, screenings of conference 
 talks and other videos; and we recorded them all 
 and we re-ran them for a northern hemisphere 
@@ -447,7 +457,7 @@ and made it important and that was a good start.
 </p>
 
 <p>
-The Second Step, needed to build on the momentum 
+The Second step needed to build on the momentum 
 of that first one. So Xero remained kind of a hopelessly large place and I was still just one 
 person trying to enable a company with you know 
 probably close to a thousand engineers, across a 
@@ -484,6 +494,7 @@ of reasoning.
 In other words, it's a key idea 
 or tenet that underpins and influences the way 
 that we think act and decide.
+
 </p>
 
 <p>
@@ -493,8 +504,7 @@ help us navigate the world on a daily basis.
 </p>
 
 <p>
-Now I 
-wanted to craft a set of principles that would 
+Now I wanted to craft a set of principles that would 
 help engineers and teams navigate the
 Quality Engineering World confidently and 
 that could guide their decisions and their actions 
@@ -556,7 +566,7 @@ ought to be.
 <p>
 And honestly it doesn't even really 
 matter what they actually are.
-</p> 
+</p>
 
 <p>
 What's important is that they exist and they were drawn from 
@@ -1037,13 +1047,25 @@ engineering optimized culture to emerge.
 <p>
 So importantly, I want to highlight this lesson just about quality engineering. Aside from the mission statement, nothing on that model was specific to Quality engineering and I want to share this model, because I think it's something 
 that you can take back and apply in your context 
-as well. All you really need to do is to find 
+as well.
+</p>
+
+<p>
+All you really need to do is to find 
 your own levers for those values behaviors and 
-interactions. For me, this translated first into 
+interactions.
+</p>
+
+<p>
+For me, this translated first into 
 "principles", "practice" and "community" and it evolved 
 when I thought more consciously about it into the 
 "define", "enable" and "advocate", that the model is now 
-built around. But you can find your own levers, and 
+built around.
+</p>
+
+<p>
+But you can find your own levers, and 
 add your own labels and work in your context to make that appropriate. 
 </p>
 
@@ -1061,7 +1083,7 @@ So this is where something called the "law of diffusion of innovation" comes in 
 
 <p>
 This is the idea that you shouldn't even try and influence all of a community at once.
-</p> 
+</p>
 
 <p>
 Instead, focus on identifying those early adopters and willing participants who will self-select into a good idea, and be valuable contributors to your change. 
@@ -1094,6 +1116,5 @@ I love enablement and I Love Culture they are great topics, so thank you to the 
 <p>
 Thanks to you all for listening and I'll take questions later or online. Thank you!
 </p>
-
 
 {% endlayoutblock %}
