@@ -53,9 +53,16 @@ talkRecordingID: wKP5LIVzZks
 
 {% layoutblock 'talkReferences' %}
 
-<p>
-  Coming soon
-</p>
+<ul>
+  <li><a rel="external" href="https://en.wikipedia.org/wiki/The_Matrix">The Matrix</li>
+  <li><a rel="external" href="https://en.wikipedia.org/wiki/Trinity_(The_Matrix)">Trinity (The Matrix)</li>
+  <li><a rel="external" href="https://www.cert.govt.nz/">CERT New Zealand</li>
+  <li><a rel="external" href="https://github.com/">GitHub</li>
+  <li><a rel="external" href="https://about.gitlab.com/">GitLab</li>
+  <li><a rel="external" href="https://www.datadoghq.com/">Datadog</li>
+  <li><a rel="external" href="https://owasp.org/www-community/Threat_Modeling">Threat Modeling</li>
+  <li><a rel="external" href="https://en.wikipedia.org/wiki/STRIDE_(security)">Microsoft STRIDE</li>
+<ul>
 {% endlayoutblock %}
 
 {% layoutblock 'talkTranscript' %}
@@ -161,7 +168,7 @@ talkRecordingID: wKP5LIVzZks
 </p>
 
 <p>
-  But to be honest, who didn't grow up watching The Matrix and idolising Trinity and her cyber rain and all of the trench coats and what-not, but that is the first thing that you think about when you think about security.
+  But to be honest, who didn't grow up watching <a rel="external" href="https://en.wikipedia.org/wiki/The_Matrix">The Matrix</a> and idolising <a rel="external" href="https://en.wikipedia.org/wiki/Trinity_(The_Matrix)">Trinity</a> and her cyber rain and all of the trench coats and what-not, but that is the first thing that you think about when you think about security.
 </p>
 
 <p>
@@ -503,7 +510,7 @@ talkRecordingID: wKP5LIVzZks
 </p>
 
 <p>
-  It comes down to some of those basic security advice that we hear from the likes of CERT New Zealand or other organisations around multi-factor authentication.
+  It comes down to some of those basic security advice that we hear from the likes of <a rel="external" href="https://www.cert.govt.nz/">CERT New Zealand</a> or other organisations around multi-factor authentication.
 </p>
 
 <p>
@@ -595,7 +602,7 @@ talkRecordingID: wKP5LIVzZks
 </p>
 
 <p>
-  If your stuff is hosted in GitHub or GitLab and they've got a whole bunch of built-in integrated tools that will do your vulnerability scanning for you, it will go through and scan for common vulnerabilities within the code that you have.
+  If your stuff is hosted in <a rel="external" href="https://github.com/">GitHub</a> or <a rel="external" href="https://about.gitlab.com/">GitLab</a> and they've got a whole bunch of built-in integrated tools that will do your vulnerability scanning for you, it will go through and scan for common vulnerabilities within the code that you have.
 </p>
 
 <p>
@@ -650,7 +657,7 @@ on the internet to see if anything works?
 </p>
 
 <p>
-  You know and there's some really key moments that you can build into those logs that you ship to that dashboard or to your Datadog server or whatever you might use.
+  You know and there's some really key moments that you can build into those logs that you ship to that dashboard or to your <a rel="external" href="https://www.datadoghq.com/">Datadog</a> server or whatever you might use.
 </p>
 
 <p>
@@ -678,7 +685,7 @@ on the internet to see if anything works?
 </p>
 
 <p>
-  Threat modelling is something that Jade mentioned earlier and I was sitting in the chair in the back of my ears just kind of like perked up and I got really, really excited, as I tend to do when I hear the word threat modelling.
+  <a rel="external" href="https://owasp.org/www-community/Threat_Modeling">Threat Modelling</a> is something that Jade mentioned earlier and I was sitting in the chair in the back of my ears just kind of like perked up and I got really, really excited, as I tend to do when I hear the word threat modelling.
 </p>
 
 <p>
@@ -706,7 +713,7 @@ on the internet to see if anything works?
 </p>
 
 <p>
-  Microsoft STRIDE is one that's been around for ages and they tend to have a lot of pre-canned questions and a whole bunch of stuff that the community has made online to make it much more accessible.
+  <a rel="external" href="https://en.wikipedia.org/wiki/STRIDE_(security)">Microsoft STRIDE</a> is one that's been around for ages and they tend to have a lot of pre-canned questions and a whole bunch of stuff that the community has made online to make it much more accessible.
 </p>
 
 <p>
