@@ -595,7 +595,7 @@ role.</p>
 
 <p>While preparing for this presentation, I was
 speaking to one of my peer engineering managers,
-Natalie, around, "Hey, Natalie, how did you
+Nataleigh, around, "Hey, Nataleigh, how did you
 go around preparing for a leadership role,
 and how did you work on the relationships?"
 And she gave a beautiful answer.</p>
@@ -610,8 +610,8 @@ behalf.</p>
 
 <p>So, let me see if this works.</p>
 
-<p>[Video: Natalie Alston]<br>
-Hi, my name is Natalie Alston, and I'm an
+<p>[Video: Nataleigh Elston]<br>
+Hi, my name is Nataleigh Elston, and I'm an
 engineering manager at BNZ.<br>
 My pronouns are she and her.<br>
 In my opinion, building healthy and strong
@@ -634,7 +634,7 @@ one that I think about often when I'm reluctant
 to take that next step.<br>
 "The brave don't live forever, but the cautious
 don't live at all."<br>
-Thanks, Natalie.<br>
+Thanks, Nataleigh.<br>
 </p>
 
 <p>[applause]</p>
