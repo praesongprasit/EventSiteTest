@@ -46,7 +46,11 @@ talkRecordingID: 6v26UbKogNg
 
 {% layoutblock 'talkReferences' %}
 
-<p>Coming soon</p>
+<ul>
+  <li><a rel="external" href="https://dora.dev/">DORA (DevOps Research & Assessment) metrics</a></li>
+  <li><a rel="external" href=" https://www.amazon.com.au/Accelerate-Software-Performing-Technology-Organizations-ebook/dp/B07B9F83WM/">Accelerate</a> by Gene Kim, Jez Humble, and Nicole Forsgren</li>
+  <li><a rel="external" href="https://teamtopologies.com/book">Team Topologies</a> by Matthew Skelton and Manuel Pais</li>
+</ul>
 {% endlayoutblock %}
 
 {% layoutblock 'talkTranscript' %}
@@ -80,8 +84,7 @@ at BNZ </p>
 
 <p>So the last talk from Jenny was amazing.</p>
 
-<p>DORA
-metrics is something which a few of us have
+<p><a rel="external" href="https://dora.dev/">DORA metrics</a> is something which a few of us have
 been playing around a lot at our workplaces
 as well and I have so many questions for you,
 so many that I would want to use a dedicated
@@ -574,7 +577,7 @@ and read through it.</p>
 
 <p>If you are too lazy to read through the entire
 book, and yes, I agree too, I think Katrina
-made the point that "Accelerate" is quite
+made the point that <a rel="external" href=" https://www.amazon.com.au/Accelerate-Software-Performing-Technology-Organizations-ebook/dp/B07B9F83WM/">Accelerate</a> is quite
 a boring one, but then...</p>
 
 <p>You know, there are YouTube book summaries
