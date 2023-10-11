@@ -36,7 +36,7 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 {{ bio | safe }}
 {% endlayoutblock %}
 
-{% layoutblock 
+{% layoutblock 'Transcript' %} 
 <p>Prae: Alright.</p>
 
 <p>Thank you. How was lunch? We're all good.</p>
@@ -264,7 +264,4 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 <p>So thank you so much. Please join me in thanking our wonderful panel.</p>
 <p>[Applause]</p>
 
-%}
-
-<p>Coming soon</p>
 {% endlayoutblock %}
