@@ -36,7 +36,7 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 {{ bio | safe }}
 {% endlayoutblock %}
 
-{% layoutblock 'Transcript' %} 
+{% layoutblock 'talkTranscript' %} 
 
 <p>Prae: Alright.</p>
 
