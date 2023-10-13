@@ -46,7 +46,7 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 
 <p>You...</p>
 
-<p>What's the word? You pretty much like ate everything, which was excellent.</p>
+<p>What's the word? You pretty much ate everything, which was excellent.</p>
 
 <p>Did not want to see waste there.</p>
 
@@ -58,30 +58,30 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 
 <p>Handing over all responsibility to me is the first mistake Prae has made today.</p>
 
-<p>So a little bit about me. So I'm Aaron Hodder. I'm the Wellington Practice Manager for Datacom testing services.</p>
+<p>So a little bit about me. So, I'm Aaron Hodder. I'm the Wellington Practice Manager for Datacom testing services.</p>
 
 <p>However, more personally, I'm also a co-director of NZ Tech Rally, and I'm so pleased and so privileged to be able to work with Camy and Prae.</p>
 
-<p>So in tech, we talk a lot about tech. Funny of that, right? But as Alan mentioned earlier, that actually, you know, software development is a socio technical process. It involves technology and it involves social structures, yet we rarely talk about these social structures.</p>
+<p>So in tech, we talk a lot about tech. Funny of that, right? But as Alan mentioned earlier, that actually, you know, software development is a socio-technical process. It involves technology, and it involves social structures, yet we rarely talk about these social structures.</p>
 
 <p>And ultimately, when you think about it, in terms of the physical stuff we do, we all pretty much probably have identical days in that.</p>
 
-<p>Okay, if you imagine when we used to go to the office, how would the day look when you go in? You go grab a coffee, you sit down, your open outlook, you look at emails, your check teams, and then maybe at 9 o'clock or 9:30, you stand up around the whiteboard and you say, yeah, yesterday, I did this, and I'm blocked on this issue, so I'm talking to the infrastructure team and blah blah blah blah. Then you go and sit down and open Jira and have a look at a ticket. You know, like, we actually do the same stuff. I often when I'm getting off the train in the morning, all I think is all of us are going to go in and log into Excel in about half an hour.</p>
+<p>Okay, if you imagine when we used to go to the office, how would the day look when you go in? You go grab a coffee, you sit down, your open outlook, you look at emails, your check teams, and then maybe at 9 o'clock or 9:30, you stand up around the whiteboard and you say, yeah, yesterday, I did this, and I'm blocked on this issue, so I'm talking to the infrastructure team and blah blah blah blah. Then you go and sit down and open Jira and have a look at a ticket. You know, we actually do the same stuff. Often when I'm getting off the train in the morning, all I think is all of us are going to go in and log into Excel in about half an hour.</p>
 
 <p>And it really depresses me, but it's so weird. So why is it that even though we all kind of do the same stuff, for some people, you know, they have a joyous experience at work, and for some people, it's a woeful experience at work. Some people are doing things that are meaningful, and some people are doing things that are tedious.</p>
 
 <p>So that kind of thing fascinates me. And so the goal of this panel is to talk about and understand, like, okay, what is culture? What impact does it have on the work that we do? You're beyond the tools and technology, like, what actually has the actual impact, of what we do, and how might we influence it.</p>
 
-<p>And speaking of influencing, I mean both at our workplace level, how do we influence it amongst our peers, but also we we seem to import so much culture. How does Spotify do it? The agile manifesto written by, you know, a bunch of Americans, you know, people talk about, well, you know, that Google deployed this many times a day, so we should do. What about our own stories? What's something that we can export to the world in terms of tech culture.</p>
+<p>And speaking of influencing, I mean both at our workplace level, how do we influence it amongst our peers, but also we seem to import so much culture. How does Spotify do it? The agile manifesto written by, you know, a bunch of Americans, you know, people talk about, well, you know, that Google deployed this many times a day, so we should do. What about our own stories? What's something that we can export to the world in terms of tech culture.</p>
 
 <p>If you have any questions as we go along, there's a URL here.</p>
-<p>If you see me checking my phone, panelists, it's not because I'm bored and I'm checking Twitter, then again, who is checking Twitter nowadays anyway?</p>
+<p>If you see me checking my phone, panelists, it's not because I'm bored and I'm checking Twitter; then again, who is checking Twitter nowadays anyway?</p>
 
 <p>Rachel: It's threads.</p>
 <p>Yeah, It's threads now.</p>
 
 <p>Aaron: But instead, I'm looking at questions.</p>
-<p>So I may take questions, throughout the, panel.</p>
+<p>So I may take questions throughout the panel.</p>
 
 <p>So the people that I most wanted to talk about, in the subject, are these three fine folk here today? So</p>
 <p>Don is the co-founder and director of Catalyst, New Zealand's largest open-source service provider.</p>
@@ -90,7 +90,7 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 
 <p>Now, you remember, Aliesha, talked about the culture at Catalyst, and it was, you know, the people there are passionate and opinionated.</p>
 
-<p>This was my first job in tech. So anyone who knows me knows why maybe I'm also passionate and and opinionated.</p>
+<p>This was my first job in tech. So anyone who knows me knows why maybe I'm also passionate and opinionated.</p>
 
 <p>Like that culture that I got as a little baby tech worker, I still carry with me today.</p>
 
@@ -98,7 +98,7 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 
 <p>Rachel, as soon as the topic, I think maybe like our very first, like, post on LinkedIn. Suddenly, Rachel came in and goes, "oh my gosh, I wanna" or "I wanna be involved in some way. This topic is my thing."</p>
 
-<p>I met her and she just talked about this thing, and she was telling me in this book, in this book, in this study, and just exciting all these resource. So it's like, "oh my gosh, we need to talk about this with Rachel."</p>
+<p>I met her and she just talked about this thing, and she was telling me in this book, in this book, in this study, and just exciting all these resources. So it's like, "oh my gosh, we need to talk about this with Rachel."</p>
 
 <p>And, Rahul, he works with me.</p>
 
@@ -126,9 +126,9 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 
 <p> I remember back in the day talking about the smartest person in the room as though there was only ever gonna be 1, and they would be the singular smart person. And I just don't think that's the case at all. Everyone brings, all sorts of smartness that they can they can learn from each other all the time. </p>
 
-<p> So those are and that was Aliesha, of course who, talked about that. So that's three things. Anyone else? Gotta pick up your microphone. </p>
+<p> So those are, and that was Aliesha, of course, who talked about that. So that's three things. Anyone else? Gotta pick up your microphone. </p>
 
-<p>Rahul: Not so much from this morning, but just, sitting here observing the audience as you piled in and the, the crowd out there, having lunch, what an incredibly diverse audience it is and maybe it's a reflection of the content of the day and what's being presented and what's being talked about.</p>
+<p>Rahul: Not so much from this morning, but just, sitting here observing the audience as you piled in and, the crowd out there, having lunch, what an incredibly diverse audience it is and maybe it's a reflection of the content of the day and what's being presented and what's being talked about.</p>
 
 <p> But, I'm one of those conference projects. I go to a handful a year, and this level of diversity is not always present in a technology conference, so it's neat to see. </p>
 
@@ -149,8 +149,7 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 <p> How many people are going to the Matihiko Awards this evening? </p>
 
 <p>Two. Right? So that's three. Sorry,</p>
-<p>three. So, you know, that's the,</p>
-<p>Māori annual tech awards, you know, all tech awards, massive event out in Porirua.</p>
+<p>three. So, you know, that's the Māori annual tech awards, you know of all tech awards, massive event out in Porirua.</p>
 <p>Some amazing leaders.</p>
 <p>I believe Aliesha is a finalist in one of the categories.</p>
 <p>So, yeah, it didn't sound like many people have heard about that, but, hopefully, by this time next year, we'll all be celebrating those awards.</p>
@@ -180,65 +179,65 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 <p>And I think that applies to people as well and new things, and I've spent, time at, a colleague's house, celebrating Passover because he was Jewish. I knew nothing about that at all and celebrating with with food and drink. In fact, I'm always up for the food and drink experience to learn about new stuff.</p>
 <p>And fascinated about learning from people who'd come from, from working in India and a much different approach to, getting into work doing your job and perhaps waiting for work to come with you. Again, this isn't representative of everywhere in that large, at that large country, but, like, really different ways of working and what a difference it was, for them to come here. So, you know, learning new tech, meeting new people, learning new stuff about their cultures is, is all super fun. Yeah.</p>
 
-<p>Aaron: Katrina presented a mixed perspective on, whether that kind of working, hanging out with people that you work with beyond work as being a positive or or a negative.</p>
- <p>And, I mean, I I guess it was just the accepted wisdom was, is that if you want to do good work, then you're supposed to hang out with each other, and you're supposed to all be. Well, really, when when I look back to when I started, you're all supposed to be bros who who hung out and, you know, drink beer and and all that kind of stuff. </p>
- <p>And then it's essentially the perspective of how that might, exclude certain people. </p>
+<p>Aaron: Katrina presented a mixed perspective on, whether that kind of working, hanging out with people that you work with beyond work as being a positive or a negative.</p>
+ <p>And, I mean, I guess it was just the accepted wisdom was, is that if you want to do good work, then you're supposed to hang out with each other, and you're supposed to all be. Well, really, when I look back to when I started, you're all supposed to be bros who hung out and, you know, drink beer and all that kind of stuff. </p>
+ <p>And then it's essentially the perspective of how that might exclude certain people. </p>
  <p>So firstly, generally speaking, do you think it's a positive thing? Do you think it benefits the work that we do if we do have those, I guess, extracurricular connections, and, if it does, maybe what are some of the pitfalls to look out for? </p>
 
 <p>Don: Firstly, can I ask Rahul to answer his own question?</p>
-<p>And then he can kick-off.</p>
+<p>And then he can kick off.</p>
 <p>Rahul: Okay. I'll do. I'll do two for one.</p>
-<p>So, one of the things that, that occupies my mind in the middle of the night or early in the morning, when I have some spare time is the some extent a culture is an accumulation of of actions and practices and processes that you repeat on a regular basis at work and outside of work. And that comes who you are and how you are and how you do, and that becomes a culture.</p>
-<p>And a lot of the stuff we do at work, and, you know, to use Aaron's example of, you know, heading into work and looking at Jira board and looking at Excel and, and perhaps, even when we talk about ultra we go to the go to, hero slide decks of Netflix and Spotify and Atlassian and Google.</p>
- <p>But where is Infosys, where is Catalyst, where is Datacom, where is Zero. Where are those examples, and why don't we celebrate those? Why don't we know them very well? Or are they good enough to celebrate? They're all successful. </p>
- <p>I think a little bit about that. I'm not sure what answer that is, but I think that we do have an opportunity. I mean, diversity in a tech community. </p>
- <p>If you take a look at senior levels, there's not a heck of a lot of diversity. I think if you look at, the engineering level, the soldiers in the field, yeah, heck a lot of diversity, particularly people like us, maybe without the beard. But there's certainly, there's a lot of, I think, ethnic diversity at in the technology community. </p>
- <p>But how do we make the most of that, for the benefit of the business of the organization, or do we go all, all the multicultures and a couple multi cultures come together on a Jira board where the unity takes place and we go about doing things in a certain way, or could we reinvent how we do things, for the better? And where do we create space and time for that within our organizations and permission for that within our organizations. So I I haven't really found an answer to that to, other than try to do it tomorrow in startups. </p>
- <p>But in the larger organizational sense within your own teams is potential opportunity to explore, and I suspect the reason why I asked it to, to review is I suspect that, the Maori will view to Maori and and more incorporation and and inclusivity of that might give us a little bit of a of a permission set and an outlet within a New Zealand context to explore that. </p>
+<p>So, one of the things, that occupies my mind in the middle of the night or early in the morning, when I have some spare time is the some extent a culture is an accumulation of of actions and practices and processes that you repeat on a regular basis at work and outside of work. And that comes who you are and how you are and how you do, and that becomes a culture.</p>
+<p>And a lot of the stuff we do at work, and, you know, to use Aaron's example of, you know, heading into work and looking at Jira board and looking at Excel and, and perhaps, even when we talk about ultra we go to the go-to hero slide decks of Netflix and Spotify and Atlassian and Google.</p>
+ <p>But where is Infosys, where is Catalyst, where is Datacom, where is Xero? Where are those examples, and why don't we celebrate them? Why don't we know them very well? Or are they good enough to celebrate? They're all successful. </p>
+ <p>I think a little bit about that. I'm not sure what the answer is, but I think that we do have an opportunity. I mean, diversity in a tech community. </p>
+ <p>If you take a look at senior levels, there's not a heck of a lot of diversity. I think if you look at the engineering level, the soldiers in the field, yeah, heck a lot of diversity, particularly people like us, maybe without the beard. But there's certainly, there's a lot of, I think, ethnic diversity at in the technology community. </p>
+ <p>But how do we make the most of that, for the benefit of the business of the organization, or do we go all, all the multicultures and a couple of multi cultures come together on a Jira board where the unity takes place and we go about doing things in a certain way, or could we reinvent how we do things, for the better? And where do we create space and time for that within our organizations and permission for that within our organizations. So I I haven't really found an answer to that to, other than try to do it tomorrow in startups. </p>
+ <p>But in the larger organizational sense within your own teams is potential opportunity to explore, and I suspect the reason why I asked it to, to review is I suspect that, the Maori will view to Maori and and more incorporation and inclusivity of that might give us a little bit of a of a permission set and an outlet within a New Zealand context to explore that. </p>
  <p>I don't know what that looks like, but I'm keen to to to learn more about that. To answer your question, ask again?  Aaron: Yeah. Well, I actually don't like that question anymore. </p>
- <p>or, I might read it to -- It was good. Yeah. Yeah. Yeah. And and I'll revisit it but that's interesting. got another observation. </p>
- <p>I guess if you can ask questions, I can also, have make observations. It is the list of rules now. Think it's, I think it's interesting that, you know, as companies, we, every company that I ever work with and interact with talks about wanting to be unique and wanting to be disruptive and wanting to be creative. </p>
- <p>and, yeah, then when we look for inspiration on how to work, it's like, okay. Well, okay. We need to install Azure DevOps and we need to use Microsoft Office and we need to adopt SAFE or some other scaled agile framework, and we need to do things like every other company. </p>
+ <p>or, I might read it to -- It was good. Yeah. Yeah. Yeah. And I'll revisit it but that's interesting. got another observation. </p>
+ <p>I guess if you can ask questions, I can also, have made observations. It is the list of rules now. Think it's, I think it's interesting that, you know, as companies, we, every company that I ever work with and interact with talks about wanting to be unique and wanting to be disruptive and wanting to be creative. </p>
+ <p> And, yeah, then when we look for inspiration on how to work, it's like, okay. Well, okay. We need to install Azure DevOps and we need to use Microsoft Office and we need to adopt SAFE or some other scaled agile framework, and we need to do things like every other company. </p>
  <p>And it just seems like a real irony that will seem simultaneously want to be innovative and still want to do what everyone else is doing. </p>
-<p>Rahul: Okay. Now I remember your first question. I'll and I'll handle it.</p>
- <p>Because that was easier than that one. No. Look, look, I think, you know, should you hang out after work and, you know, should you socialize with yourwith your workmates? That was just your first question. Right? So I think I think everyone</p>
+<p>Rahul: Okay. Now I remember your first question. I'll, and I'll handle it.</p>
+ <p>Because that was easier than that one. No. Look, look, I think, you know, should you hang out after work and, you know, should you socialize with your workmates? That was just your first question. Right? So I think I think everyone</p>
 
  <p>Dan Pink, you know, to go to things that we know, talks a little bit about what motivates people and motivates employees and talks, A and P, which is sort of autonomy, mastery and purpose, as being things that really motivate people to give their very best. It's not just about incentivizing money and I don't know, a holiday pay and that sort of holidays and that sort of thing. It's a bit more than that. </p>
- <p>He thinks a little bit about, well, what makes people work for free on the weekends, you know, for non for profits, for their sports club, for their music band, whatever it might be, and give as much to that endeavor outside of work and not get paid for it, yet get a lot out of it and and commit a lot of hours to it. </p>
- <p>Whereas at work, they get paid for it, they might get bonuses for it. And they give only the equal amount of effort or less effort. </p>
- <p>And so I think for me, you know, think about your question about, why would you wanna hang out with colleagues, other than there might be nice people, is I think everyone yearns for a sense of purpose and sense of belonging. And I think inclusivity, as a set of act inclusion is an action, right? It's not, it's not an in and of itself. It's things that you do actions that you take to recognize a diversity that is prevalent around you and to make the most of that, and it leads to a sense of belonging amongst those who are in a particular group. And that sensible longing is, I think, amplified or solidified or you give it the opportunity to take hold if you spend more time together, understanding each other as human beings, first and foremost, as opposed to human resources. </p>
+ <p>He thinks a little bit about, well, what makes people work for free on the weekends, you know, for non for profits, for their sports club, for their music band, whatever it might be, and give as much to that endeavour outside of work and not get paid for it, yet get a lot out of it and commit a lot of hours to it. </p>
+ <p>Whereas at work, they get paid for it, they might get bonuses for it. And they give only an equal amount of effort or less effort. </p>
+ <p>And so I think for me, you know, think about your question about, why would you wanna hang out with colleagues, other than there might be nice people, is I think everyone yearns for a sense of purpose and sense of belonging. And I think inclusivity, as a set of acts inclusion is an action, right? It's not, it's not an in and of itself. It's things that you do actions that you take to recognize the diversity that is prevalent around you and to make the most of that, and it leads to a sense of belonging amongst those who are in a particular group. And that sensible longing is, I think, amplified or solidified or you give it the opportunity to take hold if you spend more time together, understanding each other as human beings, first and foremost, as opposed to human resources. </p>
  
  <p>And recognizing each other's backgrounds, perspectives, views on the world, what you, what they observe and what you observe in sharing that as at a human level as opposed to talking about, you know, the technical challenges of work. </p>
- <p>So I think it's useful in a lot of contexts, for you to spend time with your work colleagues to understand at a human level. You might find that problem solving tasks, might become easier. You might become more creative. You permit yourself to think further and deeper and more creatively as a team. </p>
+ <p>So I think it's useful in a lot of contexts, for you to spend time with your work colleagues to understand at a human level. You might find that problem-solving tasks, might become easier. You might become more creative. You permit yourself to think further and deeper and more creatively as a team. </p>
  <p>And you empathize more with not just with your peers, but also you begin to understand, the customer view, I think, a little bit closer and better as well. So you can be more innovative, in your ideas. </p>
 
 <p>Rachel: Yeah. And I think you talked about belonging, and I think shared experiences do make belonging. </p>
 
-<p>And, it's a bit of a different world now and that, yeah, it might be meeting your colleagues and, going for for a drink or, you know, do something fun online for, with the colleagues that you might not see, all the time. </p>
+<p>And, it's a bit of a different world now and that, yeah, it might be meeting your colleagues and, going for a drink or, you know, do something fun online for, with the colleagues that you might not see, all the time. </p>
 
-<p>I think that with that belonging, and shared experience, shared experiences that often as well, not even the great ones, like some of the some of the people I meet up with, I worked with, say, 10 years ago, we remember the project, you know, the terrible project that we sort of like complain about and there's so many bad things. And, you know, that it weirdly has ended up uniting us and we will, we've always got that that terrible project, to talk about. </p>
+<p>I think that with that belonging, and shared experience, shared experiences that often as well, not even the great ones, like some of the people I meet up with, I worked with, say, 10 years ago, we remember the project, you know, the terrible project that we sort of like complaining about and there are so many bad things. And, you know, that it weirdly has ended up uniting us and we will, we've always got that terrible project, to talk about. </p>
 
-<p>But, Katrina earlier today talked about culture fit and culture add. And I think if you're thinking of Venn diagrams and we work in tech, so I know we all think in Venn diagrams a lot of the time. You know, if the things for people, are the same as each other or have that shared experience, that's a really cool, sort of, kernel, but it's the bits outside that on a very complex Venn diagram of all the other cool stuff we do and and take that picture as a whole. It's really amazing. </p>
+<p>But, Katrina earlier today talked about culture fit and culture add. And I think if you're thinking of Venn diagrams and we work in tech, I know we all think in Venn diagrams a lot of the time. You know, if the things for people, are the same as each other or have that shared experience, that's a really cool, sort of, kernel, but it's the bits outside that on a very complex Venn diagram of all the other cool stuff we do and and take that picture as a whole. It's really amazing. </p>
 
-<p>But it does start from belonging, shared experience and and safety, because then you can do all the cool things that you talk about experiment and innovate. Because you've got the safe environment in which to do it. Yeah. </p>
+<p>But it does start from belonging, shared experience and safety because then you can do all the cool things that you talk about experiment and innovate. Because you've got a safe environment in which to do it. Yeah. </p>
 
 <p>Aaron: Just mentioning the word safety, what does a culture of safety look like? But how do you create one? So why should you create a culture of safety? And how do you go about doing that? </p>
- <p>Rachel: I mean, I know that I'd like to experiment what I do and fail fast, and I absolutely do not pretend to know all of it all the time. And, yeah, I want to be able to, have people appreciate that. And, as well, you know, I'm in a leadership position now and, I think some role modeling in being up there, is sometimes it feels like the most I can do, what I'm doing, I'm not up to my elbows, in the tech and doing the delivery of the stuff anymore. </p>
+ <p>Rachel: I mean, I know that I'd like to experiment with what I do and fail fast, and I absolutely do not pretend to know all of it all the time. And, yeah, I want to be able to, have people appreciate that. And, as well, you know, I'm in a leadership position now and, I think some role modelling in being up there, is sometimes it feels like the most I can do, what I'm doing, I'm not up to my elbows, in the tech and doing the delivery of the stuff anymore. </p>
  <p>I was for a long time, but, role modeling and, yeah, get out there and maybe make some mistakes. And, you know, it's not a mistake you made. It's what you do next. So, that's an important thing as well. </p>
 
 <p>Don: Yeah. So, of course, where are we? Culture -- Culture -- meeting safety. </p>
 
 <p>So I think one of the things, so just going stepping back a bit, you know, I'm, you know, what traditionally was sort of as a tech person, I'm a European origin, I'm male, I'm old, you know, all those things despite what the shirt might tell you. </p>
-<p>And so I come from a position that is relatively safe compared to younger people, people of different identities, genders, and so on, and ethnicities. So the best I can do is listen and learn and enable those culture and then enable actions to take place to create those safer cultures. </p>
+<p>And so I come from a position that is relatively safe compared to younger people, people of different identities, genders, and so on, and ethnicities. So the best I can do is listen and learn and enable those cultures and then enable actions to take place to create those safer cultures. </p>
 <p>And one action might be actually, you know, we've talked about, coming together for drinks, but maybe coming together, not for drinks, because alcohol is an unsafe medium, and that's something to recognize. </p>
 <p>One sort of, protocol or tikanga that's being brought into Catalyst, which I think is a really helpful one is whakawhanaungatanga. This is basically about people sitting around, talking to each other, and making connections. And as an introduction to a group of people or a group of people that maybe don't meet together, outside their normal work day. </p>
-<p>So you might have your stand ups every morning, but you never talk about each other or talk about that special thing that identifies you to your peers. And those, that's amazing and most cultures have something like whakawhanaungatanga to be to be fair, but bringing it in and and doing it purposefully is a great way of making connections and understanding people and understanding maybe what will upset them or what will delight them. And you kind of wanna end up in the delight thing. </p>
-<p>One of the downsides of being as passionate as we are at Catalyst, is that sense of righteousness that comes with it. And you'll probably remember this, Aaron, you were the first QA person we ever employed. Imagine Aaron having to come into a bunch of know it all engineers, and tell them that they bug it up. </p>
+<p>So you might have your stand-ups every morning, but you never talk about each other or talk about that special thing that identifies you to your peers. And those, that's amazing and most cultures have something like whakawhanaungatanga to be to be fair, but bringing it in and and doing it purposefully is a great way of making connections and understanding people and understanding maybe what will upset them or what will delight them. And you kind of wanna end up in the delight thing. </p>
+<p>One of the downsides of being as passionate as we are at Catalyst, is that sense of righteousness that comes with it. And you'll probably remember this, Aaron, you were the first QA person we ever employed. Imagine Aaron having to come into a bunch of know-it-all engineers, and tell them that they bug it up. </p>
  
 
 <p>Aaron: Everything I learned about diplomacy, I learned it at Catalyst. </p>
-<p>Rahul: I think, yeah, the safety is, perhaps a relatively modern term for it, but, I think about, what gets measured and what gets modeled. </p>
-<p>When times are tough, as we were just talking before, it's little lean period for many companies, and it's a tough market out there. That's usually the first, the first little canary in a coal mine for stopping to talk about culture and, to give him this and safety and trying to focus on the balance sheet. And, that's usually where the true values of a company or a team really come out is when it's difficult times. </p>
+<p>Rahul: I think, yeah, the safety is, perhaps a relatively modern term for it, but, I think about, what gets measured and what gets modelled. </p>
+<p>When times are tough, as we were just talking before, it's a little lean period for many companies, and it's a tough market out there. That's usually the first, the first little canary in a coal mine for stopping to talk about culture and, to give him this and safety and trying to focus on the balance sheet. And, that's usually where the true values of a company or a team really come out when it's difficult times. </p>
 <p>You know, everyone kinda gets together and has wonderful hooey when it's, you know, raining cash. But when it's when it's hard and, you know, when the money's not coming in and you're all businesses needing to make money and profit. You know, you the thing conversations like this are the first to go out the window. So I wonder if there are if you know, a: if there's a prevalence of, you know, whether we're, we're engaging or participating in a system that is set up not to bring about this sort of world. </p>
 
 <p>In which we're talking about here. That perhaps there's a change of system or thinking that is required at a more fundamental and basic level about how we do business and why we do business and what we are creating for what good and what exchange, value exchange.</p>
@@ -253,7 +252,7 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 <p>But again, like, working today in quite a distributed world and, we've got quite a hub of people who work in New Zealand and also, in the UK. So we've got a 12-hour time difference, which is the worst time difference to have when trying to work with people. And so actually, manuals, not manuals per se, but trying to capture knowledge, so that we can exchange it over 12-hour time difference, that's actually come back into play because we're not we're not all sitting there learning tips and tricks from each other in the room. So I don't know. It's a bit of both.</p>
 <p>Aaron: Yeah. I mean, manual isn't literal in this case. It basically short handful, go away and work it out yourself.</p>
 <p>Yeah.</p>
-<p>Don: Yeah, I mean, this is something I was speaking about at an open source conference a few weeks ago. </p>
+<p>Don: Yeah, I mean, this is something I was speaking about at an open-source conference a few weeks ago. </p>
 <p>So there were 5 men that started Catalyst. We were colleagues in a previous life, and we knew each other, trusted each other, 5 blokes. Right? What could, what could possibly go wrong with that? </p>
 <p>And, and for a long time, you know, for some reason, women didn't join Catalyst. And then when they did, they were more Andrews than women, you know. And as far as we were concerned, we were doing nothing wrong. You know, we were meritocracy. This is where the RTFM comes from. </p>
 <p>And if there's one thing I've learned that there's no bigger barrier you can put up, to bringing people into your sector, into your business, into your group, then pretending that you're a meritocracy, and that just doesn't exist. It's a way of excluding people.</p>
@@ -275,17 +274,16 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 <p>Rachel: Got any questions? Okay. Cool.</p>
 <p>Aaron: So, yes, actually, some really great, questions here. And now is the time that my hands are so sweaty. Yeah. Well, no. Okay. I'll go into that. So, okay. What, do you have any horror story? Like you've been around a long time, and, many of you worked in a lot of different organizations. Tell me about, like, your tech culture horror stories.</p>
 <p>Yeah. Go on, Rahul!</p>
-<p>Rahul: Look, I mean, if you permit me to be philosophical for for a little bit, and Aaron knows I am philosophical all the time, he confuses that with wisdom, which is nice.</p>
+<p>Rahul: Look, I mean, if you permit me to be philosophical for a little bit, and Aaron knows I am philosophical all the time, he confuses that with wisdom, which is nice.</p>
 <p>Aaron: Completely confused. We're great companions.</p>
 <p>Rahul: Alright. Look, I'm a really curious person. I come from a family, that doesn't live very long. My dad's side, there are not many, not many men, who have lived beyond 50.</p>
 
 
 <p>Rahul: Look, you know, you, most of you, would have heard about this, model of working during the week that Atlassian and Google made famous about downing tools for one day in five and working on something creative that's in your mind and not driven by the corporate and things like Gmail come out of that and, you know, other things come out of that. But I wanna, offer you an alternative.</p>
-<p>Rachel: There's a quote, which is, "The standard you walk past is the standard you accept." That's something like that. and so, I think for me, it all comes down to being a role model. And every day, we should be role modeling what we want to see, and I would include kindness, I'd include kind feedback, you know, talking about the standard that we walk past.</p>
-<p>Don: That's hard, isn't it? To be, to follow both of those. It's a challenge. I mean, Okay. So so for me, if you, you know, it's always about people.</p>
+<p>Rachel: There's a quote, which is, "The standard you walk past is the standard you accept." That's something like that. and so, I think for me, it all comes down to being a role model. And every day, we should be role modelling what we want to see, and I would include kindness, I'd include kind feedback, you know, talking about the standard that we walk past.</p>
+<p>Don: That's hard, isn't it? To be, to follow both of those. It's a challenge. I mean, Okay. So for me, if you, you know, it's always about people.</p>
 
-<p>And,</p>
-<p>My challenge to you, and I find this hard. So this is why I'm saying it's a challenge. Some people find it incredibly easy.</p>
+<p>And, my challenge to you, and I find this hard. So this is why I'm saying it's a challenge. Some people find it incredibly easy.</p>
 <p>Go and talk to somebody that you don't know.</p>
 <p>That you haven't spoken to.</p>
 <p>Or if you're in a company that, you know, everyone does know everyone else, think about one thing, that they might not know about you or your whakapapa or, you know, whatever and talk to them about that. Just do that.</p>
