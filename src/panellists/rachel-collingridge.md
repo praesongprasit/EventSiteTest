@@ -62,53 +62,44 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 
 <p>However, more personally, I'm also a co-director of NZ Tech Rally, and I'm so pleased and so privileged to be able to work with Camy and Prae.</p>
 
-<p>So in tech, we talk a lot about tech. Funny of that, right? But as Alan mentioned earlier, that actually, you know, software development is a socio-technical process. It involves technology, and it involves social structures, yet we rarely talk about these social structures.</p>
+<p>So in tech, we talk a lot about tech. Funny that, right? But as Alan mentioned earlier,  software development is a socio-technical process. It involves technology and it involves social structures, yet we rarely talk about these social structures.</p>
 
 <p>And ultimately, when you think about it, in terms of the physical stuff we do, we all pretty much probably have identical days in that.</p>
 
-<p>Okay, if you imagine when we used to go to the office, how would the day look when you go in? You go grab a coffee, you sit down, your open outlook, you look at emails, your check teams, and then maybe at 9 o'clock or 9:30, you stand up around the whiteboard and you say, yeah, yesterday, I did this, and I'm blocked on this issue, so I'm talking to the infrastructure team and blah blah blah blah. Then you go and sit down and open Jira and have a look at a ticket. You know, we actually do the same stuff. Often when I'm getting off the train in the morning, all I think is all of us are going to go in and log into Excel in about half an hour.</p>
+<p>Okay, if you imagine when we used to go to the office, how would the day look when you go in? You go grab a coffee, you sit down, you open Outlook, you look at emails, your check teams, and then maybe at 9 o'clock or 9:30, you stand up around the whiteboard and you say, yeah, yesterday, I did this, and I'm blocked on this issue, so I'm talking to the infrastructure team and blah blah blah blah. Then you go and sit down and open Jira and have a look at a ticket. You know, we actually do the same stuff. Often, when I'm getting off the train in the morning, all I think is all of us are going to go in and log into Excel in about half an hour.</p>
 
-<p>And it really depresses me, but it's so weird. So why is it that even though we all kind of do the same stuff, for some people, you know, they have a joyous experience at work, and for some people, it's a woeful experience at work. Some people are doing things that are meaningful, and some people are doing things that are tedious.</p>
+<p>And it really depresses me, but it's so weird. So why is it that even though we all kind of do the same stuff, for some people, you know, they have a joyous experience at work, and for some people, it's a woeful experience at work? Some people are doing things that are meaningful, and some people are doing things that are tedious.</p>
 
-<p>So that kind of thing fascinates me. And so the goal of this panel is to talk about and understand, like, okay, what is culture? What impact does it have on the work that we do? You're beyond the tools and technology, like, what actually has the actual impact, of what we do, and how might we influence it.</p>
+<p>So that kind of thing fascinates me. So the goal of this panel is to talk about and understand, what is culture. What impact does it have on the work that we do? You're beyond the tools and technology, like, what actually has the actual impact of what we do, and how might we influence it.</p>
 
-<p>And speaking of influencing, I mean both at our workplace level, how do we influence it amongst our peers, but also we seem to import so much culture. How does Spotify do it? The agile manifesto written by, you know, a bunch of Americans, you know, people talk about, well, you know, that Google deployed this many times a day, so we should do. What about our own stories? What's something that we can export to the world in terms of tech culture.</p>
+<p>And speaking of influencing, I mean both at our workplace level, how do we influence it amongst our peers, but also we seem to import so much culture. How does Spotify do it? The Agile Manifesto written by, you know, a bunch of Americans. People talk about, well, you know, that Google deployed this many times a day, so we should do. What about our own stories? What's something that we can export to the world in terms of tech culture?</p>
 
 <p>If you have any questions as we go along, there's a URL here.</p>
-<p>If you see me checking my phone, panelists, it's not because I'm bored and I'm checking Twitter; then again, who is checking Twitter nowadays anyway?</p>
+<p>If you see me checking my phone, panellists, it's not because I'm bored and I'm checking Twitter; then again, who is checking Twitter nowadays anyway?</p>
 
-<p>Rachel: It's threads.</p>
-<p>Yeah, It's threads now.</p>
+<p>Rachel: It's Threads. Yeah, it's Threads now.</p>
 
-<p>Aaron: But instead, I'm looking at questions.</p>
-<p>So I may take questions throughout the panel.</p>
+<p>Aaron: But instead, I'm looking at questions. So I may take questions throughout the panel.</p>
 
-<p>So the people that I most wanted to talk about, in the subject, are these three fine folk here today? So</p>
-<p>Don is the co-founder and director of Catalyst, New Zealand's largest open-source service provider.</p>
+<p>So the people I most wanted to talk about, in the subject, are these three fine folks here today. So Don is the co-founder and director of Catalyst, New Zealand's largest open-source service provider. And Don was my first boss in tech.</p>
 
-<p>And Don was my first boss in tech.</p>
-
-<p>Now, you remember, Aliesha, talked about the culture at Catalyst, and it was, you know, the people there are passionate and opinionated.</p>
+<p>Now, you remember, Aliesha, talked about the culture at Catalyst, and it was that the people there are passionate and opinionated.</p>
 
 <p>This was my first job in tech. So anyone who knows me knows why maybe I'm also passionate and opinionated.</p>
 
-<p>Like that culture that I got as a little baby tech worker, I still carry with me today.</p>
+<p>Like that culture that I got as a little baby tech worker, I still carry with me today.So, of course, had to have Don to talk about culture.</p>
 
-<p>So, of course, had to have Don to talk about culture.</p>
+<p>Rachel, as soon as the topic, I think maybe like our very first post on LinkedIn. Suddenly, Rachel came in and said, "Oh my gosh, I wanna be involved in some way. This topic is my thing."</p>
 
-<p>Rachel, as soon as the topic, I think maybe like our very first, like, post on LinkedIn. Suddenly, Rachel came in and goes, "oh my gosh, I wanna" or "I wanna be involved in some way. This topic is my thing."</p>
-
-<p>I met her and she just talked about this thing, and she was telling me in this book, in this book, in this study, and just exciting all these resources. So it's like, "oh my gosh, we need to talk about this with Rachel."</p>
+<p>I met her, and she just talked about this thing, and she was telling me in this book, in this book, in this study, and just exciting all these resources. So it's like, "Oh my gosh, we need to talk about this with Rachel."</p>
 
 <p>And, Rahul, he works with me.</p>
 
 <p>Rachel, is also a VP of engineering at Cogo. I'd be remissed if I didn't mention that, you know.</p>
 
-<p>And Rahul works with me at Datacom, and has over 20 years experience working in 8 countries.</p>
+<p>And Rahul works with me at Datacom and has over 20 years of experience working in 8 countries. And whenever I talk to Rahul at work, it's just like he just says all these really wise and sage things. So I'm hoping that he can repeat the magic here today.</p>
 
-<p>And whenever I talk to Rahul at work, it's just like he just says all these really wise and sage things. So I'm hoping that he can repeat the magic here today.</p>
-
-<p>So speaking of wise and sage things, we've already heard from four people, this morning, talking about Tech culture, in New Zealand. And I'm wondering if there was anything this morning that someone's mentioned that really stood out to you.</p>
+<p>So speaking of wise and sage things, we've already heard from four people, this morning, talking about Tech culture, in New Zealand. And I'm wondering if there was anything this morning that someone mentioned that really stood out to you.</p>
 
 <p>Rachel: I'm holding a microphone set up so I'll start.</p>
 
@@ -122,9 +113,9 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 
 <p> So, I mean, I think being human is important all of the time, not just, you know, be nice in those high-pressure situations, but you are gonna see people. </p>
 
-<p> The other thing and I'm not sure if I've internalized the pronunciation yet, but, "Tuakana-Teina," that sort of two-way mentor-student relationship. </p>
+<p> The other thing and I'm not sure if I've internalized the pronunciation yet, but "Tuakana-Teina" a sort of two-way mentor-student relationship. </p>
 
-<p> I remember back in the day talking about the smartest person in the room as though there was only ever gonna be 1, and they would be the singular smart person. And I just don't think that's the case at all. Everyone brings, all sorts of smartness that they can they can learn from each other all the time. </p>
+<p> I remember back in the day talking about the smartest person in the room as though there was only ever gonna be one, and they would be the singular smart person. And I just don't think that's the case at all. Everyone brings all sorts of smartness that they can they can learn from each other all the time. </p>
 
 <p> So those are, and that was Aliesha, of course, who talked about that. So that's three things. Anyone else? Gotta pick up your microphone. </p>
 
@@ -134,28 +125,22 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 
 <p>Don: Tēnā koutou, tēnā koutou, tēnā koutou katoa.</p>
 
-<p> Oh, I feel like, I'm on this panel because I should have a sign around here, you know, a mugshot saying, I'm sorry. </p>
+<p> Oh, I feel like, I'm on this panel because I should have a sign around here, a mugshot saying, I'm sorry. </p>
 
-<p> You know, during my time in the tech industry, which is pushing 40 years now, one measure of inclusivity and diversity is, of course, gender diversity. </p>
+<p> You know, during my time in the tech industry, which is pushing 40 years now, one measure of inclusivity and diversity is, of course, gender diversity. And it dropped from 30% when I first started in IT to around 15%, I think, and it's slowly creeping up again. So that's quite an interesting little metric. </p>
 
-<p> And it dropped from 30% when I first started in IT to around about below 15%, I think, and it's slowly creeping up again. </p>
+<p> From this morning, all I can say is, you know, the first keynote, I loved it. I'll get my entire SLT to have a look at it. I think I'm really pleased that Aliesha got to talk because I think one of the things that's often missing from these discussions is Māori culture, what it brings to New Zealand, what our position as a sector is, Vis-à-Vis Te Tiriti. </p>
 
-<p> So that's quite an interesting little metric. </p>
-
-<p> From this morning, all I can say is, you know, the first keynote, I loved it. I'll get my entire SLT to have a look at it. I think I'm really pleased that Aliesha got to talk, because I think one of the things that's often missing from these discussions is Māori culture, and what it brings to New Zealand, what our position as a sector is, Vis-à-Vis Te Tiriti. </p>
-
-<p> And not only that, there's a lot of concepts and philosophies, in Māori culture that make New Zealand-Aotearoa, a much stronger place and you're talking about, you know, what do we have to offer the world? It is often seeing problems from a different perspective, and that's something that I think is very unique to New Zealand, and that's in the area in this sector that I think we've got a lot of work to do. </p>
+<p> And not only that, there's a lot of concepts and philosophies in Māori culture that make New Zealand-Aotearoa, a much stronger place and you're talking about, you know, what do we have to offer the world? It is often seeing problems from a different perspective, and that's something that I think is very unique to New Zealand, and that's the area in this sector, that I think we've got a lot of work to do. </p>
 
 <p> How many people are going to the Matihiko Awards this evening? </p>
 
-<p>Two. Right? So that's three. Sorry,</p>
-<p>three. So, you know, that's the Māori annual tech awards, you know of all tech awards, massive event out in Porirua.</p>
-<p>Some amazing leaders.</p>
-<p>I believe Aliesha is a finalist in one of the categories.</p>
-<p>So, yeah, it didn't sound like many people have heard about that, but, hopefully, by this time next year, we'll all be celebrating those awards.</p>
+<p>Two, right? So that's three. Sorry, three. So, you know, that's the Māori annual tech awards, you know of all tech awards, massive event out in Porirua. Some amazing leaders. I believe Aliesha is a finalist in one of the categories.</p>
+<p>So, yeah, it didn't sound like many people have heard about that, but hopefully, by this time next year, we'll all be celebrating those awards.</p>
 
 <p>Rachel: I think, you know, talking about that, that student mentor thing again and always learning and I think always been, available to, observe and listen and learn. I think there's a humility.</p>
-<p>And I realized there's someone who grew up in New Zealand and who learned some Maori, and, back on my day, if you're in a certain type of class, you finished learning Maori at some point and went on to learn French because that's clearly the language that you would want to learn if you were you were brought up in New Zealand. And so things have really changed and I'm really grateful for that.</p>
+<p>And I realized there's someone who grew up in New Zealand and who learned some Maori, and, back in my day, if you're in a certain type of class, you finished learning Maori at some point and went on to learn French because that's clearly the language that you would want to learn if you were you were brought up in New Zealand. And so things have really changed, and I'm really grateful for that.</p>
+
 <p>And I don't know as much as I would like to or, as as I should.</p>
 <p>But, you know, for culture being listening, being able to learn, and, I'm trying to do some little things now because you start from somewhere.</p>
 <p>My ultra marathon, saying that I have is just like relentless forward progress. So one little step forward. So if I can say Mōrena or Ata mārie in a channel of the morning, or, I'm desperately trying to learn the days of the week, and, that sometimes works, but I go back to that page quite a lot. So I can say, Harikoa Rāhina, for, Happy Monday, which is just, I don't know, my cute way up enough to greet the team. </p>
@@ -166,17 +151,17 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 <p>One of my observations of the technology sector in New Zealand but like the health care sector, and it's gone into other sectors, there is a high level of ethnic diversity.</p>
 <p>Do you think that makes it more challenging or easier to have these conversations of inclusivity, diversity, incorporation of Te Tiriti, and... Where do you think that's sort of heading?</p>
 <p>Rachel: Did you expect questions to come from this side, just this entire side?</p>
-<p>Rahul: I'm I'm not saying it's a trap for it. It saves me from saying any prerogative?</p>
+<p>Rahul: I'm I'm not saying it's a trap for it. It saves me from saying any prerogative.</p>
 <p>Aaron: I know. It's an incredibly, incredibly sneaky tactic.</p>
 <p>Don: Should I kick off?</p>
-<p>Okay. So for me, personally, my background is that I was born and brought up in the country in Africa called Zambia. It's an amazing country.</p>
+<p>Okay. So for me, personally, my background is that I was born and brought up in a country in Africa called Zambia. It's an amazing country.</p>
 <p>But my sister and I were the only Europeans at school.</p>
 <p>And, we were very privileged, being, you know, middle class in Africa is a very privileged position to be in.</p>
 <p>So working across ethnicities to me, it's just fun.</p>
 <p>You're learning all the time.</p>
 <p>And, the biggest thing is to listen to people, I think.</p>
 <p>Rachel: I think as technologists, we generally like new things, right? Who doesn't like a nice shiny new piece of tech?</p>
-<p>And I think that applies to people as well and new things, and I've spent, time at, a colleague's house, celebrating Passover because he was Jewish. I knew nothing about that at all and celebrating with with food and drink. In fact, I'm always up for the food and drink experience to learn about new stuff.</p>
+<p>And I think that applies to people as well as new things, and I've spent, time at, a colleague's house, celebrating Passover because he was Jewish. I knew nothing about that at all and celebrating with food and drink. In fact, I'm always up for the food and drink experience to learn about new stuff.</p>
 <p>And fascinated about learning from people who'd come from, from working in India and a much different approach to, getting into work doing your job and perhaps waiting for work to come with you. Again, this isn't representative of everywhere in that large, at that large country, but, like, really different ways of working and what a difference it was, for them to come here. So, you know, learning new tech, meeting new people, learning new stuff about their cultures is, is all super fun. Yeah.</p>
 
 <p>Aaron: Katrina presented a mixed perspective on, whether that kind of working, hanging out with people that you work with beyond work as being a positive or a negative.</p>
