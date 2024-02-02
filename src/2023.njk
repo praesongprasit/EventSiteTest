@@ -1,0 +1,148 @@
+---
+tags: page
+title: NZ Tech Rally 2023 - 7th July
+description: What does great software engineering culture look like, and how have Kiwis done it?
+---
+{% extends 'layouts/base.njk' %}
+{% from 'partials/card.njk' import card %}
+
+{% set contentType = 'home' %}
+
+{%- css %}
+{% include "css/components/profile-card.css" %}
+{% endcss %}
+
+{% block content %}
+  <div class="columns columns-half">
+    <picture class="column-two section-label accent-border hero hero--home">
+      <img src="{{ '/assets/images/hero-home.jpg' | url }}" alt="alt">
+    </picture>
+
+    <div class="column-one">
+      <section>
+        <div class="section-label accent-border">
+          <h2 class="section-title">
+            Conference theme {% svg "sparkles" %}
+          </h2>
+        </div>
+        <div class="card accent-border">
+          <p>
+            What does great software engineering culture look like, and how have Kiwis done it?
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-label accent-border">
+          <h2 class="section-title">
+            Photos & Videos {% svg "sparkles" %}</h2>
+        </div>
+        <div class="card accent-border">
+          <p>
+            View all official photos on <a href="{{ nztr2023.photos | url }}" rel="external" class="track_NZTR2023Photos">NZ Tech Rally 2023 Google Photo album</a>.
+          </p>
+          <p>
+            Watch all of the recordings on <a href="{{ site.youtube | url }}" rel="external" class="track_NZTR2023Videos">NZ Tech Rally Youtube channel</a>.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-label accent-border">
+          <h2 class="section-title">
+            When {% svg "calendar" %}
+          </h2>
+        </div>
+        <div class="card accent-border">
+          <p>
+            <time datetime="2023-07-07T09:00:00+12:00">
+              Friday 7th July 2023<br>
+              9am—5pm
+            </time>
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-label accent-border">
+          <h2 class="section-title">
+            Where {% svg "location" %}
+          </h2>
+        </div>
+        <div class="card accent-border">
+          <p>
+            Room RHLT1<br>
+            <a href="https://goo.gl/maps/SVmz9Mq6xLK5DMrXA" rel="external">Rutherford House</a><br>
+            <a href="https://www.wgtn.ac.nz/about/campuses-facilities/campuses/pipitea/pipitea-map.pdf" rel="external">Pipitea Campus</a><br>
+            Victoria University of Wellington<br>
+            New Zealand
+          </p>
+        </div>
+      </section>
+
+      {# <section>
+        <div class="section-label accent-border">
+          <h2 class="section-title">
+            Price {% svg "ticket" %}
+          </h2>
+        </div>
+        <div class="card accent-border">
+          <p>Standard tickets sale closed 30th June 2023.</p>
+          <p>We're allowing <a href="{{ nztr2023.ticketUrl }}" rel="external">last minute ticket purchases</a>!</p>
+          <p>
+            $170 last minute ticket<br>
+            $130 group discount applies to 4th ticket onwards in the same booking.
+          </p>
+          <p>
+            If your manager needs persuading, we've written a handy <a href="{{ '/convince-your-manager' | url }}">letter to help you convince them</a>!
+          </p>
+          <p>
+            If you require financial assistance to attend, apply for <a href="https://internetnz.nz/funding/grants/" rel="external">Conference Attendance Award grant</a> by InternetNZ.
+          </p>
+        </div>
+      </section> #}
+    </div>
+  </div>
+
+  <section>
+    <div class="section-label accent-border">
+      <h2 class="section-title">
+        Our mission {% svg "info" %}
+      </h2>
+    </div>
+    <div class="card accent-border">
+      <p>
+        NZ Tech Rally provide inclusive spaces for the NZ software community to celebrate, connect and grow together. 
+      </p>
+      <p>For now... we're starting with a conference!</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-label section-label--header accent-border">
+      <h2 class="section-title">
+        Speakers {% svg "person_outline" %}
+      </h2>
+    </div>
+
+    <ul class="cards profiles">
+      {% for speaker in collections.speakers %}
+        {{ card(speaker, horizontal='true') }}
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-label section-label--header accent-border">
+      <h2 class="section-title">
+        Panellists {% svg "people_outline" %}
+      </h2>
+    </div>
+    <ul class="cards profiles profiles--four-columns">
+
+      {% for panellist in collections.panellists %}
+        {{ card(panellist) }}
+      {% endfor %}
+    </ul>
+  </section>
+{% endblock %}
