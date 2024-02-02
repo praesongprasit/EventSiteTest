@@ -24,8 +24,25 @@ eleventyNavigation:
 
 {% block content %}
   <ul class="cards profiles profiles--four-columns">
-    {% for speaker in collections.speakers %}
+    {# {% for speaker in collections.speakers %}
       {{ card(speaker) }}
-    {% endfor %}
+    {% endfor %} #}
+
+    <li class="card accent-border profile-card">
+      <span class="profile-card__picture">
+        {% svg 'person_outline' %}
+        <span class="profile-card__picture-text">This could be you!</span>
+      </span>
+
+      <p class="profile-card__info">
+        {# <a class="profile-card__link" href="{{ '/volunteer' | url }}" rel="external"> #}
+        <span class="card-title profile-card__name">
+            Submit a CFP
+          </span>
+
+        <span>Information coming soon</span>
+        {# </a> #}
+      </p>
+    </li>
   </ul>
 {% endblock %}
