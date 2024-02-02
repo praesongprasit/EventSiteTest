@@ -25,22 +25,7 @@ tags: page
         </div>
         <div class="card accent-border">
           <p>
-            What does great software engineering culture look like, and how have Kiwis done it?
-          </p>
-        </div>
-      </section>
-
-      <section>
-        <div class="section-label accent-border">
-          <h2 class="section-title">
-            Photos & Videos {% svg "sparkles" %}</h2>
-        </div>
-        <div class="card accent-border">
-          <p>
-            View all official photos on <a href="{{ nztr2023.photos | url }}" rel="external" class="track_NZTR2023Photos">NZ Tech Rally 2023 Google Photo album</a>.
-          </p>
-          <p>
-            Watch all of the recordings on <a href="{{ site.youtube | url }}" rel="external" class="track_NZTR2023Videos">NZ Tech Rally Youtube channel</a>.
+            Coming soon
           </p>
         </div>
       </section>
@@ -54,8 +39,8 @@ tags: page
         <div class="card accent-border">
           <p>
             <time datetime="2023-07-07T09:00:00+12:00">
-              Friday 7th July 2023<br>
-              9am—5pm
+              Friday 22nd November 2023<br>
+              8:30am - 5pm
             </time>
           </p>
         </div>
@@ -69,36 +54,45 @@ tags: page
         </div>
         <div class="card accent-border">
           <p>
-            Room RHLT1<br>
-            <a href="https://goo.gl/maps/SVmz9Mq6xLK5DMrXA" rel="external">Rutherford House</a><br>
-            <a href="https://www.wgtn.ac.nz/about/campuses-facilities/campuses/pipitea/pipitea-map.pdf" rel="external">Pipitea Campus</a><br>
-            Victoria University of Wellington<br>
-            New Zealand
+            Rongomātāne Plenary Hall One<br>
+            <a href="https://maps.app.goo.gl/Jn7uhPw5sd5P9M2d6" rel="external">Tākina</a>, 50 Cable Street, Welington
           </p>
         </div>
       </section>
 
-      {# <section>
+      <section>
+        <div class="section-label accent-border">
+          <h2 class="section-title">
+            CFP {% svg "thumb_up" %}
+          </h2>
+        </div>
+        <div class="card accent-border">
+          <p>
+            Coming soon
+          </p>
+        </div>
+      </section>
+
+      <section>
         <div class="section-label accent-border">
           <h2 class="section-title">
             Price {% svg "ticket" %}
           </h2>
         </div>
         <div class="card accent-border">
-          <p>Standard tickets sale closed 30th June 2023.</p>
-          <p>We're allowing <a href="{{ nztr2023.ticketUrl }}" rel="external">last minute ticket purchases</a>!</p>
+          <p>Tickets going on sale soon. Subscribe to our newsletter to be notified.</p>
+          {# <p>We're allowing <a href="{{ nztr2023.ticketUrl }}" rel="external">last minute ticket purchases</a>!</p> #}
           <p>
-            $170 last minute ticket<br>
-            $130 group discount applies to 4th ticket onwards in the same booking.
+            $170 early bird ticket - First 100 only!<br>
+            $200 standard ticket<br>
+            $220 last minute ticket<br>
+            $20 discount per ticket applies when purchasing four tickets or more
           </p>
-          <p>
+          {# <p>
             If your manager needs persuading, we've written a handy <a href="{{ '/convince-your-manager' | url }}">letter to help you convince them</a>!
-          </p>
-          <p>
-            If you require financial assistance to attend, apply for <a href="https://internetnz.nz/funding/grants/" rel="external">Conference Attendance Award grant</a> by InternetNZ.
-          </p>
+          </p> #}
         </div>
-      </section> #}
+      </section>
     </div>
   </div>
 
@@ -112,7 +106,7 @@ tags: page
       <p>
         NZ Tech Rally provide inclusive spaces for the NZ software community to celebrate, connect and grow together. 
       </p>
-      <p>For now... we're starting with a conference!</p>
+      <p>For now... we're starting with conferences!</p>
     </div>
   </section>
 
@@ -123,11 +117,11 @@ tags: page
       </h2>
     </div>
 
-    <ul class="cards profiles">
-      {% for speaker in collections.speakers %}
-        {{ card(speaker, horizontal='true') }}
-      {% endfor %}
-    </ul>
+    <div class="card accent-border">
+      <p>
+        CFP information coming soon
+      </p>
+    </div>
   </section>
 
   <section>
@@ -136,11 +130,10 @@ tags: page
         Panellists {% svg "people_outline" %}
       </h2>
     </div>
-    <ul class="cards profiles profiles--four-columns">
-
-      {% for panellist in collections.panellists %}
-        {{ card(panellist) }}
-      {% endfor %}
-    </ul>
+    <div class="card accent-border">
+      <p>
+        Coming soon
+      </p>
+    </div>
   </section>
 {% endblock %}
