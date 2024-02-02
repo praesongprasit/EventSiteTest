@@ -1,6 +1,6 @@
 ---
 fullName: Camy Bhandari
-role: Co-founder & sponsorship liaison
+role: Co-founder
 jobTitle: Senior Test Engineer
 organisation: BNZ
 profileUrl:

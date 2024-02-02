@@ -1,6 +1,6 @@
 ---
 fullName: Prae Songprasit
-role: Co-founder, speaker liaison & MC
+role: Co-founder
 jobTitle: Lead Engineer
 organisation: Xero
 profileUrl:

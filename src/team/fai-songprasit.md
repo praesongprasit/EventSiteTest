@@ -1,8 +1,8 @@
 ---
 fullName: Fai Songprasit
-role: Catering lead
+role: Catering Lead
 jobTitle: Software Engineer
-organisation: Wipster
+organisation: Xero
 profileUrl: 
   [
     {
