@@ -18,7 +18,7 @@ npm i
 
 ## Development
 
-Build and start local server. Keep this running while working onthe project.
+Build and start local server. Keep this running while working on the project.
 
 ```shell
 npm start
