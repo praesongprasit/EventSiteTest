@@ -17,6 +17,7 @@ exports.handler = async (event) => {
       body: JSON.stringify({
         api_key: SITE_EDM_API_KEY,
         email_address: email,
+        tags: ["NZTRSite"],
       }),
     }
   );
