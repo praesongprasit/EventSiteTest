@@ -7,22 +7,8 @@
 
 .card--sponsor {
   display: block;
-  width: 100%;
+  /* width: 100%; */
   margin: 0;
-}
-
-@media screen and (min-width: 520px) {
-  .cards--sponsors {
-    flex-direction: row;
-  }
-
-  .card--sponsor {
-    max-width: 220px;
-  }
-
-  .card--sponsor-large {
-    max-width: 400px;
-  }
 }
 
 .card--sponsor-link {
@@ -35,4 +21,22 @@
   display: block;
   width: 100%;
   height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 520px) {
+  .cards--sponsors {
+    flex-direction: row;
+  }
+
+  .card--sponsor-link img {
+    max-width: 220px;
+    max-height: 50px;
+  }
+
+  .card--sponsor-large img {
+    max-width: 400px;
+    max-height: 90px;
+  }
 }
