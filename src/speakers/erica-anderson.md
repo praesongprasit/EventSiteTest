@@ -54,14 +54,14 @@ talkRecordingID: wKP5LIVzZks
 {% layoutblock 'talkReferences' %}
 
 <ul>
-  <li><a rel="external" href="https://en.wikipedia.org/wiki/The_Matrix">The Matrix</li>
-  <li><a rel="external" href="https://en.wikipedia.org/wiki/Trinity_(The_Matrix)">Trinity (The Matrix)</li>
-  <li><a rel="external" href="https://www.cert.govt.nz/">CERT New Zealand</li>
-  <li><a rel="external" href="https://github.com/">GitHub</li>
-  <li><a rel="external" href="https://about.gitlab.com/">GitLab</li>
-  <li><a rel="external" href="https://www.datadoghq.com/">Datadog</li>
-  <li><a rel="external" href="https://owasp.org/www-community/Threat_Modeling">Threat Modeling</li>
-  <li><a rel="external" href="https://en.wikipedia.org/wiki/STRIDE_(security)">Microsoft STRIDE</li>
+  <li><a rel="external" href="https://en.wikipedia.org/wiki/The_Matrix">The Matrix</a></li>
+  <li><a rel="external" href="https://en.wikipedia.org/wiki/Trinity_(The_Matrix)">Trinity (The Matrix)</a></li>
+  <li><a rel="external" href="https://www.cert.govt.nz/">CERT New Zealand</a></li>
+  <li><a rel="external" href="https://github.com/">GitHub</a></li>
+  <li><a rel="external" href="https://about.gitlab.com/">GitLab</a></li>
+  <li><a rel="external" href="https://www.datadoghq.com/">Datadog</a></li>
+  <li><a rel="external" href="https://owasp.org/www-community/Threat_Modeling">Threat Modeling</a></li>
+  <li><a rel="external" href="https://en.wikipedia.org/wiki/STRIDE_(security)">Microsoft STRIDE</a></li>
 <ul>
 {% endlayoutblock %}
 
