@@ -22,7 +22,7 @@ profileUrl:
     }
   ]
 profilePhoto: /assets/images/team/prae_songprasit.jpg
-profilePhotoAltText: Prae's portrait. A laughing Thai woman with short dark hair. She's wearing a large pair of dark rimmed glases, and a shirt layered with a jumper.
+profilePhotoAltText: Prae's portrait. A laughing Thai woman with short dark hair and a large pair of dark rimmed glasses.
 bio: "<p>Prae is a UX Engineer who is on a mission to help people make more accessible web products.</p>
 <p>That includes creating accessible and inclusive events.</p>
 <p>She cares deeply about user experience, sustainable software team development, cross discipline collaboration, and growing front-end capabilities in and out of organisations.</p>
