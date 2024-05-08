@@ -1,6 +1,10 @@
 {%- css %}
-{% include "css/components/footer.css" %}
-{% endcss %}
+{% if event === 'NZTechRally2023' %}
+  {% include "css/2023/components/footer.css" %}
+{% else %}
+  {% include "css/components/footer.css" %}
+{% endif %}
+{%- endcss -%}
 
 <footer class="page-footer">
   <ul class="footer-link-list" aria-label="Social links">
