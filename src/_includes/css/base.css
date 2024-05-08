@@ -34,7 +34,7 @@
 
   --colour-body-text-dark: var(--colour-black);
   --colour-body-text-light: var(--colour-white);
-  --colour-link: var(--colour-orange);
+  --colour-link: var(--colour-dark-orange);
   --colour-link-hover: var(--colour-dark-orange);
   --colour-link-visited: var(--colour-dark-orange-darken);
 
