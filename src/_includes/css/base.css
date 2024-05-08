@@ -501,9 +501,9 @@ section {
 
 @media screen and (min-width: 520px) {
   .section-label--header .section-title {
-    padding-top: var(--spacing-xlarge);
-    padding-bottom: var(--spacing-xlarge);
-    font-size: var(--font-size-large);
+    padding-top: var(--spacing-main);
+    padding-bottom: var(--spacing-main);
+    font-size: var(--font-size-xlarge);
   }
 
   .section-label--header {
