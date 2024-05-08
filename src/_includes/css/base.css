@@ -30,7 +30,8 @@
   --colour-orange: #ffb33a;
   --colour-green: #1a944f;
   --colour-blue: #487ea3;
-  --colour-white: #fffaf7;
+  --colour-off-white: #fffaf7;
+  --colour-white: #fff;
 
   --colour-body-text-dark: var(--colour-black);
   --colour-body-text-light: var(--colour-white);
@@ -349,11 +350,11 @@ select:focus-visible {
 .accent-border::before {
   content: "";
   display: block;
-  width: 4px;
+  width: 8px;
   height: 100%;
   background-color: var(--colour-border);
   position: absolute;
-  left: -4px;
+  left: -8px;
   top: 0;
 }
 
@@ -410,10 +411,9 @@ select:focus-visible {
   margin-bottom: var(--spacing-3xlarge);
   box-shadow: var(--drop-shadow);
   border-bottom: var(--subtle-shadow);
-  font-weight: var(--font-weight-bold);
   font-family: var(--typeface-display);
   line-height: var(--line-height-display);
-  color: var(--colour-green);
+  color: var(--colour-white);
 }
 
 @media only screen and (min-width: 520px) {
@@ -480,10 +480,9 @@ section {
 .section-title {
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-main);
-  color: var(--colour-green);
   padding: 0.375rem 1.25rem;
   margin: 0;
-  background-color: var(--colour-black);
+  background-color: var(--colour-white);
   box-shadow: var(--drop-shadow);
   display: flex;
   align-items: center;
@@ -504,7 +503,6 @@ section {
   .section-label--header .section-title {
     padding-top: var(--spacing-xlarge);
     padding-bottom: var(--spacing-xlarge);
-    border: var(--subtle-shadow);
     font-size: var(--font-size-large);
   }
 
