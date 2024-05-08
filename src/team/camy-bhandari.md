@@ -1,4 +1,5 @@
 ---
+event: [ "NZTechRally2024", "NZTechRally2023" ]
 fullName: Camy Bhandari
 role: Co-founder
 jobTitle: Senior Test Engineer

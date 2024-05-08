@@ -19,7 +19,7 @@ a.profile-link:visited {
 }
 
 a.profile-link:hover {
-  color: var(--colour-orange);
+  color: var(--colour-pink);
   text-decoration: underline;
 }
 

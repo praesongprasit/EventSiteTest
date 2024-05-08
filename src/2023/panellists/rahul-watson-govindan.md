@@ -1,27 +1,25 @@
 ---
-fullName: Rachel Collingridge
-jobTitle: VP of Engineering
-organisation: Cogo
+fullName: Rahul Watson Govindan
+jobTitle: Director, Investor and Technology Addict
+organisation:
 profileUrl:
   [
     {
       "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/rachel-collingridge/",
+      "url": "https://www.linkedin.com/in/rwatsongovindan/",
       "icon": "linkedin",
     },
   ]
-profilePhoto: /assets/images/panellists/rachel_collingridge.jpg
-profilePhotoAltText: Straight-haired, blue-eyed, freckly middle-aged Pakeha woman with a very big smile
-bio: "<p>Rachel is a senior engineering leader who believes teams with great delivery practices are the key to delighted customers, successful businesses and fulfilled engineers.</p>
-<p>A software developer for 16 years, Rachel now leads experts to coach and grow engineers, and in scaling delivery teams with DevOps practices and optimised ways of working built in. She collaborates with product practitioners to prioritise technical value alongside product value.</p>
-<p>She listens for signals, connects the dots and builds communities of practice, with vulnerability, candour and humour.</p>
-<p>Outside of the office Rachel enjoys trail running with her rescue dog, time with her family and loudly playing saxophones and clarinets.</p>"
+profilePhoto: /assets/images/panellists/rahul_watson_govindan.jpg
+profilePhotoAltText: Middle aged Indian man no beard, short wavy hair, suited for radio.
+bio: "<p>Rahul has over two decades of experience working with Fortune 500 companies, SMEs, public sector organisations, Not-For-Profits, and has co-founded companies in multiple countries. </p>
+<p>He says he is always looking to work with others for the 'greater good' and things meaningful to him personally, and this has led to him working in over eight countries, 50 organisations, and developed  multiple life-long global friendships.</p>"
 # featuredImage:
 # featuredImageAlt:
 # featuredImageType: image/png
 # featuredImageWidth: 1200
 # featuredImageHeight: 630
-talkTitle: Panel discussion
+talkTitle: "Panel discussion"
 talkRecordingID: svioDmUJO3k
 talkStartTime: 2023-07-07T13:00:00.000+12
 talkEndTime: 2023-07-07T14:00:00.000+12
@@ -36,7 +34,7 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 {{ bio | safe }}
 {% endlayoutblock %}
 
-{% layoutblock 'talkTranscript' %} 
+{% layoutblock 'talkTranscript' %}
 
 <p>Prae: Alright.</p>
 
@@ -218,7 +216,7 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 <p>One sort of, protocol or tikanga that's being brought into Catalyst, which I think is a really helpful one is whakawhanaungatanga. This is basically about people sitting around, talking to each other, and making connections. And as an introduction to a group of people or a group of people that maybe don't meet together, outside their normal work day. </p>
 <p>So you might have your stand-ups every morning, but you never talk about each other or talk about that special thing that identifies you to your peers. And those, that's amazing and most cultures have something like whakawhanaungatanga to be to be fair, but bringing it in and and doing it purposefully is a great way of making connections and understanding people and understanding maybe what will upset them or what will delight them. And you kind of wanna end up in the delight thing. </p>
 <p>One of the downsides of being as passionate as we are at Catalyst, is that sense of righteousness that comes with it. And you'll probably remember this, Aaron, you were the first QA person we ever employed. Imagine Aaron having to come into a bunch of know-it-all engineers, and tell them that they bug it up. </p>
- 
+
 
 <p>Aaron: Everything I learned about diplomacy, I learned it at Catalyst. </p>
 <p>Rahul: I think, yeah, the safety is, perhaps a relatively modern term for it, but, I think about, what gets measured and what gets modelled. </p>
@@ -245,9 +243,6 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 <p>Rachel: Thinking that, you know, in leadership positions, been like, take a chance with someone. I remember, I got into tech, having got some certificates, as I think, Aliesha called them early today. I haven't got a few certificates in music and performance music. And someone took a chance for me. I've done a bit of tech stuff, but they they took a chance of just getting me in the door because they were really excited that I had some some music on my CV, and that's where that began. And that was really cool that they looked outside the immediate culture fit into the culture add, and, that was that was a great turning point for all of us involved a lot to think.</p>
 <p>Aaron: So what you're thinking? So, yeah, I think, you mean, you talk about meritocracy.</p>
 
-
-
-
 <p>I think it's a specific type of merit that was valued, and that is, well, how well can you code? And yet now we recognize that, actually there are other kinds of merit as well.</p>
 <p>So you are valued for your music certificates, degrees, whatever it is that you have. And so I just wonder, so what benefits so aside from the strictly technical merits, what is it that, that nontechnical, backgrounds? How do they benefit tech culture and help people who maybe are doing the building and coding with what they're doing.</p>
 <p>Rahul: How does that help us make more money, Rachel?</p>
@@ -262,7 +257,6 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 <p>Rahul: Look, I mean, if you permit me to be philosophical for a little bit, and Aaron knows I am philosophical all the time, he confuses that with wisdom, which is nice.</p>
 <p>Aaron: Completely confused. We're great companions.</p>
 <p>Rahul: Alright. Look, I'm a really curious person. I come from a family, that doesn't live very long. My dad's side, there are not many, not many men, who have lived beyond 50.</p>
-
 
 <p>Rahul: Look, you know, you, most of you, would have heard about this, model of working during the week that Atlassian and Google made famous about downing tools for one day in five and working on something creative that's in your mind and not driven by the corporate and things like Gmail come out of that and, you know, other things come out of that. But I wanna, offer you an alternative.</p>
 <p>Rachel: There's a quote, which is, "The standard you walk past is the standard you accept." That's something like that. and so, I think for me, it all comes down to being a role model. And every day, we should be role modelling what we want to see, and I would include kindness, I'd include kind feedback, you know, talking about the standard that we walk past.</p>

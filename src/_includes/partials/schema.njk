@@ -1,0 +1,116 @@
+"@type": "Event",
+"url": "{{ site.url }}",
+"name": "{{ nztr2024.title }}",
+"description": "{{ nztr2024.description }}",
+"startDate": "{{ nztr2024.startDate }}",
+"endDate": "{{ nztr2024.endDate }}",
+"eventAttendanceMode": "{{ nztr2024.eventAttendanceMode }}",
+"eventStatus": "{{ nztr2024.eventStatus }}",
+"maximumAttendeeCapacity": "{{ nztr2024.maximumAttendeeCapacity }}",
+"remainingAttendeeCapacity": "{{ nztr2024.remainingAttendeeCapacity }}",
+"location": {
+  "@type": "Place",
+  "name": "{{ nztr2024.location.name }}",
+  "address": {
+    "@type": "PostalAddress",
+    "name": "{{ nztr2024.location.address.name }}",
+    "streetAddress": "{{ nztr2024.location.address.streetAddress }}",
+    "addressLocality": "{{ nztr2024.location.address.addressLocality }}",
+    "postalCode": "{{ nztr2024.location.address.postalCode }}",
+    "addressRegion": "{{ nztr2024.location.address.addressRegion }}",
+    "addressCountry": "NZ"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "{{ nztr2024.location.geo.latitude }}",
+    "longitude": "{{ nztr2024.location.geo.longitude }}"
+  }
+},
+"image": [
+  {
+    "@type": "ImageObject",
+    "url": "{{ site.image }}",
+    "description": "{{ site.imageAlt }}",
+    "width": "{{ site.imageWidth }}",
+    "height": "{{ site.imageHeight }}"
+  }
+],
+"organizer": [
+  {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "url": "{{ '/about' | absoluteUrl(site.url) }}"
+  }
+],
+"inLanguage": [
+  {
+    "@type": "Language",
+    "name": "en-NZ"
+  }
+],
+"translator": {
+  "@type": "Organization",
+  "name": "",
+  "url": ""
+},
+"offers": [
+  {
+    "@type": "Offer",
+    "url": "{{ nztr2024.ticketUrl }}",
+    "availability": "{{ nztr2024.ticketAvaiability }}",
+    "validFrom": "{{ nztr2024.ticketEarlyBirdStarts }}",
+    "validThrough": "{{ nztr2024.ticketEarlyBirdEnds }}",
+    "price": "{{ nztr2024.ticketEarlyBirdPrice }}",
+    "priceCurrency": "NZD"
+  },
+  {
+    "@type": "Offer",
+    "url": "{{ nztr2024.ticketUrl }}",
+    "availability": "{{ nztr2024.ticketAvaiability }}",
+    "validFrom": "{{ nztr2024.ticketSaleStarts }}",
+    "validThrough": "{{ nztr2024.ticketSaleEnds}}",
+    "price": "{{ nztr2024.ticketPrice }}",
+    "priceCurrency": "NZD"
+  }
+],
+"performer": [
+  {
+    "@type": "Person",
+    "name": "Adam Howard"
+  },
+  {
+    "@type": "Person",
+    "name": "Aleisha Amohia"
+  },
+  {
+    "@type": "Person",
+    "name": "Allen Geer"
+  },
+  {
+    "@type": "Person",
+    "name": "Erica Anderson"
+  },
+  {
+    "@type": "Person",
+    "name": "Jade Thomas"
+  },
+  {
+    "@type": "Person",
+    "name": "Jenny Sahng"
+  },
+  {
+    "@type": "Person",
+    "name": "Katrina Clokie"
+  },
+  {
+    "@type": "Person",
+    "name": "Mrinal Mukherjee"
+  }
+],
+"sponsor": [
+  {
+    "@type": "Organization",
+    "name": "",
+    "url": ""
+  }
+]

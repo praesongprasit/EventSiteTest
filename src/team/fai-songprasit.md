@@ -1,4 +1,5 @@
 ---
+event: NZTechRally2024
 fullName: Fai Songprasit
 role: Catering Lead
 jobTitle: Software Engineer

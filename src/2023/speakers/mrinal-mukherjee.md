@@ -16,14 +16,12 @@ profileUrl:
   ]
 profilePhoto: /assets/images/speakers/mrinal_mukherjee.jpg
 profilePhotoAltText: Mrinal's portrait. A smiling man with a beard
-event: NZTechRally2023
 talkTitle: "Nerd to being heard: Leadership without losing your inner geek"
 talkExcerpt: "Pointers, experiences, and learnings on how to cultivate a strong engineering culture, while preparing for an engineering leadership role."
 talkStartTime: 2023-07-07T16:00:00.000+12:00
 talkEndTime: 2023-07-07T16:30:00.000+12:00
 featuredImage: /assets/images/speakers/mirnal_mukherjee_og.png
 featuredImageAlt: "Light high contrast text on top of a darkened image of a crowd reads “Nerd to being heard: Leadership without losing your inner geek by Mrinal Mukherjee, Engineering Manager at BNZ. Join us to hear Mrinal and other speakers at NZ Tech Rally, 7th July, Wellington”
-
 Mrinal's portrait portrait reveals a smiling man with a beard'."
 featuredImageType: image/png
 featuredImageWidth: 1200

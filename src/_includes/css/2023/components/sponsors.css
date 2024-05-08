@@ -1,0 +1,42 @@
+.cards--sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-main);
+  align-items: stretch;
+}
+
+.card--sponsor {
+  display: block;
+  /* width: 100%; */
+  margin: 0;
+}
+
+.card--sponsor-link {
+  display: flex;
+  height: calc(100% - 2.5rem);
+  align-items: center;
+}
+
+.card--sponsor-link img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 520px) {
+  .cards--sponsors {
+    flex-direction: row;
+  }
+
+  .card--sponsor-link img {
+    max-width: 220px;
+    max-height: 50px;
+  }
+
+  .card--sponsor-large img {
+    max-width: 400px;
+    max-height: 90px;
+  }
+}
