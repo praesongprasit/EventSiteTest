@@ -3,6 +3,14 @@
   margin-top: var(--spacing-xlarge);
 }
 
+.newsletter-signup__input {
+  border: 1px solid var(--colour-dark-orange);
+}
+
+.newsletter-signup__label {
+  padding-left: 1.25rem;
+}
+
 @media screen and (min-width: 520px) {
   .newsletter-signup {
     margin-bottom: 80px;
