@@ -12,7 +12,7 @@
   --font-size-large: 1.5rem; /* 24px */
   --font-size-xlarge: 2rem; /* 32px */
 
-  --line-height-main: 1.33;
+  --line-height-main: 1.375;
   --line-height-display: 1.25;
 
   --spacing-xsmall: 0.625rem; /* 10px */
@@ -27,24 +27,29 @@
   --colour-grey: #f2f2f2;
   --colour-dark-orange: #fd530d;
   --colour-dark-orange-darken: #fd530d; /* Accessible option */
-  --colour-green: #00e18f;
-  --colour-white: #f2f0e9;
+  --colour-orange: #ffb33a;
+  --colour-green: #1a944f;
+  --colour-blue: #487ea3;
+  --colour-white: #fffaf7;
 
-  --colour-body-text-light: var(--colour-white);
   --colour-body-text-dark: var(--colour-black);
-  --colour-link: var(--colour-dark-orange);
+  --colour-body-text-light: var(--colour-white);
+  --colour-link: var(--colour-orange);
   --colour-link-hover: var(--colour-dark-orange);
   --colour-link-visited: var(--colour-dark-orange-darken);
 
   --colour-border: var(--colour-dark-orange);
 
-  --colour-button-text: var(--colour-black);
-  --colour-button-background: var(--colour-green);
+  --colour-button-text: var(--colour-white);
+  --colour-button-background: var(--colour-dark-orange);
   --colour-button-hover: var(--colour-button-text);
-  --colour-button-background-hover: var(--colour-dark-orange);
+  --colour-button-background-hover: var(--colour-black);
+
+  --colour-button-text--secondary: var(--colour-black);
+  --colour-button-background--secondary: var(--colour-white);
 
   --subtle-shadow: 1px solid #1c2230;
-  --drop-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
+  --drop-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 html,
@@ -63,7 +68,7 @@ body {
 
   line-height: var(--line-height-main);
 
-  color: var(--colour-body-text-light);
+  color: var(--colour-body-text-dark);
   background-color: var(--colour-grey);
 
   color-scheme: light dark;
@@ -262,6 +267,12 @@ a.button {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
+}
+
+.button--secondary,
+a.button--secondary {
+  color: var(--colour-button-text--secondary);
+  background: var(--colour-button-background--secondary);
 }
 
 .button:hover,
