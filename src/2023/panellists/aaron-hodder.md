@@ -10,7 +10,7 @@ profileUrl:
       "icon": "linkedin",
     },
   ]
-profilePhoto: /assets/images/team/aaron_hodder.jpg
+profilePhoto: /assets/images/panellists/aaron_hodder.jpg
 profilePhotoAltText: Aaron's portrait. A smiling Caucasian man with neat short hair. He's wearing a dark coloured top.
 bio: "<p>Aaron leads the Wellington Testing Services practice at Datacom, providing professional testing services across Wellington and New Zealand.</p>
 
