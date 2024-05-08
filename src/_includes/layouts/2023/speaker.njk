@@ -1,0 +1,145 @@
+{% extends 'layouts/2023/base.njk' %}
+{% from 'partials/card.njk' import card %}
+
+{% set contentType = contentType %}
+{% set title = talkTitle + ' by ' + fullName %}
+{% set description = talkExcerpt %}
+{% set pageIcon = 'person' %}
+
+{%- css %}
+{% include "css/2023/components/profile-links.css" %}
+{% include "css/2023/components/profile-card.css" %}
+{% include "css/2023/components/video.css" %}
+{% endcss %}
+
+{% block pageHeader %}
+  <h1 class="section-title">
+    {{ fullName }}
+    {% svg "person_outline" %}
+  </h1>
+{% endblock %}
+
+{% block content %}
+  <article class="columns columns-thirds">
+    <header class="column-one card profile-card accent-border">
+      <picture class="profile-card__picture">
+        <source srcset="{{ profilePhoto }}" media="(orientation: portrait)">
+        <img src="{{ profilePhoto }}" alt="{{ profilePhotoAltText }}">
+      </picture>
+
+      <div class="profile-card__info">
+        <p class="card-title profile-card__name">
+          {{ fullName }}
+        </p>
+
+        <p>
+          {{ jobTitle }}
+          {% if organisation %}
+            @ {{ organisation }}
+          {% endif %}
+        </p>
+      </div>
+    </header>
+
+    <div class="column-two card">
+      {% renderlayoutblock 'bio' %}
+    </div>
+
+    <aside class="column-three">
+      <ul class="profile-links">
+        {% for profile in profileUrl %}
+          <li class="accent-border profile-link__item">
+            <a class="profile-link" href="{{ profile.url }}" rel="external">
+              {{ profile.name }}
+              {% svg profile.icon %}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </aside>
+  </article>
+
+  <article>
+    <div class="section-label section-label--header accent-border">
+      <h1 class="section-title">
+        {{ talkTitle }}
+        {% svg "chat" %}
+      </h1>
+    </div>
+
+    <div class="video-wrapper">
+      <iframe width="560" height="315" src="{{ 'https://www.youtube-nocookie.com/embed/' + talkRecordingID }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="columns columns-half">
+      <div class="column-one">
+        <div class="section-label accent-border">
+          <h3 class="section-title">
+            Transcript
+          </h3>
+        </div>
+
+        <div class="card accent-border">
+          {% renderlayoutblock 'talkTranscript' %}
+        </div>
+      </div>
+
+      <div class="column-two">
+        <aside>
+          <div class="section-label accent-border">
+            <h3 class="section-title">
+            About {% svg "info" %}
+            </h3>
+          </div>
+
+          <div class="card accent-border">
+            {% renderlayoutblock 'talkAbout' %}
+          </div>
+
+          <div class="section-label accent-border">
+            <h3 class="section-title">
+            When {% svg "calendar" %}
+            </h3>
+          </div>
+
+          <div class="card accent-border">
+            <p>
+              {%if talkStartTime %}
+                <time datetime="{{ talkStartTime | iso8601Date }}">{{ talkStartTime | readableDate }}</time><br>
+                {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }}
+              {% else %}
+              Coming soon
+            {% endif %}
+            </p>
+          </div>
+
+          <div class="section-label accent-border">
+            <h3 class="section-title">
+              Where {% svg "location" %}
+            </h3>
+          </div>
+
+          <div class="card accent-border">
+            <p>
+              Room RHLT1<br>
+              <a href="https://goo.gl/maps/SVmz9Mq6xLK5DMrXA" rel="external">Rutherford House</a><br>
+              <a href="https://www.wgtn.ac.nz/about/campuses-facilities/campuses/pipitea/pipitea-map.pdf" rel="external">Pipitea Campus</a><br>
+              Victoria University of Wellington<br>
+              New Zealand
+            </p>
+          </div>
+
+          <div class="section-label accent-border">
+            <h3 class="section-title">
+              References
+            </h3>
+          </div>
+
+          <div class="card accent-border">
+            {% renderlayoutblock 'talkReferences' %}
+          </div>
+        </aside>
+      </div>
+    </div>
+  </article>
+{% endblock %}

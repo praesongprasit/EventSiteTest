@@ -1,7 +1,7 @@
 {
   "tags": "panellist",
   "contentType": "panellist",
-  "layout": "layouts/team.njk",
+  "layout": "layouts/2023/team.njk",
   "ogType": "person",
-  "event": "NZTechRally2024"
+  "event": "NZTechRally2023"
 }

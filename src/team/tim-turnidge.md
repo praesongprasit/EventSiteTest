@@ -1,4 +1,5 @@
 ---
+event: [ "NZTechRally2024", "NZTechRally2023" ]
 fullName: Tim Turnidge
 role: Designer
 jobTitle: Lecturer

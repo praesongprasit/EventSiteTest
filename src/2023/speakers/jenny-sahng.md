@@ -12,7 +12,6 @@ profileUrl: [{
 }]
 profilePhoto: /assets/images/speakers/jenny_sahng.jpg
 profilePhotoAltText: A portrait photo of Jenny smiling at the camera. She is wearing sunnies on her head, silver dangly earrings, a collared shirt, and is standing in front of some jungly bush.
-event: NZTechRally2023
 talkTitle: Engineering metrics, minus the creepiness
 talkExcerpt: How might we use metrics to help us improve what matters, in a way that supports, not damages, an empowering and sustainable engineering team culture?
 talkStartTime: 2023-07-07T15:30:00.000+12:00

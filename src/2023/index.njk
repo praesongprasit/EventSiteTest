@@ -7,13 +7,13 @@ eleventyNavigation:
   order: 5
 excludeSponsors: true
 ---
-{% extends 'layouts/base.njk' %}
+{% extends 'layouts/2023/base.njk' %}
 {% from 'partials/card.njk' import card %}
 
 {% set contentType = 'home' %}
 
 {%- css %}
-{% include "css/components/profile-card.css" %}
+{% include "css/2023/components/profile-card.css" %}
 {% endcss %}
 
 {% block content %}
@@ -83,28 +83,6 @@ excludeSponsors: true
           </p>
         </div>
       </section>
-
-      {# <section>
-        <div class="section-label accent-border">
-          <h2 class="section-title">
-            Price {% svg "ticket" %}
-          </h2>
-        </div>
-        <div class="card accent-border">
-          <p>Standard tickets sale closed 30th June 2023.</p>
-          <p>We're allowing <a href="{{ nztr2023.ticketUrl }}" rel="external">last minute ticket purchases</a>!</p>
-          <p>
-            $170 last minute ticket<br>
-            $130 group discount applies to 4th ticket onwards in the same booking.
-          </p>
-          <p>
-            If your manager needs persuading, we've written a handy <a href="{{ '/convince-your-manager' | url }}">letter to help you convince them</a>!
-          </p>
-          <p>
-            If you require financial assistance to attend, apply for <a href="https://internetnz.nz/funding/grants/" rel="external">Conference Attendance Award grant</a> by InternetNZ.
-          </p>
-        </div>
-      </section> #}
     </div>
   </div>
 
@@ -130,7 +108,7 @@ excludeSponsors: true
     </div>
 
     <ul class="cards profiles">
-      {% for speaker in collections.speakers %}
+      {% for speaker in collections.speakers2023 %}
         {{ card(speaker, horizontal='true') }}
       {% endfor %}
     </ul>
@@ -143,15 +121,14 @@ excludeSponsors: true
       </h2>
     </div>
     <ul class="cards profiles profiles--four-columns">
-
-      {% for panellist in collections.panellists %}
+      {% for panellist in collections.panellists2023 %}
         {{ card(panellist) }}
       {% endfor %}
     </ul>
   </section>
 
   {%- css %}
-  {% include "css/components/sponsors.css" %}
+  {% include "css/2023/components/sponsors.css" %}
   {% endcss %}
 
   <section>

@@ -20,24 +20,24 @@
     },
     "location": {
       "@type": "Place",
-      "name": "{{ nztr2024.location.name }}",
+      "name": "{{ nztr2023.location.name }}",
       "address": {
         "@type": "PostalAddress",
-        "name": "{{ nztr2024.location.address.name }}",
-        "streetAddress": "{{ nztr2024.location.address.streetAddress }}",
-        "addressLocality": "{{ nztr2024.location.address.addressLocality }}",
-        "postalCode": "{{ nztr2024.location.address.postalCode }}",
-        "addressRegion": "{{ nztr2024.location.address.addressRegion }}",
+        "name": "{{ nztr2023.location.address.name }}",
+        "streetAddress": "{{ nztr2023.location.address.streetAddress }}",
+        "addressLocality": "{{ nztr2023.location.address.addressLocality }}",
+        "postalCode": "{{ nztr2023.location.address.postalCode }}",
+        "addressRegion": "{{ nztr2023.location.address.addressRegion }}",
         "addressCountry": "NZ"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "{{ nztr2024.location.geo.latitude }}",
-        "longitude": "{{ nztr2024.location.geo.longitude }}"
+        "latitude": "{{ nztr2023.location.geo.latitude }}",
+        "longitude": "{{ nztr2023.location.geo.longitude }}"
       }
     },
     "superEvent": {
-      {%- include 'partials/schema.njk' -%}
+      {%- include 'partials/2023/schema.njk' -%}
     }
   }
 </script>

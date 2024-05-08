@@ -1,4 +1,5 @@
 ---
+event: [ "NZTechRally2024", "NZTechRally2023" ]
 fullName: Prae Songprasit
 role: Co-founder
 jobTitle: Lead Engineer

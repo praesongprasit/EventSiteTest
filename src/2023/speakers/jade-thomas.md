@@ -12,7 +12,6 @@ profileUrl: [{
 }]
 profilePhoto: /assets/images/speakers/jade_thomas.jpg
 profilePhotoAltText: Jade's headshot; a man with glasses, wearing a light blue pattern shirt and a dark blue woollen jacket.
-event: NZTechRally2023
 talkTitle: The fine line between chaos and order
 talkExcerpt: "How do you balance speed to market, compliance and certainty in a financial institution?"
 talkStartTime: 2023-07-07T11:30:00.000+12:00

@@ -1,7 +1,5 @@
 ---
-event: [ "NZTechRally2024", "NZTechRally2023" ]
 fullName: Aaron Hodder
-role: Co-founder
 jobTitle: Associate Director
 organisation: Deloitte
 profileUrl: 
@@ -29,6 +27,10 @@ order: 3
 # featuredImageType: image/png
 # featuredImageWidth: 1200
 # featuredImageHeight: 630
+talkTitle: Panel discussion
+talkRecordingID: svioDmUJO3k
+talkStartTime: 2023-07-07T13:00:00.000+12
+talkEndTime: 2023-07-07T14:00:00.000+12
 ---
 
 {% layoutblock 'talkAbout' %}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-NZ" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% if excludefromSearch %}
+    <meta name="robots" content="noindex">
+  {% endif %}
+  {# <link rel="application/rss+xml" rel="alternate" title="{{ site.title }}" href="{{ site.rss }}"> #}
+
+  <title>
+    {{ title + " – " + site.title if title else site.title }}
+  </title>
+  <meta name="description" content="{{ description if description else site.description }}">
+
+  {% include 'partials/head-schema.njk' %}
+  {% include 'partials/head-opengraph.njk' %}
+  {% include 'partials/head-twitter-cards.njk' %}
+  {% include 'partials/head-icons.njk' %}
+
+  <meta property="fb:app_id" content="{{ site.facebookAppID }}">
+  <link rel="manifest" href="{{ '/manifest.json' | absoluteUrl(site.url) }}">
+
+  <meta name="msapplication-TileColor" content="#101625">
+  <meta name="theme-color" content="#111111">
+  <meta name="background-color" content="#101625">
+
+  {%- if contentType === 'about' -%}
+    {% include 'partials/2023/schema-about.njk' %}
+  {%- elif contentType === 'speaker' -%}
+    {% include 'partials/2023/schema-speaker.njk' %}
+  {%- else -%}
+    {% include 'partials/2023/schema-default.njk' %}
+  {%- endif -%}
+
+  {#- Add to the CSS bundle #}
+  {%- css %}
+  {% include 'css/normalize.css' %}
+  {% include 'css/font-face.css' %}
+  {% include 'css/2023/base.css' %}
+  {% endcss %}
+
+  {#- Render the CSS bundle #}
+  {%- if eleventy.env.runMode === "serve" %}
+    {# External files (local dev live reload will refresh without page reload) #}
+    <link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
+  {%- else  %}
+    {# Inlined CSS (fastest site performance in production) #}
+    <style>
+      {% getBundle "css" %}
+    </style>
+  {%- endif %}
+
+  {# Fathom website analytics #}
+  <script src="https://cdn.usefathom.com/script.js" data-site="ODKOJCFB" defer="defer"></script>
+
+  <script>
+    document
+      .querySelectorAll('.track_NZTR2023Photos')
+      .forEach(item => {
+        item.addEventListener('click', event => {
+          fathom.trackEvent('View NZTR 2023 photos');
+        });
+      });
+
+    document
+      .querySelectorAll('.track_NZTR2023Videos')
+      .forEach(item => {
+        item.addEventListener('click', event => {
+          fathom.trackEvent('View NZTR 2023 Youtube channel');
+        });
+      });
+  </script>
+
+  <a class="button button-skip-link" href="#mainContent">Skip to main content</a>
+
+  <div class="page-content-clear-footer">
+    <div class="grid-bg"></div>
+
+    <header class="page-header">
+      <div class="page-wrapper page-header__wrapper">
+        {% if title %}
+          <p class="accent-border site-name">
+            <a class="site-logo-link" href="{{ '/' | url }}">
+              {% svg "logo", { title: "NZ Tech Rally", class: "site-logo" } %}
+            </a>
+          </p>
+        {% else %}
+          <h1 class="accent-border site-name">
+            <a class="site-logo-link" href="{{ '/' | url }}">
+              {% svg "logo", { title: "NZ Tech Rally", class: "site-logo" } %}
+            </a>
+          </h1>
+        {% endif %}
+
+        {%- include 'partials/navigation-main.njk' -%}
+      </div>
+    </header>
+
+    <main id="mainContent" class="page-container page-wrapper">
+      <header class="section-label section-label--header accent-border">
+        {% block pageHeader %}{% endblock %}
+      </header>
+      {% block pageIntro %}{% endblock %}
+      {% block content %}{% endblock %}
+
+      {% include 'partials/sponsors.njk' %}
+      {% include 'partials/newsletter-signup.njk' %}
+    </main>
+  </div>
+
+  {%- include 'partials/footer.njk' -%}
+
+  {%- set js -%}
+  {% include 'js/hamburgers.js' %}
+  {%- endset -%}
+
+  <script>
+    {{ js | jsmin | safe }}
+  </script>

@@ -12,14 +12,12 @@ profileUrl: [{
 }]
 profilePhoto: /assets/images/speakers/katrina_clokie.jpg
 profilePhotoAltText: Katrina is pictured delivering a talk. She is wearing a lapel microphone and gesturing at the audience. She has a flushed complexion, her face is pink and there are dimples on her cheeks. She has brown hair tied in a ponytail with a side part. She is wearing a grey cardigan and a blue top that has cranes and flowers on it.
-event: NZTechRally2023
 talkTitle: "Kiwiana & Code: What is unique about engineering culture in Aotearoa New Zealand?"
 talkExcerpt: "A reflection on the universal foundations of good engineering culture: people, leadership, organisational design, problem scope, technology constraints, and measurement."
 talkStartTime: 2023-07-07T09:10:00.000+12:00
 talkEndTime: 2023-07-07T10:00:00.000+12:00
 featuredImage: /assets/images/speakers/katrina_clokie_og.png
 featuredImageAlt: "Light high contrast text on top of a darkened image of a crowd reads “Kiwiana &amp; Code: What is unique about engineering culture in Aotearoa New Zealand? by Katrina Clokie, CTO at Fergus. Join us to hear Katrina and other speakers at NZ Tech Rally, 7th July, Wellington”
-
 Katrina is pictured delivering a talk. She is wearing a lapel microphone and gesturing at the audience. She has a flushed complexion, her face is pink and there are dimples on her cheeks. She has brown hair tied in a ponytail with a side part. She is wearing a grey cardigan and a blue top that has cranes and flowers on it."
 featuredImageType: image/png
 featuredImageWidth: 1200

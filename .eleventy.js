@@ -5,7 +5,7 @@ const pluginBundle = require("@11ty/eleventy-plugin-bundle");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginNavigation = require("@11ty/eleventy-navigation");
-const inclusiveLangPlugin = require("@11ty/eleventy-plugin-inclusive-language");
+// const inclusiveLangPlugin = require("@11ty/eleventy-plugin-inclusive-language");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("cssmin", function (code) {
@@ -21,7 +21,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(pluginNavigation);
-  eleventyConfig.addPlugin(inclusiveLangPlugin);
+  // eleventyConfig.addPlugin(inclusiveLangPlugin);
 
   eleventyConfig.setServerOptions({
     // Whether the live reload snippet is used
@@ -116,10 +116,28 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByTag("speaker");
   });
 
+  eleventyConfig.addCollection("panellists", (collection) => {
+    return collection.getFilteredByTag("panellist");
+  });
+
   eleventyConfig.addCollection("team", (collection) => {
     return collection
       .getFilteredByTag("team")
       .sort((a, b) => a.data.order - b.data.order);
+  });
+
+  // TODO: Reduce duplication for these settings
+  // For 2023 speakers
+  eleventyConfig.addCollection("speakers2023", (collection) => {
+    return collection
+      .getFilteredByTag("speaker")
+      .filter((eventName) => (eventName.data.event = "NZTechRally2023"));
+  });
+
+  eleventyConfig.addCollection("panellists2023", (collection) => {
+    return collection
+      .getFilteredByTag("panellist")
+      .filter((eventName) => (eventName.data.event = "NZTechRally2023"));
   });
 
   eleventyConfig.addShortcode("renderlayoutblock", function (name) {

@@ -40,7 +40,7 @@
 .hamburger.is-active:hover,
 .hamburger:focus,
 .hamburger.is-active:focus {
-  color: var(--colour-orange);
+  color: var(--colour-pink);
 }
 
 .hamburger.is-active .hamburger-inner,

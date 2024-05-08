@@ -18,7 +18,6 @@ profileUrl: [{
 }]
 profilePhoto: /assets/images/speakers/allen_geer.jpg
 profilePhotoAltText: Allen's portrait. A bearded man with a big smile, wearing a white shirt, in a headshot.
-event: NZTechRally2023
 talkTitle: One DevOps does not git all
 talkExcerpt: How DevOps Seeds different cultural practices in small and large Kiwi Organisations
 talkStartTime: 2023-07-07T10:00:00.000+12:00
