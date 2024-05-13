@@ -41,8 +41,8 @@ order: 2
 # featuredImageType: image/png
 # featuredImageWidth: 1200
 # featuredImageHeight: 630
-talkTitle: Opening remarks
-talkRecordingID: 3lV238sdKW4
+talkTitle: 
+talkRecordingID: 
 talkStartTime: 2023-07-07T09:00:00.000+12
 talkEndTime: 2023-07-07T09:15:00.000+12
 ---
