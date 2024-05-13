@@ -1,0 +1,225 @@
+---
+tags: page
+title: Call for proposals
+description: You could be speaking at NZ Tech Rally 2024!
+eleventyNavigation:
+  key: CFP
+  order: 1
+---
+
+{% extends 'layouts/base.njk' %}
+{% from 'partials/card.njk' import card %}
+
+{%- css %}
+{% include "css/components/profile-card.css" %}
+{% endcss %}
+
+{% block pageHeader %}
+  <h1 class="section-title">
+    {{ title }}
+  </h1>
+{% endblock %}
+
+{% block content %}
+  <section>
+    <div class="section-label accent-border">
+      <h2 class="section-title" id="theme">Conference theme for 2024</h2>
+    </div>
+
+    <div class="text-indent">
+      <p>
+        <strong>Resilience of people, communities, and companies in the Aotearoa software industry.</strong>
+      </p>
+      <p>
+        We’ve experienced tough times in the last couple of years: over-hiring, relentless pursuit of growth at any expense, burnout, redundancies, reduced budgets, and closures.
+      </p>
+      <p>
+        Our organisations and individuals can learn a lot from this experience, and prepare ourselves for the next cycle of disruption.
+      </p>
+      <p>
+        We want to hear real stories and practical advice from individuals, teams, and organisations.
+      </p>
+      <ul>
+        <li>Were you impacted? What was it like?</li>
+        <li>Was there a silver lining? What’s hopeful about the future?</li>
+        <li>How did you survive or pivot? What helped?</li>
+        <li>Did you have to make tough decisions? What would you have done differently?</li>
+        <li>What does your career/team/company/product look like today?</li>
+      </ul>
+      <p>
+        Let's rally the NZ software industry together to become more resilient for 2025 and beyond.
+      </p>
+      <a class="button" href="{{ nztr2024.cfpUrl }}" rel="external">Submit your talk idea</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-label accent-border">
+      <h2 class="section-title">Talk length</h2>
+    </div>
+
+    <div class="text-indent">
+      <p>
+        25 minutes will be allocated for your talk. <br>
+        There is no on-stage Q&A. This will be encouraged at break-out sessions.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-label accent-border">
+      <h3 class="section-title" id="timeline">Timeline</h3>
+    </div>
+    <div class="text-indent">
+      <table>
+        <caption>
+          A timeline of when CFP and speaker releated activities are happening.
+        </caption>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Activity</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td class="table-date-cell">16 June</td>
+            <td>CFP closes
+            </td>
+          </tr>
+
+          <tr>
+            <td class="table-date-cell">24-28 June</td>
+            <td>Shortlisted applicants notified
+            </td>
+          </tr>
+
+          <tr>
+            <td class="table-date-cell">1-14 July</td>
+            <td>Calls with shortlisted applicants
+            </td>
+          </tr>
+
+          <tr>
+            <td class="table-date-cell">15 July</td>
+            <td>Speaker onboarding
+            </td>
+          </tr>
+
+          <tr>
+            <td class="table-date-cell">26 July</td>
+            <td>Unsuccessful applicants notified
+            </td>
+          </tr>
+
+          <tr>
+            <td class="table-date-cell">26 July</td>
+            <td>
+              Final talk submission/confirmation due.<br>
+              Speaker profile gets updated on the website as soon as we receive it.
+            </td>
+          </tr>
+
+          <tr>
+            <td class="table-date-cell">19 August</td>
+            <td>Speaking order and event schedule published</td>
+          </tr>
+
+          <tr>
+            <td class="table-date-cell">19 August</td>
+            <td>Talk promotion on social media starts</td>
+          </tr>
+
+          <tr>
+            <td class="table-date-cell">21 October</td>
+            <td>Talk and slides check-in</td>
+          </tr>
+
+          <tr>
+            <td class="table-date-cell">10 November</td>
+            <td>Slides submission due</td>
+          </tr>
+          <tr>
+            <td class="table-date-cell">22 November</td>
+            <td>Conference day</td>
+          </tr>
+          <tr>
+            <td class="table-date-cell">4 December</td>
+            <td>Invoice and travel expense receipts due</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-label accent-border">
+      <h2 class="section-title">Compensation</h2>
+    </div>
+
+    <div class="text-indent">
+      <p>
+        Sharing knowledge with the community shouldn’t be a privilege of those who can afford it. We know that planning a good talk takes a lot of time and love. 
+      </p>
+      <p>
+        We’ve worked hard to start compensating speakers for some of your time this year. Things we can compensate each confirmed speaker: 
+      </p>
+      <ul>
+        <li>
+          $500 (GST exclusive) speaking fee per delivered talk
+        </li>
+        <li>
+          Up to $200 (GST inclusive) of pre-approved domestic travel expenses
+        </li>
+        <li>
+          A free ticket to NZ Tech Rally 2024
+        </li>
+        <li>
+          Full resolution photographs of you delivering your talk
+        </li>
+        <li>
+          Public video of your talk; captioned, transcribed, and posted on our <a href="{{ site.youtube }}" rel="external">YouTube channel</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-label accent-border">
+      <h2 class="section-title">Support</h2>
+    </div>
+
+    <div class="text-indent">
+      <h3>Get help with CFP</h3>
+      <p>
+        Reach out to our friendly team at <a href="mailto:speak@nztechrally.nz" rel="external">speak@nztechrally.nz</a> to chat with someone about your ideas. 
+      </p>
+
+      <h3>Talk preparation and practice</h3>
+      <p>Preparation support we offer includes:</p>
+      <ul>
+        <li>Up-to-date information about the event, tech setup, access, and etc.</li>
+        <li>Brainstorming and firming up ideas</li>
+        <li>Pitch, slides and script review</li>
+        <li>One-on-one practice sessions (or group if preferred)</li>
+        <li>Accessibility check</li>
+      </ul>
+
+      <h3>Why in-person talks only?</h3>
+      <p>
+        Due to our limited resources, we’re unable to facilitate live remote presentations (speaking or attending). We’re asking all speakers to speak in-person this year.  
+      </p>
+      <p>
+        We do hope to be able to offer more flexibility in the future.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="text-indent">
+      <p>Did that sound all good to you?</p>
+      <a class="button" href="{{ nztr2024.cfpUrl }}" rel="external">Send us your idea!</a>
+    </div>
+  </section>
+{% endblock %}
