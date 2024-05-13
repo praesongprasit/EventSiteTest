@@ -1,5 +1,7 @@
 ---
 tags: page
+title: NZ Tech Rally 2024 - 22nd November
+description: What does great software engineering culture look like, and how have Kiwis done it?
 ---
 {% extends 'layouts/base.njk' %}
 {% from 'partials/card.njk' import card %}
@@ -9,6 +11,12 @@ tags: page
 {%- css %}
 {% include "css/components/profile-card.css" %}
 {% endcss %}
+
+{% block pageHeader %}
+  <h1 class="section-title">
+    NZ Tech Rally 2024
+  </h1>
+{% endblock %}
 
 {% block content %}
   <div class="section content-wrapper columns columns-half">
@@ -25,7 +33,7 @@ tags: page
         </div>
         <div class="text-indent">
           <p>
-            Coming soon
+            Resilience of people, communities, and organisations in the Aotearoa software industry.
           </p>
         </div>
       </section>
@@ -68,8 +76,9 @@ tags: page
         </div>
         <div class="text-indent">
           <p>
-            Coming soon
+            We're accepting talk submissions between 13th May - 16th June 2024
           </p>
+          <a>Pitch a talk!</a>
         </div>
       </section>
 
@@ -86,7 +95,9 @@ tags: page
             $170 early bird ticket<br>
             $200 standard ticket<br>
             $220 last minute ticket<br>
-            $20 discount per ticket applies when purchasing four tickets or more
+          </p>
+          <p>
+            Bulk ticket discount: $20 off per ticket when purchasing Standard or Last-minute tickets for a group of four or more.
           </p>
           {# <p>
             If your manager needs persuading, we've written a handy <a href="{{ '/convince-your-manager' | url }}">letter to help you convince them</a>!
@@ -97,21 +108,21 @@ tags: page
   </div>
 
   <section class="section content-wrapper">
-    <div class="section-label section-label--header accent-border">
+    <div class="section-label accent-border">
       <h2 class="section-title">
         Our mission
       </h2>
     </div>
     <div class="text-indent">
       <p>
-        NZ Tech Rally provide inclusive spaces for the NZ software community to celebrate, connect and grow together. 
+        NZ Tech Rally provide inclusive spaces for the NZ software community to celebrate, connect, and grow together. 
       </p>
       <p>For now... we're starting with conferences!</p>
     </div>
   </section>
 
   <section class="section content-wrapper">
-    <div class="section-label section-label--header accent-border">
+    <div class="section-label accent-border">
       <h2 class="section-title">
         Speakers
       </h2>
@@ -125,7 +136,7 @@ tags: page
   </section>
 
   <section class="section content-wrapper">
-    <div class="section-label section-label--header accent-border">
+    <div class="section-label accent-border">
       <h2 class="section-title">
         Panellists
       </h2>

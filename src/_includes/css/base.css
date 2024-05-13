@@ -491,7 +491,7 @@ section,
 
 .section:first-of-type,
 .section--coloured,
-.section--coloured + section {
+.section--coloured + .section {
   padding-top: 2.75rem;
 }
 
@@ -524,11 +524,7 @@ section,
     padding-bottom: 0.38rem;
   }
 
-  .section-label--header {
-    margin-bottom: var(--spacing-xlarge);
-  }
-
-  section:first-child .section-label--header {
+  section:first-child .section-label {
     margin-top: 0;
   }
 }
