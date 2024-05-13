@@ -3,33 +3,35 @@
   {% include "css/components/newsletter-signup.css" %}
   {% endcss %}
 
-  <aside class="section section--coloured columns columns-half">
-    <div class="column-one">
-      <div class="accent-border">
-        <div class="hero">
-          <img class="newsletter-signup__decorative-image" src="{{ '/assets/images/newsletter-signup.png' | url }}" alt="" />
+  <aside class="section section--coloured">
+    <div class="content-wrapper columns columns-half">
+      <div class="column-one">
+        <div class="accent-border">
+          <div class="hero">
+            <img class="newsletter-signup__decorative-image" src="{{ '/assets/images/newsletter-signup.png' | url }}" alt="" />
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="column-two">
-      <div class="section-label section-label--header accent-border newsletter-signup__section-label">
-        <h2 class="section-title">Newsletter</h2>
-      </div>
+      <div class="column-two">
+        <div class="section-label section-label--header accent-border newsletter-signup__section-label">
+          <h2 class="section-title">Newsletter</h2>
+        </div>
 
-      <div class="text-indent">
-        <p>Receive email updates about the NZ Tech Rally related events, when tickets goes on sale, and more.</p>
-        <p>Oh, and no, we do not share your email with our sponsors and vendors. You can also unsubscribe any time.</p>
-      </div>
+        <div class="text-indent">
+          <p>Receive email updates about the NZ Tech Rally related events, when tickets goes on sale, and more.</p>
+          <p>Oh, and no, we do not share your email with our sponsors and vendors. You can also unsubscribe any time.</p>
+        </div>
 
-      <form id="newsletterSignup" class="newsletter-signup" title="NZ Tech Rally news signup" name="newsletter" method="POST" data-netlify="true" action="/newsletter-confirmation/">
-        <label for="newsletterSignupEmailField" class="newsletter-signup__label">
+        <form id="newsletterSignup" class="newsletter-signup" title="NZ Tech Rally news signup" name="newsletter" method="POST" data-netlify="true" action="/newsletter-confirmation/">
+          <label for="newsletterSignupEmailField" class="newsletter-signup__label">
           Email address
         </label>
-        <input  type="email" name="email" id="newsletterSignupEmailField" class="newsletter-signup__input">
+          <input  type="email" name="email" id="newsletterSignupEmailField" class="newsletter-signup__input">
 
-        <button type="submit" class="button newsletter-signup__button">Subscribe</button>
-      </form>
+          <button type="submit" class="button newsletter-signup__button">Subscribe</button>
+        </form>
+      </div>
     </div>
   </aside>
 {% endif %}

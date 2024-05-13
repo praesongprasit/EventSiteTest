@@ -402,7 +402,7 @@ select:focus-visible {
   margin-top: 0;
 }
 
-.page-wrapper {
+.content-wrapper {
   margin: 0 auto;
   max-width: 940px;
   padding-left: var(--spacing-xsmall);
