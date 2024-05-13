@@ -7,7 +7,7 @@
   "eventStatus": "https://schema.org/EventScheduled",
   "maximumAttendeeCapacity": "630",
   "remainingAttendeeCapacity": "597",
-  "ticketUrl": "https://events.humanitix.com/nztechrally2024/tickets",
+  "ticketUrl": "https://events.humanitix.com/nztechrally2024/tickets?c=nztrsite",
   "ticketAvaiability": "https://schema.org/InStock",
   "ticketEarlyBirdPrice": "170",
   "ticketPrice": "200",
