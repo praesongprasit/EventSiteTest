@@ -98,11 +98,16 @@
     </header>
 
     <main id="mainContent" class="page-container">
-      <header class="section-label section-label--header accent-border">
-        {% block pageHeader %}{% endblock %}
-      </header>
-      {% block pageIntro %}{% endblock %}
-      {% block content %}{% endblock %}
+      <div class="section content-wrapper">
+        <header class="section-label section-label--header accent-border">
+          {% block pageHeader %}{% endblock %}
+        </header>
+      </div>
+
+      <div class="section content-wrapper">
+        {% block pageIntro %}{% endblock %}
+        {% block content %}{% endblock %}
+      </div>
 
       {% include 'partials/newsletter-signup.njk' %}
       {% include 'partials/sponsors.njk' %}

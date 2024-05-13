@@ -489,6 +489,7 @@ section,
   background-color: var(--colour-yellow);
 }
 
+.section:first-of-type,
 .section--coloured,
 .section--coloured + section {
   padding-top: 2.75rem;
@@ -503,18 +504,23 @@ section,
   font-size: var(--font-size-large);
   padding: 0 2.5rem; /* TODO: standardise */
   margin: 0;
-  background-color: var(--colour-white);
   text-align: center;
   line-height: 2.75rem; /* TODO: Standardise */
 }
 
+.section--coloured .section-title {
+  background-color: var(--colour-white);
+}
+
 @media screen and (min-width: 520px) {
-  .section-label--header .section-title {
-    padding-top: 0;
-    padding-bottom: 0;
+  .section-title {
     line-height: 2.75rem; /* TODO: standardise this */
     font-size: var(--font-size-xlarge);
     display: inline-block;
+  }
+  .section--coloured .section-title {
+    padding-top: 0.38rem;
+    padding-bottom: 0.38rem;
   }
 
   .section-label--header {
