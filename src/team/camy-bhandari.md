@@ -39,8 +39,8 @@ order: 1
 # featuredImageType: image/png
 # featuredImageWidth: 1200
 # featuredImageHeight: 630
-talkTitle: Closing notes
-talkRecordingID: sZFBBy-XQUE
+talkTitle: 
+talkRecordingID: 
 talkStartTime: 2023-07-07T16:50:00.000+12
 talkEndTime: 2023-07-07T17:00:00.000+12
 ---
