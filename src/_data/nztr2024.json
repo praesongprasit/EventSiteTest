@@ -1,25 +1,25 @@
 {
-  "title": "NZ Tech Rally 2023",
-  "description": "Flagship conference for the NZ software community to connect and grow together.",
-  "startDate": "2023-07-07T08:00:00.000+12:00",
-  "endDate": "2023-07-07T17:00:00.000+12:00",
+  "title": "NZ Tech Rally 2024",
+  "description": "Flagship conference for the NZ software community to celebrate, connect, and grow together.",
+  "startDate": "2023-11-22T08:00:00.000+12:00",
+  "endDate": "2023-11-22T17:00:00.000+12:00",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "eventStatus": "https://schema.org/EventScheduled",
-  "maximumAttendeeCapacity": "300",
-  "remainingAttendeeCapacity": "250",
-  "ticketUrl": "https://nztechrally2023.lilregie.com/",
+  "maximumAttendeeCapacity": "630",
+  "remainingAttendeeCapacity": "597",
+  "ticketUrl": "https://events.humanitix.com/nztechrally2024/tickets",
   "ticketAvaiability": "https://schema.org/InStock",
-  "ticketEarlyBirdPrice": "110",
-  "ticketPrice": "150",
-  "ticketEarlyBirdStarts": "2024-04-24T00:00.000+12:00",
-  "ticketEarlyBirdEnds": "2024-05-31T23:59.000+12:00",
-  "ticketSaleStarts": "2024-06-01T00:00.000+12:00",
-  "ticketSaleEnds": "2024-06-30T23:59.000+12:00",
+  "ticketEarlyBirdPrice": "170",
+  "ticketPrice": "200",
+  "ticketEarlyBirdStarts": "2024-05-14T00:00.000+12:00",
+  "ticketEarlyBirdEnds": "2024-08-19T23:59.000+12:00",
+  "ticketSaleStarts": "2024-05-14T00:00.000+12:00",
+  "ticketSaleEnds": "2024-11-21T23:59.000+12:00",
   "location": {
-    "name": "Room RHLT1, Rutherford House",
+    "name": "Rongomātāne Plenary Hall One",
     "address": {
-      "name": "Victoria University, Pipitea Campus",
-      "streetAddress": "33 Bunny Street",
+      "name": "Tākina",
+      "streetAddress": "50 Cable Street",
       "addressLocality": "Wellington",
       "postalCode": "5022",
       "addressRegion": "Wellington"
@@ -29,5 +29,5 @@
       "longitude": "174.779103511636"
     }
   },
-  "photos": "https://photos.app.goo.gl/jz8HWFMt6uQbE1Mx6"
+  "photos": ""
 }
