@@ -20,8 +20,8 @@
   --spacing-xsmall: 0.625rem; /* 10px */
   --spacing-small: 0.75rem; /* 12px */
   --spacing-main: 1rem; /* 16px */
-  --spacing-large: 1.125rem; /* 18px */
-  --spacing-xlarge: 1.5rem; /* 24px */
+  --spacing-large: 1.125rem; /* 18px -> 22px */
+  --spacing-xlarge: 1.5rem; /* 24px -> 44px */
   --spacing-2xlarge: 2rem; /* 32px */
   --spacing-3xlarge: 3rem; /* 48px */
 
@@ -44,7 +44,7 @@
   --colour-border: var(--colour-bright-orange);
 
   --colour-button-text: var(--colour-white);
-  --colour-button-background: var(--colour-bright-orange);
+  --colour-button-background: var(--colour-dark-orange);
   --colour-button-hover: var(--colour-button-text);
   --colour-button-background-hover: var(--colour-black);
 
@@ -53,6 +53,7 @@
 
   --subtle-shadow: 1px solid #1c2230;
   --drop-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  --accent-border-width: 8px;
 }
 
 html,
@@ -261,16 +262,16 @@ tbody tr:nth-child(odd) {
 
 .button,
 a.button {
-  font-family: var(--typeface-display);
   font-weight: var(--font-weight-bold);
   background: var(--colour-button-background);
   border: 1px solid transparent;
   color: var(--colour-button-text);
   display: inline-block;
-  padding: 0.5em 1em;
+  padding: var(--spacing-xsmall);
   text-align: center;
   text-decoration: none;
   cursor: pointer;
+  box-shadow: var(--drop-shadow);
 }
 
 .button--secondary,
@@ -325,8 +326,8 @@ label {
 input {
   background-color: var(--colour-white);
   border: 0;
-  padding: 1.25rem;
-  color: var(--colour-black);
+  padding: 0.69rem 1.25rem; /* TODO: standardise padding */
+  color: var(--colour-dark-orange);
 }
 
 input:focus-visible,
@@ -350,11 +351,11 @@ select:focus-visible {
 .accent-border::before {
   content: "";
   display: block;
-  width: 8px;
+  width: var(--accent-border-width);
   height: 100%;
   background-color: var(--colour-border);
   position: absolute;
-  left: -8px;
+  left: 0;
   top: 0;
 }
 
@@ -374,8 +375,14 @@ select:focus-visible {
 }
 
 .text-indent {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  padding-left: var(--accent-border-width);
+  padding-right: var(--accent-border-width);
+}
+
+@media only screen and (min-width: 520px) {
+  .text-indent {
+    padding-left: 2.5rem; /* TODO: stndardise */
+  }
 }
 
 .small-text {
@@ -469,33 +476,32 @@ select:focus-visible {
 
 /* -------------- Section -------------- */
 
-section {
-  margin-bottom: var(--spacing-xlarge);
+section,
+.section {
+  padding-bottom: 2.75rem;
+}
+
+.section--coloured {
+  background-color: var(--colour-yellow);
+}
+
+.section--coloured,
+.section--coloured + section {
+  padding-top: 2.75rem;
 }
 
 .section-label {
-  display: flex;
+  margin-bottom: 1.38rem; /* TODO: standardise */
 }
 
 .section-title {
   font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-main);
-  padding: 0.375rem 1.25rem;
+  font-size: var(--font-size-large);
+  padding: 0 2.5rem; /* TODO: standardise */
   margin: 0;
   background-color: var(--colour-white);
-  display: flex;
-  align-items: center;
-}
-
-.section-title .icon {
-  width: 20px;
-  margin-left: 0.625rem; /* 10px */
-}
-
-@media screen and (max-width: 519px) {
-  .section-label--header + .text-indent {
-    margin-top: var(--spacing-xlarge);
-  }
+  text-align: center;
+  line-height: 2.75rem; /* TODO: Standardise */
 }
 
 @media screen and (min-width: 520px) {
@@ -504,20 +510,15 @@ section {
     padding-bottom: 0;
     line-height: 2.75rem; /* TODO: standardise this */
     font-size: var(--font-size-xlarge);
+    display: inline-block;
   }
 
   .section-label--header {
-    display: block;
-    margin-top: 80px;
     margin-bottom: var(--spacing-xlarge);
   }
 
   section:first-child .section-label--header {
     margin-top: 0;
-  }
-
-  .section-label--header .icon {
-    width: 32px;
   }
 }
 
@@ -640,8 +641,4 @@ ul.column-one {
 
 .card ul ul {
   margin-top: 0.5rem;
-}
-
-.section-label + .card {
-  margin-bottom: var(--spacing-xlarge);
 }

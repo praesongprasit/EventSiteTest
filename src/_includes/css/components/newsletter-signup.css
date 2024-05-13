@@ -1,33 +1,42 @@
 .newsletter-signup {
   display: grid;
-  margin-top: var(--spacing-xlarge);
+}
+
+.newsletter-signup__label {
+  padding: 0.125rem var(--spacing-xlarge);
+  background-color: var(--colour-dark-orange);
+  color: var(--colour-white);
+  justify-self: start;
 }
 
 .newsletter-signup__input {
   border: 1px solid var(--colour-dark-orange);
+  box-sizing: border-box;
 }
 
-.newsletter-signup__label {
-  padding-left: 1.25rem;
-}
-
-@media screen and (min-width: 520px) {
-  .newsletter-signup {
-    margin-bottom: 80px;
+@media screen and (max-width: 519px) {
+  .newsletter-signup__decorative-image {
+    display: none;
   }
-}
 
-.newsletter-signup__button {
-  padding: 1.25rem var(--spacing-xlarge);
-}
-
-@media screen and (max-width: 520px) {
   .newsletter-signup__input {
-    margin-bottom: var(--spacing-xlarge);
+    margin-bottom: 0.69rem; /* TODO: Standardise spacing */
+  }
+
+  .newsletter-signup__button {
+    justify-self: end;
   }
 }
 
 @media screen and (min-width: 520px) {
+  .newsletter-signup__decorative-image {
+    display: block;
+  }
+
+  .newsletter-signup__section-label {
+    margin-top: 1.375rem; /* 22px TODO: standardise */
+  }
+
   .newsletter-signup__label {
     grid-area: newsletter-label;
   }
