@@ -11,7 +11,6 @@ excludefromSearch: true
 {% block pageHeader %}
   <h1 class="section-title">
     {{ title }}
-    {% svg pageIcon %}
   </h1>
 {% endblock %}
 
@@ -20,22 +19,13 @@ excludefromSearch: true
     <div class="section-label accent-border">
       <h2 class="section-title">No ticket refund</h2>
     </div>
-    <div class="card accent-border">
+    <div class="text-indent">
       <p>
         We are sorry, but we cannot offer refunds on tickets sold.
       </p>
       <p>
         However, you can transfer your ticket to someone else up to 48 hours before the event.
       </p>
-      <p>
-        If you wish to do this, please email us at <a href="mailto:registration@nztechrally.nz">registration@nztechrally.nz</a> with:
-      </p>
-      <ol>
-        <li>
-          <strong>Name</strong> and <strong>email</strong> you used to purchase the ticket</li>
-        <li>
-          <strong>Name</strong> and <strong>email</strong> of the person you wish to transfer your ticket to</li>
-      </ol>
     </div>
   </section>
 {% endblock %}

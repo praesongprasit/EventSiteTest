@@ -517,6 +517,7 @@ section,
     line-height: 2.75rem; /* TODO: standardise this */
     font-size: var(--font-size-xlarge);
     display: inline-block;
+    text-align: left;
   }
   .section--coloured .section-title {
     padding-top: 0.38rem;
