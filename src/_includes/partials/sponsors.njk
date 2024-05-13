@@ -3,33 +3,31 @@
   {% include "css/components/sponsors.css" %}
   {% endcss %}
 
-  <section>
+  <section class="section content-wrapper">
     <div class="section-label section-label--header accent-border">
       <h2 class="section-title">
         Sponsors
       </h2>
     </div>
 
-    <div class="card">
+    <div class="text-indent">
       <p>
         We're looking for more sponsors to support our events this year!
       </p>
       <p>
         See our <a href ="{{ '/sponsor' | url }}">sponsorship packages</a> for more information.
       </p>
-    </div>
 
-    <div class="text-indent">
       <h3>Gold sponsor</h3>
-    </div>
 
-    <ul class="cards cards--sponsors">
-      <li class="card--sponsor card--sponsor-large">
-        <a class="card card--sponsor-link" rel="external" href="https://www.serko.com/">
-          <img src="{{ '/assets/images/sponsors/serko-logo.png' | url }}" alt="Serko" />
-        </a>
-      </li>
-    </ul>
+      <ul class="cards cards--sponsors">
+        <li class="card--sponsor card--sponsor-large">
+          <a class="card card--sponsor-link" rel="external" href="https://www.serko.com/">
+            <img src="{{ '/assets/images/sponsors/serko-logo.png' | url }}" alt="Serko" />
+          </a>
+        </li>
+      </ul>
+    </div>
 
     {# <div class="text-indent">
       <h3>Silver sponsors</h3>

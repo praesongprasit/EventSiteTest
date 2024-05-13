@@ -409,6 +409,10 @@ select:focus-visible {
   padding-right: var(--spacing-xsmall);
 }
 
+.section.content-wrapper {
+  background-color: var(--colour-off-white);
+}
+
 /* -------------- HEADER -------------- */
 
 .page-header {
