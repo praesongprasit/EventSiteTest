@@ -15,6 +15,8 @@
   --line-height-main: 1.375;
   --line-height-display: 1.25;
 
+  --letter-spacing: -0.06rem;
+
   --spacing-xsmall: 0.625rem; /* 10px */
   --spacing-small: 0.75rem; /* 12px */
   --spacing-main: 1rem; /* 16px */
@@ -25,9 +27,9 @@
 
   --colour-black: #111111;
   --colour-grey: #f2f2f2;
-  --colour-dark-orange: #fd530d;
-  --colour-dark-orange-darken: #fd530d; /* Accessible option */
-  --colour-orange: #ffb33a;
+  --colour-bright-orange: #fd530d;
+  --colour-dark-orange: #e22f00; /* Accessible option */
+  --colour-yellow: #ffb33a;
   --colour-green: #1a944f;
   --colour-blue: #487ea3;
   --colour-off-white: #fffaf7;
@@ -36,13 +38,13 @@
   --colour-body-text-dark: var(--colour-black);
   --colour-body-text-light: var(--colour-white);
   --colour-link: var(--colour-dark-orange);
-  --colour-link-hover: var(--colour-dark-orange);
-  --colour-link-visited: var(--colour-dark-orange-darken);
+  --colour-link-hover: var(--colour-bright-orange);
+  --colour-link-visited: var(--colour-dark-orange);
 
-  --colour-border: var(--colour-dark-orange);
+  --colour-border: var(--colour-bright-orange);
 
   --colour-button-text: var(--colour-white);
-  --colour-button-background: var(--colour-dark-orange);
+  --colour-button-background: var(--colour-bright-orange);
   --colour-button-hover: var(--colour-button-text);
   --colour-button-background-hover: var(--colour-black);
 
@@ -119,6 +121,7 @@ h2,
   font-family: var(--typeface-display);
   line-height: var(--line-height-display);
   font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing);
 }
 
 h1 {
@@ -304,7 +307,7 @@ a.button:hover {
 }
 
 :focus-visible {
-  box-shadow: 0 0 0 0px transparent, 0 0 0 3px var(--colour-dark-orange);
+  box-shadow: 0 0 0 0px transparent, 0 0 0 3px var(--colour-bright-orange);
   outline: 1px solid transparent;
   transition: box-shadow 0.1s;
 }
@@ -312,10 +315,6 @@ a.button:hover {
 label,
 input {
   font-size: var(--font-size-main);
-}
-
-label {
-  font-family: var(--typeface-display);
 }
 
 label {
@@ -335,7 +334,8 @@ button:focus-visible,
 .button:focus-visible,
 textarea:focus-visible,
 select:focus-visible {
-  box-shadow: 0 0 0 2px var(--colour-grey), 0 0 0 5px var(--colour-dark-orange);
+  box-shadow: 0 0 0 2px var(--colour-grey),
+    0 0 0 5px var(--colour-bright-orange);
   outline: 1px solid transparent;
   transition: box-shadow 0.1s;
   z-index: 1;
@@ -432,7 +432,7 @@ select:focus-visible {
 
 .page-header a:hover {
   text-decoration: underline;
-  color: var(--colour-dark-orange);
+  color: var(--colour-bright-orange);
 }
 
 .page-header__wrapper {
@@ -483,7 +483,6 @@ section {
   padding: 0.375rem 1.25rem;
   margin: 0;
   background-color: var(--colour-white);
-  box-shadow: var(--drop-shadow);
   display: flex;
   align-items: center;
 }
@@ -501,8 +500,9 @@ section {
 
 @media screen and (min-width: 520px) {
   .section-label--header .section-title {
-    padding-top: var(--spacing-main);
-    padding-bottom: var(--spacing-main);
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 2.75rem; /* TODO: standardise this */
     font-size: var(--font-size-xlarge);
   }
 
