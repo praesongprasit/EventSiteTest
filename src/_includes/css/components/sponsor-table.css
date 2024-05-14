@@ -2,11 +2,6 @@
   Table styles that are specific to sponsor page
 */
 
-.table--sponsorship th {
-  background-color: var(--colour-black);
-  color: var(--colour-white);
-}
-
 .sponsorship-level {
   display: inline-block;
   width: 90px;

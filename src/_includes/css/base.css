@@ -244,12 +244,21 @@ th {
   padding: 0.5rem var(--spacing-xlarge);
 }
 
+.table thead {
+  background-color: var(--colour-dark-orange);
+  color: var(--colour-white);
+}
+
 .table-date-cell {
   min-width: 90px;
 }
 
 tbody tr:nth-child(odd) {
-  background: #fff;
+  background: var(--colour-white);
+}
+
+tbody tr:nth-child(even) {
+  background: var(--colour-grey);
 }
 
 .table-notes {
