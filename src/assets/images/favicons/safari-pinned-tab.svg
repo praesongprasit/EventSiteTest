@@ -1,15 +1,16 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
- preserveAspectRatio="xMidYMid meet">
-<metadata>
-Created by potrace 1.14, written by Peter Selinger 2001-2017
-</metadata>
-<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M0 2560 l0 -2560 2560 0 2560 0 0 2560 0 2560 -2560 0 -2560 0 0
--2560z m4480 0 l0 -1120 -1920 0 -1920 0 0 1120 0 1120 1920 0 1920 0 0 -1120z"/>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_733_71)">
+<rect width="400" height="400" fill="white"/>
+<rect width="400" height="400" fill="#111111"/>
+<rect x="50" y="112" width="75" height="175" fill="#FD530D"/>
+<rect x="125" y="112" width="225" height="175" fill="#D9D9D9"/>
 </g>
+<defs>
+<clipPath id="clip0_733_71">
+<rect width="400" height="400" fill="white"/>
+</clipPath>
+</defs>
 </svg>
