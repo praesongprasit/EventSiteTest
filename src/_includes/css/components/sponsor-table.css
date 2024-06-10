@@ -11,8 +11,8 @@
 @media screen and (max-width: 719px) {
   .table--sponsorship tr {
     display: grid;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
+    padding-top: var(--spacing-small);
+    padding-bottom: var(--spacing-small);
   }
 
   .table--sponsorship td {
@@ -21,7 +21,7 @@
 
   .table--sponsorship td:first-child {
     font-weight: var(--font-weight-bold);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .table--sponsorship thead {
