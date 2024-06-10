@@ -1,42 +1,40 @@
-.cards--sponsors {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--spacing-main);
-  align-items: stretch;
+.sponsorship-level {
+  margin-bottom: var(--spacing-small);
+  font-size: 18px; /* TODO: Standardise */
 }
 
-.card--sponsor {
+.sponsors-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: var(--spacing-main);
+  column-gap: var(--spacing-large);
+  align-items: center;
+  padding: 0;
+  margin-bottom: var(--spacing-main);
+}
+
+.sponsor-list-item {
   display: block;
-  /* width: 100%; */
   margin: 0;
 }
 
-.card--sponsor-link {
+.sponsor-list-item-link {
   display: flex;
-  height: calc(100% - 2.5rem);
   align-items: center;
 }
 
-.card--sponsor-link img {
+.sponsor-list-item-link img {
   display: block;
   width: 100%;
-  height: auto;
-  object-fit: contain;
-  margin: 0 auto;
+  margin: 0;
 }
 
 @media screen and (min-width: 520px) {
-  .cards--sponsors {
+  .sponsors-list {
     flex-direction: row;
   }
+}
 
-  .card--sponsor-link img {
-    max-width: 220px;
-    max-height: 50px;
-  }
-
-  .card--sponsor-large img {
-    max-width: 400px;
-    max-height: 90px;
-  }
+.sponsorship-cta {
+  margin-top: var(--spacing-xlarge);
 }

@@ -12,46 +12,39 @@
 
     <div class="text-indent">
       <p>
-        We're looking for more sponsors to support our events this year!
-      </p>
-      <p>
-        See our <a href ="{{ '/sponsor' | url }}">sponsorship packages</a> for more information.
+        Thank you to our amazing sponsors. We wouldn’t be able to do it without you!
       </p>
 
-      <h3>Gold sponsor</h3>
+      <h3 class="sponsorship-level">Gold</h3>
 
-      <ul class="cards cards--sponsors">
-        <li class="card--sponsor card--sponsor-large">
-          <a class="card card--sponsor-link" rel="external" href="https://www.serko.com/">
+      <ul class="sponsors-list">
+        <li class="sponsor-list-item sponsor-list-item-large">
+          <a class="sponsor-list-item-link" rel="external" href="https://www.serko.com/">
             <img src="{{ '/assets/images/sponsors/serko-logo.png' | url }}" alt="Serko" />
           </a>
         </li>
       </ul>
     </div>
 
-    {# <div class="text-indent">
-      <h3>Silver sponsors</h3>
-    </div> #}
-
-    {# <ul class="cards cards--sponsors">
-      <li class="card--sponsor">
-        <a class="card card--sponsor-link" rel="external" href="https://www.runn.io/careers">
-          <img src="{{ '/assets/images/sponsors/runn-logo.png' | url }}" alt="Runn" />
-        </a>
-      </li>
-
-      <li class="card--sponsor">
-        <div class="card">
-          <p>We're still looking for more!</p>
-          <p>
-            <a href="{{ '/sponsor' | url }}">Sponsorship application</a> close on 26th June 2023.
-          </p>
-        </div>
-      </li>
-    </ul> #}
-
     <div class="text-indent">
-      <p>Thank you to our amazing sponsor. We wouldn’t be able to do it without you!</p>
+      <h3 class="sponsorship-level">Silver</h3>
+
+      <ul class="sponsors-list">
+        <li class="sponsor-list-item">
+          <a class="sponsor-list-item-link" rel="external" href="https://www.runn.io/careers">
+            <img src="{{ '/assets/images/sponsors/runn-logo.png' | url }}" alt="Runn" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="text-indent sponsorship-cta">
+      <p>
+        We're looking for more sponsors to support our events this year.
+      </p>
+      <p>
+        <a class="button" href ="{{ '/sponsor' | url }}">See our sponsorship packages</a>
+      </p>
     </div>
   </section>
 {% endif %}

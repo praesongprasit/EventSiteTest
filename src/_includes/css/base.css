@@ -18,12 +18,12 @@
   --letter-spacing: -0.06rem;
 
   --spacing-xsmall: 0.625rem; /* 10px */
-  --spacing-small: 0.75rem; /* 12px */
-  --spacing-main: 1rem; /* 16px */
-  --spacing-large: 1.125rem; /* 18px -> 22px */
-  --spacing-xlarge: 1.5rem; /* 24px -> 44px */
-  --spacing-2xlarge: 2rem; /* 32px */
-  --spacing-3xlarge: 3rem; /* 48px */
+  --spacing-small: 11px; /* 11px */
+  --spacing-main: 22px; /* 22px */
+  --spacing-large: 33px; /* 33px */
+  --spacing-xlarge: 44px; /* 44px */
+  --spacing-2xlarge: 55px; /* 55px */
+  --spacing-3xlarge: 66px; /* 66px */
 
   --colour-black: #111111;
   --colour-grey: #f2f2f2;
@@ -162,7 +162,7 @@ h4 {
 p,
 td,
 caption {
-  margin: 0 0 1em;
+  margin: 0 0 var(--spacing-main);
   font-size: var(--font-size-main);
 }
 
@@ -211,13 +211,13 @@ dl,
 menu,
 ol,
 ul {
-  margin: 0 0 var(--spacing-xlarge);
+  margin: 0 0 var(--spacing-large);
 }
 
 menu,
 ol,
 ul {
-  padding-left: var(--spacing-2xlarge);
+  padding-left: var(--spacing-large);
 }
 
 li {
@@ -509,7 +509,7 @@ section,
 }
 
 .section-label {
-  margin-bottom: 1.38rem; /* TODO: standardise */
+  margin-bottom: var(--spacing-main);
 }
 
 .section-title {
