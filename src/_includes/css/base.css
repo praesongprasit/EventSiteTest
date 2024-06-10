@@ -211,7 +211,7 @@ dl,
 menu,
 ol,
 ul {
-  margin: 0 0 var(--spacing-large);
+  margin: 0 0 var(--spacing-main);
 }
 
 menu,
