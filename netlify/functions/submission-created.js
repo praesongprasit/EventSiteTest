@@ -18,6 +18,7 @@ exports.handler = async (event) => {
         api_key: SITE_EDM_API_KEY,
         email_address: email,
         tags: ["NZTR website"],
+        subscribed: "true",
       }),
     }
   );
