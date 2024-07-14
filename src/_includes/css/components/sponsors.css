@@ -29,6 +29,10 @@
   margin: 0;
 }
 
+.sponsor-list-item-large img {
+  max-height: 80px;
+}
+
 @media screen and (min-width: 520px) {
   .sponsors-list {
     flex-direction: row;
