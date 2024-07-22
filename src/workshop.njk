@@ -12,6 +12,7 @@ eleventyNavigation:
 
 {%- css %}
 {% include "css/components/profile-card.css" %}
+{% include "css/components/profile-links.css" %}
 {% endcss %}
 
 {% block pageHeader %}
@@ -137,12 +138,18 @@ eleventyNavigation:
           </p>
         </div>
 
-        <p>
-          <a rel="external" href="https://www.linkedin.com/in/maiamiller/">LinkedIn</a>
-        </p>
-        <p>
-          <a rel="external" href="https://www.alephaccessibility.net/resources">Blog</a>
-        </p>
+        <ul class="profile-links">
+          <li class="accent-border profile-link__item">
+            <a class="profile-link" href="https://www.linkedin.com/in/maiamiller/" rel="external">
+              LinkedIn
+            </a>
+          </li>
+          <li class="accent-border profile-link__item">
+            <a class="profile-link" href="https://www.alephaccessibility.net/resources" rel="external">
+              Blog
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
 
