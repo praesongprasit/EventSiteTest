@@ -1,0 +1,58 @@
+{% extends 'layouts/base.njk' %}
+{% from 'partials/card.njk' import card %}
+
+{% set contentType = contentType %}
+{% set title = talkTitle + ' by ' + fullName %}
+{% set description = talkExcerpt %}
+
+{%- css %}
+{% include "css/components/profile-links.css" %}
+{% include "css/components/profile-card.css" %}
+{% include "css/components/video.css" %}
+{% endcss %}
+
+{% block pageHeader %}
+  <h1 class="section-title">
+    {{ fullName }}
+  </h1>
+{% endblock %}
+
+{% block content %}
+  <article class="columns columns-thirds">
+    <header class="column-one card profile-card accent-border">
+      <picture class="profile-card__picture">
+        <source srcset="{{ profilePhoto }}" media="(orientation: portrait)">
+        <img src="{{ profilePhoto }}" alt="{{ profilePhotoAltText }}">
+      </picture>
+
+      <div class="profile-card__info">
+        <p class="card-title profile-card__name">
+          {{ fullName }}
+        </p>
+
+        <p>
+          {{ jobTitle }}
+          {% if organisation %}
+            @ {{ organisation }}
+          {% endif %}
+        </p>
+      </div>
+    </header>
+
+    <div class="column-two card">
+      {% renderlayoutblock 'bio' %}
+    </div>
+
+    <aside class="column-three">
+      <ul class="profile-links">
+        {% for profile in profileUrl %}
+          <li class="accent-border profile-link__item">
+            <a class="profile-link" href="{{ profile.url }}" rel="external">
+              {{ profile.name }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </aside>
+  </article>
+{% endblock %}

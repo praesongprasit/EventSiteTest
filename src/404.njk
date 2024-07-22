@@ -2,7 +2,6 @@
 tags: page
 permalink: 404.html
 title: Error 404
-pageIcon: 
 description: Sorry, we can't find the page that you're looking for
 eleventyExcludeFromCollections: true
 excludeSponsors: true
@@ -12,8 +11,6 @@ excludeSponsors: true
 {% block pageHeader %}
   <h1 class="section-title">
     {{ title }}
-    {% if pageIcon %}{% svg pageIcon %}
-    {% endif %}
   </h1>
 {% endblock %}
 
