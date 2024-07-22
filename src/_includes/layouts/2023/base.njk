@@ -9,7 +9,7 @@
   {# <link rel="application/rss+xml" rel="alternate" title="{{ site.title }}" href="{{ site.rss }}"> #}
 
   <title>
-    {{ title + " – " + site.title if title else site.title }}
+    {{ title + " – NZ Tech Rally 2023" if title else site.title }}
   </title>
   <meta name="description" content="{{ description if description else site.description }}">
 
@@ -17,7 +17,6 @@
   {% include 'partials/head-opengraph.njk' %}
   {% include 'partials/head-twitter-cards.njk' %}
   {% include 'partials/head-icons.njk' %}
-
   <meta property="fb:app_id" content="{{ site.facebookAppID }}">
   <link rel="manifest" href="{{ '/manifest.json' | absoluteUrl(site.url) }}">
 
