@@ -2,6 +2,7 @@
   .profile-page__heading {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.25rem;
   }
 
   .profile-page__title-wrap {
