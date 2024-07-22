@@ -37,5 +37,5 @@ a.profile-link:hover {
 }
 
 .profile-card + .profile-links {
-  padding-top: var(--spacing-large);
+  padding-top: var(--spacing-small);
 }
