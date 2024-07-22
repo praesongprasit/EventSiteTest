@@ -116,6 +116,10 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByTag("speaker");
   });
 
+  eleventyConfig.addCollection("speakers2024", (collection) => {
+    return collection.getFilteredByTag("speaker2024");
+  });
+
   eleventyConfig.addCollection("panellists", (collection) => {
     return collection.getFilteredByTag("panellist");
   });

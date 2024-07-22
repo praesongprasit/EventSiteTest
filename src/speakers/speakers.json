@@ -1,7 +1,6 @@
 {
-  "tags": "speaker",
+  "tags": ["speaker", "speaker2024"],
   "contentType": "speaker",
-  "layout": "layouts/speaker.njk",
-  "ogType": "article",
-  "event": "NZTechRally2024"
+  "layout": "layouts/bio.njk",
+  "ogType": "person"
 }

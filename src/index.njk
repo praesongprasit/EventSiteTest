@@ -106,6 +106,10 @@ description: What does great software engineering culture look like, and how hav
     </div>
 
     <ul class="cards profiles profiles--four-columns">
+      {% for speaker in collections.speakers2024 %}
+        {{ card(speaker, horizontal='true') }}
+      {% endfor %}
+
       <li class="card accent-border profile-card">
         <span class="profile-card__picture">
           {% svg 'person_outline' %}
