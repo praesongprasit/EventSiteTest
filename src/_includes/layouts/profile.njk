@@ -1,0 +1,67 @@
+{% extends 'layouts/base.njk' %}
+{% from 'partials/card.njk' import card %}
+
+{% set contentType = contentType %}
+{% set title = talkTitle + ' by ' + firstName + ' ' + lastName %}
+{% set description = talkExcerpt %}
+
+{%- css %}
+{% include "css/components/profile-page.css" %}
+{% include "css/components/profile-links.css" %}
+{% include "css/components/profile-card.css" %}
+{% include "css/components/video.css" %}
+{% endcss %}
+
+{% block pageHeader %}
+  <div class="profile-page__heading">
+    <div class="profile-page__title-wrap">
+      <div class="profile-page__title">
+        <h1 class="page-title">
+          {{ firstName }}
+          {{ lastName }}
+        </h1>
+        <p class="profile-page-pronoun">{{ pronouns }}</p>
+      </div>
+
+      <p class="profile-page__subtitle">
+        {{ jobTitle }}
+        {% if organisation %}
+          @ {{ organisation }}
+        {% endif %}
+      </p>
+    </div>
+
+    <div class="profile-page__picture-wrap">
+      <picture class="profile-page__picture">
+        <source srcset="{{ profilePhoto }}" media="(orientation: portrait)">
+        <img src="{{ profilePhoto }}" alt="{{ profilePhotoAltText }}">
+      </picture>
+    </div>
+  </div>
+{% endblock %}
+
+{% block content %}
+  <div class="section-label accent-border">
+    <h2 class="section-title">
+        About {{ firstName }}
+    </h2>
+  </div>
+
+  <div class="columns columns-two-thirds">
+    <div class="column-one text-indent">
+      {{ content | safe }}
+    </div>
+
+    <aside class="column-two profile-page-aside">
+      <ul class="profile-links">
+        {% for profile in profileUrl %}
+          <li class="accent-border profile-link__item">
+            <a class="profile-link" href="{{ profile.url }}" rel="external">
+              {{ profile.name }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </aside>
+  </div>
+{% endblock %}

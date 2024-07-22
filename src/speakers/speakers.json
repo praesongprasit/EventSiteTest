@@ -1,6 +1,6 @@
 {
   "tags": ["speaker", "speaker2024"],
   "contentType": "speaker",
-  "layout": "layouts/bio.njk",
+  "layout": "layouts/profile.njk",
   "ogType": "person"
 }
