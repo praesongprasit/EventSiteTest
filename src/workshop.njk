@@ -1,0 +1,183 @@
+---
+tags: page
+title: Digital accessibility workshop
+description: NZTR 2024 Workshop
+eleventyNavigation:
+  key: Workshop
+  order: 1
+---
+
+{% extends 'layouts/base.njk' %}
+{% from 'partials/card.njk' import card %}
+
+{%- css %}
+{% include "css/components/profile-card.css" %}
+{% endcss %}
+
+{% block pageHeader %}
+  <h1 class="section-title">
+    {{ title }}
+  </h1>
+{% endblock %}
+
+{% block content %}
+  <section>
+    <div class="section-label accent-border">
+      <h3 class="section-title" id="workshop_name">Digital accessibility for the whole team</h3>
+    </div>
+
+    <div class="text-indent">
+      <p>
+       1 in 4 New Zealanders have a disability, yet only 3% of Kiwi organisations meet web accessibility standards.
+       </p>
+      <p>     
+        Beyond being a moral imperative, web accessibility offers strategic advantages: 
+        20% of organisations believe it can expand their customer base, and 63% say it enhances the digital experience 
+        for all users. 
+        Embedding accessibility leads to resilient code, better designs, and scalable products. 
+       </p>
+      <p>
+       Our workshop provides a practical tour through WCAG, with hands-on activities and interactive demos tailored for all team roles. 
+       Join us to create an actionable plan and transform your approach to digital design and development.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-label accent-border">
+      <h3 class="section-title" id="keyTakeaways">Key Takeaways</h3>
+    </div>
+
+    <div class="text-indent">
+      <p>
+        <strong>1. Importance of web accessibility:</strong>
+          Understand what web accessibility is, and why it’s critical in the NZ context, and the advantages gained at a coding, design and organisational level.
+      </p>
+
+      <p>
+        <strong>2. Comprehensive Understanding of WCAG:</strong> 
+        Gain practical knowledge of the Web Content Accessibility Guidelines (WCAG) in a mobile and web context.
+      </p>
+
+      <p>
+        <strong>3. Role-Specific Accessibility Strategies:</strong> 
+      Learn actionable accessibility techniques tailored for BAs, developers, UX designers, product owners/managers, and QAs.
+    </p>
+
+      <p>
+        <strong>4. Hands-On Experience:</strong> 
+      Participate in interactive demos and hands-on activities to reinforce your understanding and ability to implement accessibility practices.
+    </p>
+
+      <p>
+        <strong>5. Collaborative Action Plan:</strong> 
+      Develop a concrete, team-based action plan to seamlessly integrate accessibility into your workflow and projects.
+    </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-label accent-border">
+      <h3 class="section-title" id="instructor">Your instructor</h3>
+    </div>
+
+    <div class="columns columns-half">
+      <picture class="column-one section-label">
+        <img src="{{ '/assets/workshop/Maia Miller.jpg' | url }}" alt="Maia has brown curly hair, green eyes and is smiling broadly at the camera.">
+      </picture>
+      <p>
+       Maia Miller,<br>
+       Managing Director, Aleph Accessibility 
+    </p>
+
+      <div class="column-two">
+        <div class="text-indent">
+          <p>
+        Maia is a seasoned public speaker known for her engaging and informative speaking style. With nearly two decades of experience connecting with audiences of all sizes, she combines her technical knowledge with a contagious enthusiasm for her subject matter, specialising in web accessibility.
+      </p>
+
+          <p> 
+         Maia is an IAAP-certified web accessibility specialist and the Managing Director of the consultancy Aleph Accessibility. She has spoken at well-regarded conferences including UXNZ, Upstream Open Source Conference, nz.js(con) and Code Camp Wellington. 
+      </p>
+
+          <p>
+        A frequent audience favourite, Maia always leaves a lasting impact with her practical and inspiring presentations. 
+      </p>
+
+          <p>
+            <a rel="external" href="https://www.linkedin.com/in/maiamiller/">LinkedIn</a>
+          </p>
+          <p>
+            <a rel="external" href="https://www.alephaccessibility.net/resources">Blog</a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="section-label accent-border">
+      <h3 class="section-title" id="logistics">Logistics</h3>
+    </div>
+
+    <div class="text-indent">
+
+      <p>
+        <strong>Date:</strong><br>
+       Thursday, 21st November 2024
+      </p>
+
+      <p>
+        <strong>Venue:</strong><br>
+        <a rel="external" href="https://maps.app.goo.gl/6MT5ZYKYrqRVShmN6">Willeston Conference Center</a>
+      </p>
+
+      <p>
+        <strong> Who is this for?</strong><br>
+        Anyone who works in software delivery team including BAs, developers, UX designers, product owners/managers and QAs, etc.
+        This workshop is ideal for organisations and individuals who are at the beginning of their accessibility journey, or who 
+        have explored web accessibility but are struggling to embed accessibility into their day-to-day work.
+      </p>
+
+      <p>
+        <strong>What should I bring?</strong><br>
+      Please bring:
+      <ul>
+          <li>Your laptop</li>
+          <li>Headphones/earbuds etc.</li>
+          <li>A website/app you’re working on now, or have worked on recently. We’ll be testing it in the workshop! It can be live in prod, on a staging URL, or on your machine. If you can access it in a browser, we can test it.</li>
+        </ul>
+      </p>
+
+      <p>
+        <strong>Is this workshop catered?</strong><br>
+        Lunch, morning tea, and afternoon tea is provided
+      </p>
+
+      <p>
+        <strong>Will this workshop be captioned?</strong><br>
+        Yes, we will use automated Google Meets captions and display it on one of the screens.<br>
+        We will share a link to the call, so that you can also read the caption on your own device.  
+      </p>
+
+    </div>
+
+    <section>
+      <div class="section-label accent-border">
+        <h3 class="section-title" id="tickets">Tickets</h3>
+      </div>
+
+      <div class="text-indent">
+
+        <p>
+        $600 standard ticket
+      </p>
+        <p>
+        Bulk discount: $50 off per ticket when purchasing for a group of four or more.  
+      <p>
+            <a class="button" rel="external" href="https://events.humanitix.com/nztechrally2024/tickets?c=nztrsite">Buy workshop ticket</a>
+          </p>
+        </div>
+      </section>
+    {% endblock %}
