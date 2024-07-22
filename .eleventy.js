@@ -129,9 +129,7 @@ module.exports = function (eleventyConfig) {
   // TODO: Reduce duplication for these settings
   // For 2023 speakers
   eleventyConfig.addCollection("speakers2023", (collection) => {
-    return collection
-      .getFilteredByTag("speaker")
-      .filter((eventName) => (eventName.data.event = "NZTechRally2023"));
+    return collection.getFilteredByTag("speaker2023");
   });
 
   eleventyConfig.addCollection("panellists2023", (collection) => {
