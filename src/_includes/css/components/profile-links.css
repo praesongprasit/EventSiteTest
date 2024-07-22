@@ -6,7 +6,7 @@
 
 .profile-link__item {
   display: block;
-  background-color: var(--colour-black);
+  background-color: var(--colour-white);
   box-shadow: var(--drop-shadow);
   margin-bottom: var(--spacing-xsmall);
 }
@@ -14,7 +14,7 @@
 /* Referenced from .section-title */
 a.profile-link,
 a.profile-link:visited {
-  color: var(--colour-green);
+  color: var(--colour-black);
   text-decoration: none;
 }
 
@@ -24,10 +24,8 @@ a.profile-link:hover {
 }
 
 .profile-link {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-family: var(--typeface-display);
+  display: block;
+  text-align: center;
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-main);
   padding: 0.375rem 1.25rem;
