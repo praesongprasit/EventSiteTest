@@ -1,5 +1,6 @@
 ---
-fullName: Rowan Savage
+firstName: Rowan
+lastName: Savage
 pronouns: He/Him
 jobTitle: "Co-founder & CTO"
 organisation: "Runn.io"
