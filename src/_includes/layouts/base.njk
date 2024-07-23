@@ -28,6 +28,8 @@
   {%- if contentType === 'about' -%}
     {% include 'partials/schema-about.njk' %}
   {%- elif contentType === 'speaker' -%}
+    {% include 'partials/schema-profile.njk' %}
+  {%- elif contentType === 'talk' -%}
     {% include 'partials/schema-speaker.njk' %}
   {%- else -%}
     {% include 'partials/schema-default.njk' %}
