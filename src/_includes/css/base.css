@@ -514,13 +514,17 @@ section,
   padding-bottom: 2.75rem;
 }
 
-.section--coloured {
+.section-colour {
+  background-color: var(--colour-off-white);
+}
+
+.section-colour--bright {
   background-color: var(--colour-yellow);
 }
 
 .section:first-of-type,
-.section--coloured,
-.section--coloured + .section {
+.section-colour,
+.section-colour + .section {
   padding-top: 2.75rem;
 }
 
@@ -537,7 +541,7 @@ section,
   line-height: 2.75rem; /* TODO: Standardise */
 }
 
-.section--coloured .section-title {
+.section-colour .section-title {
   background-color: var(--colour-white);
 }
 
@@ -548,7 +552,7 @@ section,
     display: inline-block;
     text-align: left;
   }
-  .section--coloured .section-title {
+  .section-colour .section-title {
     padding-top: 0.38rem;
     padding-bottom: 0.38rem;
   }
