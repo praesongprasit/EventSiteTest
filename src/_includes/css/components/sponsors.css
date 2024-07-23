@@ -18,6 +18,12 @@
   margin: 0;
 }
 
+/* Ensure that focus state covers the whole link image */
+.sponsor-list-item-link {
+  display: block;
+  width: 100%;
+}
+
 .sponsor-list-item-link img {
   display: block;
   width: auto;
