@@ -512,7 +512,7 @@ select:focus-visible {
 
 section,
 .section {
-  padding-bottom: 2.75rem;
+  padding-bottom: var(--spacing-large);
 }
 
 .section-colour {
@@ -527,10 +527,8 @@ section,
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.05);
 }
 
-.section:first-of-type,
-.section-colour,
-.section-colour + .section {
-  padding-top: 2.75rem;
+.section:first-of-type {
+  padding-top: var(--spacing-large);
 }
 
 .section-label {

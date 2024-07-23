@@ -100,13 +100,13 @@
     </header>
 
     <main id="mainContent" class="page-container">
-      <div class="section section-colour content-wrapper">
-        <header>
-          {% block pageHeader %}{% endblock %}
-        </header>
-      </div>
+      <div class="section-colour content-wrapper">
+        <div class="section">
+          <header>
+            {% block pageHeader %}{% endblock %}
+          </header>
+        </div>
 
-      <div class="section section-colour content-wrapper">
         {% block pageIntro %}{% endblock %}
         {% block content %}{% endblock %}
       </div>
