@@ -11,6 +11,7 @@
   --font-size-main: 1rem; /* 16px */
   --font-size-large: 1.5rem; /* 24px */
   --font-size-xlarge: 2rem; /* 32px */
+  --font-size-page-title-smaller: 4rem; /* 64px */
   --font-size-page-title: 5.0625rem; /* 81px */
 
   --line-height-main: 1.375;
