@@ -316,6 +316,8 @@ input {
   border: 0;
   padding: 1.25rem;
   color: var(--colour-black);
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
 }
 
 input:focus-visible,
