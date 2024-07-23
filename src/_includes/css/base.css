@@ -91,7 +91,7 @@ body {
   width: 120%;
   height: 110%;
   position: absolute;
-  /* background: repeat url("/assets/images/grid-tile.jpg"); */
+  background: repeat url("/assets/images/grid-tile.jpg");
   transform: rotate(-7deg);
   top: -5%;
   left: -10%;
