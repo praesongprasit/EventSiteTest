@@ -8,10 +8,10 @@ eleventyNavigation:
 ---
 
 {% extends 'layouts/page-foundation.njk' %}
-{% from 'partials/card.njk' import card %}
+{% from 'partials/card-profile.njk' import card %}
 
 {%- css %}
-{% include "css/components/profile-card.css" %}
+{% include "css/components/card-profile.css" %}
 {% include "css/components/profile-links.css" %}
 {% endcss %}
 
@@ -125,13 +125,13 @@ eleventyNavigation:
       </div>
 
       <div class="column-two">
-        <div class="card accent-border profile-card">
-          <picture class="profile-card__picture">
+        <div class="card accent-border card-profile">
+          <picture class="card-profile__picture">
             <img src="{{ '/assets/images/workshop/maia_miller.jpg' | url }}" alt="Maia has brown curly hair, green eyes and is smiling broadly at the camera.">
           </picture>
 
-          <p class="profile-card__info">
-            <span class="card-title profile-card__name">
+          <p class="card-profile__info">
+            <span class="card-title card-profile__name">
               Maia Miller,
             </span>
             <span>Managing Director, Aleph Accessibility </span>

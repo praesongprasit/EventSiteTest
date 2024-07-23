@@ -1,5 +1,5 @@
 {% extends 'layouts/page-foundation.njk' %}
-{% from 'partials/card.njk' import card %}
+{% from 'partials/card-profile.njk' import card %}
 
 {% set contentType = contentType %}
 {% set excludeSponsors = true %}
@@ -7,7 +7,7 @@
 
 {%- css %}
 {% include "css/components/profile-links.css" %}
-{% include "css/components/profile-card.css" %}
+{% include "css/components/card-profile.css" %}
 {% include "css/components/video.css" %}
 {% endcss %}
 
@@ -20,14 +20,14 @@
 
 {% block content %}
   <article class="columns columns-thirds">
-    <header class="column-one card profile-card accent-border">
-      <picture class="profile-card__picture">
+    <header class="column-one card card-profile accent-border">
+      <picture class="card-profile__picture">
         <source srcset="{{ profilePhoto }}" media="(orientation: portrait)">
         <img src="{{ profilePhoto }}" alt="{{ profilePhotoAltText }}">
       </picture>
 
-      <div class="profile-card__info">
-        <p class="card-title profile-card__name">
+      <div class="card-profile__info">
+        <p class="card-title card-profile__name">
           {{ fullName }}
         </p>
 

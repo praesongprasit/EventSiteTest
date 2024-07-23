@@ -3,22 +3,22 @@
   It's an add on to .card styles used liberally through put the site
 */
 
-.card.profile-card {
+.card.card-profile {
   padding: 0;
 }
 
-.profile-card__picture {
+.card-profile__picture {
   display: block;
   width: 100%;
   background-color: #e5d8cd;
 }
 
-.profile-card__picture img {
+.card-profile__picture img {
   display: block;
   width: 100%;
 }
 
-.profile-card__picture .icon {
+.card-profile__picture .icon {
   display: block;
   width: 78%;
   margin: 0 auto;
@@ -29,59 +29,59 @@
   color: var(--colour-pink-darken);
 }
 
-.profile-card__picture-text {
+.card-profile__picture-text {
   display: block;
   font-size: 0.825em;
   text-align: center;
   padding: 0 var(--spacing-xsmall) var(--spacing-main) var(--spacing-xsmall);
 }
 
-.profile-card__info {
+.card-profile__info {
   padding: 1.25rem; /* 20px */
 }
 
-.profile-card__info * {
+.card-profile__info * {
   display: block;
 }
 
-.profile-card__info,
-.profile-card__info p,
-.profile-card__name {
+.card-profile__info,
+.card-profile__info p,
+.card-profile__name {
   margin-bottom: 0;
   font-size: var(--font-size-main);
 }
 
-.profile-card__name {
+.card-profile__name {
   font-weight: var(--font-weight-bold);
 }
 
 /* Profile card - horizontal */
 
-.profile-card--horizontal {
+.card-profile--horizontal {
   display: flex;
 }
 
-.profile-card--horizontal .profile-card__picture {
+.card-profile--horizontal .card-profile__picture {
   min-width: 45%;
   max-width: 140px;
 }
 
-.profile-card--horizontal .profile-card__picture img {
+.card-profile--horizontal .card-profile__picture img {
   height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
 }
 
-.profile-card--horizontal .profile-card__info {
+.card-profile--horizontal .card-profile__info {
   padding: var(--spacing-small) var(--spacing-xsmall);
 }
 
-.card .profile-card__link {
+.card .card-profile__link {
   display: block;
   position: static;
 }
 
-.card .profile-card__link::before {
+.card .card-profile__link::before {
   content: "";
   position: absolute;
   z-index: 0;
@@ -91,32 +91,32 @@
   height: 100%;
 }
 
-.card .profile-card__link:focus-visible {
+.card .card-profile__link:focus-visible {
   box-shadow: none;
   outline: 0;
 }
 
-.card .profile-card__link:focus-visible::before {
+.card .card-profile__link:focus-visible::before {
   box-shadow: 0 0 0 2px var(--colour-grey), 0 0 0 5px var(--colour-orange);
   outline: 1px solid transparent;
   transition: box-shadow 0.1s;
 }
 
-.card .profile-card__link,
-.card .profile-card__link * {
+.card .card-profile__link,
+.card .card-profile__link * {
   color: currentColor;
   text-decoration: none;
 }
 
-.card .profile-card__link:visited .profile-card__name {
+.card .card-profile__link:visited .card-profile__name {
   color: var(--colour-link-visited);
 }
 
-.card .profile-card__link .profile-card__name {
+.card .card-profile__link .card-profile__name {
   color: var(--colour-link);
 }
 
-.card .profile-card__link:hover .profile-card__name {
+.card .card-profile__link:hover .card-profile__name {
   text-decoration: underline;
 }
 

@@ -15,10 +15,10 @@ featuredImageHeight:
 {% set contentType = 'about' %}
 
 {% extends 'layouts/page-foundation.njk' %}
-{% from 'partials/card.njk' import card %}
+{% from 'partials/card-profile.njk' import card %}
 
 {%- css %}
-  {% include "css/components/profile-card.css" %}
+  {% include "css/components/card-profile.css" %}
 {% endcss %}
 
 {% block pageHeader %}
@@ -137,15 +137,15 @@ featuredImageHeight:
           {{ card(team, horizontal='true') }}
         {% endfor %}
 
-        <li class="card accent-border profile-card profile-card--horizontal">
-          <span class="profile-card__picture">
+        <li class="card accent-border card-profile card-profile--horizontal">
+          <span class="card-profile__picture">
             {% svg 'person_outline' %}
-            <span class="profile-card__picture-text">This could be you!</span>
+            <span class="card-profile__picture-text">This could be you!</span>
           </span>
 
-          <p class="profile-card__info">
-            <a class="profile-card__link" href="{{ '/volunteer' | url }}" rel="external">
-              <span class="card-title profile-card__name">
+          <p class="card-profile__info">
+            <a class="card-profile__link" href="{{ '/volunteer' | url }}" rel="external">
+              <span class="card-title card-profile__name">
                 Become a volunteer
               </span>
 

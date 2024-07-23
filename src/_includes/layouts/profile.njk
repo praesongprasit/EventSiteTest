@@ -1,5 +1,5 @@
 {% extends 'layouts/page-foundation.njk' %}
-{% from 'partials/card.njk' import card %}
+{% from 'partials/card-profile.njk' import card %}
 
 {% set contentType = contentType %}
 {% set title = firstName + ' ' + lastName + ' - Speaker' %}
@@ -8,7 +8,7 @@
 {%- css %}
 {% include "css/components/profile-page.css" %}
 {% include "css/components/profile-links.css" %}
-{% include "css/components/profile-card.css" %}
+{% include "css/components/card-profile.css" %}
 {% include "css/components/video.css" %}
 {% endcss %}
 

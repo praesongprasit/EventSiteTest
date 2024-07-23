@@ -1,5 +1,5 @@
 {% extends 'layouts/page-foundation-long-form.njk' %}
-{% from 'partials/card.njk' import card %}
+{% from 'partials/card-profile.njk' import card %}
 
 {% set contentType = contentType %}
 {% set title = talkTitle + ' by ' + speaker %}
@@ -7,7 +7,7 @@
 
 {%- css %}
 {% include "css/components/talk-page.css" %}
-{% include "css/components/profile-card.css" %}
+{% include "css/components/card-profile.css" %}
 {% endcss %}
 
 {% block pageHeader %}

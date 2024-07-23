@@ -684,7 +684,7 @@ ul.column-one {
   box-shadow: var(--drop-shadow);
 }
 
-.card:not(.profile-card) + .card:not(.profile-card) {
+.card:not(.card-profile) + .card:not(.card-profile) {
   margin-top: 0.5rem;
 }
 

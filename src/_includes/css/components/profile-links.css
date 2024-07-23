@@ -36,6 +36,6 @@ a.profile-link:hover {
   margin-left: 0.625rem; /* 10px */
 }
 
-.profile-card + .profile-links {
+.card-profile + .profile-links {
   padding-top: var(--spacing-small);
 }
