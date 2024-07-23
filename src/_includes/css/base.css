@@ -433,6 +433,7 @@ select:focus-visible {
 
 .section.content-wrapper {
   background-color: var(--colour-off-white);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.05); /* The only place that uses this value */
 }
 
 /* -------------- HEADER -------------- */
