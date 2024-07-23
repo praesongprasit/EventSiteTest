@@ -402,6 +402,12 @@ select:focus-visible {
   padding-right: var(--accent-border-width);
 }
 
+@media only screen and (max-width: 519px) {
+  .text-indent.accent-border::before {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 520px) {
   .text-indent {
     padding-left: 2.5rem; /* TODO: stndardise */

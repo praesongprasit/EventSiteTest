@@ -15,25 +15,20 @@
     z-index: 2;
   }
 
-  .talk-page__picture-wrap {
+  .talk-page__colour-block {
     grid-row-start: 1;
     grid-column-start: 3;
     position: relative;
   }
 
-  .talk-page__picture-wrap::after {
+  .talk-page__colour-block::after {
     content: "";
     position: absolute;
-    top: 0;
+    top: calc(-1 * var(--spacing-large));
     display: block;
     background-color: var(--colour-yellow);
     width: 100vw;
-    height: 100%;
-  }
-
-  .talk-page__picture {
-    position: relative;
-    z-index: 1;
+    height: calc(100% + var(--spacing-large));
   }
 
   .talk-page__title {
@@ -51,4 +46,5 @@
 
 .talk-page__subtitle {
   font-size: var(--font-size-xlarge);
+  margin-bottom: var(--spacing-large);
 }
