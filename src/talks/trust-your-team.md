@@ -15,4 +15,6 @@ featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
 talkRecordingID:
+talkRecordingLength:
+event: NZ Tech Rally 2024
 ---
