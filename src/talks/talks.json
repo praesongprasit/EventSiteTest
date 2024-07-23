@@ -1,0 +1,6 @@
+{
+  "tags": ["talk", "talk2024"],
+  "contentType": "talk",
+  "layout": "layouts/talk.njk",
+  "ogType": "CreativeWork"
+}

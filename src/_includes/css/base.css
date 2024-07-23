@@ -43,6 +43,7 @@
   --colour-link-visited: var(--colour-dark-orange);
 
   --colour-border: var(--colour-bright-orange);
+  --colour-border--light: var(--colour-yellow);
 
   --colour-button-text: var(--colour-white);
   --colour-button-background: var(--colour-dark-orange);
@@ -376,6 +377,10 @@ select:focus-visible {
   top: 0;
 }
 
+.accent-border--light::before {
+  background-color: var(--colour-border--light);
+}
+
 .visually-hidden:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -662,6 +667,7 @@ ul.column-one {
   padding: 1.25rem; /* 20px */
   margin-bottom: 0;
   position: relative;
+  box-shadow: var(--drop-shadow);
 }
 
 .card:not(.profile-card) + .card:not(.profile-card) {

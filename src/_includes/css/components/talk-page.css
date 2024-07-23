@@ -1,0 +1,55 @@
+@media screen and (min-width: 720px) {
+  .talk-page__heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.25rem;
+  }
+
+  .talk-page__title-wrap {
+    grid-row: 1;
+    grid-column: span 3 / -1;
+    z-index: 2;
+  }
+
+  .talk-page__picture-wrap {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    position: relative;
+  }
+
+  .talk-page__picture-wrap::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    display: block;
+    background-color: var(--colour-yellow);
+    width: 100vw;
+    height: 100%;
+  }
+
+  .talk-page__picture {
+    position: relative;
+    z-index: 1;
+  }
+
+  .talk-page__title {
+    display: flex;
+    align-items: end;
+    gap: var(--spacing-xsmall);
+  }
+
+  .talk-page__pronoun {
+    /* Special case to off-set text baseline */
+    margin-bottom: var(--font-size-main);
+  }
+}
+
+.talk-page__picture,
+.talk-page__picture > * {
+  display: block;
+  width: 100%;
+}
+
+.talk-page__subtitle {
+  font-size: var(--font-size-xlarge);
+}
