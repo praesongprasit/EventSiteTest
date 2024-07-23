@@ -18,14 +18,9 @@
   margin: 0;
 }
 
-.sponsor-list-item-link {
-  display: flex;
-  align-items: center;
-}
-
 .sponsor-list-item-link img {
   display: block;
-  width: 100%;
+  width: auto;
   margin: 0;
 }
 
