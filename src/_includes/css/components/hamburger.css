@@ -14,7 +14,7 @@
   transition-duration: 0.15s;
   transition-timing-function: linear;
   font: inherit;
-  color: var(--colour-green);
+  color: inherit;
   text-transform: none;
   background-color: var(--colour-black);
   border: 0;
