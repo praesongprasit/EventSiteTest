@@ -41,13 +41,13 @@
         <p>
           <strong>About this talk</strong>
         </p>
-        {% renderlayoutblock 'talkExcerpt' %}
+        {{ talkExcerpt | safe }}
       </div>
     </div>
 
     <aside class="column-two">
       {%- for speaker in collections.speakers2024 -%}
-        {% if speakerKey == speaker.page.fileSlug %}
+        {% if speakerKey === speaker.page.fileSlug %}
           {{ card(speaker, horizontal='true') }}
         {% endif %}
       {%- endfor -%}
