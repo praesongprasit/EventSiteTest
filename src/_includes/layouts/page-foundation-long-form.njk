@@ -100,15 +100,17 @@
     </header>
 
     <main id="mainContent" class="page-container">
-      <div class="section section-colour content-wrapper">
-        <header>
-          {% block pageHeader %}{% endblock %}
-        </header>
-      </div>
+      <div class="section-colour">
+        <div class="section content-wrapper">
+          <header>
+            {% block pageHeader %}{% endblock %}
+          </header>
+        </div>
 
-      <div class="section section-colour content-wrapper">
-        {% block pageIntro %}{% endblock %}
-        {% block content %}{% endblock %}
+        <div class="section content-wrapper">
+          {% block pageIntro %}{% endblock %}
+          {% block content %}{% endblock %}
+        </div>
       </div>
 
       {% include 'partials/newsletter-signup.njk' %}

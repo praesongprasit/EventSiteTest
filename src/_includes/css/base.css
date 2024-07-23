@@ -432,10 +432,10 @@ select:focus-visible {
   padding-right: var(--spacing-xsmall);
 }
 
-.section.content-wrapper {
+/* .section.content-wrapper {
   background-color: var(--colour-off-white);
-  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.05); /* The only place that uses this value */
-}
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.05);
+} */
 
 /* -------------- HEADER -------------- */
 
@@ -523,6 +523,10 @@ section,
   background-color: var(--colour-yellow);
 }
 
+.content-wrapper.section-colour {
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.05);
+}
+
 .section:first-of-type,
 .section-colour,
 .section-colour + .section {
@@ -542,7 +546,7 @@ section,
   line-height: 2.75rem; /* TODO: Standardise */
 }
 
-.section-colour .section-title {
+.section-colour--bright .section-title {
   background-color: var(--colour-white);
 }
 
