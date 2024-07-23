@@ -11,11 +11,7 @@ profileUrl:
   ]
 profilePhoto: /assets/images/speakers/rowan_savage.jpg
 profilePhotoAltText: "Rowan’s portrait with Aotearoa’s Kā Tiritiri o te Moana (Southern Alps) in the background."
-featuredImage:
-featuredImageAlt:
-featuredImageType: image/png
-featuredImageWidth:
-featuredImageHeight:
+profilePhotoType: image/jpg
 ---
 
 Rowan is a serial entrepreneur and tech founder with a strong belief that the way you win is by attracting the best talent, putting the right team together, retaining them over the long term, aligning them on the mission and then unleashing them to do their thing.
