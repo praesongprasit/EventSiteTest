@@ -24,8 +24,16 @@
   margin: 0;
 }
 
-.sponsor-list-item-large img {
+.sponsor-list-item img {
+  max-height: 50px;
+}
+
+.sponsor-list-item-medium img {
   max-height: 80px;
+}
+
+.sponsor-list-item-large img {
+  max-height: 110px;
 }
 
 @media screen and (min-width: 520px) {
