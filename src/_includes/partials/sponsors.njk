@@ -56,13 +56,15 @@
       </ul>
     </div>
 
-    <div class="text-indent sponsorship-cta">
-      <p>
-        We're looking for more sponsors to support our events this year.
-      </p>
-      <p>
-        <a class="button" href ="{{ '/sponsor' | url }}">See our sponsorship packages</a>
-      </p>
-    </div>
+    {% if title != 'Sponsor' %}
+      <div class="text-indent sponsorship-cta">
+        <p>
+          We're looking for more sponsors to support our events this year.
+        </p>
+        <p>
+          <a class="button" href ="{{ '/sponsor' | url }}">See our sponsorship packages</a>
+        </p>
+      </div>
+    {% endif %}
   </section>
 {% endif %}
