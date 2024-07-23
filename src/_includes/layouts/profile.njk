@@ -41,27 +41,29 @@
 {% endblock %}
 
 {% block content %}
-  <div class="section-label accent-border">
-    <h2 class="section-title">
+  <div class="section">
+    <div class="section-label accent-border">
+      <h2 class="section-title">
         About {{ firstName }}
-    </h2>
-  </div>
-
-  <div class="columns columns-two-thirds">
-    <div class="column-one text-indent">
-      {{ content | safe }}
+      </h2>
     </div>
 
-    <aside class="column-two profile-page-aside">
-      <ul class="profile-links">
-        {% for profile in profileUrl %}
-          <li class="accent-border profile-link__item">
-            <a class="profile-link" href="{{ profile.url }}" rel="external">
-              {{ profile.name }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </aside>
+    <div class="columns columns-two-thirds">
+      <div class="column-one text-indent">
+        {{ content | safe }}
+      </div>
+
+      <aside class="column-two profile-page-aside">
+        <ul class="profile-links">
+          {% for profile in profileUrl %}
+            <li class="accent-border profile-link__item">
+              <a class="profile-link" href="{{ profile.url }}" rel="external">
+                {{ profile.name }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </aside>
+    </div>
   </div>
 {% endblock %}
