@@ -72,7 +72,7 @@
       <h2 class="section-title">{{ firstName }}'s content</h2>
     </div>
 
-    <ul class="cards profiles profiles--three-columns">
+    <ul class="cards cards-content card-content--three-columns">
       {% for talk in collections.talks %}
         {% if speakerKey === speaker.page.fileSlug %}
           {{ card(talk, type='talk') }}
