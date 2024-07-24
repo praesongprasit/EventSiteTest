@@ -50,6 +50,10 @@
   width: 100%;
 }
 
+.profile-page__title {
+  margin-bottom: var(--spacing-small);
+}
+
 .profile-page__subtitle {
   font-size: var(--font-size-xlarge);
 }

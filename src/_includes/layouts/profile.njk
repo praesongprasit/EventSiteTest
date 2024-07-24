@@ -23,12 +23,24 @@
         <p class="profile-page-pronoun">{{ pronouns }}</p>
       </div>
 
-      <p class="profile-page__subtitle">
-        {{ jobTitle }}
-        {% if organisation %}
-          @ {{ organisation }}
-        {% endif %}
-      </p>
+      {% if contentType === 'crew' %}
+        <p class="profile-page__subtitle">
+          NZ Tech Rally's {{ role }}
+        </p>
+        <p>
+          {{ jobTitle }}
+          {% if organisation %}
+            @ {{ organisation }}
+          {% endif %}
+        </p>
+      {% else %}
+        <p class="profile-page__subtitle">
+          {{ jobTitle }}
+          {% if organisation %}
+            @ {{ organisation }}
+          {% endif %}
+        </p>
+      {% endif %}
     </div>
 
     <div class="profile-page__picture-wrap">
