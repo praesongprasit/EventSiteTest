@@ -76,6 +76,12 @@
       {% for talk in collections.talks %}
         {% if page.fileSlug === talk.data.speakerKey %}
           {{ card(talk, type='talk') }}
+        {% else %}
+          <li class="card card-content accent-border">
+            <p class="card-content__info">
+              Has not contributed content to NZ Tech Rally yet.
+            </p>
+          </li>
         {% endif %}
       {% endfor %}
     </ul>
