@@ -74,7 +74,7 @@
 
     <ul class="cards cards-content card-content--three-columns">
       {% for talk in collections.talks %}
-        {% if speakerKey === speaker.page.fileSlug %}
+        {% if page.fileSlug === talk.data.speakerKey %}
           {{ card(talk, type='talk') }}
         {% endif %}
       {% endfor %}
