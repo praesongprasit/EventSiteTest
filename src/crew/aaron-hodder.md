@@ -13,7 +13,7 @@ jobTitle: Associate Director
 organisation: Deloitte
 profileUrl:
   [{ "name": "LinkedIn", "url": "https://www.linkedin.com/in/ahodder" }]
-profilePhoto: /assets/images/team/aaron_hodder.jpg
+profilePhoto: /assets/images/crew/aaron_hodder.jpg
 profilePhotoAltText: Aaron's portrait. A smiling Caucasian man with neat short hair. He's wearing a dark coloured top.
 profilePhotoType: image/jpg
 order: 3

@@ -23,7 +23,7 @@ profileUrl:
       "url": "https://www.youtube.com/@techengineeringlounge7795",
     },
   ]
-profilePhoto: /assets/images/team/camy_bhandari.jpg
+profilePhoto: /assets/images/crew/camy_bhandari.jpg
 profilePhotoAltText: Camy's portrait. She's an Indian woman with short light brown hair and a wide smile. She's wearing a dark coloured t-shirt.
 profilePhotoType: image/jpg
 order: 1

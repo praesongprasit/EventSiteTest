@@ -1,6 +1,6 @@
 {
-  "tags": "team",
-  "contentType": "team",
+  "tags": "crew",
+  "contentType": "crew",
   "layout": "layouts/profile.njk",
   "ogType": "person",
   "worksFor": "NZ Tech Rally"

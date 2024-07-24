@@ -1,7 +1,7 @@
 ---
 tags: page
 title: About
-description: NZ Tech Rally's vision, mission, values, and team members.
+description: NZ Tech Rally's vision, mission, values, and crew.
 eleventyNavigation:
   key: About
   order: 3
@@ -129,12 +129,12 @@ featuredImageHeight:
 
     <section>
       <div class="section-label accent-border">
-        <h2 class="section-title">Meet our team</h2>
+        <h2 class="section-title">Meet our crew</h2>
       </div>
 
       <ul class="cards profiles">
-        {% for team in collections.team %}
-          {{ card(team, horizontal='true') }}
+        {% for crewMember in collections.crew %}
+          {{ card(crewMember, horizontal='true') }}
         {% endfor %}
 
         <li class="card accent-border card-profile card-profile--horizontal">

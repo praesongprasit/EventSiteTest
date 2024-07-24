@@ -16,7 +16,7 @@ profileUrl:
       "url": "https://bsky.app/profile/praesongprasit.bsky.social",
     },
   ]
-profilePhoto: /assets/images/team/prae_songprasit.jpg
+profilePhoto: /assets/images/crew/prae_songprasit.jpg
 profilePhotoAltText: Prae's portrait. A laughing Thai woman with short dark hair and a large pair of dark rimmed glasses.
 profilePhotoType: image/jpg
 order: 2

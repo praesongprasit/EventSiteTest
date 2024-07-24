@@ -7,7 +7,7 @@ jobTitle: Software Engineer
 organisation: Xero
 profileUrl:
   [{ "name": "LinkedIn", "url": "https://www.linkedin.com/in/fai-songprasit/" }]
-profilePhoto: /assets/images/team/fai_songprasit.jpg
+profilePhoto: /assets/images/crew/fai_songprasit.jpg
 profilePhotoAltText: Fai smiling in the middle of a restaurant.
 profilePhotoType: image/jpg
 order: 5

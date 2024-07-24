@@ -124,9 +124,9 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByTag("panellist");
   });
 
-  eleventyConfig.addCollection("team", (collection) => {
+  eleventyConfig.addCollection("crew", (collection) => {
     return collection
-      .getFilteredByTag("team")
+      .getFilteredByTag("crew")
       .sort((a, b) => a.data.order - b.data.order);
   });
 
