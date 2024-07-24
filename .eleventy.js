@@ -130,6 +130,12 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => a.data.order - b.data.order);
   });
 
+  eleventyConfig.addCollection("talks", (collection) => {
+    return collection
+      .getFilteredByTag("talk")
+      .sort((a, b) => a.data.order - b.data.order);
+  });
+
   // TODO: Reduce duplication for these settings
   // For 2023 speakers
   eleventyConfig.addCollection("speakers2023", (collection) => {

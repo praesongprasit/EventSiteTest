@@ -1,0 +1,31 @@
+{% macro card(content, horizontal, type) %}
+  <li class="card card-content accent-border {{ 'card-content--horizontal' if horizontal }}">
+    {% if content.data.featuredImage %}
+      <picture class="card-content__picture">
+        <source srcset="{{ content.data.featuredImage }}" media="(orientation: portrait)">
+        <img src="{{ content.data.featuredImage }}" alt="{{ content.data.featuredImageAlt }}">
+      </picture>
+    {% endif %}
+
+    <p class="card-content__info">
+      <a class="card-content__link" href="{{ content.url | url }}">
+        <strong class="card-title card-content__name">
+          {{ content.data.talkTitle }}
+        </strong>
+
+        <span>
+          {% if type === 'talk' %}
+            A talk for
+            {{ content.data.event }}
+          {% endif %}
+        </span>
+
+        {% if content.data.talkLength %}
+          <span>
+            {{ content.data.talkLength }}
+          </span>
+        {% endif %}
+      </a>
+    </p>
+  </li>
+{% endmacro %}

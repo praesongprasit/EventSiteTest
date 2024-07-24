@@ -1,0 +1,153 @@
+/*
+  Content card styles
+  It's an add on to .card styles used liberally through put the site
+*/
+
+.card.card-content {
+  padding: 0;
+}
+
+.card-content__picture {
+  display: block;
+  width: 100%;
+  background-color: #e5d8cd;
+}
+
+.card-content__picture img {
+  display: block;
+  width: 100%;
+}
+
+.card-content__picture .icon {
+  display: block;
+  width: 78%;
+  margin: 0 auto;
+  padding: 0 var(--spacing-xsmall);
+  opacity: 60%;
+  stroke: #e5d8cd;
+  stroke-width: 1px;
+  color: var(--colour-pink-darken);
+}
+
+.card-content__picture-text {
+  display: block;
+  font-size: 0.825em;
+  text-align: center;
+  padding: 0 var(--spacing-xsmall) var(--spacing-main) var(--spacing-xsmall);
+}
+
+.card-content__info * {
+  display: block;
+}
+
+.card-content__info,
+.card-content__info p,
+.card-content__name {
+  margin-bottom: 0;
+  font-size: var(--font-size-main);
+}
+
+.card-content__name {
+  font-weight: var(--font-weight-bold);
+}
+
+.card-content__name ~ span {
+  margin-top: var(--spacing-small);
+}
+
+/* Profile card - horizontal */
+
+.card-content--horizontal {
+  display: flex;
+}
+
+.card-content--horizontal .card-content__picture {
+  min-width: 45%;
+  max-width: 140px;
+}
+
+.card-content--horizontal .card-content__picture img {
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.card-content--horizontal .card-content__info {
+  padding: var(--spacing-small) var(--spacing-xsmall);
+}
+
+.card .card-content__link {
+  display: block;
+  position: static;
+}
+
+.card .card-content__link::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card .card-content__link:focus-visible {
+  box-shadow: none;
+  outline: 0;
+}
+
+.card .card-content__link:focus-visible::before {
+  box-shadow: 0 0 0 2px var(--colour-grey), 0 0 0 5px var(--colour-orange);
+  outline: 1px solid transparent;
+  transition: box-shadow 0.1s;
+}
+
+.card .card-content__link,
+.card .card-content__link * {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.card .card-content__link:visited .card-content__name {
+  color: var(--colour-link-visited);
+}
+
+.card .card-content__link .card-content__name {
+  color: var(--colour-link);
+}
+
+.card .card-content__link:hover .card-content__name {
+  text-decoration: underline;
+}
+
+.content-cards {
+  display: grid;
+  row-gap: 1.25rem;
+  align-items: stretch;
+}
+
+.content-cards--four-columns {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.25rem;
+}
+
+@media screen and (min-width: 520px) {
+  .content-cards {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.25rem;
+  }
+
+  .content-cards--four-columns {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .content-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .content-cards--four-columns {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
