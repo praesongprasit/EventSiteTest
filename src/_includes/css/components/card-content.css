@@ -36,6 +36,10 @@
   padding: 0 var(--spacing-xsmall) var(--spacing-main) var(--spacing-xsmall);
 }
 
+.card-content__info {
+  padding: var(--spacing-main) var(--spacing-xlarge);
+}
+
 .card-content__info * {
   display: block;
 }
