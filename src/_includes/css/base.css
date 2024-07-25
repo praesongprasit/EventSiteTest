@@ -596,7 +596,7 @@ section,
 }
 
 .hero--schedule {
-  margin-bottom: var(--spacing-xlarge);
+  margin-bottom: var(--spacing-main);
 }
 
 ul.column-one {
