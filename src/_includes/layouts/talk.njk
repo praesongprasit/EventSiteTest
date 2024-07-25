@@ -24,6 +24,13 @@
       <p class="talk-page__subtitle">
         {{ speaker }}
       </p>
+
+      {%if talkStartTime %}
+        <p>
+          At {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }},
+          <time datetime="{{ talkStartTime | iso8601Date }}">{{ talkStartTime | readableDate }}</time> for {{ event }}
+        </p>
+      {% endif %}
     </div>
 
     <div class="talk-page__colour-block"></div>
@@ -48,23 +55,9 @@
     </div>
 
     <aside class="column-two">
-      <ul class="cards">
-        {%- for speaker in collections.speakers | filterTalkBySpeaker(speakerKey) -%}
-          {{ card(speaker, horizontal='true') }}
-        {%- endfor -%}
-
-        {%if talkStartTime %}
-          <li class="card">
-            <p>
-            At <strong>{{ event }}</strong>
-            </p>
-            <p>
-              <time datetime="{{ talkStartTime | iso8601Date }}">{{ talkStartTime | readableDate }}</time><br>
-              {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }}
-            </p>
-          </li>
-        {% endif %}
-      </ul>
+      {%- for speaker in collections.speakers | filterTalkBySpeaker(speakerKey) -%}
+        {{ card(speaker, horizontal='true') }}
+      {%- endfor -%}
     </aside>
   </div>
 {% endblock %}
