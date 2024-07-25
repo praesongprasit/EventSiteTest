@@ -136,6 +136,14 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => a.data.order - b.data.order);
   });
 
+  eleventyConfig.addFilter("filterSpeaker", function (collection, speakerKey) {
+    if (!speakerKey) return collection;
+    const filtered = collection.filter(
+      (item) => item.data.speakerKey == speakerKey
+    );
+    return filtered;
+  });
+
   // TODO: Reduce duplication for these settings
   // For 2023 speakers
   eleventyConfig.addCollection("speakers2023", (collection) => {

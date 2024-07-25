@@ -1,5 +1,5 @@
 {
-  "tags": ["talk", "talk2024"],
+  "tags": "talk",
   "contentType": "talk",
   "layout": "layouts/talk.njk",
   "ogType": "CreativeWork"

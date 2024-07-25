@@ -1,4 +1,5 @@
 ---
+event: "NZ Tech Rally 2024"
 speaker: Rowan Savage
 speakerKey: rowan-savage
 talkTitle: Trust your team
@@ -16,5 +17,4 @@ featuredImageWidth: 1200
 featuredImageHeight: 630
 talkRecordingID:
 talkLength: 25 min
-event: NZ Tech Rally 2024
 ---
