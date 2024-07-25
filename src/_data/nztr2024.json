@@ -1,8 +1,8 @@
 {
   "title": "NZ Tech Rally 2024",
   "description": "Flagship conference for the NZ software community to celebrate, connect, and grow together.",
-  "startDate": "2023-11-22T08:00:00.000+12:00",
-  "endDate": "2023-11-22T17:00:00.000+12:00",
+  "startDate": "2024-11-22T08:00:00.000+12:00",
+  "endDate": "2024-11-22T17:00:00.000+12:00",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "eventStatus": "https://schema.org/EventScheduled",
   "maximumAttendeeCapacity": "630",

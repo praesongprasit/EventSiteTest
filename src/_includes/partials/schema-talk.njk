@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Event",
     "url": "{{ page.url | absoluteUrl(site.url) }}",
-    "name": "{{ talkTitle }} by {{ title }}",
+    "name": "{{ talkTitle }} by {{ speaker }}",
     "description": "{{ talkExcerpt }}",
     "startDate": "{{ talkStartTime }}",
     "endDate": "{{ talkEndTime }}",
@@ -16,7 +16,7 @@
     },
     "performer": {
       "@type": "Person",
-      "name": "{{ firstName }} {{ lastName }}"
+      "name": "{{ speaker }}"
     },
     "location": {
       "@type": "Place",
