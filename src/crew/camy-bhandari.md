@@ -31,7 +31,7 @@ order: 1
 
 <p>Camy is a Quality Engineering Specialist who has worked across several NZ banks, consultancies and a startup, delivering several projects to market and developing a deep understanding of mobile application development, test automation, release workflows, and powering up several testing guilds and local meetup groups while converting a lot of test sceptics into true believers. She shares her expertise by <a href='https://www.youtube.com/watch?v=d0PWUT4miNI' rel='external'>talking about Quality Engineering</a> at local meetups and conferences.</p>
 
-<p>Camy is highly passionate about building strong engineering practices and a thriving engineering culture. She expresses this passion on her Youtube channel <a href='https://www.youtube.com/@techengineeringlounge7795' rel='external'>Tech Engineering Lounge</a>, where she interviews local engineering experts and tech leaders.</p>
+<p>Camy is highly passionate about building strong engineering practices and a thriving engineering culture. She expresses this passion on her YouTube channel <a href='https://www.youtube.com/@techengineeringlounge7795' rel='external'>Tech Engineering Lounge</a>, where she interviews local engineering experts and tech leaders.</p>
 
 <p>Camy is also a founding member of our testing conference, <a href='https://www.nztestingconf.nz/' rel='external'>NZTestingConf</a>.
 
