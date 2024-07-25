@@ -423,7 +423,7 @@ select:focus-visible {
 /* Work with fixed header */
 @media only screen and (min-width: 520px) {
   .page-container {
-    padding-top: 3.67rem;
+    padding-top: 3.4375rem; /* 55px */
   }
 }
 
