@@ -61,4 +61,13 @@
       {%- endfor -%}
     </aside>
   </div>
+
+  {%- if content -%}
+    <div id="transcript" class="card columns columns-two-thirds talk-page__transcript-wrapper">
+      <div class="column-one talk-page__transcript">
+        <h2>Transcript</h2>
+        {{ content | safe }}
+      </div>
+    </div>
+  {%- endif -%}
 {% endblock %}

@@ -48,3 +48,13 @@
   font-size: var(--font-size-xlarge);
   margin-bottom: var(--spacing-large);
 }
+
+.talk-page__transcript-wrapper {
+  margin-top: var(--spacing-main);
+}
+
+@media only screen and (min-width: 520px) {
+  .talk-page__transcript {
+    padding-left: 1.5rem;
+  }
+}
