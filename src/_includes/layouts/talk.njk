@@ -7,6 +7,7 @@
 
 {%- css %}
 {% include "css/components/talk-page.css" %}
+{% include "css/components/video.css" %}
 {% include "css/components/card-profile.css" %}
 {% endcss %}
 
@@ -30,6 +31,12 @@
 {% endblock %}
 
 {% block content %}
+  {%- if talkRecordingID -%}
+    <div class="video-wrapper">
+      <iframe width="560" height="315" src="{{ 'https://www.youtube-nocookie.com/embed/' + talkRecordingID }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  {%- endif -%}
+
   <div class="columns columns-two-thirds">
     <div class="column-one">
       <div class="text-indent accent-border accent-border--light">
