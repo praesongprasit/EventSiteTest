@@ -1,5 +1,4 @@
 ---
-event: NZ Tech Rally 2023
 speaker: Prae Songprasit
 speakerKey: prae-songprasit
 talkTitle: Opening remarks
