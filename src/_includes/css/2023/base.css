@@ -619,7 +619,7 @@ ul.column-one {
   position: relative;
 }
 
-.card:not(.profile-card) + .card:not(.profile-card) {
+.card:not(.card-profile) + .card:not(.card-profile) {
   margin-top: 0.5rem;
 }
 
