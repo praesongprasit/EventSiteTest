@@ -14,302 +14,301 @@ talkRecordingID: 3lV238sdKW4
 talkLength: 25 min
 ---
 
-<h4>About NZ Tech Rally</h4>
+### About NZ Tech Rally
 
-<p>All right, Camy just gave me a signal that registration — well the main part of it — has closed. So we're not going to wait for anyone else, and they can just file in and find that Seat of Shame.</p>
+All right, Camy just gave me a signal that registration — well the main part of it — has closed. So we're not going to wait for anyone else, and they can just file in and find that Seat of Shame.
 
-<p>It is great to see so many faces here.</p>
+It is great to see so many faces here.
 
-<p>Because for a while we were doubting whether we will see enough faces for it to be worth our speakers writing their amazing talks.</p>
+Because for a while we were doubting whether we will see enough faces for it to be worth our speakers writing their amazing talks.
 
-<p>So thank you for buying your tickets and for coming today.</p>
+So thank you for buying your tickets and for coming today.
 
-<p>When Camy approached me about a new conference,
-we were like...</p>
+When Camy approached me about a new conference,
+we were like...
 
-<p>What kind of gaps are we filling?<br>
-Don't we already have other conferences around?<br>
-Why do we want yet another one?<br>
-What is this one for?</p>
+What kind of gaps are we filling?
+Don't we already have other conferences around?
+Why do we want yet another one?
+What is this one for?
 
-<p>And so we — you know — do the classic thing where we do market research; researched other conferences.</p>
+And so we — you know — do the classic thing where we do market research; researched other conferences.
 
-<p>And many of the big ones... that are very well known in New Zealand, do focus on flying over speakers from overseas.</p>
+And many of the big ones... that are very well known in New Zealand, do focus on flying over speakers from overseas.
 
-<p>And that is all well and good. But us three co-founders — Aaron, Camy and I — knows that there is amazing talent
-over here in New Zealand</p>
+And that is all well and good. But us three co-founders — Aaron, Camy and I — knows that there is amazing talent
+over here in New Zealand
 
-<p>Yes there are local conferences that features them,
-but we wanted to make that front and centre, showcasing the talent that we've got here.</p>
+Yes there are local conferences that features them,
+but we wanted to make that front and centre, showcasing the talent that we've got here.
 
-<p>But not just showing right? That's a one-way communication.</p>
+But not just showing right? That's a one-way communication.
 
-<p>We want to always make sure that the people who are speaking and the people who are listening, take something from it.</p>
+We want to always make sure that the people who are speaking and the people who are listening, take something from it.
 
-<p>How do we build a community around educational content and growing together and networking in the more...</p>
+How do we build a community around educational content and growing together and networking in the more...
 
-<p>I guess honest? Less... dirty way?</p>
+I guess honest? Less... dirty way?
 
-<p>Because really, that's how we developers feel
-about networking right?</p>
+Because really, that's how we developers feel
+about networking right?
 
-<p>You think of the sales person who walk up to you, and ask for money.</p>
+You think of the sales person who walk up to you, and ask for money.
 
-<p>Which is kind of what I've been doing for this conference...
-but never mind.</p>
+Which is kind of what I've been doing for this conference...
+but never mind.
 
-<p>Anyway when we're looking around, we noticed that COVID has killed a lot of these communities.</p>
+Anyway when we're looking around, we noticed that COVID has killed a lot of these communities.
 
-<p>The meetup groups...
+The meetup groups...
 everything either moved online or just canceled completely,
-and some of them are only just returning today.</p>
+and some of them are only just returning today.
 
-<p>And so... we understand.</p>
+And so... we understand.
 
-<p>We know that this economic condition
-doesn't help these community groups either.</p>
+We know that this economic condition
+doesn't help these community groups either.
 
-<p>It's harder to find sponsors, harder to find money,
-and employers are cutting budget.</p>
+It's harder to find sponsors, harder to find money,
+and employers are cutting budget.
 
-<p>How do we then ensure that.. we can help each other out?</p>
+How do we then ensure that.. we can help each other out?
 
-<p>So that leaves a gap that we feel our conference or our series of events, and our company is planning to fill.</p>
+So that leaves a gap that we feel our conference or our series of events, and our company is planning to fill.
 
-<p>We want to take this opportunity to really <strong>really</strong> rally the community together.</p>
+We want to take this opportunity to really <strong>really</strong> rally the community together.
 
-<p>Again not just for gathering's sake right?
+Again not just for gathering's sake right?
 
-Not just talking about stuff.</p>
+Not just talking about stuff.
 
-<p>Let's actually talk about how have we solved problemsin the New Zealand context,within the country with the talents that we have.</p>
+Let's actually talk about how have we solved problems in the New Zealand context,within the country with the talents that we have.
 
-<p>Those of you who have worked with me know,
+Those of you who have worked with me know,
 that I've spent years...thinking about how to make software
-approachable and fun for people entering Tech.</p>
+approachable and fun for people entering Tech.
 
-<p>But, when I thought about when I tried to become a senior or beyond a senior role. I had to rely entirely upon my company
-to give me that growth.</p>
+But, when I thought about when I tried to become a senior or beyond a senior role. I had to rely entirely upon my company
+to give me that growth.
 
-<p>Which is a bit strange because if they cut training budget,
-the first thing is that, well... what about my growth?</p>
+Which is a bit strange because if they cut training budget,
+the first thing is that, well... what about my growth?
 
-<p>How do I grow from here?<br>
-Who do I need to know?<br>
-How do I approach this?</p>
+How do I grow from here?
+Who do I need to know?
+How do I approach this?
 
-<p>If I didn't have that community Connectionwith the rest of the people that I've built my network around, I wouldn't be able to grow beyond what I was doing.</p>
+If I didn't have that community connection with the rest of the people that I've built my network around, I wouldn't be able to grow beyond what I was doing.
 
-<p>So in that case, how do we enable other software people who might not be working in a company as big as where I am?</p>
+So in that case, how do we enable other software people who might not be working in a company as big as where I am?
 
-<p>Maybe they work in a small company.</p>
+Maybe they work in a small company.
 
-<p>How do you find the network, the people to bounce things off,
-to grow together, and to learn from each other in a more organic way?</p>
+How do you find the network, the people to bounce things off,
+to grow together, and to learn from each other in a more organic way?
 
-<p>So here we are with a conference.</p>
+So here we are with a conference.
 
-<p>That's only the start.</p>
+That's only the start.
 
-<p>Before we actually start looking at other things we could do to help build the community, we of course like any good company,
-have to do the values thing — you know.</p>
+Before we actually start looking at other things we could do to help build the community, we of course like any good company,
+have to do the values thing — you know.
 
-<p>So we do have four values.</p>
+So we do have four values.
 
-<p>We want to be Community focused; that's what we're here for right?</p>
+We want to be Community focused; that's what we're here for right?
 
-<p>Even if we are not a non-profit because we didn't want to deal with a non-profit obligations at the end of the year.
-We are social Enterprise.</p>
+Even if we are not a non-profit because we didn't want to deal with a non-profit obligations at the end of the year.
+We are social Enterprise.
 
-<p>So we want to make sure that we were able to
-compensate the speakers, the volunteers, and the people who work with us to make the content eventually in the future.</p>
+So we want to make sure that we were able to
+compensate the speakers, the volunteers, and the people who work with us to make the content eventually in the future.
 
-<p>Of course, perhaps not in the next five years, but we are planning our finances to get there.</p>
+Of course, perhaps not in the next five years, but we are planning our finances to get there.
 
-<p>We of course wanted this to be accessible and affordable.</p>
+We of course wanted this to be accessible and affordable.
 
-<p>I mean Steve, who's sitting there, knows that I've been harping on about accessibility at anywhere I work with for a number of years.</p>
+I mean Steve, who's sitting there, knows that I've been harping on about accessibility at anywhere I work with for a number of years.
 
-<p>So now that I have control over what we could do, how do I make sure that the content that we're sharing and benefiting the community is actually accessible?</p>
+So now that I have control over what we could do, how do I make sure that the content that we're sharing and benefiting the community is actually accessible?
 
-<p>And in order for community to access it, we also need to make it slightly more affordable.</p>
+And in order for community to access it, we also need to make it slightly more affordable.
 
-<p>Of course this ticket is not like a 30 bucks ticket. It is a 100 something dollars to get depending on which price you were at.</p>
+Of course this ticket is not like a 30 bucks ticket. It is a 100 something dollars to get depending on which price you were at.
 
-<p>But it is not a $1,000 dollars.<br>
-It is not $2,000 dollars.</p>
+But it is not a $1,000 dollars.
+It is not $2,000 dollars.
 
-<p>It doesn't eat up budget for your whole year just to come to one event and that's our goal.</p>
+It doesn't eat up budget for your whole year just to come to one event and that's our goal.
 
-<p>And of course, we want to do it in a more inclusive way.</p>
+And of course, we want to do it in a more inclusive way.
 
-<p>We're going to continue to make it better. An example here is that we have live caption</p>
+We're going to continue to make it better. An example here is that we have live caption
 
-<p>We did wanted NZSL, but it didn't quite work out for this conference. We will work hard to make it happen in the next one.</p>
+We did wanted NZSL, but it didn't quite work out for this conference. We will work hard to make it happen in the next one.
 
-<p>We also tried to make sure that the venue we're at is accessible.</p>
+We also tried to make sure that the venue we're at is accessible.
 
-<p>The university has easy access to all the public transport.</p>
+The university has easy access to all the public transport.
 
-<p>It has wheelchair access, which you can enter the venue from the bottom via the elevators.</p>
+It has wheelchair access, which you can enter the venue from the bottom via the elevators.
 
-<p>All these things are in our consideration to make sure
-that this event, and the way we talk about it is very inclusive.</p>
+All these things are in our consideration to make sure
+that this event, and the way we talk about it is very inclusive.
 
-<p>We also make sure that — of course — it's people of our product, because often people will come here on a sponsored gig,
-and then they'll try to sell you things.</p>
+We also make sure that — of course — it's people of our product, because often people will come here on a sponsored gig,
+and then they'll try to sell you things.
 
-<p>We've seen that in so many events that I'm sick of seeing it.</p>
+We've seen that in so many events that I'm sick of seeing it.
 
-<p>Since we have control over it we're going to not have that at our conference.</p>
+Since we have control over it we're going to not have that at our conference.
 
-<p>So yes in order to live our values, we have to come up with some sort of a mission statement, which has actually changed midway through ticket sales.</p>
+So yes in order to live our values, we have to come up with some sort of a mission statement, which has actually changed midway through ticket sales.
 
-<p>So in order to live our values, we aim to provide inclusive spaces for the NZ software community to connect and grow together.</p>
+So in order to live our values, we aim to provide inclusive spaces for the NZ software community to connect and grow together.
 
-<p>In order for us to do that, we could have anything that opens up spaces right?</p>
+In order for us to do that, we could have anything that opens up spaces right?
 
-<p>Spaces doesn't have to be a room.</p>
+Spaces doesn't have to be a room.
 
-<p>It could be an online platform.<br>
-It can be a podcast.<br>
-It can be a YouTube channel.<br>
-Could be a blog where people can write their content, and we can pay for their content.</p>
+It could be an online platform.
+It can be a podcast.
+It can be a YouTube channel.
+Could be a blog where people can write their content, and we can pay for their content.
 
-<p>So there's all sorts of things that we could play around with
-by saying that this is an inclusive space that focus on growth.</p>
+So there's all sorts of things that we could play around with
+by saying that this is an inclusive space that focus on growth.
 
-<p>How can we — people in this room — eventually help each other out in the future.</p>
+How can we — people in this room — eventually help each other out in the future.
 
-<p>Make this an even more fulfilling career, and perhaps longer lasting than what the average is in the market.</p>
+Make this an even more fulfilling career, and perhaps longer lasting than what the average is in the market.
 
-<p>Now by being here today you have shown your support. You have kick-started our journey to do this. So again thank you.</p>
+Now by being here today you have shown your support. You have kick-started our journey to do this. So again thank you.
 
-<h4>Housekeeping</h4>
+### Housekeeping
 
-<p>Speaking of spaces, let's have a look at what today's space is going to look like.</p>
+Speaking of spaces, let's have a look at what today's space is going to look like.
 
-<p>I'm going to speed through this a bit here because
-— you know — the good old housekeeping.</p>
+I'm going to speed through this a bit here because
+— you know — the good old housekeeping.
 
-<p>No one really want to stay here long before we get to our Keynote.</p>
+No one really want to stay here long before we get to our Keynote.
 
-<p>There are things that you should be aware of.</p>
+There are things that you should be aware of.
 
-<p>First Wi-Fi.</p>
+First Wi-Fi.
 
-<p>Now some of you have found this, but some of you haven't.</p>
+Now some of you have found this, but some of you haven't.
 
-<p>This is the WellingtonUniversityGuest Wi-Fi.</p>
+This is the WellingtonUniversityGuest Wi-Fi.
 
-<p>It would ask for your full name and email, and try to remember your password for 15 days... but yes the internet connection is actually quite good here.</p>
+It would ask for your full name and email, and try to remember your password for 15 days... but yes the internet connection is actually quite good here.
 
-<p>Next the bathroom.</p>
+Next the bathroom.
 
-<p>It is the most useful room to remember.</p>
+It is the most useful room to remember.
 
-<p>Where your registration table was? It is close to the elevators on all the floors, so it's in a very central location here.</p>
+Where your registration table was? It is close to the elevators on all the floors, so it's in a very central location here.
 
-<p>Socials.</p>
-<p>We are mostly on Linkedin, so please tag us there.</p>
+Socials.
+We are mostly on Linkedin, so please tag us there.
 
-<p>But we are <em>kind of</em> on Twitter...We have an account just so no one could take our name.</p>
+But we are <em>kind of</em> on Twitter...We have an account just so no one could take our name.
 
-<p>Whether we use it... you know it's what's going on with Twitter... I don't really know if I want to be supporting that platform...</p>
+Whether we use it... you know it's what's going on with Twitter... I don't really know if I want to be supporting that platform...
 
-<p>Photography.</p>
+Photography.
 
-<p>You would have noticed that we have the lovely Doug over here who is our official photographer.</p>
+You would have noticed that we have the lovely Doug over here who is our official photographer.
 
-<p>If you do take photos of yourself, please use this hashtag if possible, so it's easy to search.</p>
+If you do take photos of yourself, please use this hashtag if possible, so it's easy to search.
 
-<p>Avoid taking photos of people with the black lanyards.</p>
+Avoid taking photos of people with the black lanyards.
 
-<p>They're the ones who explicitly said please please please do not have my photos taken, and we'll try to avoid them.</p>
+They're the ones who explicitly said please please please do not have my photos taken, and we'll try to avoid them.
 
-<p>At lunchtime between 12:30pm and 12:55pm, we will set up group photo area, and our photographer will be waiting for you.</p>
+At lunchtime between 12:30pm and 12:55pm, we will set up group photo area, and our photographer will be waiting for you.
 
-<p>So if you come with a team of 30 or 40, please try to fit in that space and I'm looking forward to see that photo.</p>
+So if you come with a team of 30 or 40, please try to fit in that space and I'm looking forward to see that photo.
 
-<p>Okay, so we also have a videographer set up all the back.</p>
+Okay, so we also have a videographer set up all the back.
 
-<p>He's Bradley from Broad Media. He will record all of our talks, and we will publish them on YouTube for free afterwards... with preferably these captions that are being done over here.</p>
+He's Bradley from Broad Media. He will record all of our talks, and we will publish them on YouTube for free afterwards... with preferably these captions that are being done over here.
 
-<p>So please subscribe, or find it on our website if you want to look at it afterwards.</p>
+So please subscribe, or find it on our website if you want to look at it afterwards.
 
-<p>Live captions.</p>
+Live captions.
 
-<p>Now if you prefer to view a bigger version on your personal device, please use this URL and you can access that live caption on your personal device but otherwise we'll display it at this kind of sizing, at this kind of positioning, that you see on the screen right now throughout the day.</p>
+Now if you prefer to view a bigger version on your personal device, please use this URL and you can access that live caption on your personal device but otherwise we'll display it at this kind of sizing, at this kind of positioning, that you see on the screen right now throughout the day.
 
-<p>Quiz prep.</p>
+Quiz prep.
 
-<p>We're going to have quiz at the end of the day and I'm telling you in advance because I understand that it could get a bit nerve-wracking to be told: "In two minutes hop onto the quiz and familiarise yourself with the platform. Fill your name up" and all that stuff.</p>
+We're going to have quiz at the end of the day and I'm telling you in advance because I understand that it could get a bit nerve-wracking to be told: "In two minutes hop onto the quiz and familiarise yourself with the platform. Fill your name up" and all that stuff.
 
-<p>You don't need to download any app. It is just a web web app, but have a look at it. And then see whether you feel comfortable.
-Try putting your name in.</p>
+You don't need to download any app. It is just a web web app, but have a look at it. And then see whether you feel comfortable.
+Try putting your name in.
 
-<p>If you need any help, look for the green lanyards of our volunteers, and they will be able to help you out if you have any issues.</p>
+If you need any help, look for the green lanyards of our volunteers, and they will be able to help you out if you have any issues.
 
-<p>But when the quiz time comes we will give a slightly longer lead time, just to make sure that you're all set up and ready to go.</p>
+But when the quiz time comes we will give a slightly longer lead time, just to make sure that you're all set up and ready to go.
 
-<p>Emergencies.</p>
+Emergencies.
 
-<p>Fires: follow the exit signs.<br>
-Earthquake: because there is no table for you to duck under, please drop & cover. You stay in this venue until we're told it's safe to do so.<br>
-Health: Of course 111,or tell one of our volunteers.</p>
+Fires: follow the exit signs.
+Earthquake: because there is no table for you to duck under, please drop & cover. You stay in this venue until we're told it's safe to do so.
+Health: Of course 111,or tell one of our volunteers.
 
-<p>Respect</p>
+Respect
 
-<p>Yes, respect please. Phone on silent, be nice to others, and be considerate.</p>
+Yes, respect please. Phone on silent, be nice to others, and be considerate.
 
-<p>We do have a code of conduct which we forcefully made you kind of sign, or implicitly agreed to when you purchase this ticket.</p>
+We do have a code of conduct which we forcefully made you kind of sign, or implicitly agreed to when you purchase this ticket.
 
-<p>It's basically saying... don't be a jerk.<br>
-Be nice to other people. Treat everyone nicely.</p>
+It's basically saying... don't be a jerk.
+Be nice to other people. Treat everyone nicely.
 
-<p>If you want to know more information please look at that but if you found someone who makes you feel uncomfortable, or have that creepy behaviour, please tell our volunteers.</p>
+If you want to know more information please look at that but if you found someone who makes you feel uncomfortable, or have that creepy behaviour, please tell our volunteers.
 
-<p>If you cannot find our volunteers, or you do not feel comfortable talking to anyone, please text this phone number.</p>
+If you cannot find our volunteers, or you do not feel comfortable talking to anyone, please text this phone number.
 
-<p>It will reach one of our volunteers, and they will come find you to give you support.</p>
+It will reach one of our volunteers, and they will come find you to give you support.
 
-<p>After socials.</p>
+After socials.
 
-<p>Yes, quote my friend</p>
+Yes, quote my friend
 
-<p>"There's a whole bunch of overpaid engineers,
-who are gonna go to this... Trax Bar"</p>
+"There's a whole bunch of overpaid engineers,
+who are gonna go to this... Trax Bar"
 
-<p>I understand, but there's no booking fee at Trax. So I didn't have to pay any money to book a space.</p>
+I understand, but there's no booking fee at Trax. So I didn't have to pay any money to book a space.
 
-<p>But yeah swing by because it is inside the train station.</p>
+But yeah swing by because it is inside the train station.
 
-<p>So on the way home just — you know — come have a chat, or drink, or none, and then train home.</p>
+So on the way home just — you know — come have a chat, or drink, or none, and then train home.
 
-<p>Okay before we head to Katrina.</p>
+Okay before we head to Katrina.
 
-<p>Gold sponsor! Assurity, thank you so much for agreeing and supporting us.</p>
+Gold sponsor! Assurity, thank you so much for agreeing and supporting us.
 
-<p>They were one of the first sponsors. Please give them a round of applause.</p>
+They were one of the first sponsors. Please give them a round of applause.
 
-<p>They actually reached out to us proactively, and then asked what our plans are.</p>
+They actually reached out to us proactively, and then asked what our plans are.
 
-<p>With the other sponsors, they also responded to the email request so quickly I was so amazed and grateful for Runn, Datacom, and Epi-interactive.</p>
+With the other sponsors, they also responded to the email request so quickly I was so amazed and grateful for Runn, Datacom, and Epi-interactive.
 
-<p>And all of them have sent delegates here today.
-So thank you very much.</p>
+And all of them have sent delegates here today.
+So thank you very much.
 
-<h4>Introduce 2023 conference theme</h4>
+### Introduce 2023 conference theme
 
-<p>Okay, so, let's have a look at today's theme.</p>
+Okay, so, let's have a look at today's theme.
 
-<p>We have this conference that want to create inclusive spaces...</p>
+We have this conference that want to create inclusive spaces...
 
-<p>
-But every conference needs some sort of a uniting theme, because otherwise talks will be over the place, and perhaps you get a technical talk in one, and then have a different context altogether.</p>
+But every conference needs some sort of a uniting theme, because otherwise talks will be over the place, and perhaps you get a technical talk in one, and then have a different context altogether.
 
-<p>So to get that flow going, we sort of united all the eight talks we have today under this one theme of:</p>
+So to get that flow going, we sort of united all the eight talks we have today under this one theme of:
 
-<p><strong>What does great software engineering culture actually looks like, and how have we — in New Zealand context — done it?</strong></p>
+<strong>What does great software engineering culture actually looks like, and how have we — in New Zealand context — done it?</strong>
 
-<p>All the speakers will be speaking from their specialty lens on this topic.</p>
+All the speakers will be speaking from their specialty lens on this topic.
