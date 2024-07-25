@@ -25,12 +25,13 @@
         {{ speaker }}
       </p>
 
-      {%if talkStartTime %}
-        <p>
+      <p>
+        {%if talkStartTime %}
           {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }} on
-          <time datetime="{{ talkStartTime | iso8601Date }}">{{ talkStartTime | readableDate }}</time>, {{ event }}
-        </p>
-      {% endif %}
+          <time datetime="{{ talkStartTime | iso8601Date }}">{{ talkStartTime | readableDate }}</time>, 
+        {% endif %}
+        {{ event }}
+      </p>
     </div>
 
     <div class="talk-page__colour-block"></div>
