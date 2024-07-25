@@ -11,7 +11,7 @@ featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
 talkRecordingID: 3lV238sdKW4
-talkLength: 25 min
+talkLength: 15 min
 ---
 
 ### About NZ Tech Rally
