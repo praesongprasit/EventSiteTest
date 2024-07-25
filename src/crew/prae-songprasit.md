@@ -1,4 +1,5 @@
 ---
+tags: speaker
 crewAtEvent: ["NZ Tech Rally 2024", "NZTestingConf 2024", "NZ Tech Rally 2023"]
 firstName: Prae
 lastName: Songprasit

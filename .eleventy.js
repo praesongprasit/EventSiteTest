@@ -113,7 +113,9 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection("speakers", (collection) => {
-    return collection.getFilteredByTag("speaker");
+    return collection
+      .getFilteredByTag("speaker")
+      .sort((a, b) => a.data.order - b.data.order);
   });
 
   eleventyConfig.addCollection("speakers2024", (collection) => {
@@ -136,13 +138,27 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => a.data.order - b.data.order);
   });
 
-  eleventyConfig.addFilter("filterSpeaker", function (collection, speakerKey) {
-    if (!speakerKey) return collection;
-    const filtered = collection.filter(
-      (item) => item.data.speakerKey == speakerKey
-    );
-    return filtered;
-  });
+  eleventyConfig.addFilter(
+    "filterTalkBySpeaker",
+    function (collection, speakerKey) {
+      if (!speakerKey) return collection;
+      const filtered = collection.filter(
+        (item) => item.page.fileSlug == speakerKey
+      );
+      return filtered;
+    }
+  );
+
+  eleventyConfig.addFilter(
+    "filterSpeakerName",
+    function (collection, speakerKey) {
+      if (!speakerKey) return collection;
+      const filtered = collection.filter(
+        (item) => item.data.speakerKey == speakerKey
+      );
+      return filtered;
+    }
+  );
 
   // TODO: Reduce duplication for these settings
   // For 2023 speakers

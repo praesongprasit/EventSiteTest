@@ -41,20 +41,23 @@
     </div>
 
     <aside class="column-two">
-      {%- for speaker in collections.speakers2024 -%}
-        {% if speakerKey === speaker.page.fileSlug %}
+      <ul class="cards">
+        {%- for speaker in collections.speakers | filterTalkBySpeaker(speakerKey) -%}
           {{ card(speaker, horizontal='true') }}
-        {% endif %}
-      {%- endfor -%}
+        {%- endfor -%}
 
-      {%if talkStartTime %}
-        <div class="card">
-          <p>
-            <time datetime="{{ talkStartTime | iso8601Date }}">{{ talkStartTime | readableDate }}</time><br>
-            {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }}
-          </p>
-        </div>
-      {% endif %}
+        {%if talkStartTime %}
+          <li class="card">
+            <p>
+            At <strong>{{ event }}</strong>
+            </p>
+            <p>
+              <time datetime="{{ talkStartTime | iso8601Date }}">{{ talkStartTime | readableDate }}</time><br>
+              {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }}
+            </p>
+          </li>
+        {% endif %}
+      </ul>
     </aside>
   </div>
 {% endblock %}

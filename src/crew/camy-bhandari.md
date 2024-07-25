@@ -1,4 +1,5 @@
 ---
+tags: speaker
 crewAtEvent:
   [
     "NZ Tech Rally 2024",

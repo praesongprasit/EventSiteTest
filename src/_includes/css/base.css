@@ -673,6 +673,8 @@ ul.column-one {
   margin-right: 0;
   padding: 0;
   font-size: var(--font-size-main);
+  display: grid;
+  gap: var(--spacing-main);
 }
 
 .card {
