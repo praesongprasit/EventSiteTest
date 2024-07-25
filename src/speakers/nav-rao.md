@@ -10,7 +10,7 @@ profileUrl:
     { "name": "Blog", "url": "https://theperfectlycromulent.substack.com/" },
   ]
 profilePhoto: /assets/images/speakers/nav_rao.jpg
-profilePhotoAltText:
+profilePhotoAltText: "A mid 30’s Indian smiling at the camera while holding a tray of meatballs, one of which is delicately balanced on the end of a stick, now separated from its fellow meatball brethren. His outfit includes a blue tinged hat and dark  blueish green flannel."
 profilePhotoType: image/jpg
 ---
 
