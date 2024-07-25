@@ -124,17 +124,16 @@
   display: grid;
   row-gap: 1.25rem;
   align-items: stretch;
-}
-
-.profiles--four-columns {
-  grid-template-columns: repeat(2, 1fr);
   column-gap: 1.25rem;
 }
 
 @media screen and (min-width: 520px) {
   .profiles {
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 1.25rem;
+  }
+
+  .profiles--three-columns {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .profiles--four-columns {
@@ -143,10 +142,6 @@
 }
 
 @media screen and (min-width: 780px) {
-  .profiles {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
   .profiles--four-columns {
     grid-template-columns: repeat(4, 1fr);
   }
