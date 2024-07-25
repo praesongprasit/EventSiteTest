@@ -27,8 +27,8 @@
 
       {%if talkStartTime %}
         <p>
-          At {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }},
-          <time datetime="{{ talkStartTime | iso8601Date }}">{{ talkStartTime | readableDate }}</time> for {{ event }}
+          {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }} on
+          <time datetime="{{ talkStartTime | iso8601Date }}">{{ talkStartTime | readableDate }}</time>, {{ event }}
         </p>
       {% endif %}
     </div>
