@@ -434,8 +434,8 @@ select:focus-visible {
 .content-wrapper {
   margin: 0 auto;
   max-width: 940px;
-  padding-left: var(--spacing-xsmall);
-  padding-right: var(--spacing-xsmall);
+  padding-left: var(--spacing-main);
+  padding-right: var(--spacing-main);
 }
 
 /* .section.content-wrapper {
