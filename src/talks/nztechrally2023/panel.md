@@ -6,7 +6,7 @@ talkTitle: "Panel - What great software engineering culture looks like, and how 
 talkExcerpt: Panel discussion
 talkStartTime: 2023-07-07T13:00:00.000+12
 talkEndTime: 2023-07-07T14:00:00.000+12
-featuredImage: /assets/images/2023/talks/panel.png
+featuredImage: /assets/images/talks/2023/panel.png
 featuredImageAlt: "Panel discuss: Software Engineering Culture, NZ Tech Rally. Photos of four diverse panellists below"
 featuredImageType: image/png
 featuredImageWidth: 1280
