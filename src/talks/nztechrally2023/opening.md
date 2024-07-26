@@ -5,11 +5,11 @@ talkTitle: Opening remarks
 talkExcerpt: Introduces NZ Tech Rally, conference theme, and housekeeping
 talkStartTime: 2023-07-07T09:00:00.000+12
 talkEndTime: 2023-07-07T09:15:00.000+12
-featuredImage:
-featuredImageAlt:
+featuredImage: /assets/images/2023/talks/opening.png
+featuredImageAlt: "Prae's picture with text: opening Remarks, NZ Tech Rally"
 featuredImageType: image/png
-featuredImageWidth: 1200
-featuredImageHeight: 630
+featuredImageWidth: 1280
+featuredImageHeight: 720
 talkRecordingID: 3lV238sdKW4
 talkLength: 15 min
 ---
