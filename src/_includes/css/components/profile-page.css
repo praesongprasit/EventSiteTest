@@ -38,9 +38,9 @@
     gap: var(--spacing-xsmall);
   }
 
-  .profile-page__pronoun {
+  .profile-page-pronoun {
     /* Special case to off-set text baseline */
-    margin-bottom: var(--font-size-main);
+    margin-bottom: 0.25rem;
   }
 }
 
