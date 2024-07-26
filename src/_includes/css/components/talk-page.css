@@ -2,6 +2,10 @@
   margin-bottom: var(--spacing-main);
 }
 
+.talk-page__information {
+  margin-top: var(--spacing-xlarge);
+}
+
 @media screen and (max-width: 720px) {
   .talk-page__subtitle--secondary {
     margin-bottom: 0;
@@ -43,6 +47,10 @@
     display: flex;
     align-items: end;
     gap: var(--spacing-xsmall);
+  }
+
+  .talk-page__information {
+    margin-top: 7.5625rem; /* 121px - padding from page header */
   }
 }
 
