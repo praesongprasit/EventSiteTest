@@ -8,7 +8,7 @@ Website for NZ Tech Rally, built with [Eleventy](www.11ty.dev/), and auto deploy
 
 ### Prerequisites
 
-- Node v20+ (installed globally)
+- [Node v20+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed globally. Requires admin privilege on your machine
 
 ### Install dependencies
 
@@ -23,3 +23,5 @@ Build and start local server. Keep this running while working on the project.
 ```shell
 npm start
 ```
+
+Then navigate to [http://localhost:8080/](http://localhost:8080/), to view local version on a browser.
