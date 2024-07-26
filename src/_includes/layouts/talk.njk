@@ -18,14 +18,16 @@
         <h1 class="page-title">
           {{ talkTitle }}
         </h1>
-        <p class="talk-page-pronoun">{{ pronouns }}</p>
+        {%if pronouns %}
+          <p class="talk-page-pronoun">{{ pronouns }}</p>
+        {% endif %}
       </div>
 
       <p class="talk-page__subtitle">
         {{ speaker }}
       </p>
 
-      <p>
+      <p class="talk-page__subtitle--secondary">
         {%if talkStartTime %}
           {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }} on
           <time datetime="{{ talkStartTime | iso8601Date }}">{{ talkStartTime | readableDate }}</time>, 

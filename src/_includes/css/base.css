@@ -12,10 +12,11 @@
   --font-size-large: 1.5rem; /* 24px */
   --font-size-xlarge: 2rem; /* 32px */
   --font-size-page-title-smaller: var(--font-size-large);
-  --font-size-page-title: var(--font-size-xlarge);
+  --font-size-page-title: 3rem;
 
   --line-height-main: 1.375;
   --line-height-display: 1.25;
+  --line-height-display-secondary: 1.25;
 
   --letter-spacing: -0.06rem;
 
@@ -447,18 +448,12 @@ select:focus-visible {
   padding-right: var(--spacing-main);
 }
 
-/* .section.content-wrapper {
-  background-color: var(--colour-off-white);
-  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.05);
-} */
-
 /* -------------- HEADER -------------- */
 
 .page-header {
   display: block;
   background-color: var(--colour-black);
   padding: var(--spacing-small) 0;
-  margin-bottom: var(--spacing-3xlarge);
   box-shadow: var(--drop-shadow);
   border-bottom: var(--subtle-shadow);
   font-family: var(--typeface-display);
@@ -498,7 +493,7 @@ select:focus-visible {
 
 .page-title {
   font-size: var(--font-size-page-title);
-  letter-spacing: -0.008em;
+  letter-spacing: -0.08em;
   line-height: var(--line-height-display);
   margin: 0;
 }
