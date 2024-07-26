@@ -542,7 +542,7 @@ section,
 }
 
 .section:first-of-type {
-  padding-top: var(--spacing-large);
+  padding-top: var(--spacing-xlarge);
 }
 
 .section-label {
