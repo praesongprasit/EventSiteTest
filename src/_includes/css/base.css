@@ -631,9 +631,7 @@ ul.column-one {
 
   .columns-two-thirds {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-      "column-one column-one column-two"
-      "column-one column-one column-two";
+    grid-template-areas: "column-one column-one column-two";
   }
 
   .column-one {
