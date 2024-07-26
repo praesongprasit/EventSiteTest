@@ -1,5 +1,5 @@
 .talk-page__title .page-title {
-  font-size: var(--font-size-page-title-smaller);
+  margin-bottom: var(--spacing-main);
 }
 
 @media screen and (min-width: 720px) {
