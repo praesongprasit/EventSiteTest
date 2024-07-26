@@ -16,7 +16,7 @@ Website for NZ Tech Rally, built with [Eleventy](www.11ty.dev/), and auto deploy
 npm i
 ```
 
-## Development
+## Local development
 
 Build and start local server. Keep this running while working on the project.
 
