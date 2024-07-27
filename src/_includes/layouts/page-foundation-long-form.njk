@@ -89,8 +89,12 @@
     <main id="mainContent" class="page-container">
       <div class="section-colour">
         <div class="section content-wrapper page-title-block">
-          <header>
-            {% block pageHeader %}{% endblock %}
+          <header class="title-block">
+            <div class="title-block-text-wrapper">
+              {% block pageHeader %}{% endblock %}
+            </div>
+
+            <div class="title-block__colour-block title-block__colour-block--light"></div>
           </header>
         </div>
 

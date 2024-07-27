@@ -12,32 +12,23 @@
 {% endcss %}
 
 {% block pageHeader %}
-  <div class="title-block">
-    <div class="title-block-text-wrapper">
-      <div class="title-block-text__primary">
-        <h1 class="page-title">
-          {{ talkTitle }}
-        </h1>
-        {%if pronouns %}
-          <p class="talk-page-pronoun">{{ pronouns }}</p>
-        {% endif %}
-      </div>
+  <div class="title-block-text__primary">
+    <h1 class="page-title">
+      {{ talkTitle }}
+    </h1>
+  </div>
 
-      <p class="title-block-text__secondary">
-        {{ speaker }}
-      </p>
+  <p class="title-block-text__secondary">
+    {{ speaker }}
+  </p>
 
-      <p>
-        {%if talkStartTime %}
-          {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }} on
+  <p>
+    {%if talkStartTime %}
+      {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }} on
           <time datetime="{{ talkStartTime | iso8601Date }}">{{ talkStartTime | readableDate }}</time>, 
         {% endif %}
-        {{ event }}
-      </p>
-    </div>
-
-    <div class="title-block__colour-block title-block__colour-block--light"></div>
-  </div>
+    {{ event }}
+  </p>
 {% endblock %}
 
 {% block content %}
