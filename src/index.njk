@@ -1,100 +1,90 @@
 ---
 tags: page
 title: NZ Tech Rally 2024 - 22nd November
-description: What does great software engineering culture look like, and how have Kiwis done it?
+description: Resilience of people, communities, and organisations in the Aotearoa software industry.
 ---
-{% extends 'layouts/page-foundation.njk' %}
+{% extends 'layouts/event.njk' %}
 {% from 'partials/card-profile.njk' import card %}
 
 {% set contentType = 'home' %}
 
-{%- css %}
-{% include "css/components/card-profile.css" %}
-{% endcss %}
+{%- css %}{% endcss %}
 
 {% block pageHeader %}
-  <h1 class="section-title">
-    NZ Tech Rally 2024
-  </h1>
+  <div class="title-block-text-wrapper">
+    <p class="event-page-type">2024 Conference</p>
+
+    <div class="title-block-text__primary">
+      <h1 class="page-title event-page-title">
+        NZ Tech Rally
+      </h1>
+    </div>
+  </div>
+{% endblock %}
+
+{% block pageIntro %}
+  <p class="title-block-text__secondary">
+    {{ description}}
+  </p>
+  <p>
+    We’ve experienced tough times in the last couple of years: over-hiring, aggressive growth, burnout, redundancies, reduced budgets, recession, and closures.
+  </p>
+  <p>
+    Our organisations, teams, and individuals can learn a lot from this experience, and prepare ourselves for the next cycle of disruption.
+  </p>
+  <p>
+    Come hear real Kiwi stories, learn strategies, and get practical advice from locals who were impacted, adapted, and are thriving today. 
+  </p>
+  <p>
+    Let's rally the NZ software industry together to become more resilient for 2025 and beyond.
+  </p>
 {% endblock %}
 
 {% block content %}
   <section>
     <div class="section-label accent-border">
       <h2 class="section-title">
-        Conference theme
+        Conference information
       </h2>
     </div>
-    <div class="text-indent">
-      <p>
-        <strong>Resilience of people, communities, and organisations in the Aotearoa software industry.</strong>
-      </p>
-      <p>
-        We’ve experienced tough times in the last couple of years: over-hiring, aggressive growth, burnout, redundancies, reduced budgets, recession, and closures.
-      </p>
-      <p>
-        Our organisations, teams, and individuals can learn a lot from this experience, and prepare ourselves for the next cycle of disruption.
-      </p>
-      <p>
-        Come hear real Kiwi stories, learn strategies, and get practical advice from locals who were impacted, adapted, and are thriving today. 
-      </p>
-      <p>
-        Let's rally the NZ software industry together to become more resilient for 2025 and beyond.
-      </p>
-    </div>
-  </section>
 
-  <section>
-    <div class="section-label accent-border">
-      <h2 class="section-title">
-        When
-      </h2>
-    </div>
-    <div class="text-indent">
-      <p>
-        <time datetime="2023-07-07T09:00:00+12:00">
+    <div class="text-indent columns columns-two-thirds">
+      <div class="column-one">
+        <h3>When?</h3>
+        <p>
+          <time datetime="2024-11-22T08:30:00+12:00">
           Friday 22nd November 2024<br>
           8:30am - 5pm
         </time>
-      </p>
-    </div>
-  </section>
+        </p>
 
-  <section>
-    <div class="section-label accent-border">
-      <h2 class="section-title">
-        Where
-      </h2>
-    </div>
-    <div class="text-indent">
-      <p>
+        <h3>Where?</h3>
+        <p>
         Rongomātāne Plenary Hall One (max 600 people),<br>
-        <a href="https://maps.app.goo.gl/Jn7uhPw5sd5P9M2d6" rel="external">Tākina</a>, 50 Cable Street, Wellington
+          <a href="https://maps.app.goo.gl/Jn7uhPw5sd5P9M2d6" rel="external">Tākina Wellington Convention and Exhibition Centre</a>,<br>
+        50 Cable Street, Wellington, New Zealand
       </p>
-    </div>
-  </section>
 
-  <section>
-    <div class="section-label accent-border">
-      <h2 class="section-title">
-        Price
-      </h2>
-    </div>
-    <div class="text-indent">
-      <p>Tickets going on sale soon. Subscribe to our newsletter to be notified.</p>
-      {# <p>We're allowing <a href="{{ nztr2023.ticketUrl }}" rel="external">last minute ticket purchases</a>!</p> #}
-      <p>
-        $170 early bird ticket (first 180 only)<br>
-        $200 standard ticket<br>
-        $220 last minute ticket<br>
+        <h3>How much?</h3>
+        <ul>
+          <li>$170 early bird ticket (first 180 only)</li>
+          <li>$200 standard ticket</li>
+          <li>$220 last bird ticket (4th November onwards)</li>
+        </ul>
+        <p>
+        Bulk ticket discount: $20 off per ticket when purchasing standard or last bird tickets for a group of four or more.
       </p>
-      <p>
-        Bulk ticket discount: $20 off per ticket when purchasing Standard or Last-minute tickets for a group of four or more.
-      </p>
-      {# <p>
+        {# <p>
         If your manager needs persuading, we've written a handy <a href="{{ '/convince-your-manager' | url }}">letter to help you convince them</a>!
       </p> #}
-      <a class="button" href="https://events.humanitix.com/nztechrally2024?c=nztrsite" rel="external">Buy a ticket now!</a>
+        <a class="button" href="https://events.humanitix.com/nztechrally2024?c=nztrsite" rel="external">Buy a ticket now!</a>
+      </div>
+
+      <div class="column-two">
+        <picture class="accent-border event-page__venue-photo">
+          <img src="{{ '/assets/images/decorations/tākina_home.jpg' | url }}" alt="Exterior of Tākina Wellington Convention and Exhibition Centre, the side facing Cable street.">
+        </picture>
+      </div>
     </div>
   </section>
 
@@ -116,6 +106,20 @@ description: What does great software engineering culture look like, and how hav
     <div class="section-label accent-border">
       <h2 class="section-title">
         Panellists
+      </h2>
+    </div>
+
+    <div class="text-indent">
+      <p>
+        Coming soon
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-label accent-border">
+      <h2 class="section-title">
+        Workshops
       </h2>
     </div>
 
