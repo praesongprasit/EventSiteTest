@@ -42,6 +42,7 @@
   }
 
   .profile-page__colour-block {
+    background-color: var(--colour-dark-orange);
     grid-row-start: 1;
     grid-column-start: 3;
   }
@@ -63,9 +64,7 @@
   }
 
   .profile-page-pronoun {
-    /* Special case to off-set text baseline */
     margin-left: var(--spacing-xsmall);
-    margin-bottom: 0.25rem;
   }
 }
 
