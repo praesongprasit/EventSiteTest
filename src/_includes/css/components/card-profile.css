@@ -122,9 +122,9 @@
 
 .profiles {
   display: grid;
-  row-gap: 1.25rem;
   align-items: stretch;
-  column-gap: 1.25rem;
+  row-gap: var(--spacing-main);
+  column-gap: var(--spacing-grid-gap);
 }
 
 @media screen and (min-width: 520px) {

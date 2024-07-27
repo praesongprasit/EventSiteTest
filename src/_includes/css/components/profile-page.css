@@ -3,7 +3,7 @@
     position: absolute;
     right: 0;
     height: 100%;
-    width: calc(33.33% - 1.25rem + 6px);
+    width: calc(33.33% - var(--spacing-grid-gap) + 13px);
     overflow: hidden;
   }
 

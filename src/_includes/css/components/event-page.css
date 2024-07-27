@@ -42,7 +42,7 @@
   .event-page__hero {
     position: relative;
     z-index: 1;
-    width: calc(100% + var(--spacing-main));
+    width: calc(100% + var(--spacing-main) + 1px);
     height: calc(100% + 8px);
     display: block;
   }

@@ -28,6 +28,8 @@
   --spacing-2xlarge: 55px; /* 55px */
   --spacing-3xlarge: 66px; /* 66px */
 
+  --spacing-grid-gap: 40px;
+
   --colour-black: #111111;
   --colour-grey: #f2f2f2;
   --colour-bright-orange: #fd530d;
@@ -595,7 +597,7 @@ section,
 
 .columns {
   display: grid;
-  row-gap: 1.25rem;
+  row-gap: var(--spacing-main);
 }
 
 .hero img {
@@ -626,7 +628,7 @@ ul.column-one {
 
 @media screen and (min-width: 520px) {
   .columns {
-    column-gap: 1.25rem;
+    column-gap: var(--spacing-grid-gap);
   }
 
   .columns-half {
@@ -692,7 +694,8 @@ ul.column-one {
   padding: 0;
   font-size: var(--font-size-main);
   display: grid;
-  gap: var(--spacing-main);
+  row-gap: var(--spacing-main);
+  column-gap: var(--spacing-grid-gap);
 }
 
 .card {
