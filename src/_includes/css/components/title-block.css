@@ -44,6 +44,7 @@
     background-color: var(--title-block-colour);
     grid-row-start: 1;
     grid-column-start: 3;
+    width: calc(100% + 1px);
   }
 
   .title-block__colour-block--light {
