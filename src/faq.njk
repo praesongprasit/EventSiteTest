@@ -6,19 +6,19 @@ description: Up-to-date list of things people of asked us about NZ Tech Rally 20
 {% extends 'layouts/page-foundation-long-form.njk' %}
 
 {% block pageHeader %}
-  <h1 class="section-title">
-    {{ title }}
-  </h1>
-{% endblock %}
-
-{% block pageItro %}
-  <div class="text-indent">
-    {{ description }}
+  <div class="title-block-text__primary">
+    <h1 class="page-title">
+      {{ title }}
+    </h1>
   </div>
 {% endblock %}
 
 {% block content %}
   <section>
+    <div class="text-indent">
+      {{ description }}
+    </div>
+
     <div class="section-label accent-border">
       <h2 class="section-title">Page contents</h2>
     </div>
