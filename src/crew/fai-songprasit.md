@@ -2,6 +2,7 @@
 crewAtEvent: ["NZ Tech Rally 2024, NZTestingConf 2024"]
 firstName: Fai
 lastName: Songprasit
+pronouns: She/Her
 role: Catering Lead
 jobTitle: Software Engineer
 organisation: Xero

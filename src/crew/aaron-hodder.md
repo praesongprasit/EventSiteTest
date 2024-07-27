@@ -9,6 +9,7 @@ crewAtEvent:
   ]
 firstName: Aaron
 lastName: Hodder
+pronouns: He/Him
 role: Co-founder
 jobTitle: Associate Director
 organisation: Deloitte

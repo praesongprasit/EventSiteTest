@@ -16,11 +16,11 @@
   <div class="profile-page__heading">
     <div class="profile-page__title-wrap">
       <div class="profile-page__title">
-        <h1 class="page-title">
-          {{ firstName }}
-          {{ lastName }}
-        </h1>
-        <p class="profile-page-pronoun">{{ pronouns }}</p>
+        <h1 class="page-title">{{ firstName }}
+          {{ lastName }}</h1>
+        {% if pronouns %}
+          <p class="profile-page-pronoun">{{ pronouns }}</p>
+        {% endif %}
       </div>
 
       {% if contentType === 'crew' %}
@@ -49,6 +49,8 @@
         <img src="{{ profilePhoto }}" alt="{{ profilePhotoAltText }}">
       </picture>
     </div>
+
+    <div class="profile-page__colour-block"></div>
   </div>
 {% endblock %}
 
