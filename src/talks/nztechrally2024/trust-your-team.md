@@ -16,5 +16,5 @@ featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
 talkRecordingID:
-talkLength: 25 min
+contentLength: 25 min
 ---

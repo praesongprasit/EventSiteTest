@@ -12,5 +12,5 @@ featuredImageType: image/png
 featuredImageWidth: 1280
 featuredImageHeight: 720
 talkRecordingID: svioDmUJO3k
-talkLength: 1 hour
+contentLength: 1 hour
 ---

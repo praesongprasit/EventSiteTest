@@ -11,5 +11,5 @@ featuredImageType: image/png
 featuredImageWidth: 1280
 featuredImageHeight: 720
 talkRecordingID: sZFBBy-XQUE
-talkLength: 10 min
+contentLength: 10 min
 ---
