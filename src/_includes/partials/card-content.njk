@@ -13,15 +13,16 @@
           {{ content.data.talkTitle }}
         </strong>
 
-        <span>
-          {% if type === 'talk' %}
+        {% if type === 'talk' %}
+          <span>
             {{ content.data.event }}
-          {% endif %}
-        </span>
+          </span>
+        {% endif %}
 
         {% if content.data.contentLength %}
           <span>
             {{ content.data.contentLength }}
+            {{ type }}
           </span>
         {% endif %}
       </a>
