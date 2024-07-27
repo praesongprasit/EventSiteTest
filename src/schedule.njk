@@ -8,23 +8,15 @@ eleventyNavigation:
 ---
 {% extends 'layouts/page-foundation-long-form.njk' %}
 {% block pageHeader %}
-  <h1 class="section-title">
-    {{ title }}
-  </h1>
+  <div class="title-block-text__primary">
+    <h1 class="page-title">
+      {{ title }}
+    </h1>
+  </div>
 {% endblock %}
 
 {% block content %}
-  <div class="columns columns-half">
-    <picture class="column-two section-label hero hero--schedule">
-      <img src="{{ '/assets/images/hero-extra_2024.jpg' | url }}" alt="alt">
-    </picture>
-
-    <div class="column-one">
-      <div class="text-indent">
-        Coming soon
-      </div>
-    </div>
-
+  <div class="columns columns-two-thirds">
     <ul class="column-one">
       <li class="card">
         08:00 - 09:20 <br>Registration

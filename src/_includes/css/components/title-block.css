@@ -2,6 +2,18 @@
   padding-top: var(--spacing-xlarge);
 }
 
+.title-block-text__primary {
+  margin-bottom: var(--spacing-main);
+}
+
+.title-block:not(:has(.profile-page__picture-wrap)) .page-title {
+  font-size: var(--font-size-page-title-smaller);
+}
+
+.title-block-text__secondary {
+  font-size: var(--font-size-xlarge);
+}
+
 @media screen and (min-width: 720px) {
   .title-block {
     display: grid;
@@ -47,12 +59,4 @@
     width: 100vw;
     height: 100%;
   }
-}
-
-.title-block-text__primary {
-  margin-bottom: var(--spacing-main);
-}
-
-.title-block-text__secondary {
-  font-size: var(--font-size-xlarge);
 }

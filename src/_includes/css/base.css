@@ -530,6 +530,10 @@ section,
   padding-top: 0;
 }
 
+.page-main-content {
+  margin-top: var(--spacing-main);
+}
+
 .section-colour {
   background-color: var(--colour-off-white);
 }
