@@ -558,6 +558,7 @@ section,
 
 .section-label {
   margin-bottom: var(--spacing-main);
+  margin-top: var(--spacing-main);
 }
 
 .section-title {
