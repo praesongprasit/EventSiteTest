@@ -39,11 +39,15 @@
     padding-top: calc(var(--spacing-xlarge) + var(--spacing-small));
   }
 
+  .event-page-title-block .content-wrapper {
+    padding-bottom: var(--spacing-main);
+  }
+
   .event-page__hero {
     position: relative;
     z-index: 1;
     width: calc(100% + var(--spacing-main) + 1px);
-    height: calc(100% + 8px);
+    height: calc(100% + var(--spacing-main) + 8px);
     display: block;
   }
 
