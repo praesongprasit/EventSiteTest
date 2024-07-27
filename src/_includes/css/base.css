@@ -525,8 +525,9 @@ section,
   padding-bottom: var(--spacing-large);
 }
 
-.section.page-title-block {
+.section.content-wrapper.page-title-block {
   padding-bottom: 0;
+  padding-top: 0;
 }
 
 .section-colour {

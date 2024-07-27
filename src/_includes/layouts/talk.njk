@@ -12,9 +12,9 @@
 {% endcss %}
 
 {% block pageHeader %}
-  <div class="talk-page__heading">
-    <div class="talk-page__title-wrap">
-      <div class="talk-page__title">
+  <div class="title-block">
+    <div class="title-block-text-wrapper">
+      <div class="title-block-text__primary">
         <h1 class="page-title">
           {{ talkTitle }}
         </h1>
@@ -23,11 +23,11 @@
         {% endif %}
       </div>
 
-      <p class="talk-page__subtitle">
+      <p class="title-block-text__secondary">
         {{ speaker }}
       </p>
 
-      <p class="talk-page__subtitle--secondary">
+      <p>
         {%if talkStartTime %}
           {{ talkStartTime | readableTime }} - {{ talkEndTime | readableTime }} on
           <time datetime="{{ talkStartTime | iso8601Date }}">{{ talkStartTime | readableDate }}</time>, 
@@ -36,7 +36,7 @@
       </p>
     </div>
 
-    <div class="talk-page__colour-block"></div>
+    <div class="title-block__colour-block title-block__colour-block--light"></div>
   </div>
 {% endblock %}
 

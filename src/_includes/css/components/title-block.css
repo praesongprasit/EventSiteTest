@@ -4,17 +4,18 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1.25rem;
     position: relative;
-
-    --title-block-colour: var(--colour-dark-orange);
   }
 
   .title-block-text-wrapper {
     grid-row: 1;
     grid-column: span 3 / -1;
     z-index: 2;
-    padding-right: 27%;
     padding-top: var(--spacing-xlarge);
     padding-bottom: var(--spacing-xlarge);
+  }
+
+  .title-block:has(.profile-page__picture-wrap) .title-block-text-wrapper {
+    padding-right: 27%;
   }
 
   .title-block-text-wrapper *:last-child {
@@ -22,9 +23,15 @@
   }
 
   .title-block__colour-block {
+    --title-block-colour: var(--colour-dark-orange);
+
     background-color: var(--title-block-colour);
     grid-row-start: 1;
     grid-column-start: 3;
+  }
+
+  .title-block__colour-block--light {
+    --title-block-colour: var(--colour-yellow);
   }
 
   .title-block__colour-block::after {
