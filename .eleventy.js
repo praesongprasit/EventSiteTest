@@ -138,27 +138,18 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => a.data.order - b.data.order);
   });
 
-  eleventyConfig.addFilter(
-    "filterTalkBySpeaker",
-    function (collection, speakerKey) {
-      if (!speakerKey) return collection;
-      const filtered = collection.filter(
-        (item) => item.page.fileSlug == speakerKey
-      );
-      return filtered;
-    }
-  );
+  eleventyConfig.addFilter("getSpeakersOfTalk", (collection, speakerKey) => {
+    return collection.filter((speaker) =>
+      speakerKey.includes(speaker.page.fileSlug)
+    );
+  });
 
-  eleventyConfig.addFilter(
-    "filterSpeakerName",
-    function (collection, speakerKey) {
-      if (!speakerKey) return collection;
-      const filtered = collection.filter(
-        (item) => item.data.speakerKey == speakerKey
-      );
-      return filtered;
-    }
-  );
+  eleventyConfig.addFilter("getTalksBySpeaker", (collection, speakerKey) => {
+    return collection.filter((talk) => {
+      if (!talk.data.speakerKey) return false;
+      return talk.data.speakerKey.includes(speakerKey);
+    });
+  });
 
   // TODO: Reduce duplication for these settings
   // For 2023 speakers

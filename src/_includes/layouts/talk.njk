@@ -49,9 +49,11 @@
     </div>
 
     <aside class="column-two">
-      {%- for speaker in collections.speakers | filterTalkBySpeaker(speakerKey) -%}
-        {{ card(speaker, horizontal='true') }}
-      {%- endfor -%}
+      <ul class="cards">
+        {%- for speaker in collections.speakers | getSpeakersOfTalk(speakerKey) -%}
+          {{ card(speaker, horizontal='true') }}
+        {%- endfor -%}
+      </ul>
     </aside>
   </div>
 
