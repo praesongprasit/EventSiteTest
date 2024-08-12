@@ -1,7 +1,7 @@
 ---
 event: "NZ Tech Rally 2024"
 speaker: Patricia Tan & Rod Acevedo
-speakerKey: rod-acevedo
+speakerKey: ["patricia-tan", "rod-acevedo"]
 talkTitle: Leveraging your team's identity
 talkExcerpt: "  
 <p>Converging identity, culture, and lived experiences in design.</p> 
