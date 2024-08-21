@@ -8,9 +8,7 @@ talkExcerpt: "
 
 <p>Nav is changing tact with an alternative style of talk, one that proclaims advice in the style of the Kenny Rogers classic, The Gambler.</p>
 
-<p>You’ll learn when to hold, when to fold and when to walk away from the moments that can burn you.
-
-</p>
+<p>You’ll learn when to hold, when to fold and when to walk away from the moments that can burn you.</p>
 "
 talkStartTime:
 talkEndTime:
