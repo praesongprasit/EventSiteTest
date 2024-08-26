@@ -1,5 +1,7 @@
----
-fullName: Jenny Sahng
+--- 
+firstName: Jenny
+lastName: Sahng
+pronouns: She/Her
 jobTitle: Data & Founding team
 organisation: Multitudes
 bio: "<p>Jenny is a data enthusiast and product lead of a Kiwi team analytics startup, Multitudes, which provides ethical engineering metrics. Having a keen interest in how technology impacts our world, she is interested in exploring how we can use data in ways that are not reductive but empowering. Before Multitudes, she built data products at Xero.</p>

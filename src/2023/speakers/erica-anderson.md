@@ -1,5 +1,7 @@
 ---
-fullName: Erica Anderson
+firstName: Erica
+lastName: Anderson
+pronouns: She/Her
 jobTitle: COO and Co-Founder
 organisation: SafeStack
 bio: "<p>

@@ -1,5 +1,7 @@
 ---
-fullName: Katrina Clokie
+firstName: Katrina
+lastName: Clokie
+pronouns: She/Her
 jobTitle: CTO
 organisation: Fergus
 bio: "<p>Katrina moved into engineering leadership from a varied career in individual contributor roles across software development, solution delivery engineering, and testing. She became “famous” in the international testing community as the author of A Practical Guide to Testing in DevOps, an international keynote speaker, a co-founder of the WeTest New Zealand testing community, the founder of Testing Trapeze magazine, and a prolific testing blogger and tweeter back when those platforms were popular.</p>

@@ -1,5 +1,7 @@
 ---
-fullName: Rachel Collingridge
+firstName: Rachel
+lastName: Collingridge
+pronouns: She/Her
 jobTitle: VP of Engineering
 organisation: Cogo
 profileUrl:

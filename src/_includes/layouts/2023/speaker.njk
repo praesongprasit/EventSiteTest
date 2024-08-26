@@ -3,7 +3,7 @@
 
 {% set excludeSponsors = true %}
 {% set contentType = contentType %}
-{% set title = talkTitle + ' by ' + fullName %}
+{% set title = talkTitle + ' by ' + firstName + ' ' + lastName %}
 {% set description = talkExcerpt %}
 {% set pageIcon = 'person' %}
 
@@ -15,7 +15,8 @@
 
 {% block pageHeader %}
   <h1 class="section-title">
-    {{ fullName }}
+    {{ firstName }}
+    {{ lastName }}
     {% svg "person_outline" %}
   </h1>
 {% endblock %}
@@ -30,7 +31,8 @@
 
       <div class="card-profile__info">
         <p class="card-title card-profile__name">
-          {{ fullName }}
+          {{ firstName }}
+          {{ lastName }}
         </p>
 
         <p>

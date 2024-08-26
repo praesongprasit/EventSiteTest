@@ -1,5 +1,7 @@
 ---
-fullName: Jade Thomas
+firstName: Jade
+lastName: Thomas
+pronouns: He/Him
 jobTitle: Engineering Manager Online Channels
 organisation: BNZ
 bio: "<p>After a couple of decades of software development, Jade accidentally found himself in an engineering leadership role. Initially not keen on the engineering manager title, as he never saw himself as a manager, but enticed by the hope of having some influence in building a better environment for engineers to flourish. Jade fights to keep the management part of the role to a minimum while trying to stay relevant and valuable to engineers.</p>

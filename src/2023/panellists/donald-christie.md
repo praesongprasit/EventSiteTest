@@ -1,5 +1,7 @@
 ---
-fullName: Donald Christie
+firstName: Donald
+lastName: Christie
+pronouns: He/Him
 jobTitle: Managing Director
 organisation: Catalyst IT
 profileUrl:

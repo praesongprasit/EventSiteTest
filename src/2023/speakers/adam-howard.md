@@ -1,5 +1,7 @@
 ---
-fullName: Adam Howard
+firstName: Adam
+lastName: Howard
+pronouns: He/Him
 jobTitle: Engineering Manager
 organisation:
 bio: "<p>Adam is a quality engineering specialist, and is passionate about continually improving how teams are able to rapidly deliver quality software products.</p>

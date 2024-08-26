@@ -1,5 +1,7 @@
 ---
-fullName: Rahul Watson Govindan
+firstName: Rahul Watson
+lastName: Govindan
+pronouns: He/Him
 jobTitle: Director, Investor and Technology Addict
 organisation:
 profileUrl:
@@ -216,7 +218,6 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 <p>One sort of, protocol or tikanga that's being brought into Catalyst, which I think is a really helpful one is whakawhanaungatanga. This is basically about people sitting around, talking to each other, and making connections. And as an introduction to a group of people or a group of people that maybe don't meet together, outside their normal work day. </p>
 <p>So you might have your stand-ups every morning, but you never talk about each other or talk about that special thing that identifies you to your peers. And those, that's amazing and most cultures have something like whakawhanaungatanga to be to be fair, but bringing it in and and doing it purposefully is a great way of making connections and understanding people and understanding maybe what will upset them or what will delight them. And you kind of wanna end up in the delight thing. </p>
 <p>One of the downsides of being as passionate as we are at Catalyst, is that sense of righteousness that comes with it. And you'll probably remember this, Aaron, you were the first QA person we ever employed. Imagine Aaron having to come into a bunch of know-it-all engineers, and tell them that they bug it up. </p>
-
 
 <p>Aaron: Everything I learned about diplomacy, I learned it at Catalyst. </p>
 <p>Rahul: I think, yeah, the safety is, perhaps a relatively modern term for it, but, I think about, what gets measured and what gets modelled. </p>

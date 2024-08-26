@@ -1,5 +1,7 @@
 ---
-fullName: Aaron Hodder
+firstName: Aaron
+lastName: Hodder
+pronouns: He/Him
 jobTitle: Associate Director
 organisation: Deloitte
 profileUrl: 

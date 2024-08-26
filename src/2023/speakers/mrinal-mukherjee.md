@@ -1,5 +1,7 @@
 ---
-fullName: Mrinal Mukherjee
+firstName: Mrinal
+lastName: Mukherjee
+pronouns: He/Him
 jobTitle: Engineering Manager
 organisation: BNZ
 bio: "<p>Having started his career as a developer, Mrinal has been across the globe working in various consulting and product organisations and has been in leadership roles for quite a few years. </p>

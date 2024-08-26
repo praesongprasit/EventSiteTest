@@ -1,5 +1,7 @@
 ---
-fullName: Allen Geer
+firstName: Allen
+lastName: Geer
+pronouns: He/Him
 jobTitle: Cloud Platforms and Engineering Practice Lead
 organisation: Provoke
 bio: "<p>For the last 6 years he has been helping New Zealand organisations modernise business processes and applications leveraging DevOps practices as well as public cloud platforms.</p>

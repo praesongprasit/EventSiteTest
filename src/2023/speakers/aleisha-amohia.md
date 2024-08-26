@@ -1,5 +1,7 @@
 ---
-fullName: Aleisha Amohia
+firstName: Aleisha
+lastName: Amohia
+pronouns: She/Her
 jobTitle: Koha Technical Lead
 organisation: Catalyst IT
 bio: "<p>Aleisha Amohia is a passionate young advocate for diversity and equity, sparked by her experiences as a young Māori-Asian woman in the technology industry.</p>
