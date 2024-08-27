@@ -2,7 +2,7 @@
 firstName: Patricia
 lastName: Tan
 pronouns: She/Her
-jobTitle: "Senior product designer"
+jobTitle: "Senior Product Designer"
 organisation: "RUSH Digital"
 profileUrl:
   [
