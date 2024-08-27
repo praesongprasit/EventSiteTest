@@ -2,7 +2,7 @@
 firstName: Julia
 lastName: Bower
 pronouns: She/Her
-jobTitle: "Co-Founder and Engineer"
+jobTitle: "Co-Founder & Engineer"
 organisation: "The Fractional Directory & Serko"
 profileUrl:
   [{ "name": "LinkedIn", "url": "https://www.linkedin.com/in/julialbower" }]

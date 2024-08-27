@@ -2,7 +2,7 @@
 firstName: Bron
 lastName: Thomson
 pronouns: She/Her
-jobTitle: "Founder and Co-CEO"
+jobTitle: "Founder & Co-CEO"
 organisation: "Springload"
 profileUrl:
   [
