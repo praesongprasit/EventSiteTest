@@ -8,13 +8,13 @@ talkExcerpt: "
 
 <p>Lessons from Runn's experience of radical transparency and trust.</p>
 "
-talkStartTime:
-talkEndTime:
+talkStartTime: 2024-11-22T14:15:00.000+13
+talkEndTime: 2024-11-22T14:45:00.000+13
+contentLength: 25 mins
 featuredImage:
 featuredImageAlt:
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
 talkRecordingID:
-contentLength: 25 min
 ---

@@ -10,13 +10,13 @@ talkExcerpt: "
 
 <p>You’ll learn when to hold, when to fold and when to walk away from the moments that can burn you.</p>
 "
-talkStartTime:
-talkEndTime:
+talkStartTime: 2024-11-22T11:45:00.000+13
+talkEndTime: 2024-11-22T12:15:00.000+13
+contentLength: 25 mins
 featuredImage:
 featuredImageAlt:
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
 talkRecordingID:
-talkLength: 25 min
 ---

@@ -10,13 +10,13 @@ talkExcerpt: "
 
 <p>Discover practical strategies for companies to support and nurture immigrant talent, tapping into the diverse perspectives that drive innovation. Join us for an inspiring look at design through an immigrant's lens, and gain actionable insights to create a more inclusive, creative workplace that harnesses the power of cultural diversity.</p>
 "
-talkStartTime:
-talkEndTime:
+talkStartTime: 2024-11-22T10:00:00.000+13
+talkEndTime: 2024-11-22T10:30:00.000+13
+contentLength: 25 mins
 featuredImage:
 featuredImageAlt:
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
 talkRecordingID:
-talkLength: 25 min
 ---

@@ -10,7 +10,7 @@ talkExcerpt: "
 "
 talkStartTime: 2024-11-22T09:15:00.000+13
 talkEndTime: 2024-11-22T10:00:00.000+13
-contentLength: 45 mins
+contentLength: 40 mins
 featuredImage:
 featuredImageAlt:
 featuredImageType: image/png
