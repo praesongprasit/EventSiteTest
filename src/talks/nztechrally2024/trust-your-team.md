@@ -2,7 +2,7 @@
 event: "NZ Tech Rally 2024"
 speaker: Rowan Savage
 speakerKey: rowan-savage
-talkTitle: Trust your team
+talkTitle: Runn's Radical Transparency & Trust
 talkExcerpt: "  
 <p>Words like trust and transparency get thrown around - but how valuable are they, and what difference can they make to the success of your team and your business?</p>
 
