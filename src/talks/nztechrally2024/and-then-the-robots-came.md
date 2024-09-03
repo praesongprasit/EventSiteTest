@@ -10,9 +10,9 @@ talkExcerpt: "<p>Since Covid hit the world of work has fundamentally changed. Ho
 talkStartTime: 2024-11-22T11:15:00.000+13
 talkEndTime: 2024-11-22T11:45:00.000+13
 contentLength: 25 mins
-featuredImage:
-featuredImageAlt:
-featuredImageType: image/png
+featuredImage: /assets/images/talks/2024/and-then-the-robots-came.jpg
+featuredImageAlt: "NZ Tech Rally. And then the robots came. A talk by Bron Thomson, Founder and Co-CEO @ Springload. Friday 22nd November 2024 @ Tākina, Wellington"
+featuredImageType: image/jpg
 featuredImageWidth: 1200
 featuredImageHeight: 630
 talkRecordingID:

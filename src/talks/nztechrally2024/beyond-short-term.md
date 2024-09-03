@@ -11,9 +11,9 @@ talkExcerpt: "
 talkStartTime: 2024-11-22T09:15:00.000+13
 talkEndTime: 2024-11-22T10:00:00.000+13
 contentLength: 40 mins
-featuredImage:
-featuredImageAlt:
-featuredImageType: image/png
+featuredImage: /assets/images/talks/2024/beyond-short-term.jpg
+featuredImageAlt: "NZ Tech Rally. Beyond short-term gains: future-proofing Aotearoa's talent pipeline. A talk by Ruth McDavitt, CEO @ Summer of Tech. Friday 22nd November 2024 @ Tākina, Wellington"
+featuredImageType: image/jpg
 featuredImageWidth: 1200
 featuredImageHeight: 630
 talkRecordingID:
