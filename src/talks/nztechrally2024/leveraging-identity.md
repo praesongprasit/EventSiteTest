@@ -13,7 +13,7 @@ talkExcerpt: "
 talkStartTime: 2024-11-22T10:00:00.000+13
 talkEndTime: 2024-11-22T10:30:00.000+13
 contentLength: 25 mins
-featuredImage: /assets/images/talks/2024/leveraging-identity.png
+featuredImage: /assets/images/talks/2024/leveraging-identity.jpg
 featuredImageAlt: "NZ Tech Rally. Leveraging your team's identity. A talk by Patricia Tan, Senior Product Designer & Rod Acevedo, Design Lead @ RUSH Digital. Friday 22nd November 2024 @ Tākina, Wellington"
 featuredImageType: image/jpg
 featuredImageWidth: 1200

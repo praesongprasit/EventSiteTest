@@ -13,7 +13,7 @@ talkExcerpt: "
 talkStartTime: 2024-11-22T11:45:00.000+13
 talkEndTime: 2024-11-22T12:15:00.000+13
 contentLength: 25 mins
-featuredImage: /assets/images/talks/2024/hold-fold-walkaway.png
+featuredImage: /assets/images/talks/2024/hold-fold-walkaway.jpg
 featuredImageAlt: "NZ Tech Rally. Hold, fold or walk away: Navigating  burnout 
 like The Gambler. A talk by Nav Rao, Product Engineer. Friday 22nd November 2024 @ Tākina, Wellington"
 featuredImageType: image/jpg
