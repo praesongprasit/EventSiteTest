@@ -9,7 +9,8 @@
 
 .card-content__picture {
   display: block;
-  width: 100%;
+  padding-left: 8px;
+  width: calc(100% - 8px);
   background-color: #e5d8cd;
 }
 
