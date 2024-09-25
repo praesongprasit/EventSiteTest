@@ -3,7 +3,7 @@
 
 {% set contentType = contentType %}
 {% set excludeSponsors = true %}
-{% set title = fullName + ' - ' + role + ' of NZ Tech Rally' %}
+{% set title = firstName + ' ' + lastName + ' - ' + role + ' of NZ Tech Rally' %}
 {% set pageIcon = 'person' %}
 
 {%- css %}
@@ -14,7 +14,8 @@
 
 {% block pageHeader %}
   <h1 class="section-title">
-    {{ fullName }}
+    {{ firstName }}
+    {{ lastName }}
     {% svg "person_outline" %}
   </h1>
 {% endblock %}
@@ -29,7 +30,8 @@
 
       <div class="card-profile__info">
         <p class="card-title card-profile__name">
-          {{ fullName }}
+          {{ firstName }}
+          {{ lastName }}
         </p>
 
         <p>
