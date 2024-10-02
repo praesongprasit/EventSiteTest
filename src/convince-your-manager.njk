@@ -1,87 +1,110 @@
 ---
 tags: page
-title: Convince your manager template
-description: Highlight how attending NZ Tech Rally can benefit your career to your manager
+title: Budget proposal template
+description: Highlight how attending NZ Tech Rally can benefit your career and your employer
 ---
-{% extends 'layouts/page-foundation.njk' %}
+
+{% extends 'layouts/page-foundation-long-form.njk' %}
 
 {% block pageHeader %}
-  <h1 class="section-title">
-    {{ title }}
-  </h1>
-{% endblock %}
-
-{% block pageIntro %}
-  <div class="text-indent">
-    <p>
-      Coming soon
-    </p>
+  <div class="title-block-text__primary">
+    <h1 class="page-title">
+      {{ title }}
+    </h1>
   </div>
+
+  <p>
+    {{ description }}
+  </p>
 {% endblock %}
 
 {% block content %}
-  <section>
-    {# <h2 class="section-title accent-border">
-      Why I want to attend NZ Tech Rally
-    </h2>
+  <section class="columns columns-two-thirds">
+    <div class="column-one">
+      <div class="section-label accent-border">
+        <h2 class="section-title">
+          Subject: Request for approval and budget to attend NZ Tech Rally 2024
+        </h2>
+      </div>
 
-    <div class="text-indent">
-      <p>
-        Dear <code>[Manager]</code>,
-      </p>
-      <p>
-        I am writing to request for approval and financial assistance to attend the upcoming NZ Tech Rally 2023. It’s a software engineering conference which is taking place on 7th July at Victoria University, Wellington. 
-      </p>
-      <p>
-        <a href="{{ site.url }}">NZ Tech Rally</a> is a community-driven platform which focuses on empowering the local community to build, share, uplift, and showcase Kiwi software engineering culture.
-      </p>
-      <p>
-        Their flagship conference will be a great opportunity to hear how other inspiring local talents address different engineering concerns in the NZ context. Some of those ideas might be applicable to our organisation.
-      </p>
-      <p>
-        This year’s lineup of <a href="{{ '/speakers' | absoluteUrl(site.url) }}">speakers</a> features some of the most impressive and celebrated individuals and contributors within NZ tech community. I am really excited to hear their takes and insights on how to create a more inclusive and thriving engineering culture. I am also looking forward to the hour-long panel discussion on the <strong>conference theme</strong>:
-      </p>
-      <p>
-        <q>
-          What does great software engineering culture look like, and how have Kiwis done it?
-        </q>
-      </p>
-      <p>
-        <strong>Topics being covered are:</strong>
-      </p>
-      <ul>
-        <li>Engineering metrics</li>
-        <li>DevOps practices </li>
-        <li>Security culture</li>
-        <li>Quality engineering </li>
-        <li>Open-source culture</li>
-        <li>Growing into engineering leadership</li>
-        <li>Large-scale digital transformation</li>
-      </ul>
-      <p>
-        While attending NZ Tech Rally, I'll also have the opportunity to network with hundreds of peers from all over NZ and learn more about how they are solving similar challenges to ours.
-      </p>
-      <p>
-        <strong>Costs</strong>
-      </p>
-      <p>Fees include food. Sale closes 30th June 2023.</p>
-      <ul>
-        <li>$200 standard ticket</li>
-        <li>$170 early bird ticket</li>
-        <li>$200 standard ticket</li>
-        <li>$220 last minute ticket</li>
-        <li>$20 discount per ticket applies when purchasing four tickets or more</li>
-      </ul>
-      <p>
-        If you feel that other colleagues would also benefit from attending this conference, then we can save more on the ticket price by buying tickets together as a group.
-      </p>
-      <p>
-        I really appreciate your time considering my request. I see this conference as an investment in my professional development and couldn't be more excited to attend. I’d be happy to share my learnings, business advantages, costs, and logistics with you and the wider group in more detail if needed.
-      </p>
-      <p>Regards,</p>
-      <p>
-        Yours truly <code>[Your_Name]</code>
-      </p>
+      <div class="text-indent">
+        <p>
+          Dear [Manager/Approver],
+        </p>
+        <p>
+          I would like to request for approval and financial assistance to attend <a href="{{ site.url }}">NZ Tech Rally 2024</a> in-person.
+        </p>
+        <p>
+          <strong>Date</strong>: Friday, 22nd November 2024<br>
+          <strong>Time</strong>: 8.00am to 5.00pm<br>
+          <strong>Venue</strong>: <a href="https://maps.app.goo.gl/7tDn5HZsETaZC2mt7">Tākina Wellington Convention and Exhibition Centre</a>, Wellington, New Zealand
+        </p>
+        <p>
+          This is one of the few tech conferences in Wellington, where our whole software team (Product, Engineering, Management) can go together.
+        </p>
+        <p>
+          <a href="{{ '/about' | url }}">NZ Tech Rally</a>, a group who uplift, share, and showcase talents in Kiwi software community. Its mission aligns with our company and my values. Their conferences always focus on practical and real-life experience in the NZ context. Which means lessons will be more applicable to our operations in NZ.
+        </p>
+
+        <h3>
+          Why this year’s content will be great for our company
+        </h3>
+        <p>This year's topic focus on different ways we can prepare individuals, teams, organisations, and industry for next year's changes. Some of the unique lessons includes:</p>
+        <ul>
+          <li>Ways to harness diversity within our team</li>
+          <li>Creating a resilient tech team</li>
+          <li>Making strategic career choices</li>
+          <li>Understand how and why management makes pivoting decisions</li>
+          <li>How radical transparency works in a real Kiwi software firm</li>
+          <li>Practical approach to handling burn out</li>
+        </ul>
+        <p>
+          While attending NZ Tech Rally, I'll also have the opportunity to network with hundreds of peers from all over NZ and learn more about how they are solving similar challenges to ours.
+        </p>
+
+        <h3>
+          How this will develop my career
+        </h3>
+        <p>I would love an opportunity to grow in our company. I believe this conference will:</p>
+        <ul>
+          <li>Allow me to mentor and be mentored by others via career building activities during breaks</li>
+          <li>Expose me to diverse software and career approaches by experts working in different parts of software lifecycle, at different seniority</li>
+          <li>Let me interact with and learn from other software professionals, who cares about growing sustainably together, through career coaching activities</li>
+          <li>Give me an opportunity to validate my progress and lessons learnt while working at our company</li>
+        </ul>
+
+        <h3>
+          Conference costs
+        </h3>
+        <p>Fees include registration and food for the whole day.</p>
+        <ul>
+          <li>$170-220 per ticket</li>
+          <li>$20 bulk discount per ticket applies when purchasing 4 tickets or more. So we save when buying tickets as a group.</li>
+        </ul>
+
+        <h3>
+          Travel &amp; accommodation cost (optional)
+        </h3>
+        <p>
+          In order to attend the conference, I will need to travel to Wellington. To ensure that I’ll be able to absorb as much knowledge and experience as I could, I’d also need accommodation before and after.
+        </p>
+        <ul>
+          <li>$200 return flights</li>
+          <li>
+            $400 discounted two nights accommodation through <a href="https://search.travelclick.com/ZOR?&identifier=NZTR">NZ Tech Rally's official hotel partner</a>
+          </li>
+        </ul>
+
+        <p>
+          I see this as an investment in my professional development and couldn't be more excited to attend. I’d be happy to share lessons, business advantages, and logistics with you and the wider group.
+        </p>
+        <p>
+          I really appreciate your time considering my request. 
+        </p>
+        <p>
+          Yours sincerely,
+        </p>
+      </div>
     </div>
-  </section> #}
-  {% endblock %}
+  </section>
+{% endblock %}
