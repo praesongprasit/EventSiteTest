@@ -13,9 +13,9 @@ talkExcerpt: "
 talkStartTime: 2024-11-22T15:35:00.000+13
 talkEndTime: 2024-11-22T16:15:00.000+13
 contentLength: 45 mins
-featuredImage: 
-featuredImageAlt: 
-featuredImageType: image/jpg
+featuredImage: /assets/images/talks/2024/nothing-new-under-the-sun.png
+featuredImageAlt: "NZ Tech Rally. Nothing new under the sun; stability through change. A talk by Rachel Collingridge, Head of Engineering @ Totara. Friday 22nd November 2024 @ Tākina, Wellington"
+featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
 talkRecordingID:
