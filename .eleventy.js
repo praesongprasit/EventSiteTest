@@ -119,7 +119,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection("speakers2024", (collection) => {
-    return collection.getFilteredByTag("speaker2024");
+    return collection.getFilteredByTag("speaker2025");
   });
 
   eleventyConfig.addCollection("panellists", (collection) => {

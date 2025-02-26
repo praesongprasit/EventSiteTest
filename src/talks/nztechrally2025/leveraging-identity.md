@@ -10,9 +10,6 @@ talkExcerpt: "
 
 <p>Discover practical strategies for companies to support and nurture immigrant talent, tapping into the diverse perspectives that drive innovation. Join us for an inspiring look at design through an immigrant's lens, and gain actionable insights to create a more inclusive, creative workplace that harnesses the power of cultural diversity.</p>
 "
-talkStartTime: 2025-05-16T10:00:00.000+13
-talkEndTime: 2025-05-16T10:30:00.000+13
-contentLength: 25 mins
 featuredImage: /assets/images/talks/2024/leveraging-identity.jpg
 featuredImageAlt: "NZ Tech Rally. Leveraging your team's identity. A talk by Patricia Tan, Senior Product Designer & Rod Acevedo, Design Lead @ RUSH Digital. Friday 16th May 2025 @ Tākina, Wellington"
 featuredImageType: image/jpg
