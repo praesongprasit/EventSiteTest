@@ -10,9 +10,6 @@ talkExcerpt: "
 
 <p>In this talk, Rachel will explore how psychology, biology, and music offer insights into how we can keep moving forward as leaders and practitioners in the tech world.</p>
 "
-talkStartTime: 2025-05-16T15:35:00.000+13
-talkEndTime: 2025-05-16T16:15:00.000+13
-contentLength: 45 mins
 featuredImage: /assets/images/talks/2024/nothing-new-under-the-sun.png
 featuredImageAlt: "NZ Tech Rally. Nothing new under the sun; stability through change. A talk by Rachel Collingridge, Head of Engineering @ Totara. Friday 16th May 2025 @ Tākina, Wellington"
 featuredImageType: image/png

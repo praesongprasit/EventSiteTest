@@ -8,9 +8,6 @@ talkExcerpt: "
 
 <p>Lessons from Runn's experience of radical transparency and trust.</p>
 "
-talkStartTime: 2025-05-16T14:15:00.000+13
-talkEndTime: 2025-05-16T14:45:00.000+13
-contentLength: 25 mins
 featuredImage: /assets/images/talks/2024/trust-your-team.jpg
 featuredImageAlt: "NZ Tech Rally. Runn's radical transparency & trust. A talk by A talk by Rowan Savage, Co-founder & CTO @ Runn.io. Friday 16th May 2025 @ Tākina, Wellington"
 featuredImageType: image/jpg
