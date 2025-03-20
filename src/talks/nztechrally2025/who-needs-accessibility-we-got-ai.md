@@ -9,9 +9,9 @@ talkExcerpt: "
 <p>This talk explores the benefits and pitfalls of AI in achieving accessibility. We'll look at real world cases of how AI can be used to help accessibility initiatives, and areas where we need to be weary. How can we leverage this new technology to increase access? Hint: it's not what you think!</p>
 "
 featuredImage: 
-featuredImageAlt: "NZ Tech Rally. Who needs accessibility? We've got AI!. A talk by A talk by Maia Miller, Managing Director @ Aleph Accessibility. Friday 16th May 2025 @ Tākina, Wellington"
-featuredImageType: image/jpg
-featuredImageWidth: 1200
-featuredImageHeight: 630
+featuredImageAlt:
+featuredImageType:
+featuredImageWidth:
+featuredImageHeight:
 talkRecordingID:
 ---
