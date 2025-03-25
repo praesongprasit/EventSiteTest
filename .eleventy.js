@@ -132,6 +132,18 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => a.data.order - b.data.order);
   });
 
+  eleventyConfig.addFilter("getCurrentCrew", (collection, crewAtEvent) => {
+    return collection.filter((crew) =>
+      crew.data.crewAtEvent.includes(crewAtEvent)
+    );
+  });
+
+  eleventyConfig.addFilter("getPastCrew", (collection, crewAtEvent) => {
+    return collection.filter(
+      (crew) => !crew.data.crewAtEvent.includes(crewAtEvent)
+    );
+  });
+
   eleventyConfig.addCollection("talks", (collection) => {
     return collection
       .getFilteredByTag("talk")
