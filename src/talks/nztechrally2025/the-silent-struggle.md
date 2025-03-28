@@ -10,10 +10,10 @@ talkExcerpt: "
 
 <p>She will also discuss how to identify and navigate imposter syndrome in both yourself and others, and how to foster open and transparent conversations to be able build confidence and no longer suffer in silence.</p>
 "
-featuredImage: 
-featuredImageAlt:
-featuredImageType: 
-featuredImageWidth: 
-featuredImageHeight:
+featuredImage: /assets/images/talks/2025/the-silent-struggle.jpg
+featuredImageAlt: "Claire's picture with text: NZ Tech Rally. The silent struggle. Overcoming imposter syndrome and finding my place in Tech. A talk by Claire Sole, Engineering Lead @ Bank of New Zealand"
+featuredImageType: image/jpg
+featuredImageWidth: 1280
+featuredImageHeight: 720
 talkRecordingID:        
 ---

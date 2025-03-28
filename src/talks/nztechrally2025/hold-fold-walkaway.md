@@ -10,10 +10,10 @@ talkExcerpt: "
 
 <p>You’ll learn when to hold, when to fold and when to walk away from the moments that can burn you.</p>
 "
-featuredImage:
-featuredImageAlt:
-featuredImageType:
-featuredImageWidth:
-featuredImageHeight:
+featuredImage: /assets/images/talks/2025/hold-fold-walkaway.jpg
+featuredImageAlt: "Nav's picture with text: NZ Tech Rally. Hold, fold or walk away. Navigating  burnout like The Gambler. A talk by Nav Rao, Product Engineer"
+featuredImageType: image/jpg
+featuredImageWidth: 1280
+featuredImageHeight: 720
 talkRecordingID:
 ---
