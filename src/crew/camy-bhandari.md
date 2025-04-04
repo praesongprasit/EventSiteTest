@@ -28,7 +28,10 @@ profilePhotoType: image/jpg
 order: 1
 ---
 
-<p>Camy is a Quality Engineering Specialist who has been in tech since 2011 and has worked across several NZ banks, consultancies and a startup.
+<p>
+<p>
+
+Camy is a Quality Engineering Specialist who has been in tech since 2010 and has worked across several NZ banks, consultancies and a startup.
 
 <p>Camy is highly passionate about building strong engineering practices and a thriving engineering culture. She expresses this passion on her YouTube channel <a href='https://www.youtube.com/@techengineeringlounge7795' rel='external'>Tech Engineering Lounge</a>, where she interviews local engineering experts and tech leaders.</p>
 
@@ -36,4 +39,4 @@ order: 1
 
 Camy is currently working as a full-time contract employee as a Senior Test Engineer at the Bank of New Zealand.</p>
 
-<p>When Camy is not at her 9-5 job or busy organising conferences, she spends all her time in the company of her two Rottweilers, her cat, her family and friends at her Wellington urban homestead. She loves practising the art of homemaking through DIYs, interior design and decoration, cooking and baking, growing seasonal veggies and flowers, building beautiful permaculture landscapes and developing her hilly backyard orchard.</p>
+<p>Outside her 9-5 and conference work, Camy is deeply devoted to her personal life. She cherishes time with her pets, loved ones, and home at her mini homestaed in Wellington. Her special interests include DIYs, cooking, gardening, and growing a thriving backyard orchard.</p>
