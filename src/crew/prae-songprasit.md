@@ -9,19 +9,17 @@ jobTitle: Lead Engineer
 profileUrl:
   [
     { "name": "Website", "url": "https://praesongprasit.com/" },
+    { "name": "Blog", "url": "https://clarified.dev/" },
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/pagesongprasit/",
     },
-    {
-      "name": "Bluesky",
-      "url": "https://bsky.app/profile/praesongprasit.bsky.social",
-    },
+    { "name": "Bluesky", "url": "https://bsky.app/profile/praesongprasit.com" },
   ]
 profilePhoto: /assets/images/crew/prae_songprasit.jpg
 profilePhotoAltText: Prae's portrait. A laughing Thai woman with short dark hair and a large pair of dark rimmed glasses.
 profilePhotoType: image/jpg
-order: 2
+order: 1
 ---
 
 <p>Prae is a UX Engineer who is on a mission to help people make more accessible web products.</p>
