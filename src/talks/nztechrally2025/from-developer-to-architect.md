@@ -2,7 +2,7 @@
 event: "NZ Tech Rally 2025"
 speaker: Ben Yu
 speakerKey: ben-yu
-talkTitle: "From Developer to Architect: The ultimate guide to mastering the transition"
+talkTitle: "From developer to architect: the ultimate guide to mastering the transition"
 talkExcerpt: "  
 <p>Transitioning from development to solution architecture requires more than just technical expertise—it demands a shift in mindset, problem-solving approach, and communication skills.</p>
 

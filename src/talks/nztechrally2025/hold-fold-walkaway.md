@@ -2,7 +2,7 @@
 event: "NZ Tech Rally 2025"
 speaker: Nav Rao
 speakerKey: nav-rao
-talkTitle: "Hold, fold or walk away: Navigating burnout like The Gambler"
+talkTitle: "Hold, fold or walk away: navigating burnout like The Gambler"
 talkExcerpt: "  
 <p>Next to imposter syndrome, no topic elicits more oohs and ahhs than burnout. However, much of the advice on navigating burnout is generalised to the point of being vacuous.</p>
 
