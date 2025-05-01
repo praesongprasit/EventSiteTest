@@ -4,14 +4,14 @@ firstName: Fai
 lastName: Songprasit
 pronouns: She/Her
 role: Catering Lead
-jobTitle: Software Engineer
-organisation: Xero
+jobTitle: 
+organisation: 
 profileUrl:
   [{ "name": "LinkedIn", "url": "https://www.linkedin.com/in/fai-songprasit/" }]
 profilePhoto: /assets/images/crew/fai_songprasit.jpg
 profilePhotoAltText: Fai smiling in the middle of a restaurant.
 profilePhotoType: image/jpg
-order: 3
+order: 5
 ---
 
 <p>Fai is a hospo professional turned techie.</p>

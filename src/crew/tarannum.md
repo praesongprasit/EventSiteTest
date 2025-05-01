@@ -9,7 +9,7 @@ profileUrl:
 profilePhoto: /assets/images/crew/tarannum.jpg
 profilePhotoAltText: Tarannum's portrait. She's an Indian woman with dark brown hair and a wearing glasses. She's wearing a blue coloured jumper.
 profilePhotoType: image/jpg
-order: 4
+order: 6
 ---
 
 <p>Tarannum is a data-driven storyteller, endlessly curious about the Cloud and obsessed with Dashboards. 
