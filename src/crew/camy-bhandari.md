@@ -10,7 +10,7 @@ crewAtEvent:
 firstName: Camy
 lastName: Bhandari
 pronouns: She/Her
-role: Co-founder
+role: Lead organiser
 profileUrl:
   [
     {

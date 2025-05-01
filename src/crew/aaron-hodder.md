@@ -10,7 +10,7 @@ crewAtEvent:
 firstName: Aaron
 lastName: Hodder
 pronouns: He/Him
-role: Co-founder
+role: Lead organiser
 jobTitle: 
 organisation: 
 profileUrl:
