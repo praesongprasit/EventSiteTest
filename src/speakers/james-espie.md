@@ -6,7 +6,7 @@ jobTitle: "Engineering Manager"
 organisation: "Fergus"
 profileUrl:
   [
-    { "name": "LinkedIn", "url": "linkedin.com/in/jespie" },
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/jespie" },
     { "name": "JPie newsletter & blog", "url": "https://jpie.nz/newsletter/" },
   ]
 profilePhoto: /assets/images/speakers/james_espie.jpg
