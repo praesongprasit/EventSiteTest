@@ -3,11 +3,14 @@ firstName: Bron
 lastName: Thomson
 pronouns: She/Her
 jobTitle: "Founder & Co-CEO"
-organisation: "Springload"
+organisation: "Springload Te Pipītanga"
 profileUrl:
   [
     { "name": "LinkedIn", "url": "https://www.linkedin.com/in/bron-thomson/" },
-    { "name": "Springload", "url": "https://www.springload.co.nz/" },
+    {
+      "name": "Springload Te Pipītanga",
+      "url": "https://www.springload.co.nz/",
+    },
   ]
 profilePhoto: /assets/images/speakers/bron_thomson.jpg
 profilePhotoAltText: "a tall slender white woman in my 50s, wearing my work jacket and black top smiling at the camera."
