@@ -5,8 +5,13 @@ lastName: Klein
 pronouns: He/Him
 role: MC
 profileUrl:
-  [{ "name": "LinkedIn", "url": "https://www.linkedin.com/in/marcusklein-dev/" }]
-profilePhoto: /assets/images/crew/marcus-klein.jpg
+  [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/marcusklein-dev/",
+    },
+  ]
+profilePhoto: /assets/images/crew/marcus_klein.jpg
 profilePhotoAltText: Marcus's portrait. Marcus is wearing a black t-shirt and glasses.
 profilePhotoType: image/jpg
 order: 3

@@ -6,7 +6,7 @@ pronouns: He/Him
 role: Volunteer
 profileUrl:
   [{ "name": "LinkedIn", "url": "https://www.linkedin.com/in/bencaucci/" }]
-profilePhoto: /assets/images/crew/ben-caucci.jpg
+profilePhoto: /assets/images/crew/ben_caucci.jpg
 profilePhotoAltText: Ben's portrait. Ben is wearing a dark coloured shirt and glasses. He is smiling at the camera.
 profilePhotoType: image/jpg
 order: 7
