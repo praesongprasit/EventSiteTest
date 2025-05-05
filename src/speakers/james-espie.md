@@ -7,7 +7,7 @@ organisation: "Fergus"
 profileUrl:
   [
     { "name": "LinkedIn", "url": "linkedin.com/in/jespie" },
-    { "name": "Blog: JPie newsletter", "url": "https://jpie.nz/newsletter/" },
+    { "name": "JPie newsletter & blog", "url": "https://jpie.nz/newsletter/" },
   ]
 profilePhoto: /assets/images/speakers/james_espie.jpg
 profilePhotoAltText: "A middle aged white man with dark framed glasses, a baseball cap and a long beard, smiling."
