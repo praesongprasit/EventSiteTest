@@ -9,7 +9,7 @@ profileUrl:
     { "name": "LinkedIn", "url": "linkedin.com/in/jespie" },
     { "name": "Blog: JPie newsletter", "url": "https://jpie.nz/newsletter/" },
   ]
-profilePhoto: /assets/images/speakers/james-espie.jpg
+profilePhoto: /assets/images/speakers/james_espie.jpg
 profilePhotoAltText: "A middle aged white man with dark framed glasses, a baseball cap and a long beard, smiling."
 profilePhotoType: image/jpg
 ---
