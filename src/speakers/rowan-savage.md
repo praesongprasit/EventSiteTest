@@ -6,8 +6,8 @@ jobTitle: "Co-founder & CTO"
 organisation: "Runn.io"
 profileUrl:
   [
-    { "name": "Runn.io", "url": "https://runn.io/" },
     { "name": "LinkedIn", "url": "https://www.linkedin.com/in/savagerowan/" },
+    { "name": "Runn.io", "url": "https://runn.io/" },
   ]
 profilePhoto: /assets/images/speakers/rowan_savage.jpg
 profilePhotoAltText: "Rowan’s portrait with Aotearoa’s Kā Tiritiri o te Moana (Southern Alps) in the background."

@@ -6,11 +6,11 @@ jobTitle: "Senior Product Designer"
 organisation: "RUSH Digital"
 profileUrl:
   [
-    { "name": "RUSH Digital", "url": "https://rush.co.nz" },
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/patriciadanielletan/",
     },
+    { "name": "RUSH Digital", "url": "https://rush.co.nz" },
   ]
 profilePhoto: /assets/images/speakers/patricia_tan.jpg
 profilePhotoAltText: "Smiling woman with long dark hair and bangs streaked with green, framed against a light background."
