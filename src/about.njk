@@ -19,6 +19,7 @@ featuredImageHeight:
 
 {%- css %}
   {% include "css/components/card-profile.css" %}
+  {% include "css/components/card-content.css" %}
 {% endcss %}
 
 {% block pageHeader %}
@@ -91,38 +92,49 @@ featuredImageHeight:
         <h2 class="section-title">Values</h2>
       </div>
 
-      <ul class="cards">
-        <li class="card accent-border">
-          <h3>Community focused</h3>
-          <p>We’re here for the NZ software community.</p>
-          <p>We believe in Kiwi ingenuity, and how supportive we can be for one another. So we’ll focus on rallying and strength our community to create a vibrant software sector!</p>
+      <ul class="cards cards-content">
+        <li class="card card-content accent-border">
+          <span class="card-content__info">
+            <h3 class="card-content__name">Community focused</h3>
+            <p>We’re here for the NZ software community.</p>
+            <p>We believe in Kiwi ingenuity, and how supportive we can be for one another. So we’ll focus on rallying and strength our community to create a vibrant software sector!</p>
+          </span>
         </li>
-        <li class="card accent-border">
-          <h3>Inclusive</h3>
-          <p>
-            We want to see more diverse representation of software engineers in New Zealand.
-          </p>
-          <p>
-            We do this through curation of voices from different abilities, career progression, life stages, sexual orientation, and ethnic groups.
-          </p>
-          <p>
-            We long for welcoming and safe spaces for the community to gather, in an accessible and affordable way.
-          </p>
+
+        <li class="card card-content accent-border">
+          <span class="card-content__info">
+            <h3 class="card-content__name">Inclusive</h3>
+            <p>
+              We want to see more diverse representation of software engineers in New Zealand.
+            </p>
+            <p>
+              We do this through curation of voices from different abilities, career progression, life stages, sexual orientation, and ethnic groups.
+            </p>
+            <p>
+              We long for welcoming and safe spaces for the community to gather, in an accessible and affordable way.
+            </p>
+          </span>
         </li>
-        <li class="card accent-border">
-          <h3>Operate with integrity</h3>
-          <p>
-            We believe in saying what’s on our minds and sticking to our principles while serving our community.
-          </p>
+
+        <li class="card card-content accent-border">
+          <span class="card-content__info">
+            <h3 class="card-content__name">Operate with integrity</h3>
+            <p>
+              We believe in saying what’s on our minds and sticking to our principles while serving our community.
+            </p>
+          </span>
         </li>
-        <li class="card accent-border">
-          <h3>Pragmatic</h3>
-          <p>
-            Ideals and theories are great. But it can only be as good the execution.
-          </p>
-          <p>
-            We are all about applicable solutions and relevant content that are well adapted for our NZ software community.
-          </p>
+
+        <li class="card card-content accent-border">
+          <span class="card-content__info">
+            <h3 class="card-content__name">Pragmatic</h3>
+            <p>
+              Ideals and theories are great. But it can only be as good the execution.
+            </p>
+            <p>
+              We are all about applicable solutions and relevant content that are well adapted for our NZ software community.
+            </p>
+          </span>
         </li>
       </ul>
     </section>

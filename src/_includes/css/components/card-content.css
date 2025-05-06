@@ -38,17 +38,13 @@
 }
 
 .card-content__info {
-  padding: var(--spacing-main) var(--spacing-xlarge);
-}
-
-.card-content__info * {
   display: block;
+  padding: var(--spacing-main) var(--spacing-xlarge);
 }
 
 .card-content__info,
 .card-content__info p,
 .card-content__name {
-  margin-bottom: 0;
   font-size: var(--font-size-main);
 }
 
@@ -60,7 +56,7 @@
   margin-top: var(--spacing-small);
 }
 
-/* Profile card - horizontal */
+/* Horizontal with image */
 
 .card-content--horizontal {
   display: flex;
@@ -81,49 +77,7 @@
   padding: var(--spacing-small) var(--spacing-xsmall);
 }
 
-.card .card-content__link {
-  display: block;
-  position: static;
-}
-
-.card .card-content__link::before {
-  content: "";
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.card .card-content__link:focus-visible {
-  box-shadow: none;
-  outline: 0;
-}
-
-.card .card-content__link:focus-visible::before {
-  box-shadow: 0 0 0 2px var(--colour-grey), 0 0 0 5px var(--colour-orange);
-  outline: 1px solid transparent;
-  transition: box-shadow 0.1s;
-}
-
-.card .card-content__link,
-.card .card-content__link * {
-  color: currentColor;
-  text-decoration: none;
-}
-
-.card .card-content__link:visited .card-content__name {
-  color: var(--colour-link-visited);
-}
-
-.card .card-content__link .card-content__name {
-  color: var(--colour-link);
-}
-
-.card .card-content__link:hover .card-content__name {
-  text-decoration: underline;
-}
+/* Grid layout */
 
 .cards-content {
   display: grid;
