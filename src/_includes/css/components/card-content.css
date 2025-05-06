@@ -142,13 +142,14 @@
     column-gap: 1.25rem;
   }
 
-  .cards-content--four-columns {
-    grid-template-columns: repeat(4, 1fr);
+  .cards-content--three-columns {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.25rem;
   }
 }
 
 @media screen and (min-width: 780px) {
-  .cards-content {
+  .cards-content--three-columns {
     grid-template-columns: repeat(3, 1fr);
   }
 
