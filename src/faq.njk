@@ -5,6 +5,10 @@ description: Up-to-date list of things people of asked us about NZ Tech Rally 20
 ---
 {% extends 'layouts/page-foundation-long-form.njk' %}
 
+{%- css %}
+{% include "css/components/card-content.css" %}
+{% endcss %}
+
 {% block pageHeader %}
   <div class="title-block-text__primary">
     <h1 class="page-title">
@@ -307,13 +311,26 @@ description: Up-to-date list of things people of asked us about NZ Tech Rally 20
       </div>
 
       <div class="section-label accent-border">
-        <h3 id="activities" class="section-title">Break-time activities</h3>
+        <h3 id="activities" class="section-title">Break-time career enhancing activities</h3>
       </div>
 
       <div class="text-indent">
         <p>
-          More info coming soon, stay tuned.     
+          We want to make sure that you get the most out of your time at the conference. So we have a few career activities lined up for you during breaks.
         </p>
+        <ul>
+          <li>
+          CV Clinic by <a href="https://writegroup.io/" rel="external">Write</a>
+          </li>
+
+          <li>
+          Mentor-mentee speed matching by <a href="https://www.summeroftech.co.nz/" rel="external">Summer of Tech</a>
+          </li>
+
+          <li>
+          $50 professional headshot by Steve Montgomery @ <a href="https://profilephotos.nz/" rel="external">Profile Photos</a>
+          </li>
+        </ul>
       </div>
 
       <div class="section-label accent-border">
