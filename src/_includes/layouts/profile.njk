@@ -1,5 +1,5 @@
 {% extends 'layouts/page-foundation.njk' %}
-{% from 'partials/card-content.njk' import card %}
+{% from 'partials/card-content-link.njk' import card %}
 
 {% set contentType = contentType %}
 {% set title = firstName + ' ' + lastName + ' - Speaker' %}
@@ -8,7 +8,7 @@
 {%- css %}
 {% include "css/components/profile-page.css" %}
 {% include "css/components/profile-links.css" %}
-{% include "css/components/card-content.css" %}
+{% include "css/components/card-content-link.css" %}
 {% include "css/components/video.css" %}
 {% endcss %}
 
@@ -86,7 +86,7 @@
       <h2 class="section-title">{{ firstName }}'s content</h2>
     </div>
 
-    <ul class="cards cards-content cards-content--three-columns">
+    <ul class="cards cards-content-link cards-content-link--three-columns">
       {% for talk in collections.talks | getTalksBySpeaker(page.fileSlug) %}
         {{ card(talk, type='talk') }}
       {% endfor %}

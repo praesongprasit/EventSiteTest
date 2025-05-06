@@ -1,0 +1,159 @@
+/*
+  Content card styles
+  It's an add on to .card styles used liberally through put the site
+*/
+
+.card.card-content-link {
+  padding: 0;
+}
+
+.card-content-link__picture {
+  display: block;
+  padding-left: 8px;
+  width: calc(100% - 8px);
+  background-color: #e5d8cd;
+}
+
+.card-content-link__picture img {
+  display: block;
+  width: 100%;
+}
+
+.card-content-link__picture .icon {
+  display: block;
+  width: 78%;
+  margin: 0 auto;
+  padding: 0 var(--spacing-xsmall);
+  opacity: 60%;
+  stroke: #e5d8cd;
+  stroke-width: 1px;
+  color: var(--colour-pink-darken);
+}
+
+.card-content-link__picture-text {
+  display: block;
+  font-size: 0.825em;
+  text-align: center;
+  padding: 0 var(--spacing-xsmall) var(--spacing-main) var(--spacing-xsmall);
+}
+
+.card-content-link__info {
+  padding: var(--spacing-main) var(--spacing-xlarge);
+}
+
+.card-content-link__info * {
+  display: block;
+}
+
+.card-content-link__info,
+.card-content-link__info p,
+.card-content-link__name {
+  margin-bottom: 0;
+  font-size: var(--font-size-main);
+}
+
+.card-content-link__name {
+  font-weight: var(--font-weight-bold);
+}
+
+.card-content-link__name ~ span {
+  margin-top: var(--spacing-small);
+}
+
+/* Profile card - horizontal */
+
+.card-content-link--horizontal {
+  display: flex;
+}
+
+.card-content-link--horizontal .card-content-link__picture {
+  min-width: 45%;
+  max-width: 140px;
+}
+
+.card-content-link--horizontal .card-content-link__picture img {
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.card-content-link--horizontal .card-content-link__info {
+  padding: var(--spacing-small) var(--spacing-xsmall);
+}
+
+.card .card-content-link__link {
+  display: block;
+  position: static;
+}
+
+.card .card-content-link__link::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card .card-content-link__link:focus-visible {
+  box-shadow: none;
+  outline: 0;
+}
+
+.card .card-content-link__link:focus-visible::before {
+  box-shadow: 0 0 0 2px var(--colour-grey), 0 0 0 5px var(--colour-orange);
+  outline: 1px solid transparent;
+  transition: box-shadow 0.1s;
+}
+
+.card .card-content-link__link,
+.card .card-content-link__link * {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.card .card-content-link__link:visited .card-content-link__name {
+  color: var(--colour-link-visited);
+}
+
+.card .card-content-link__link .card-content-link__name {
+  color: var(--colour-link);
+}
+
+.card .card-content-link__link:hover .card-content-link__name {
+  text-decoration: underline;
+}
+
+.cards-content {
+  display: grid;
+  row-gap: 1.25rem;
+  align-items: stretch;
+}
+
+.cards-content--four-columns {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.25rem;
+}
+
+@media screen and (min-width: 520px) {
+  .cards-content {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.25rem;
+  }
+
+  .cards-content--three-columns {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .cards-content--three-columns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .cards-content--four-columns {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

@@ -1,15 +1,15 @@
 {% macro card(content, horizontal, type) %}
-  <li class="card card-content accent-border {{ 'card-content--horizontal' if horizontal }}">
+  <li class="card card-content-link accent-border {{ 'card-content-link--horizontal' if horizontal }}">
     {% if content.data.featuredImage %}
-      <picture class="card-content__picture">
+      <picture class="card-content-link__picture">
         <source srcset="{{ content.data.featuredImage }}" media="(orientation: portrait)">
         <img src="{{ content.data.featuredImage }}" alt="{{ content.data.featuredImageAlt }}">
       </picture>
     {% endif %}
 
-    <p class="card-content__info">
-      <a class="card-content__link" href="{{ content.url | url }}">
-        <strong class="card-title card-content__name">
+    <p class="card-content-link__info">
+      <a class="card-content-link__link" href="{{ content.url | url }}">
+        <strong class="card-title card-content-link__name">
           {{ content.data.talkTitle }}
         </strong>
 
