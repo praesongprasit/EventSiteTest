@@ -2,7 +2,7 @@
 firstName: Rod
 lastName: Acevedo
 pronouns: He/Him/Ia
-jobTitle: "Design Lead"
+jobTitle: "Principal Product Designer"
 organisation: "RUSH Digital"
 profileUrl:
   [
