@@ -1,6 +1,6 @@
 :root {
-  --typeface-main: "Space Grotesk", sans-serif;
-  --typeface-display: "JetBrains Mono", monospace;
+  --typeface-main: sans-serif;
+  --typeface-display: monospace;
 
   --font-weight-normal: 400;
   --font-weight-bold: 700;
@@ -32,11 +32,11 @@
 
   --colour-black: #111111;
   --colour-grey: #f2f2f2;
-  --colour-bright-orange: #fd530d;
-  --colour-dark-orange: #e22f00; /* Accessible option */
-  --colour-yellow: #ffb33a;
-  --colour-green: #1a944f;
-  --colour-blue: #487ea3;
+  --colour-bright-orange: orange;
+  --colour-dark-orange: purple; /* Accessible option */
+  --colour-yellow: yellow;
+  --colour-green: green;
+  --colour-blue: blue;
   --colour-off-white: #fffaf7;
   --colour-white: #fff;
 
