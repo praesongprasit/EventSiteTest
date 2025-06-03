@@ -1,29 +1,29 @@
 "@type": "Event",
 "url": "{{ site.url }}",
-"name": "{{ nztr2024.title }}",
-"description": "{{ nztr2024.description }}",
-"startDate": "{{ nztr2024.startDate }}",
-"endDate": "{{ nztr2024.endDate }}",
-"eventAttendanceMode": "{{ nztr2024.eventAttendanceMode }}",
-"eventStatus": "{{ nztr2024.eventStatus }}",
-"maximumAttendeeCapacity": "{{ nztr2024.maximumAttendeeCapacity }}",
-"remainingAttendeeCapacity": "{{ nztr2024.remainingAttendeeCapacity }}",
+"name": "{{ EVENT_2025.title }}",
+"description": "{{ EVENT_2025.description }}",
+"startDate": "{{ EVENT_2025.startDate }}",
+"endDate": "{{ EVENT_2025.endDate }}",
+"eventAttendanceMode": "{{ EVENT_2025.eventAttendanceMode }}",
+"eventStatus": "{{ EVENT_2025.eventStatus }}",
+"maximumAttendeeCapacity": "{{ EVENT_2025.maximumAttendeeCapacity }}",
+"remainingAttendeeCapacity": "{{ EVENT_2025.remainingAttendeeCapacity }}",
 "location": {
   "@type": "Place",
-  "name": "{{ nztr2024.location.name }}",
+  "name": "{{ EVENT_2025.location.name }}",
   "address": {
     "@type": "PostalAddress",
-    "name": "{{ nztr2024.location.address.name }}",
-    "streetAddress": "{{ nztr2024.location.address.streetAddress }}",
-    "addressLocality": "{{ nztr2024.location.address.addressLocality }}",
-    "postalCode": "{{ nztr2024.location.address.postalCode }}",
-    "addressRegion": "{{ nztr2024.location.address.addressRegion }}",
+    "name": "{{ EVENT_2025.location.address.name }}",
+    "streetAddress": "{{ EVENT_2025.location.address.streetAddress }}",
+    "addressLocality": "{{ EVENT_2025.location.address.addressLocality }}",
+    "postalCode": "{{ EVENT_2025.location.address.postalCode }}",
+    "addressRegion": "{{ EVENT_2025.location.address.addressRegion }}",
     "addressCountry": "NZ"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": "{{ nztr2024.location.geo.latitude }}",
-    "longitude": "{{ nztr2024.location.geo.longitude }}"
+    "latitude": "{{ EVENT_2025.location.geo.latitude }}",
+    "longitude": "{{ EVENT_2025.location.geo.longitude }}"
   }
 },
 "image": [
@@ -56,20 +56,20 @@
 "offers": [
   {
     "@type": "Offer",
-    "url": "{{ nztr2024.ticketUrl }}",
-    "availability": "{{ nztr2024.ticketAvaiability }}",
-    "validFrom": "{{ nztr2024.ticketEarlyBirdStarts }}",
-    "validThrough": "{{ nztr2024.ticketEarlyBirdEnds }}",
-    "price": "{{ nztr2024.ticketEarlyBirdPrice }}",
+    "url": "{{ EVENT_2025.ticketUrl }}",
+    "availability": "{{ EVENT_2025.ticketAvaiability }}",
+    "validFrom": "{{ EVENT_2025.ticketEarlyBirdStarts }}",
+    "validThrough": "{{ EVENT_2025.ticketEarlyBirdEnds }}",
+    "price": "{{ EVENT_2025.ticketEarlyBirdPrice }}",
     "priceCurrency": "NZD"
   },
   {
     "@type": "Offer",
-    "url": "{{ nztr2024.ticketUrl }}",
-    "availability": "{{ nztr2024.ticketAvaiability }}",
-    "validFrom": "{{ nztr2024.ticketSaleStarts }}",
-    "validThrough": "{{ nztr2024.ticketSaleEnds}}",
-    "price": "{{ nztr2024.ticketPrice }}",
+    "url": "{{ EVENT_2025.ticketUrl }}",
+    "availability": "{{ EVENT_2025.ticketAvaiability }}",
+    "validFrom": "{{ EVENT_2025.ticketSaleStarts }}",
+    "validThrough": "{{ EVENT_2025.ticketSaleEnds}}",
+    "price": "{{ EVENT_2025.ticketPrice }}",
     "priceCurrency": "NZD"
   }
 ],
