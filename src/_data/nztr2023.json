@@ -7,7 +7,7 @@
   "eventStatus": "https://schema.org/EventScheduled",
   "maximumAttendeeCapacity": "300",
   "remainingAttendeeCapacity": "0",
-  "ticketUrl": "https://nztechrally2023.lilregie.com/",
+  "ticketUrl": "https://EVENT_NAME_LOWERCASE2023.lilregie.com/",
   "ticketAvaiability": "https://schema.org/SoldOut",
   "ticketEarlyBirdPrice": "110",
   "ticketPrice": "150",

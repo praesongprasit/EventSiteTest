@@ -3,5 +3,5 @@
   "contentType": "panellist",
   "layout": "layouts/profile.njk",
   "ogType": "person",
-  "event": "NZTechRally2025"
+  "event": "EVENT_NAME_LOWERCASE2025"
 }

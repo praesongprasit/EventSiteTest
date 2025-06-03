@@ -172,7 +172,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("panellists2023", (collection) => {
     return collection
       .getFilteredByTag("panellist")
-      .filter((eventName) => (eventName.data.event = "NZTechRally2023"));
+      .filter(
+        (eventName) => (eventName.data.event = "EVENT_NAME_LOWERCASE2023")
+      );
   });
 
   eleventyConfig.addShortcode("renderlayoutblock", function (name) {

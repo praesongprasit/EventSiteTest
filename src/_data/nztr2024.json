@@ -8,7 +8,7 @@
   "maximumAttendeeCapacity": "280",
   "remainingAttendeeCapacity": "272",
   "cfpUrl": "https://docs.google.com/forms/d/1D--MXLwNhR9GH3CNHsUc6V6Hr1nwKF3dNpyXNmsFjS4/viewform",
-  "ticketUrl": "https://events.humanitix.com/nztechrally2025/tickets?c=nztrsite",
+  "ticketUrl": "https://events.humanitix.com/EVENT_NAME_LOWERCASE2025/tickets?c=nztrsite",
   "ticketAvaiability": "https://schema.org/InStock",
   "ticketEarlyBirdPrice": "170",
   "ticketPrice": "200",

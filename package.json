@@ -1,7 +1,7 @@
 {
-  "name": "nztechrally",
+  "name": "EVENT_NAME_LOWERCASE",
   "version": "1.0.0",
-  "description": "Version control for nztechrally.nz",
+  "description": "Version control for EVENT_NAME_LOWERCASE.nz",
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NZTechRally/nztechrally.git"
+    "url": "git+https://github.com/EVENT_NAME_LOWERCASE/EVENT_NAME_LOWERCASE.git"
   },
   "keywords": [],
   "author": "Prae Songprasit <hi@praesongprasit.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NZTechRally/nztechrally/issues"
+    "url": "https://github.com/EVENT_NAME_LOWERCASE/EVENT_NAME_LOWERCASE/issues"
   },
-  "homepage": "https://github.com/NZTechRally/nztechrally#readme",
+  "homepage": "https://github.com/EVENT_NAME_LOWERCASE/EVENT_NAME_LOWERCASE#readme",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
     "luxon": "^3.4.4",
