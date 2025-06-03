@@ -1,5 +1,5 @@
 ---
-crewAtEvent: ["NZ Tech Rally 2025"]
+crewAtEvent: ["EVENT_NAME 2025"]
 firstName: Marcus
 lastName: Klein
 pronouns: He/Him

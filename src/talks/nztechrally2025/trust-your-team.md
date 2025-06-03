@@ -1,5 +1,5 @@
 ---
-event: "NZ Tech Rally 2025"
+event: "EVENT_NAME 2025"
 speaker: Rowan Savage
 speakerKey: rowan-savage
 talkTitle: "Radical Trust & Transparency: A Startup Case Study"
@@ -11,7 +11,7 @@ but then provide a 4 day work week, transparent and equal salaries in a
 world-wide async remote environment?</p>
 "
 featuredImage: /assets/images/talks/2025/trust-your-team.jpg
-featuredImageAlt: "Rowan's picture with text: NZ Tech Rally. Runn's radical transparency & trust. A talk by Rowan Savage, Co-founder & CTO @ Runn.io"
+featuredImageAlt: "Rowan's picture with text: EVENT_NAME. Runn's radical transparency & trust. A talk by Rowan Savage, Co-founder & CTO @ Runn.io"
 featuredImageType: image/jpg
 featuredImageWidth: 1280
 featuredImageHeight: 720

@@ -29,7 +29,7 @@ talkExcerpt: A model for shaping those principles and practices in engineering t
 talkStartTime: 2023-07-07T14:00:00.000+12
 talkEndTime: 2023-07-07T14:30:00.000+12
 featuredImage: /assets/images/speakers/adam_howard_og.png
-featuredImageAlt: "Fostering a quality quality culture by Adam Howard, an engineering manager. Join us to hear Adam and other speakers at NZ Tech Rally, 7th July, Wellington"
+featuredImageAlt: "Fostering a quality quality culture by Adam Howard, an engineering manager. Join us to hear Adam and other speakers at EVENT_NAME, 7th July, Wellington"
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630
@@ -1111,7 +1111,7 @@ And that's a wrap for me. I really hope you took something from this talk.
 </p>
 
 <p>
-I love enablement and I love culture. They are great topics. So thank you to the NZ Tech Rally crew for inviting me along.
+I love enablement and I love culture. They are great topics. So thank you to the EVENT_NAME crew for inviting me along.
 </p>
 
 <p>

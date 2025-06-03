@@ -1,5 +1,5 @@
 ---
-event: "NZ Tech Rally 2025"
+event: "EVENT_NAME 2025"
 speaker: Nav Rao
 speakerKey: nav-rao
 talkTitle: "Hold, fold or walk away: navigating burnout like The Gambler"
@@ -11,7 +11,7 @@ talkExcerpt: "
 <p>You’ll learn when to hold, when to fold and when to walk away from the moments that can burn you.</p>
 "
 featuredImage: /assets/images/talks/2025/hold-fold-walkaway.jpg
-featuredImageAlt: "Nav's picture with text: NZ Tech Rally. Hold, fold or walk away. Navigating  burnout like The Gambler. A talk by Nav Rao, Product Engineer"
+featuredImageAlt: "Nav's picture with text: EVENT_NAME. Hold, fold or walk away. Navigating  burnout like The Gambler. A talk by Nav Rao, Product Engineer"
 featuredImageType: image/jpg
 featuredImageWidth: 1280
 featuredImageHeight: 720

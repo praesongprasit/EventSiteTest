@@ -29,7 +29,7 @@ talkExcerpt: Aleisha will share her experiences working in open source projects 
 talkStartTime: 2023-07-07T11:00:00.000+12
 talkEndTime: 2023-07-07T11:30:00.000+12
 featuredImage: /assets/images/speakers/aleisha_amohia_og_updated.png
-featuredImageAlt: "Communities in code by Aleisha Amohia, Koha Technical Lead at Catalyst IT. Join us to hear Aleisha and other speakers at NZ Tech Rally, 7th July, Wellington"
+featuredImageAlt: "Communities in code by Aleisha Amohia, Koha Technical Lead at Catalyst IT. Join us to hear Aleisha and other speakers at EVENT_NAME, 7th July, Wellington"
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630

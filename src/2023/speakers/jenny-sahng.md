@@ -19,7 +19,7 @@ talkExcerpt: How might we use metrics to help us improve what matters, in a way 
 talkStartTime: 2023-07-07T15:30:00.000+12:00
 talkEndTime: 2023-07-07T16:00:00.000+12:00
 featuredImage: /assets/images/speakers/jenny_sahng_og.png
-featuredImageAlt: "Engineering metrics, minus the creepiness by Jenny Sahng, Data & Founding team at Multitudes. Join us to hear Jenny and other speakers at NZ Tech Rally, 7th July, Wellington"
+featuredImageAlt: "Engineering metrics, minus the creepiness by Jenny Sahng, Data & Founding team at Multitudes. Join us to hear Jenny and other speakers at EVENT_NAME, 7th July, Wellington"
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630

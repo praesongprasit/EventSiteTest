@@ -1,5 +1,5 @@
 ---
-event: "NZ Tech Rally 2025"
+event: "EVENT_NAME 2025"
 speaker: Mark Hrynczak
 speakerKey: mark-hrynczak
 talkTitle: "Transformation at scale: tactics and implementation for levelling up our deployment process"
@@ -9,7 +9,7 @@ talkExcerpt: "
 <p>In this session, I’ll share key strategies for securing buy-in, coordinating across teams, and maintaining momentum. Attendees will learn how to drive large-scale change through stakeholder alignment, soft power, and effective program management.</p>
 "
 featuredImage: /assets/images/talks/2025/quality-at-canva.jpg
-featuredImageAlt: "Mark's picture with text: NZ Tech Rally. Transformation at scale. A Talk by Mark Hrynczak, Head of Quality @ Canva "
+featuredImageAlt: "Mark's picture with text: EVENT_NAME. Transformation at scale. A Talk by Mark Hrynczak, Head of Quality @ Canva "
 featuredImageType: image/jpg
 featuredImageWidth: 1280
 featuredImageHeight: 720

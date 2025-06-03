@@ -1,5 +1,5 @@
 ---
-event: "NZ Tech Rally 2025"
+event: "EVENT_NAME 2025"
 speaker: Sachi Taulelei
 speakerKey: sachi-taulelei
 talkTitle: "From intention to inclusion: more than words on your website"
@@ -10,7 +10,7 @@ talkExcerpt: "
 <p>This talk challenges performative inclusion and explores how Pacific and traditional wisdoms can help us rethink leadership, systems, and culture—because when people belong, they move mountains.</p>
 "
 featuredImage: /assets/images/talks/2025/from-intention-to-inclusion.jpg
-featuredImageAlt: "Sachi's picture with text: NZ Tech Rally. From intention to inclusion. A talk by Sachi Taulelei, Founder @ Humble"
+featuredImageAlt: "Sachi's picture with text: EVENT_NAME. From intention to inclusion. A talk by Sachi Taulelei, Founder @ Humble"
 featuredImageType: image/jpg
 featuredImageWidth: 1280
 featuredImageHeight: 720

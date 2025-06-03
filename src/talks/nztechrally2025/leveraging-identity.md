@@ -1,5 +1,5 @@
 ---
-event: "NZ Tech Rally 2025"
+event: "EVENT_NAME 2025"
 speaker: Patricia Tan & Rod Acevedo
 speakerKey: ["patricia-tan", "rod-acevedo"]
 talkTitle: Leveraging your team's identity
@@ -11,7 +11,7 @@ talkExcerpt: "
 <p>Discover practical strategies for companies to support and nurture immigrant talent, tapping into the diverse perspectives that drive innovation. Join us for an inspiring look at design through an immigrant's lens, and gain actionable insights to create a more inclusive, creative workplace that harnesses the power of cultural diversity.</p>
 "
 featuredImage: /assets/images/talks/2025/leveraging-identity.jpg
-featuredImageAlt: "Rod's & Patricia's picture with text: NZ Tech Rally. Leveraging your team's identity. A talk by Patricia Tan, Senior Product Designer & Rod Acevedo, Design Lead @ RUSH Digital"
+featuredImageAlt: "Rod's & Patricia's picture with text: EVENT_NAME. Leveraging your team's identity. A talk by Patricia Tan, Senior Product Designer & Rod Acevedo, Design Lead @ RUSH Digital"
 featuredImageType: image/jpg
 featuredImageWidth: 1280
 featuredImageHeight: 720

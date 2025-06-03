@@ -3,7 +3,7 @@
 
 {% set contentType = contentType %}
 {% set excludeSponsors = true %}
-{% set title = firstName + ' ' + lastName + ' - ' + role + ' of NZ Tech Rally' %}
+{% set title = firstName + ' ' + lastName + ' - ' + role + ' of EVENT_NAME' %}
 {% set pageIcon = 'person' %}
 
 {%- css %}
@@ -43,7 +43,7 @@
 
         {% if role %}
           <p>
-            <strong>NZ Tech Rally's {{ role }}</strong>
+            <strong>EVENT_NAME's {{ role }}</strong>
           </p>
         {% endif %}
       </div>

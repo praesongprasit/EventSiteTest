@@ -1,5 +1,5 @@
 ---
-event: "NZ Tech Rally 2025"
+event: "EVENT_NAME 2025"
 speaker: Jim Rush
 speakerKey: jim-rush
 talkTitle: "From developing software to voiding warranties: a journey into hacking"
@@ -13,7 +13,7 @@ talkExcerpt: "
 <p>I want to show QA’s, developers & technologists that cybersecurity and hacking things isn’t an inscrutable field, it’s just another side of what they do day to day.</p>
 "
 featuredImage: /assets/images/talks/2025/journey-into-hacking.jpg
-featuredImageAlt: "Jim's picture with text: NZ Tech Rally. From developing software to voiding warranties. A talk by Jim Rush, Senior Security Consultant @ PrivSec Consulting"
+featuredImageAlt: "Jim's picture with text: EVENT_NAME. From developing software to voiding warranties. A talk by Jim Rush, Senior Security Consultant @ PrivSec Consulting"
 featuredImageType: image/jpg
 featuredImageWidth: 1280
 featuredImageHeight: 720

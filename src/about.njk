@@ -1,7 +1,7 @@
 ---
 tags: page
 title: About
-description: NZ Tech Rally's vision, mission, values, and crew.
+description: EVENT_NAME's vision, mission, values, and crew.
 eleventyNavigation:
   key: About
   order: 3
@@ -24,7 +24,7 @@ featuredImageHeight:
 
 {% block pageHeader %}
   <h1 class="section-title">
-    {{ title }} NZ Tech Rally
+    {{ title }} EVENT_NAME
   </h1>
 {% endblock %}
 
@@ -47,7 +47,7 @@ featuredImageHeight:
 
       <div class="text-indent">
         <p>We provide inclusive spaces for the NZ software community to celebrate, connect and grow together.</p>
-        <p>NZ Tech Rally will do this by:</p> 
+        <p>EVENT_NAME will do this by:</p> 
         <ul>
           <li>Showcasing NZ ingenuity in software</li>
           <li>Providing opportunities to grow our community’s network and impact</li>
@@ -59,7 +59,7 @@ featuredImageHeight:
 
     <section>
       <div class="section-label accent-border">
-        <h2 class="section-title" id="ourWhy">Why NZ Tech Rally exists</h2>
+        <h2 class="section-title" id="ourWhy">Why EVENT_NAME exists</h2>
       </div>
 
       <div class="text-indent">
@@ -145,7 +145,7 @@ featuredImageHeight:
       </div>
 
       <ul class="cards profiles profiles--three-columns">
-        {% for crewMember in collections.crew | getCurrentCrew('NZ Tech Rally 2025') %}
+        {% for crewMember in collections.crew | getCurrentCrew('EVENT_NAME 2025') %}
           {{ card(crewMember, horizontal='true') }}
         {% endfor %}
 
@@ -174,7 +174,7 @@ featuredImageHeight:
       </div>
 
       <ul class="cards profiles profiles--three-columns">
-        {% for crewMember in collections.crew | getPastCrew('NZ Tech Rally 2025') %}
+        {% for crewMember in collections.crew | getPastCrew('EVENT_NAME 2025') %}
           {{ card(crewMember, horizontal='true') }}
         {% endfor %}
       </ul>

@@ -1,5 +1,5 @@
 {
-  "title": "NZ Tech Rally",
+  "title": "EVENT_NAME",
   "description": "Inclusive spaces for the NZ software community to celebrate, connect, and grow together.",
   "author": "Camy Bhandari, Prae Songprasit, Aaron Hodder",
   "url": "https://nztechrally.nz",
@@ -9,7 +9,7 @@
   "imageWidth": "1200",
   "imageHeight": "630",
   "logo": "https://nztechrally.nz/assets/images/NZTechRally_logo.png",
-  "logoAlt": "Logo of NZ Tech Rally",
+  "logoAlt": "Logo of EVENT_NAME",
   "logoWidth": "512",
   "logoHeight": "512",
   "email": "info@nztechrally.nz",

@@ -9,7 +9,7 @@
   {# <link rel="application/rss+xml" rel="alternate" title="{{ site.title }}" href="{{ site.rss }}"> #}
 
   <title>
-    {{ title + " – NZ Tech Rally 2023" if title else site.title }}
+    {{ title + " – EVENT_NAME 2023" if title else site.title }}
   </title>
   <meta name="description" content="{{ description if description else site.description }}">
 
@@ -81,13 +81,13 @@
         {% if title %}
           <p class="accent-border site-name">
             <a class="site-logo-link" href="{{ '/' | url }}">
-              {% svg "logo", { title: "NZ Tech Rally", class: "site-logo" } %}
+              {% svg "logo", { title: "EVENT_NAME", class: "site-logo" } %}
             </a>
           </p>
         {% else %}
           <h1 class="accent-border site-name">
             <a class="site-logo-link" href="{{ '/' | url }}">
-              {% svg "logo", { title: "NZ Tech Rally", class: "site-logo" } %}
+              {% svg "logo", { title: "EVENT_NAME", class: "site-logo" } %}
             </a>
           </h1>
         {% endif %}

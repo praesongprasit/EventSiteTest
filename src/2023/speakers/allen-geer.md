@@ -25,7 +25,7 @@ talkExcerpt: How DevOps Seeds different cultural practices in small and large Ki
 talkStartTime: 2023-07-07T10:00:00.000+12:00
 talkEndTime: 2023-07-07T10:30:00.000+12:00
 featuredImage: /assets/images/speakers/allen_geer_og.png
-featuredImageAlt: "One DevOps does not git all by Allen Geer, Cloud Platforms and Engineering Practice Lead at Provoke. Join us to hear Allen and other speakers at NZ Tech Rally, 7th July, Wellington"
+featuredImageAlt: "One DevOps does not git all by Allen Geer, Cloud Platforms and Engineering Practice Lead at Provoke. Join us to hear Allen and other speakers at EVENT_NAME, 7th July, Wellington"
 featuredImageType: image/png
 featuredImageWidth: 1200
 featuredImageHeight: 630

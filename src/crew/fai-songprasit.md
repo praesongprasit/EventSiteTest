@@ -1,11 +1,11 @@
 ---
-crewAtEvent: ["NZ Tech Rally 2025", "NZTestingConf 2024"]
+crewAtEvent: ["EVENT_NAME 2025", "NZTestingConf 2024"]
 firstName: Fai
 lastName: Songprasit
 pronouns: She/Her
 role: Catering Lead
-jobTitle: 
-organisation: 
+jobTitle:
+organisation:
 profileUrl:
   [{ "name": "LinkedIn", "url": "https://www.linkedin.com/in/fai-songprasit/" }]
 profilePhoto: /assets/images/crew/fai_songprasit.jpg

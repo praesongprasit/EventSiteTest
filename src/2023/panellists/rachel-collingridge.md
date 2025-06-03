@@ -62,7 +62,7 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 
 <p>So a little bit about me. So, I'm Aaron Hodder. I'm the Wellington Practice Manager for Datacom testing services.</p>
 
-<p>However, more personally, I'm also a co-director of NZ Tech Rally, and I'm so pleased and so privileged to be able to work with Camy and Prae.</p>
+<p>However, more personally, I'm also a co-director of EVENT_NAME, and I'm so pleased and so privileged to be able to work with Camy and Prae.</p>
 
 <p>So in tech, we talk a lot about tech. Funny that, right? But as Alan mentioned earlier,  software development is a socio-technical process. It involves technology and it involves social structures, yet we rarely talk about these social structures.</p>
 

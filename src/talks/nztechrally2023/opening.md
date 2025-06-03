@@ -2,11 +2,11 @@
 speaker: Prae Songprasit
 speakerKey: prae-songprasit
 talkTitle: Opening remarks
-talkExcerpt: Introduces NZ Tech Rally, conference theme, and housekeeping
+talkExcerpt: Introduces EVENT_NAME, conference theme, and housekeeping
 talkStartTime: 2023-07-07T09:00:00.000+12
 talkEndTime: 2023-07-07T09:15:00.000+12
 featuredImage: /assets/images/talks/2023/opening.png
-featuredImageAlt: "Prae's picture with text: opening Remarks, NZ Tech Rally"
+featuredImageAlt: "Prae's picture with text: opening Remarks, EVENT_NAME"
 featuredImageType: image/png
 featuredImageWidth: 1280
 featuredImageHeight: 720
@@ -14,7 +14,7 @@ talkRecordingID: 3lV238sdKW4
 contentLength: 15 min
 ---
 
-### About NZ Tech Rally
+### About EVENT_NAME
 
 All right, Camy just gave me a signal that registration — well the main part of it — has closed. So we're not going to wait for anyone else, and they can just file in and find that Seat of Shame.
 

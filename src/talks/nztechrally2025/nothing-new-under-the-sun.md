@@ -1,5 +1,5 @@
 ---
-event: "NZ Tech Rally 2025"
+event: "EVENT_NAME 2025"
 speaker: Rachel Collingridge
 speakerKey: rachel-collingridge
 talkTitle: "Nothing new under the sun; stability through change"
@@ -11,7 +11,7 @@ talkExcerpt: "
 <p>In this talk, Rachel will explore how psychology, biology, and music offer insights into how we can keep moving forward as leaders and practitioners in the tech world.</p>
 "
 featuredImage: /assets/images/talks/2025/nothing-new-under-the-sun.jpg
-featuredImageAlt: "Rachel's picture with text: NZ Tech Rally. Nothing new under the sun; stability through change. A talk by Rachel Collingridge, Head of Engineering @ Totara"
+featuredImageAlt: "Rachel's picture with text: EVENT_NAME. Nothing new under the sun; stability through change. A talk by Rachel Collingridge, Head of Engineering @ Totara"
 featuredImageType: image/jpg
 featuredImageWidth: 1280
 featuredImageHeight: 720
