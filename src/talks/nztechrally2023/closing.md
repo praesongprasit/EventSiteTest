@@ -1,5 +1,5 @@
 ---
-speaker: Camy Bhandari
+speaker: NAME1
 speakerKey: camy-bhandari
 talkTitle: Closing remarks
 talkExcerpt: Conclusion of EVENT_NAME 2023, with appreciations

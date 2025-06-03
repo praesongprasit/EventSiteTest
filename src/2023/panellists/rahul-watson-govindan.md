@@ -52,13 +52,13 @@ talkEndTime: 2023-07-07T14:00:00.000+12
 
 <p>Alright. Up next, we do have a panel.</p>
 
-<p>And for this one, I am going to hand over all of our responsibilities on stage to Aaron Hodder, one of our founders.</p>
+<p>And for this one, I am going to hand over all of our responsibilities on stage to NAME2, one of our founders.</p>
 
 <p>Aaron: Cool, and thanks, everyone.</p>
 
 <p>Handing over all responsibility to me is the first mistake Prae has made today.</p>
 
-<p>So a little bit about me. So, I'm Aaron Hodder. I'm the Wellington Practice Manager for Datacom testing services.</p>
+<p>So a little bit about me. So, I'm NAME2. I'm the Wellington Practice Manager for Datacom testing services.</p>
 
 <p>However, more personally, I'm also a co-director of EVENT_NAME, and I'm so pleased and so privileged to be able to work with Camy and Prae.</p>
 

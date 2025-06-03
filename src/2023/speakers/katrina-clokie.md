@@ -295,7 +295,7 @@ talkRecordingID: _7FvUEvLYoM
 </p>
 
 <p>
-  If Aaron Hodder is in the room right now, I know he's full of joy at this being part of my presentation. Tawa Countdown.
+  If NAME2 is in the room right now, I know he's full of joy at this being part of my presentation. Tawa Countdown.
 </p>
 
 <p>
